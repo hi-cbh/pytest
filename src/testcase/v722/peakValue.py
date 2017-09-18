@@ -9,14 +9,16 @@ from testcase.v722.easycase.send import Send
 from base.baseAdb import BaseAdb
 from psam.psam import Psam
 from mail.mailOperation import EmailOperation
-
+from aserver.AppiumServer import AppiumServer2
+from db.sqlhelper import SQLHelper
+from base.baseTime import BaseTime
 PATH = lambda p:os.path.abspath(
     os.path.join(os.path.dirname(__file__),p)
     )
 
 
 # ======== Reading user_db.ini setting ===========
-base_dir = str((os.path.dirname(__file__)))
+base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 base_dir = base_dir.replace('\\', '/')
 file_path = base_dir + "/user_db.ini"
 
@@ -26,14 +28,16 @@ cf.read(file_path)
 username = cf.get("userconf", "user1")
 pwd = cf.get("userconf", "pwd1")
 
+versionID = cf.get("verconf", "versionid")
 ##====================
 
 class PeakValue(unittest.TestCase):
     
     def setUp(self):  
-        eo = EmailOperation(username+"@139.com", pwd)
-        eo.moveForlder(["100","INBOX"])
-        
+        AppiumServer2().start_server()
+        time.sleep(10)
+        EmailOperation(username+"@139.com", pwd).moveForlder(["100","INBOX"])
+    
         BaseAdb.adbIntallUiautmator()
         
         self.driver = Psam()
@@ -41,9 +45,12 @@ class PeakValue(unittest.TestCase):
     #释放实例,释放资源
     def tearDown(self):
         self.driver.quit()
-        eo = EmailOperation(username+"@139.com", pwd)
-        eo.moveForlder(["INBOX","100"])
+        EmailOperation(username+"@139.com", pwd).moveForlder(["INBOX","100"])
 
+        time.sleep(5)
+        AppiumServer2().stop_server()
+        
+        
     def testCase(self):
         
         network = BaseAdb.getNetworkType()
@@ -65,12 +72,22 @@ class PeakValue(unittest.TestCase):
                    
                 stat = u'发送邮件' 
                 send = Send(self.driver,username+'@139.com')
-                send.sendActionPeakValue()
-                
+                TestResult = send.sendActionPeakValue()
+
                 time.sleep(5)
                 eo = EmailOperation(username+"@139.com", pwd)
                 eo.clearForlder([u'已删除',u'已发送'])   
                 time.sleep(5)   
+                
+                datas = {'productName' : '139','versionID':versionID,'networkType':network,\
+                         'nowTime':BaseTime.getCurrentTime(), \
+                         'avgcpu':TestResult[0]["avg"].replace('%', ''),'maxcpu':TestResult[0]["max"].replace('%', ''), \
+                         'avgmem':TestResult[1]["avg"],'maxmem':TestResult[1]["max"], \
+                         'groupId':x}
+                
+                SQLHelper.InsertCPUMEM(datas)
+                
+                
             except BaseException as be:
                 print("运行到：%s 运行出错，当次数据不入数据库!" %stat)
                 print(be)

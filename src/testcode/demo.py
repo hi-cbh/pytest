@@ -1,21 +1,16 @@
 # urs/bin/python
 # encoding:utf-8
 import os,sys
+import threading
+from multiprocessing import Process
+from base.baseTime import BaseTime
+TestResult = [{'min': '0.0%', 'max': '0.79%', 'avg': '0.32%'}, {'min': 116.85, 'max': 116.86, 'avg': 116.86}]
 
-# PATH = lambda p:os.path.abspath(
-#     os.path.join(os.path.dirname(__file__),p)
-#     )
-# 
-# print()
-# 
+datas = {'productName' : '139','versionID':"versionID",'networkType':"network",\
+         'nowTime':BaseTime.getCurrentTime(), \
+         'avgcpu':TestResult[0]["avg"],'maxcpu':TestResult[0]["max"], \
+         'avgmem':TestResult[1]["avg"],'maxmem':TestResult[1]["max"], \
+         'groupId':"x"}
 
-#需要使用线程的方式启动 appium server
-base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
-base_dir = base_dir.replace('\\', '/')
-file_path = base_dir + "/bat/"
-sys.path.append(file_path)
-print(file_path)
-os.system('start %sstartAppiumServer.bat' %file_path)
 
-# 关闭，
-# os.system('start stopAppiumServer.bat')
+print(float(TestResult[0]["avg"].replace('%', '')))

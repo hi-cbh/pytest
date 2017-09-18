@@ -8,10 +8,13 @@ from psam.psam import Psam
 from testcase.v722.easycase.login import Login
 from testcase.v722.easycase.public import PublicUtil as pu
 from mail.mailOperation import EmailOperation
-sys.path.append(r'D:\workspace\workspace_python3\appium_python\src')
+from aserver.AppiumServer import AppiumServer2
+from db.sqlhelper import SQLHelper
+from base.baseTime import BaseTime
+# sys.path.append(r'D:\workspace\workspace_python3\appium_python\src')
 
 # ======== Reading user_db.ini setting ===========
-base_dir = str((os.path.dirname(__file__)))
+base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 base_dir = base_dir.replace('\\', '/')
 file_path = base_dir + "/user_db.ini"
 
@@ -21,7 +24,9 @@ cf.read(file_path)
 username = cf.get("userconf", "user1")
 pwd = cf.get("userconf", "pwd1")
 
- 
+versionID = cf.get("verconf", "versionid")
+
+
 from base.baseAdb import BaseAdb
 
 GetMax = 3; #获取的组数量
@@ -33,8 +38,9 @@ DelNum = 2; #允许剔除的数量
 class MyTestCase(unittest.TestCase):
     #脚本初始化,获取操作实例
     def setUp(self):
-        eo = EmailOperation(username+"@139.com", pwd)
-        eo.moveForlder(["100","INBOX"])
+        AppiumServer2().start_server()
+        time.sleep(10)
+        EmailOperation(username+"@139.com", pwd).moveForlder(["100","INBOX"])
         
         
         BaseAdb.adbIntallUiautmator()        
@@ -42,11 +48,16 @@ class MyTestCase(unittest.TestCase):
 
     #释放实例,释放资源
     def tearDown(self):
-        eo = EmailOperation(username+"@139.com", pwd)
-        eo.moveForlder(["INBOX","100"])        
+        EmailOperation(username+"@139.com", pwd).moveForlder(["INBOX","100"])        
         self.driver.quit()
+        
+        time.sleep(5)
+        AppiumServer2().stop_server()
   
     def testCase(self):
+        network = BaseAdb.getNetworkType()
+        print('当前网络状态：%s' %network)
+        
         appPackage = "cn.cj.pe"  # 程序的package
         appActivity = "com.mail139.about.LaunchActivity"  # 程序的Activity
         
@@ -69,7 +80,10 @@ class MyTestCase(unittest.TestCase):
             
             print('第 %s 轮测试结果：' %(str(i)))
             print(ls)
-            
+            datas = {'productName' : '139','versionID':versionID,'networkType':network,'nowTime':BaseTime.getCurrentTime(), \
+            'time0':ls[0],'time1':ls[1], 'time2':ls[2], 'time3':ls[3], 'time4':ls[4], 'time5':ls[5], \
+            'time6':ls[6], 'time7':ls[7], 'time8':ls[8], 'time9':ls[9], 'groupId':i}
+            SQLHelper.Insertkill(datas)
             if i == GetMax:
                 return
     

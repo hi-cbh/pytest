@@ -2,23 +2,25 @@
 # encoding:utf-8
 
 import os
-import unittest
+import unittest,time
 import configparser as cparser
 from testcase.v722.easycase.login import Login
 from testcase.v722.easycase.send import Send
 from testcase.v722.easycase.openDown import OpenDown
 from testcase.v722.easycase.receive import Receive
 from base.baseAdb import BaseAdb
+from base.baseTime import BaseTime
 from psam.psam import Psam
+from db.sqlhelper import SQLHelper
 from mail.mailOperation import EmailOperation
-
+from aserver.AppiumServer import AppiumServer2
 PATH = lambda p:os.path.abspath(
     os.path.join(os.path.dirname(__file__),p)
     )
 
 
 # ======== Reading user_db.ini setting ===========
-base_dir = str((os.path.dirname(__file__)))
+base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 base_dir = base_dir.replace('\\', '/')
 file_path = base_dir + "/user_db.ini"
 
@@ -31,15 +33,19 @@ username2 = cf.get("userconf", "user2")
 pwd2 = cf.get("userconf", "pwd2")
 filename = cf.get("userconf", "filename")
 path = r'/mnt/sdcard/139PushEmail/download/%s@139.com/*%s.rar'  %(username, filename)
-        
+
+versionID = cf.get("verconf", "versionid")
+
 ##====================
 
 
 class Timedelay(unittest.TestCase):
     
     def setUp(self): 
-        eo = EmailOperation(username+"@139.com", pwd)
-        eo.moveForlder(["990","INBOX"])
+        AppiumServer2().start_server()
+        time.sleep(10)
+        
+        EmailOperation(username+"@139.com", pwd).moveForlder(["990","INBOX"])
         BaseAdb.adbIntallUiautmator()
         self.driver = Psam()
         
@@ -49,8 +55,11 @@ class Timedelay(unittest.TestCase):
     def tearDown(self):
         self.driver.quit()
         print("运行结束")
-        eo = EmailOperation(username+"@139.com", pwd)
-        eo.moveForlder(["INBOX", "990"])
+        
+        time.sleep(5)
+        AppiumServer2().stop_server()
+
+        EmailOperation(username+"@139.com", pwd).moveForlder(["INBOX", "990"])
         
 
     def testCase(self):
@@ -58,7 +67,7 @@ class Timedelay(unittest.TestCase):
         network = BaseAdb.getNetworkType()
         print('当前网络状态：%s' %network)
         
-        runtimes = 2
+        runtimes = 6
         
         for x in range(1,runtimes):
             # 复位
@@ -74,18 +83,18 @@ class Timedelay(unittest.TestCase):
                 stat = u'开始登录时延测试' 
                 login=Login(self.driver,username, pwd)
                 logintime = login.loginActionTime()
-
-                
+ 
+                  
                 stat = u'开始打开邮件、下载附件测试' 
                 od = OpenDown(self.driver, path, filename)
                 opentime = od.openAction() 
                 downtime = od.downAction()
                 od.setFirstEmail()
-                   
+                     
                 stat = u'发送邮件测试' 
                 send = Send(self.driver,username2+'@139.com')
                 sendtime = send.sendAction()
-                   
+                     
                 stat = u'接收本域邮件测试' 
                 re = Receive(self.driver,username2, pwd2, username+"@139.com")
                 receivetime = re.receiveAction()   
@@ -94,8 +103,7 @@ class Timedelay(unittest.TestCase):
                 print("运行到：%s 运行出错，当次数据不入数据库!" %stat)
                 print(be)
             else:
-
-                result = {'login': logintime, 'open': opentime, 'down':downtime, 'send':sendtime, 'receive':receivetime}
+                result = {'logintime': logintime, 'readtime': opentime, 'downtime':downtime, 'sendtime':sendtime, 'receivetime':receivetime}
                 
                 # 将 None的值，赋值为 0
                 for k,v in result.items():
@@ -105,8 +113,11 @@ class Timedelay(unittest.TestCase):
                          
                 print(result)
         
-        
-
+                testResult = {'productName' : '139','versionID':versionID,'networkType': network,'nowTime':BaseTime.getCurrentTime(),'groupId':x}
+                
+                datas = dict(testResult , **result)
+                
+                SQLHelper.InsertTimedelay(datas)
     
 if __name__ == "__main__":
     suite = unittest.TestSuite()

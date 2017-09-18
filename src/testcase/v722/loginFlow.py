@@ -10,13 +10,16 @@ from base.baseAdb import BaseAdb
 from otherApk.record360.flowRecord import FlowRecord360Action as flow360
 from psam.psam import Psam
 from mail.mailOperation import EmailOperation
+from base.baseTime import BaseTime
+from db.sqlhelper import SQLHelper
+from aserver.AppiumServer import AppiumServer2
 PATH = lambda p:os.path.abspath(
     os.path.join(os.path.dirname(__file__),p)
     )
 
 
 # ======== Reading user_db.ini setting ===========
-base_dir = str((os.path.dirname(__file__)))
+base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 base_dir = base_dir.replace('\\', '/')
 file_path = base_dir + "/user_db.ini"
 
@@ -25,11 +28,16 @@ cf.read(file_path)
 
 username2 = cf.get("userconf", "user2")
 pwd2 = cf.get("userconf", "pwd2")
+
+versionID = cf.get("verconf", "versionid")
 ##====================
 
 class LoginFlow(unittest.TestCase):
     
     def setUp(self):  
+        AppiumServer2().start_server()
+        time.sleep(10)        
+        
         EmailOperation(username2+"@139.com", pwd2).clearForlder(["INBOX",u"已删除",u"已发送"])
         time.sleep(10)
         EmailOperation(username2+"@139.com", pwd2).moveForlder(["20","INBOX"])         
@@ -41,6 +49,9 @@ class LoginFlow(unittest.TestCase):
     def tearDown(self):
         self.driver.quit()
         EmailOperation(username2+"@139.com", pwd2).moveForlder(["INBOX","20"]) 
+
+        time.sleep(5)
+        AppiumServer2().stop_server()
 
     def testCase(self):
         appPackage = "cn.cj.pe"  # 程序的package
@@ -74,7 +85,7 @@ class LoginFlow(unittest.TestCase):
                     
                     if isTrue:
                         print('记录流量值')
-                        fw.executeRecord(u"139邮箱", network, False)
+                        result = fw.executeRecord(u"139邮箱", network, False)
                         time.sleep(5)
                         BaseAdb.adbHome()
                         time.sleep(2)
@@ -82,7 +93,10 @@ class LoginFlow(unittest.TestCase):
                         time.sleep(2)
                         BaseAdb.adbClear(appPackage)
                         time.sleep(5)
-                        
+                        datas = {'productName' : '139','versionID':versionID,'networkType':network,'nowTime':BaseTime.getCurrentTime(), \
+                                 'upflow':result["up"],'downflow':result["down"], 'allflow':result["all"],'groupId':x}
+                        SQLHelper.Insertflowlogin(datas)
+                        time.sleep(2)
                 except BaseException as be:
                     print("运行首次等次数：%d 出错，当次数据不入数据库!" %x)
 #                     print(be)

@@ -8,9 +8,9 @@ PATH = lambda p: os.path.abspath(
 )
 
 class BaseAdb(object):
-    
-    def __init__(self):
-        print('BaseAdb init')
+#     
+#     def __init__(self):
+#         print('BaseAdb init')
     
     
     def adbStop(self, cmd):

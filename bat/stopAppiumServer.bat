@@ -8,3 +8,5 @@ taskkill /F /IM node.exe
 taskkill /F /FI "WINDOWTITLE eq startAppiumServer"
 )
 taskkill /F /FI "WINDOWTITLE eq stopAppiumServer"
+
+exit

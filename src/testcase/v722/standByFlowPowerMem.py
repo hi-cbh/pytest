@@ -11,6 +11,9 @@ from otherApk.power.powerAction import PowerAction
 from otherApk.record360.flowRecord import FlowRecord360Action as flow360
 from base.baseAdb import BaseAdb
 from psam.psam import Psam
+from base.baseTime import BaseTime
+from db.sqlhelper import SQLHelper
+from aserver.AppiumServer import AppiumServer2
 from mail.mailOperation import EmailOperation
 PATH = lambda p:os.path.abspath(
     os.path.join(os.path.dirname(__file__),p)
@@ -18,7 +21,7 @@ PATH = lambda p:os.path.abspath(
 
 
 # ======== Reading user_db.ini setting ===========
-base_dir = str((os.path.dirname(__file__)))
+base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 base_dir = base_dir.replace('\\', '/')
 file_path = base_dir + "/user_db.ini"
 
@@ -27,12 +30,15 @@ cf.read(file_path)
 
 username = cf.get("userconf", "user1")
 pwd = cf.get("userconf", "pwd1")
-
+versionID = cf.get("verconf", "versionid")
 ##====================
 
 class StandByFlowPowerMem(unittest.TestCase):
     
     def setUp(self):  
+        AppiumServer2().start_server()
+        time.sleep(10)
+        # 发送邮件辅助工具
         BaseAdb.adbShell("adb shell am start -W -n com.test.sendmail/.MainActivity")
         BaseAdb.adbHome()
         time.sleep(2)
@@ -45,7 +51,9 @@ class StandByFlowPowerMem(unittest.TestCase):
     def tearDown(self):
         self.driver.quit()
         EmailOperation(username+"@139.com", pwd).moveForlder(["INBOX","100"]) 
-
+        
+        time.sleep(5)
+        AppiumServer2().stop_server()
 
     def testCase(self):
         
@@ -90,10 +98,10 @@ class StandByFlowPowerMem(unittest.TestCase):
                 time.sleep(1*60)
             
             print("开始记录......")
-            fw.executeRecord(u"139邮箱", network, False,False)
+            flow = fw.executeRecord(u"139邮箱", network, False,False)
             time.sleep(5)
-            gt.endGT()
-            pa.executeRecord("139",False)
+            mem = gt.endGT()
+            elc = pa.executeRecord("139",False)
             
             print("发送邮件......")
             for i in range(3):
@@ -105,8 +113,8 @@ class StandByFlowPowerMem(unittest.TestCase):
             
                 
             print("再次记录......")
-            fw.executeRecord(u"139邮箱", network, False)
-            pa.executeRecord("139")
+            flow = fw.executeRecord(u"139邮箱", network, False)
+            elc = pa.executeRecord("139")
             emailcnt = EmailOperation(username+"@139.com", pwd).checkInboxCnt()
             print("接收邮件数量：%d" %emailcnt)
             
