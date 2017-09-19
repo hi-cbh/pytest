@@ -1,10 +1,10 @@
 # coding=utf-8
 
-from appium import webdriver
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
 import time
+from appium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.wait import WebDriverWait
 
 
 class Psam(object):
@@ -75,6 +75,7 @@ class Psam(object):
                 element = self.driver.find_element_by_id(value)
             elif by == "name":
                 element = self.driver.find_element_by_name(value)
+#                 element = self.driver.find_element_by_android_uiautomator("text("+value+")")
             elif by == "class":
                 element = self.driver.find_element_by_class_name(value)
             elif by == "link_text":
@@ -278,6 +279,7 @@ class Psam(object):
 
 #     def scrollTo(self):
 #         self.driver.scroll(origin_el, destination_el)
+
 
 
 if __name__ == '__main__':

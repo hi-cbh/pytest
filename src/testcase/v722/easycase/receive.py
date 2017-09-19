@@ -2,8 +2,6 @@
 # encoding:utf-8
 
 import time
-from selenium.webdriver.common.by import By
-from base.baseOperate import Commom as c
 # from base.baseAdb import BaseAdb
 # from base.baseFile import BaseFile
 from pyse import Pyse
@@ -19,7 +17,7 @@ class WebReceive(object):
         start = time.time()
         try:
             driver = Pyse("chrome")
-            driver.implicitly_wait() # 添加了隐式等待，去除time.sleep显示等待
+            # driver.implicitly_wait() # 添加了隐式等待，去除time.sleep显示等待
             driver.max_window()
             driver.open("http://mail.10086.cn/")
             
@@ -150,10 +148,10 @@ if __name__ == '__main__':
     
     for i in range(1):
         t1 = time.time()
-        r = WebReceive('13697485262', 'chinasoft123','13580491603@139.com')
+        r = WebReceive('13697485262', 'chinasoft139','13580491603@139.com')
         start = r.sendEmail()
         time.sleep(1)
-#         print(start)
+        print(start)
         t2 = time.time()
         valueTime = str(round((t2 - t1), 2))
-        print('时间差: %r'  %valueTime)
+        print('时间差: %r' %valueTime)

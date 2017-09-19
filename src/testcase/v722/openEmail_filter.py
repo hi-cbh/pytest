@@ -1,20 +1,21 @@
 # urs/bin/python
 # encoding:utf-8
-import time
-import os,sys
-import unittest
 import configparser as cparser
-from psam.psam import Psam
-from testcase.v722.easycase.login import Login
-from testcase.v722.easycase.public import PublicUtil as pu
-from mail.mailOperation import EmailOperation
-sys.path.append(r'D:\workspace\workspace_python3\appium_python\src')
+import os
+import time
+import unittest
+from src.mail.mailOperation import EmailOperation
+from src.psam.psam import Psam
+from src.testcase.v722.easycase.login import Login
+from src.testcase.v722.easycase.public import PublicUtil as pu
+
+# sys.path.append(r'D:\workspace\workspace_python3\appium_python\src')
 
 # ======== Reading user_db.ini setting ===========
-base_dir = str((os.path.dirname(__file__)))
-base_dir = base_dir.replace('\\', '/')
+base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+# base_dir = base_dir.replace('\\', '/')
 file_path = base_dir + "/user_db.ini"
-
+print(file_path)
 cf = cparser.ConfigParser()
 cf.read(file_path)
 
@@ -22,28 +23,28 @@ username = cf.get("userconf", "user1")
 pwd = cf.get("userconf", "pwd1")
 
  
-from base.baseAdb import BaseAdb
+from src.base.baseAdb import BaseAdb
 
-GetMax = 3; #获取的组数量
-RunMax = 11; #大循环最大允许次数
-RunMax2 = 3; #每一次小循环最大允许次数
-ListMax = 10; #列表长度
-DelNum = 2; #允许剔除的数量
+GetMax = 3  # 获取的组数量
+RunMax = 11  # 大循环最大允许次数
+RunMax2 = 3  # 每一次小循环最大允许次数
+ListMax = 10  # 列表长度
+DelNum = 2  # 允许剔除的数量
 
 class MyTestCase(unittest.TestCase):
     #脚本初始化,获取操作实例
     def setUp(self):
         eo = EmailOperation(username+"@139.com", pwd)
         eo.moveForlder(["100","INBOX"])
-        
-        
-        BaseAdb.adbIntallUiautmator()        
+        time.sleep(4)
+        print("uiautomator")
+        BaseAdb.adbIntallUiautmator()
         self.driver = Psam()
 
     #释放实例,释放资源
     def tearDown(self):
         eo = EmailOperation(username+"@139.com", pwd)
-        eo.moveForlder(["INBOX","100"])        
+        eo.moveForlder(["INBOX","100"])
         self.driver.quit()
   
     def testCase(self):
@@ -66,10 +67,10 @@ class MyTestCase(unittest.TestCase):
         global GetMax
         for i in range(1,RunMax):
             ls = self.getDataList()
-            
+
             print('第 %s 轮测试结果：' %(str(i)))
             print(ls)
-            
+
             if i == GetMax:
                 return
     
@@ -91,7 +92,7 @@ class MyTestCase(unittest.TestCase):
             starttime = time.time()
               
             # 点击139邮箱
-            el.click();
+            el.click()
               
             # 等待页面存在 收件箱字段
             self.driver.element_wait(r"id=>cn.cj.pe:id/message_list_bottom_email")

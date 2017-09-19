@@ -4,12 +4,14 @@
 '''文件操作'''
 
 
+import operator
 # urs/bin/python
 # encoding:utf-8
 import os
-import time
-import operator
 import subprocess
+import time
+
+
 class BaseFile(object):
 
      

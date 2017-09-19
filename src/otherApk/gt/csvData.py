@@ -1,9 +1,12 @@
 # urs/bin/python
 # encoding:utf-8
 
-import os,re
 import csv
-from base.baseConversion  import BaseConversion as bc
+import os
+import re
+from base.baseConversion import BaseConversion as bc
+
+
 class GetCSVData(object):
     
     def __init__(self,path,pkg):
@@ -38,7 +41,7 @@ class GetCSVData(object):
             return None
     
     # 搜索目录下的文件        
-    def getFileList(self, p):
+    def getFileList_window(self, p):
         p = str( p )
         if p=="":
             return [ ]
@@ -47,9 +50,17 @@ class GetCSVData(object):
             p = p+"\\"
         a = os.listdir( p )
         b = [ x   for x in a if os.path.isfile( p + x ) ]
-        return b        
-    
-    
+        return b
+
+        # 搜索目录下的文件
+    def getFileList(self, p):
+        p = str( p )
+        if p=="":
+            return [ ]
+        a = os.listdir( p )
+        b = [ x   for x in a if os.path.isfile( p + x ) ]
+        return b
+
     def getData(self,ty):
         '''获取数据'''
         data = []
@@ -85,7 +96,7 @@ class GetCSVData(object):
         data = []
         mem = {}
         data = self.getData('mem')
-#         print(data)
+        print(data)
 #         print(data)
         if data != None:
             mem['min'] = bc.round(float(data[0][1])/1024, 1)
@@ -99,7 +110,7 @@ class GetCSVData(object):
         
         
 if __name__ == "__main__":
-    filepath = r"D:/workspace/workspace_python3/appium_python/logs/2017-09-06_11-28-19/" 
+    filepath = r"/Users/apple/git/pytest/logs/2017-09-04_18-28-34/"
     d = GetCSVData(filepath, 'cn.cj.pe')
     
     data = d.getMEMValue()         

@@ -1,10 +1,11 @@
 # urs/bin/python
 # encoding:utf-8
+import sys
 import time
-import os,sys
 import unittest
-from psam.psam import Psam
 from base.baseConversion import BaseConversion as bc
+from psam.psam import Psam
+
 sys.path.append(r'D:\workspace\workspace_python3\appium_python\src')
 
 
@@ -26,8 +27,8 @@ class MyTestCase(unittest.TestCase):
         BaseAdb.adbHome()
         time.sleep(2)
         print("测试")
-        self.driver.click("name=>设置")
-        self.scroll("name=>单手操作")
+        self.driver.click(u"name=>设置")
+#         self.scroll(u"name=>单手操作")
         
     def scroll(self, txt):
         w = self.driver.get_window_size()['width']

@@ -2,9 +2,10 @@
 # encoding:utf-8
 
 import time
-from selenium.webdriver.common.by import By
 from base.baseOperate import Commom as c
-from psam.psam import Psam
+from selenium.webdriver.common.by import By
+
+
 class Login(object):
     
     def __init__(self,driver, username, pwd):

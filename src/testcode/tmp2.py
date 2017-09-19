@@ -2,9 +2,10 @@
 # encoding:utf-8
 import os
 import unittest
-from time import sleep
 from appium import webdriver
 from base.baseAdb import BaseAdb
+from time import sleep
+
 
 class AndroidWebViewTests(unittest.TestCase):
 

@@ -1,14 +1,15 @@
 # urs/bin/python
 # encoding:utf-8
 
-import os,time
-import unittest
 import configparser as cparser
+import os
+import time
+import unittest
+from base.baseAdb import BaseAdb
+from mail.mailOperation import EmailOperation
+from psam.psam import Psam
 from testcase.v722.easycase.login import Login
 from testcase.v722.easycase.send import Send
-from base.baseAdb import BaseAdb
-from psam.psam import Psam
-from mail.mailOperation import EmailOperation
 
 PATH = lambda p:os.path.abspath(
     os.path.join(os.path.dirname(__file__),p)
@@ -16,7 +17,7 @@ PATH = lambda p:os.path.abspath(
 
 
 # ======== Reading user_db.ini setting ===========
-base_dir = str((os.path.dirname(__file__)))
+base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 base_dir = base_dir.replace('\\', '/')
 file_path = base_dir + "/user_db.ini"
 

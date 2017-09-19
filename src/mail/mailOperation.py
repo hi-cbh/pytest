@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*- 
 
 import pyzmail
-from imapclient import IMAPClient
 import time
+from imapclient import IMAPClient
 
 
 class EmailOperation(object):
