@@ -3,6 +3,8 @@
 
 import time
 from base.baseAdb import BaseAdb
+
+
 class Login(object):
     
     def __init__(self,driver, username, pwd):
@@ -29,6 +31,7 @@ class Login(object):
                     
         print('=>输入用户名')
         els[0].send_keys(self.username)
+        
          
         print('=>输入密码')
         els[1].send_keys(self.pwd)

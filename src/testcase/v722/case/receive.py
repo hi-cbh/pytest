@@ -2,11 +2,12 @@
 # encoding:utf-8
 
 import time
-from selenium.webdriver.common.by import By
 from base.baseOperate import Commom as c
 # from base.baseAdb import BaseAdb
 # from base.baseFile import BaseFile
 from pyse import Pyse
+from selenium.webdriver.common.by import By
+
 
 class WebReceive(object):
     
