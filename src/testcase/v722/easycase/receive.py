@@ -6,6 +6,9 @@ import time
 # from base.baseFile import BaseFile
 from pyse import Pyse
 
+
+
+
 class WebReceive(object):
     
     def __init__(self, username, pwd, receiver):
@@ -70,7 +73,7 @@ class WebReceive(object):
         except BaseException as e:
             print('运行出错！！！')
             
-            driver.get_windows_img(r"D:\%s.jpg " %(start))
+            # driver.get_windows_img(r"D:\%s.jpg " %(start))
             print(e)
         finally:
             driver.quit()
