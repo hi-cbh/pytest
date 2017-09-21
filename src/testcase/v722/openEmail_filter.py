@@ -1,34 +1,27 @@
 # urs/bin/python
 # encoding:utf-8
-import configparser as cparser
 import os
-import time
+import time,sys
 import unittest
-<<<<<<< HEAD
 import configparser as cparser
-from psam.psam import Psam
-from testcase.v722.easycase.login import Login
-from testcase.v722.easycase.public import PublicUtil as pu
-from mail.mailOperation import EmailOperation
-from aserver.AppiumServer import AppiumServer2
-from db.sqlhelper import SQLHelper
-from base.baseTime import BaseTime
-=======
+#
+# PATH = lambda p:os.path.abspath(
+#     os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__),p)))
+# )
+# sys.path.append(r'/Users/apple/git/pytest/src/')
+# print("file: %s" %PATH)
+
+from src.aserver.AppiumServer import AppiumServer2
+from src.db.sqlhelper import SQLHelper
+from src.base.baseTime import BaseTime
 from src.mail.mailOperation import EmailOperation
 from src.psam.psam import Psam
 from src.testcase.v722.easycase.login import Login
 from src.testcase.v722.easycase.public import PublicUtil as pu
 
->>>>>>> mac
-# sys.path.append(r'D:\workspace\workspace_python3\appium_python\src')
 
 # ======== Reading user_db.ini setting ===========
 base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
-<<<<<<< HEAD
-base_dir = base_dir.replace('\\', '/')
-=======
-# base_dir = base_dir.replace('\\', '/')
->>>>>>> mac
 file_path = base_dir + "/user_db.ini"
 print(file_path)
 cf = cparser.ConfigParser()
@@ -37,15 +30,10 @@ cf.read(file_path)
 username = cf.get("userconf", "user1")
 pwd = cf.get("userconf", "pwd1")
 
-<<<<<<< HEAD
 versionID = cf.get("verconf", "versionid")
 
 
-from base.baseAdb import BaseAdb
-=======
- 
 from src.base.baseAdb import BaseAdb
->>>>>>> mac
 
 GetMax = 3  # 获取的组数量
 RunMax = 11  # 大循环最大允许次数
@@ -53,37 +41,22 @@ RunMax2 = 3  # 每一次小循环最大允许次数
 ListMax = 10  # 列表长度
 DelNum = 2  # 允许剔除的数量
 
-class MyTestCase(unittest.TestCase):
+class OpenEmail(unittest.TestCase):
     #脚本初始化,获取操作实例
     def setUp(self):
-<<<<<<< HEAD
-        AppiumServer2().start_server()
+        # AppiumServer2().start_server()
         time.sleep(10)
         EmailOperation(username+"@139.com", pwd).moveForlder(["100","INBOX"])
-        
-        
         BaseAdb.adbIntallUiautmator()        
-=======
-        eo = EmailOperation(username+"@139.com", pwd)
-        eo.moveForlder(["100","INBOX"])
-        time.sleep(4)
-        print("uiautomator")
-        BaseAdb.adbIntallUiautmator()
->>>>>>> mac
         self.driver = Psam()
 
     #释放实例,释放资源
     def tearDown(self):
-<<<<<<< HEAD
-        EmailOperation(username+"@139.com", pwd).moveForlder(["INBOX","100"])        
-=======
-        eo = EmailOperation(username+"@139.com", pwd)
-        eo.moveForlder(["INBOX","100"])
->>>>>>> mac
+        EmailOperation(username+"@139.com", pwd).moveForlder(["INBOX","100"])
         self.driver.quit()
         
         time.sleep(5)
-        AppiumServer2().stop_server()
+        # AppiumServer2().stop_server()
   
     def testCase(self):
         network = BaseAdb.getNetworkType()
@@ -111,14 +84,10 @@ class MyTestCase(unittest.TestCase):
 
             print('第 %s 轮测试结果：' %(str(i)))
             print(ls)
-<<<<<<< HEAD
             datas = {'productName' : '139','versionID':versionID,'networkType':network,'nowTime':BaseTime.getCurrentTime(), \
             'time0':ls[0],'time1':ls[1], 'time2':ls[2], 'time3':ls[3], 'time4':ls[4], 'time5':ls[5], \
             'time6':ls[6], 'time7':ls[7], 'time8':ls[8], 'time9':ls[9], 'groupId':i}
             SQLHelper.Insertkill(datas)
-=======
-
->>>>>>> mac
             if i == GetMax:
                 return
     
@@ -204,7 +173,7 @@ class MyTestCase(unittest.TestCase):
   
 if __name__ == '__main__':
     suite = unittest.TestSuite()
-    suite.addTest(MyTestCase('testCase'))
+    suite.addTest(OpenEmail('testCase'))
     runner = unittest.TextTestRunner(verbosity=2)
     runner.run(suite)
 

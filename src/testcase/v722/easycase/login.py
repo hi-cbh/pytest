@@ -2,7 +2,7 @@
 # encoding:utf-8
 
 import time
-from base.baseAdb import BaseAdb
+from src.base.baseAdb import BaseAdb
 
 
 class Login(object):

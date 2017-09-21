@@ -5,31 +5,22 @@ import configparser as cparser
 import os
 import time
 import unittest
-from base.baseAdb import BaseAdb
-from mail.mailOperation import EmailOperation
-from otherApk.record360.flowRecord import FlowRecord360Action as flow360
-from psam.psam import Psam
-<<<<<<< HEAD
-from mail.mailOperation import EmailOperation
-from base.baseTime import BaseTime
-from db.sqlhelper import SQLHelper
-from aserver.AppiumServer import AppiumServer2
-=======
-from testcase.v722.easycase.login import Login
-
->>>>>>> mac
-PATH = lambda p:os.path.abspath(
-    os.path.join(os.path.dirname(__file__),p)
-    )
+from src.base.baseAdb import BaseAdb
+from src.otherApk.record360.flowRecord import FlowRecord360Action as flow360
+from src.psam.psam import Psam
+from src.mail.mailOperation import EmailOperation
+from src.base.baseTime import BaseTime
+from src.db.sqlhelper import SQLHelper
+from src.aserver.AppiumServer import AppiumServer2
+from src.testcase.v722.easycase.login import Login
+#
+# PATH = lambda p:os.path.abspath(
+#     os.path.join(os.path.dirname(__file__),p)
+#     )
 
 
 # ======== Reading user_db.ini setting ===========
 base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
-<<<<<<< HEAD
-base_dir = base_dir.replace('\\', '/')
-=======
-# base_dir = base_dir.replace('\\', '/')
->>>>>>> mac
 file_path = base_dir + "/user_db.ini"
 
 cf = cparser.ConfigParser()
@@ -44,8 +35,8 @@ versionID = cf.get("verconf", "versionid")
 class LoginFlow(unittest.TestCase):
     
     def setUp(self):  
-        AppiumServer2().start_server()
-        time.sleep(10)        
+        # AppiumServer2().start_server()
+        # time.sleep(10)
         
         EmailOperation(username2+"@139.com", pwd2).clearForlder(["INBOX",u"已删除",u"已发送"])
         time.sleep(10)
@@ -60,7 +51,7 @@ class LoginFlow(unittest.TestCase):
         EmailOperation(username2+"@139.com", pwd2).moveForlder(["INBOX","20"]) 
 
         time.sleep(5)
-        AppiumServer2().stop_server()
+        # AppiumServer2().stop_server()
 
     def testCase(self):
         appPackage = "cn.cj.pe"  # 程序的package

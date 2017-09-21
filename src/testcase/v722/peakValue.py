@@ -5,26 +5,22 @@ import configparser as cparser
 import os
 import time
 import unittest
-from base.baseAdb import BaseAdb
-from mail.mailOperation import EmailOperation
-<<<<<<< HEAD
-from aserver.AppiumServer import AppiumServer2
-from db.sqlhelper import SQLHelper
-from base.baseTime import BaseTime
-=======
-from psam.psam import Psam
-from testcase.v722.easycase.login import Login
-from testcase.v722.easycase.send import Send
-
->>>>>>> mac
-PATH = lambda p:os.path.abspath(
-    os.path.join(os.path.dirname(__file__),p)
-    )
+from src.base.baseAdb import BaseAdb
+from src.mail.mailOperation import EmailOperation
+from src.aserver.AppiumServer import AppiumServer2
+from src.db.sqlhelper import SQLHelper
+from src.base.baseTime import BaseTime
+from src.psam.psam import Psam
+from src.testcase.v722.easycase.login import Login
+from src.testcase.v722.easycase.send import Send
+#
+# PATH = lambda p:os.path.abspath(
+#     os.path.join(os.path.dirname(__file__),p)
+#     )
 
 
 # ======== Reading user_db.ini setting ===========
 base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
-base_dir = base_dir.replace('\\', '/')
 file_path = base_dir + "/user_db.ini"
 
 cf = cparser.ConfigParser()
@@ -39,10 +35,9 @@ versionID = cf.get("verconf", "versionid")
 class PeakValue(unittest.TestCase):
     
     def setUp(self):  
-        AppiumServer2().start_server()
+        # AppiumServer2().start_server()
         time.sleep(10)
         EmailOperation(username+"@139.com", pwd).moveForlder(["100","INBOX"])
-    
         BaseAdb.adbIntallUiautmator()
         
         self.driver = Psam()
@@ -53,7 +48,7 @@ class PeakValue(unittest.TestCase):
         EmailOperation(username+"@139.com", pwd).moveForlder(["INBOX","100"])
 
         time.sleep(5)
-        AppiumServer2().stop_server()
+        # AppiumServer2().stop_server()
         
         
     def testCase(self):

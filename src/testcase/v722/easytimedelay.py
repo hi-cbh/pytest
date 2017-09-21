@@ -1,23 +1,11 @@
 # urs/bin/python
 # encoding:utf-8
 
+import os,time,unittest,sys
 import configparser as cparser
-import os
-<<<<<<< HEAD
-import unittest,time
-import configparser as cparser
-from testcase.v722.easycase.login import Login
-from testcase.v722.easycase.send import Send
-from testcase.v722.easycase.openDown import OpenDown
-from testcase.v722.easycase.receive import Receive
-from base.baseAdb import BaseAdb
-from base.baseTime import BaseTime
-from psam.psam import Psam
-from db.sqlhelper import SQLHelper
-from mail.mailOperation import EmailOperation
-from aserver.AppiumServer import AppiumServer2
-=======
-import unittest
+from src.base.baseTime import BaseTime
+from src.db.sqlhelper import SQLHelper
+from src.aserver.AppiumServer import AppiumServer2
 from src.base.baseAdb import BaseAdb
 from src.mail.mailOperation import EmailOperation
 from src.psam.psam import Psam
@@ -26,19 +14,11 @@ from src.testcase.v722.easycase.openDown import OpenDown
 from src.testcase.v722.easycase.receive import Receive
 from src.testcase.v722.easycase.send import Send
 
->>>>>>> mac
-PATH = lambda p:os.path.abspath(
-    os.path.join(os.path.dirname(__file__),p)
-    )
 
+# sys.path.append(r"/Users/apple/git/pytest/")
 
 # ======== Reading user_db.ini setting ===========
 base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
-<<<<<<< HEAD
-base_dir = base_dir.replace('\\', '/')
-=======
-
->>>>>>> mac
 file_path = base_dir + "/user_db.ini"
 
 cf = cparser.ConfigParser()
@@ -57,35 +37,35 @@ versionID = cf.get("verconf", "versionid")
 
 
 class Timedelay(unittest.TestCase):
-    
-    def setUp(self): 
-        AppiumServer2().start_server()
+
+    def setUp(self):
+        # AppiumServer2().start_server()
         time.sleep(10)
-        
+
         EmailOperation(username+"@139.com", pwd).moveForlder(["990","INBOX"])
         BaseAdb.adbIntallUiautmator()
         self.driver = Psam()
-        
-        
-    
+
+
+
     #释放实例,释放资源
     def tearDown(self):
         self.driver.quit()
         print("运行结束")
-        
+
         time.sleep(5)
-        AppiumServer2().stop_server()
+        # AppiumServer2().stop_server()
 
         EmailOperation(username+"@139.com", pwd).moveForlder(["INBOX", "990"])
-        
+
 
     def testCase(self):
-        
+
         network = BaseAdb.getNetworkType()
         print('当前网络状态：%s' %network)
-        
-        runtimes = 6
-        
+
+        runtimes = 2
+
         for x in range(1,runtimes):
             # 复位
             logintime = 0
@@ -93,49 +73,49 @@ class Timedelay(unittest.TestCase):
             downtime = 0
             sendtime = 0
             receivetime = 0
-            
+
             print('当前运行次数为：%r' %(str(x)))
 
             try:
-                stat = u'开始登录时延测试' 
+                stat = u'开始登录时延测试'
                 login=Login(self.driver,username, pwd)
                 logintime = login.loginActionTime()
- 
-                  
-                stat = u'开始打开邮件、下载附件测试' 
+
+
+                stat = u'开始打开邮件、下载附件测试'
                 od = OpenDown(self.driver, path, filename)
-                opentime = od.openAction() 
+                opentime = od.openAction()
                 downtime = od.downAction()
                 od.setFirstEmail()
-                     
-                stat = u'发送邮件测试' 
+
+                stat = u'发送邮件测试'
                 send = Send(self.driver,username2+'@139.com')
                 sendtime = send.sendAction()
-                     
-                stat = u'接收本域邮件测试' 
+
+                stat = u'接收本域邮件测试'
                 re = Receive(self.driver,username2, pwd2, username+"@139.com")
-                receivetime = re.receiveAction()   
-            
+                receivetime = re.receiveAction()
+
             except BaseException as be:
                 print("运行到：%s 运行出错，当次数据不入数据库!" %stat)
                 print(be)
             else:
                 result = {'logintime': logintime, 'readtime': opentime, 'downtime':downtime, 'sendtime':sendtime, 'receivetime':receivetime}
-                
+
                 # 将 None的值，赋值为 0
                 for k,v in result.items():
                     if v == None:
                         print('赋值')
                         result[k] = 0
-                         
+
                 print(result)
-        
+
                 testResult = {'productName' : '139','versionID':versionID,'networkType': network,'nowTime':BaseTime.getCurrentTime(),'groupId':x}
-                
+
                 datas = dict(testResult , **result)
-                
+
                 SQLHelper.InsertTimedelay(datas)
-    
+
 if __name__ == "__main__":
     suite = unittest.TestSuite()
     suite.addTest(Timedelay('testCase'))

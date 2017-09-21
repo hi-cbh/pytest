@@ -1,14 +1,11 @@
 # urs/bin/python
 # encoding:utf-8
-<<<<<<< HEAD
 import os,sys
 import threading
 from multiprocessing import Process
 from base.baseTime import BaseTime
 TestResult = [{'min': '0.0%', 'max': '0.79%', 'avg': '0.32%'}, {'min': 116.85, 'max': 116.86, 'avg': 116.86}]
-=======
 import os
->>>>>>> mac
 
 datas = {'productName' : '139','versionID':"versionID",'networkType':"network",\
          'nowTime':BaseTime.getCurrentTime(), \
@@ -16,10 +13,8 @@ datas = {'productName' : '139','versionID':"versionID",'networkType':"network",\
          'avgmem':TestResult[1]["avg"],'maxmem':TestResult[1]["max"], \
          'groupId':"x"}
 
-<<<<<<< HEAD
 
 print(float(TestResult[0]["avg"].replace('%', '')))
-=======
 # #需要使用线程的方式启动 appium server
 # base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 # base_dir = base_dir.replace('\\', '/')
@@ -61,4 +56,3 @@ class TestDemo(unittest.TestCase):
         BaseAdb.adbStop("cn.cj.pe")
         time.sleep(2)
 
->>>>>>> mac

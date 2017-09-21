@@ -2,7 +2,7 @@
 # encoding:utf-8
 
 import os
-from base.baseTime import BaseTime
+from src.base.baseTime import BaseTime
 
 base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 base_dir = base_dir.replace('\\', '/')

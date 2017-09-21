@@ -6,6 +6,7 @@ import time
 class PublicUtil(object):
     
     def loadEmail(self, driver):
+        time.sleep(5)
         '''加载本地100封邮件'''
         print("加载本地100封邮件")
         timeout = int(round(time.time() * 1000)) + 5*60 * 1000
@@ -18,7 +19,8 @@ class PublicUtil(object):
                 print("滑动")
                 driver.swipeUp()
                 print("点击")
-                el.click()
+                # el.click() # 这里经常出错
+                driver.click(u"name=>加载更多邮件",secs = 1)
                 
             print("滑动")    
             driver.swipeUp()

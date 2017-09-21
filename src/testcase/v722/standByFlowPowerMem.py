@@ -5,34 +5,25 @@ import configparser as cparser
 import os
 import time
 import unittest
-from base.baseAdb import BaseAdb
-from mail.mailOperation import EmailOperation
-from otherApk.gt.gtutil import GTTest
-from otherApk.power.powerAction import PowerAction
-from otherApk.record360.flowRecord import FlowRecord360Action as flow360
-from psam.psam import Psam
-<<<<<<< HEAD
-from base.baseTime import BaseTime
-from db.sqlhelper import SQLHelper
-from aserver.AppiumServer import AppiumServer2
-from mail.mailOperation import EmailOperation
-=======
-from testcase.v722.easycase.login import Login
-from testcase.v722.easycase.public import PublicUtil as pu
+from src.base.baseAdb import BaseAdb
+from src.otherApk.gt.gtutil import GTTest
+from src.otherApk.power.powerAction import PowerAction
+from src.otherApk.record360.flowRecord import FlowRecord360Action as flow360
+from src.psam.psam import Psam
+from src.aserver.AppiumServer import AppiumServer2
+from src.mail.mailOperation import EmailOperation
+from src.testcase.v722.easycase.login import Login
+from src.testcase.v722.easycase.public import PublicUtil as pu
+from src.base.baseTime import BaseTime
+from src.db.sqlhelper import SQLHelper
 
->>>>>>> mac
-PATH = lambda p:os.path.abspath(
-    os.path.join(os.path.dirname(__file__),p)
-    )
+# PATH = lambda p:os.path.abspath(
+#     os.path.join(os.path.dirname(__file__),p)
+#     )
 
 
 # ======== Reading user_db.ini setting ===========
 base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
-<<<<<<< HEAD
-base_dir = base_dir.replace('\\', '/')
-=======
-# base_dir = base_dir.replace('\\', '/')
->>>>>>> mac
 file_path = base_dir + "/user_db.ini"
 
 cf = cparser.ConfigParser()
@@ -46,8 +37,8 @@ versionID = cf.get("verconf", "versionid")
 class StandByFlowPowerMem(unittest.TestCase):
     
     def setUp(self):  
-        AppiumServer2().start_server()
-        time.sleep(10)
+        # AppiumServer2().start_server()
+        # time.sleep(10)
         # 发送邮件辅助工具
         BaseAdb.adbShell("adb shell am start -W -n com.test.sendmail/.MainActivity")
         BaseAdb.adbHome()
@@ -63,7 +54,7 @@ class StandByFlowPowerMem(unittest.TestCase):
         EmailOperation(username+"@139.com", pwd).moveForlder(["INBOX","100"]) 
         
         time.sleep(5)
-        AppiumServer2().stop_server()
+        # AppiumServer2().stop_server()
 
     def testCase(self):
         
@@ -81,7 +72,7 @@ class StandByFlowPowerMem(unittest.TestCase):
              
             login=Login(self.driver,username, pwd)
             login.loginAction()
-            
+            print('等待5秒，预防没有弹窗出现邮件')
             pu.loadEmail(self.driver)
             
             BaseAdb.adbStop(appPackage)
@@ -112,7 +103,15 @@ class StandByFlowPowerMem(unittest.TestCase):
             time.sleep(5)
             mem = gt.endGT()
             elc = pa.executeRecord("139",False)
-            
+
+            datas = {'productName' : '139','versionID':versionID,'networkType':network,'nowTime':BaseTime.getCurrentTime(), \
+                 'electric':elc,'upflow':flow["up"], 'downflow':flow["down"], \
+                 'allflow':flow["all"],'avgmem':mem[1]["avg"],'groupId':"1"}
+
+            print(datas)
+            SQLHelper.Insertstandyno(datas)
+            time.sleep(5)
+
             print("发送邮件......")
             for i in range(3):
                 BaseAdb.adbShell("adb shell am broadcast -a my.email.broadcast")
@@ -127,7 +126,14 @@ class StandByFlowPowerMem(unittest.TestCase):
             elc = pa.executeRecord("139")
             emailcnt = EmailOperation(username+"@139.com", pwd).checkInboxCnt()
             print("接收邮件数量：%d" %emailcnt)
-            
+
+            datas = {'productName' : '139','versionID':versionID,'networkType':network,'nowTime':BaseTime.getCurrentTime(), \
+                     'electric':elc,'upflow':flow["up"], 'downflow':flow["down"], \
+                     'allflow':flow["all"],'emailcount':emailcnt,'groupId':"1"}
+
+            print(datas)
+            SQLHelper.Insertstandyemail(datas)
+
             print("清除")
             time.sleep(5)  
             EmailOperation(username+"@139.com", pwd).checkInbox()

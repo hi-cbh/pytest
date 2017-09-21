@@ -12,18 +12,11 @@ PATH = lambda p: os.path.abspath(
 )
 
 class BaseAdb(object):
-<<<<<<< HEAD
-#     
-#     def __init__(self):
-#         print('BaseAdb init')
-    
-=======
     
     def __init__(self):
         print('BaseAdb init')
         # self.path = "/Users/apple/autoTest/android-sdk-macosx/platform-tools/"
         self.path=""
->>>>>>> mac
     
     def adbStop(self, cmd):
         '''杀进程'''

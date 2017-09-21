@@ -4,7 +4,7 @@
 import csv
 import os
 import re
-from base.baseConversion import BaseConversion as bc
+from src.base.baseConversion import BaseConversion as bc
 
 
 class GetCSVData(object):

@@ -9,7 +9,6 @@ PATH = lambda p:os.path.abspath(
     )
 # ======== Reading db_config.ini setting ===========
 base_dir = str((os.path.dirname(os.path.dirname(__file__))))
-base_dir = base_dir.replace('\\', '/')
 file_path = base_dir + "/user_db.ini"
 
 cf = cparser.ConfigParser()
@@ -84,5 +83,5 @@ class DB:
 if __name__ == '__main__':
 
     db = DB()
-    db.show_data("sign_event")
+    db.show_data("tb_app_prot")
     db.close()

@@ -24,7 +24,7 @@ class WebReceive(object):
             driver.max_window()
             driver.open("http://mail.10086.cn/")
             
-#             time.sleep(3)
+            time.sleep(3)
             driver.element_wait(r"name=>UserName", 10)
             driver.element_wait(r"id=>loginBtn", 10)
             
@@ -34,7 +34,7 @@ class WebReceive(object):
             driver.type("id=>txtPass", self.pwd)
             driver.click("id=>loginBtn")
             
-#             time.sleep(3)
+            time.sleep(1)
             driver.click("name=>mailbox_1")
             
             # 收件箱
@@ -43,23 +43,21 @@ class WebReceive(object):
             
             
             
-#             time.sleep(3)
+            time.sleep(3)
             print("点击写信页: %r" %driver.get_display(r"xpath=>//a[@id='btn_compose']"))
             driver.click(r"xpath=>//a[@id='btn_compose']")
             
-#             time.sleep(3)
+            time.sleep(3)
             print('切换frame: %r' %driver.get_display(r"xpath=>//*[@id='compose_preload' and @class='main-iframe']"))
             driver.switch_to_frame(r"xpath=>//*[@id='compose_preload' and @class='main-iframe']")
             
-#             time.sleep(3)
+            time.sleep(3)
             print('输入主题: %r' %driver.get_display(r"xpath=>//input[@id='txtSubject']"))
             driver.click(r"xpath=>//input[@id='txtSubject']")
             driver.type(r"xpath=>//input[@id='txtSubject']", "testReceive")
             
-#             time.sleep(2)
-            
+            time.sleep(2)
             print('输入收件人: %r' %driver.get_display(r"xpath=>//*[@id='toContainer']/div/div[2]/div[2]/input"))
-#             driver.click("xpath=>//*[@id='toContainer']/div/div[2]/div[2]/input")
             driver.type(r"xpath=>//*[@id='toContainer']/div/div[2]/div[2]/input", self.receiver)
             
             print('点击发送')
@@ -151,7 +149,7 @@ if __name__ == '__main__':
     
     for i in range(1):
         t1 = time.time()
-        r = WebReceive('13697485262', 'chinasoft139','13580491603@139.com')
+        r = WebReceive('13697485262', 'chinasoft123','13580491603@139.com')
         start = r.sendEmail()
         time.sleep(1)
         print(start)

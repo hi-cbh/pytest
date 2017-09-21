@@ -3,13 +3,13 @@
 
 import os
 import time
-from base.baseAdb import BaseAdb
-from base.baseTime import BaseTime
-from otherApk.gt.csvData import GetCSVData
-
-PATH = lambda p: os.path.abspath(
-    os.path.join(os.path.dirname(__file__), p)
-)
+from src.base.baseAdb import BaseAdb
+from src.base.baseTime import BaseTime
+from src.otherApk.gt.csvData import GetCSVData
+#
+# PATH = lambda p: os.path.abspath(
+#     os.path.join(os.path.dirname(__file__), p)
+# )
 
 base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))))
 # base_dir = base_dir.replace('\\', '/')

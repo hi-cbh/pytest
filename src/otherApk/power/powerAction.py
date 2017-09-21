@@ -1,8 +1,8 @@
 # urs/bin/python
 # encoding:utf-8
 import time
-from base.baseAdb import BaseAdb as ba
-from base.baseConversion import BaseConversion as bc
+from src.base.baseAdb import BaseAdb as ba
+from src.base.baseConversion import BaseConversion as bc
 class PowerAction(object):
     
     def __init__(self, driver):

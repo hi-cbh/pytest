@@ -2,9 +2,11 @@
 # encoding:utf-8
 
 import time
-from base.baseAdb import BaseAdb
-from base.baseFile import BaseFile
-from otherApk.gt.gtutil import GTTest
+from src.base.baseAdb import BaseAdb
+from src.base.baseFile import BaseFile
+from src.otherApk.gt.gtutil import GTTest
+
+
 class Send(object):
     
     def __init__(self,driver, username):
