@@ -3,10 +3,10 @@
 
 import unittest,os,sys
 
-p = os.path.abspath(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+p = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 print("path: %s" %p)
 
-sys.path.append(p+r"/")
+sys.path.append(p+"/")
 
 from src.testcase.v722.easytimedelay import Timedelay
 from src.testcase.v722.peakValue import PeakValue
