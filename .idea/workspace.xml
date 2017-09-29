@@ -2,71 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c0d3c22-cde7-491b-a9c7-c468eb3cb69d" name="Default" comment="在MAC中运行">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/beetstra/jutf7/Base64Util.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/beetstra/jutf7/CharsetProvider.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/beetstra/jutf7/ModifiedUTF7Charset.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/beetstra/jutf7/UTF7Charset.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/beetstra/jutf7/UTF7StyleCharset.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/beetstra/jutf7/UTF7StyleCharsetDecoder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/beetstra/jutf7/UTF7StyleCharsetEncoder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/donot/change/By.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/donot/change/UiAutomatorHelper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/gt/model/GTAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/gt/util/GTTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/gt/util/GTUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/gt/util/GetCSVData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/gt/util/StartTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/gt/util/StopTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/gt/util/TestDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/mail/mode/power/PowerAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/mail/mode/ws360/FlowRecord360Action.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/mail/pageobject/power/PowerPageObject.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/mail/pageobject/ws360/WS360PageObject.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/cmp/EditText.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/cmp/Layout.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/cmp/ListView.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/data/UserConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/error/WatcherError$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/error/WatcherError$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/error/WatcherError.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/log/MyLogcatHelper$LogDumper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/log/MyLogcatHelper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/log/UiautomatorAssistant.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/CopyOfOpenMail.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/Demo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/KillMail.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/MailDown.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/OpenMail.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/OpenMail01.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/Pic.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/PowerFlowCpuMen.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/SendEmail.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/installApk.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/installApk2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/installApkVivo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/AssertUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/CommonUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/DriverManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/Ele.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/FileManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/FileSizeUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/ImageManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/TestListenerManager$listener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/TestListenerManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/TimeUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UiautomatorIdea/helper/Utf7ImeHelper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jxl.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UiauomatorIntellijIdea/UiauomatorIntellijIdea.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bat/startappium.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bat/stopappium.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/2017-09-22 17_12_41_result.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/2017-09-23 10_27_24_result.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/2017-09-23 10_49_56_result.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runlog.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testcase/HTMLTestRunner.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testcase/v722/firstLogin.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UiauomatorIntellijIdea/UiauomatorIntellijIdea.iml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-04_18-29-55/Pcp0_cn.cj.pe_20170904183111.csv" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-04_18-29-55/Pcp1_cn.cj.pe_richpush_20170904183111.csv" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-04_18-29-55/Pcp2_cn.cj.pe_monitorService_20170904183111.csv" afterPath="" />
@@ -81,26 +17,60 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-19_15-39-45/Pr1_cn.cj.pe_monitorService_20170919153912.csv" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-19_15-39-45/Pr2_cn.cj.pe_richpush_20170919153912.csv" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-19_15-39-45/gtdesc_20170919153914.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/testcase/v722/timedelay.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/beetstra/jutf7/Base64Util.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/beetstra/jutf7/CharsetProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/beetstra/jutf7/ModifiedUTF7Charset.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/beetstra/jutf7/UTF7Charset.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/beetstra/jutf7/UTF7StyleCharset.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/beetstra/jutf7/UTF7StyleCharsetDecoder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/beetstra/jutf7/UTF7StyleCharsetEncoder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/donot/change/By.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/donot/change/UiAutomatorHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/gt/model/GTAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/gt/util/GTTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/gt/util/GTUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/gt/util/GetCSVData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/gt/util/StartTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/gt/util/StopTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/gt/util/TestDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/mail/mode/power/PowerAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/mail/mode/ws360/FlowRecord360Action.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/mail/pageobject/power/PowerPageObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/mail/pageobject/ws360/WS360PageObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/cmp/EditText.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/cmp/Layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/cmp/ListView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/data/UserConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/error/WatcherError$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/error/WatcherError$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/error/WatcherError.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/log/MyLogcatHelper$LogDumper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/log/MyLogcatHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/log/UiautomatorAssistant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/CopyOfOpenMail.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/Demo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/KillMail.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/MailDown.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/OpenMail.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/OpenMail01.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/Pic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/PowerFlowCpuMen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/SendEmail.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/installApk.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/installApk2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/installApkVivo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/AssertUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/CommonUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/DriverManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/Ele.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/FileManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/FileSizeUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/ImageManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/TestListenerManager$listener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/TestListenerManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/TimeUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/helper/Utf7ImeHelper.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/aserver/AppiumServer.py" afterPath="$PROJECT_DIR$/src/aserver/AppiumServer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/base/baseAdb.py" afterPath="$PROJECT_DIR$/src/base/baseAdb.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" afterPath="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/otherApk/record360/flowRecord.py" afterPath="$PROJECT_DIR$/src/otherApk/record360/flowRecord.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/psam/psam.py" afterPath="$PROJECT_DIR$/src/psam/psam.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/runTest_v722.py" afterPath="$PROJECT_DIR$/src/testcase/runTest_v722.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/brushFlow.py" afterPath="$PROJECT_DIR$/src/testcase/v722/brushFlow.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/easycase/login.py" afterPath="$PROJECT_DIR$/src/testcase/v722/easycase/login.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/easycase/openDown.py" afterPath="$PROJECT_DIR$/src/testcase/v722/easycase/openDown.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/easycase/receive.py" afterPath="$PROJECT_DIR$/src/testcase/v722/easycase/receive.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/easycase/send.py" afterPath="$PROJECT_DIR$/src/testcase/v722/easycase/send.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/easytimedelay.py" afterPath="$PROJECT_DIR$/src/testcase/v722/easytimedelay.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/loginFlow.py" afterPath="$PROJECT_DIR$/src/testcase/v722/loginFlow.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/peakValue.py" afterPath="$PROJECT_DIR$/src/testcase/v722/peakValue.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/standByFlowPowerMem.py" afterPath="$PROJECT_DIR$/src/testcase/v722/standByFlowPowerMem.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/user_db.ini" afterPath="$PROJECT_DIR$/src/user_db.ini" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -236,8 +206,8 @@
       <file leaf-file-name="firstLogin.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/testcase/v722/firstLogin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="124" column="26" lean-forward="false" selection-start-line="124" selection-start-column="26" selection-end-line="124" selection-end-column="26" />
+            <state relative-caret-position="190">
+              <caret line="110" column="21" lean-forward="false" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
               <folding>
                 <element signature="e#34#61#0" expanded="true" />
               </folding>
@@ -463,37 +433,6 @@
               <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
               <item name="pytest" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytest" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-              <item name="v722" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-              <item name="v722" type="462c0819:PsiDirectoryNode" />
-              <item name="easycase" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -507,7 +446,7 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="/usr/local/Cellar/python3/3.6.2/bin/python3.6" />
@@ -629,6 +568,57 @@
       <module name="" />
       <envs />
     </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UiauomatorIntellijIdea" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UiauomatorIntellijIdea" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UiauomatorIntellijIdea" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -649,11 +639,70 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="UiauomatorIntellijIdea" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UiauomatorIntellijIdea" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UiauomatorIntellijIdea" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UiauomatorIntellijIdea" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -688,6 +737,49 @@
       <envs />
       <properties />
       <listeners />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="UiauomatorIntellijIdea" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UiauomatorIntellijIdea" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UiauomatorIntellijIdea" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="demo2" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -781,7 +873,7 @@
       <workItem from="1506567180659" duration="6451000" />
       <workItem from="1506591534812" duration="2855000" />
       <workItem from="1506595033104" duration="609000" />
-      <workItem from="1506649902797" duration="589000" />
+      <workItem from="1506649902797" duration="1047000" />
     </task>
     <task id="LOCAL-00001" summary="在MAC中运行">
       <created>1505833150284</created>
@@ -818,7 +910,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505986606528</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="添加启动处理APP及辅助工具">
+      <created>1506651086006</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1506651086007</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -854,7 +953,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126555000" />
+    <option name="totallyTimeSpent" value="127013000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -943,7 +1042,8 @@
     <MESSAGE value="在MAC中运行" />
     <MESSAGE value="测试是否能运行" />
     <MESSAGE value="修改运行路径" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改运行路径" />
+    <MESSAGE value="添加启动处理APP及辅助工具" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加启动处理APP及辅助工具" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1324,8 +1424,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/v722/firstLogin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="124" column="26" lean-forward="false" selection-start-line="124" selection-start-column="26" selection-end-line="124" selection-end-column="26" />
+        <state relative-caret-position="190">
+          <caret line="110" column="21" lean-forward="false" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
           <folding>
             <element signature="e#34#61#0" expanded="true" />
           </folding>
@@ -1385,11 +1485,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>UiautomatorIdea</last-edited>
+          <last-edited>UiauomatorIntellijIdea</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
