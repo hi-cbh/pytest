@@ -56,7 +56,7 @@ class AppiumServer:
             if response:
                 response.close()
 
-'''方式1：启动appium'''
+'''方式1：windows环境启动appium'''
 class AppiumServer2:
     def __init__(self):
         global openAppium, baseUrl
@@ -79,7 +79,22 @@ class AppiumServer2:
         p = Process(target=t1.start())
         p.start()
 
+class AppiumServer3():
+    '''mac环境'''
 
+    def __init__(self):
+        pass
+
+    def start_server(self):
+        t1 = RunServer(r"open -a Terminal.app /Users/apple/git/pytest/bat/startappium.sh")
+        p = Process(target=t1.start())
+        p.start()
+
+    def stop_server(self):
+        sh = r"open -a Terminal.app /Users/apple/git/pytest/bat/stopappium.sh"
+        t1 = RunServer(sh)
+        p = Process(target=t1.start())
+        p.start()
 
 
 class RunServer(threading.Thread):
@@ -94,7 +109,7 @@ class RunServer(threading.Thread):
 
 if __name__ == "__main__":
 
-    oo = AppiumServer2()
+    oo = AppiumServer3()
     oo.start_server()
     print("start server")
     print("running server")

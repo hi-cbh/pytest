@@ -1,0 +1,498 @@
+adb: error: cannot stat '"/Users/apple/git/pytest\bin\installApk.jar"': No such file or directory
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.uitest.testdemo.installApk:
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testEmail
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.installApk
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+can not find vivo:id/vivo_adb_install_app_name !
+can not find vivo:id/vivo_adb_install_app_name !
+can not find vivo:id/vivo_adb_install_app_name !
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testEmail
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.installApk
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=
+Test results for WatcherResultPrinter=.
+Time: 40.864
+
+OK (1 test)
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+adb: error: cannot stat '"/Users/apple/git/pytest\bin\installApk2.jar"': No such file or directory
+Error: /data/local/tmp/installApk2.jar does not exist
+Usage: uiautomator <subcommand> [options]
+
+Available subcommands:
+
+help: displays help message
+
+runtest: executes UI automation tests
+    runtest <class spec> [options]
+    <class spec>: <JARS> < -c <CLASSES> | -e class <CLASSES> >
+      <JARS>: a list of jar files containing test classes and dependencies. If
+        the path is relative, it's assumed to be under /data/local/tmp. Use
+        absolute path if the file is elsewhere. Multiple files can be
+        specified, separated by space.
+      <CLASSES>: a list of test class names to run, separated by comma. To
+        a single method, use TestClass#testMethod format. The -e or -c option
+        may be repeated. This option is not required and if not provided then
+        all the tests in provided jars will be run automatically.
+    options:
+      --nohup: trap SIG_HUP, so test won't terminate even if parent process
+               is terminated, e.g. USB is disconnected.
+      -e debug [true|false]: wait for debugger to connect before starting.
+      -e runner [CLASS]: use specified test runner class instead. If
+        unspecified, framework default runner will be used.
+      -e <NAME> <VALUE>: other name-value pairs to be passed to test classes.
+        May be repeated.
+      -e outputFormat simple | -s: enabled less verbose JUnit style output.
+
+dump: creates an XML dump of current UI hierarchy
+    dump [--verbose][file]
+      [--compressed]: dumps compressed layout information.
+      [file]: the location where the dumped XML should be stored, default is
+      /sdcard/window_dump.xml
+
+events: prints out accessibility events until terminated
+
+adb: error: cannot stat '"/Users/apple/git/pytest\bin\installApk2.jar"': No such file or directory
+Error: /data/local/tmp/installApk2.jar does not exist
+Usage: uiautomator <subcommand> [options]
+
+Available subcommands:
+
+help: displays help message
+
+runtest: executes UI automation tests
+    runtest <class spec> [options]
+    <class spec>: <JARS> < -c <CLASSES> | -e class <CLASSES> >
+      <JARS>: a list of jar files containing test classes and dependencies. If
+        the path is relative, it's assumed to be under /data/local/tmp. Use
+        absolute path if the file is elsewhere. Multiple files can be
+        specified, separated by space.
+      <CLASSES>: a list of test class names to run, separated by comma. To
+        a single method, use TestClass#testMethod format. The -e or -c option
+        may be repeated. This option is not required and if not provided then
+        all the tests in provided jars will be run automatically.
+    options:
+      --nohup: trap SIG_HUP, so test won't terminate even if parent process
+               is terminated, e.g. USB is disconnected.
+      -e debug [true|false]: wait for debugger to connect before starting.
+      -e runner [CLASS]: use specified test runner class instead. If
+        unspecified, framework default runner will be used.
+      -e <NAME> <VALUE>: other name-value pairs to be passed to test classes.
+        May be repeated.
+      -e outputFormat simple | -s: enabled less verbose JUnit style output.
+
+dump: creates an XML dump of current UI hierarchy
+    dump [--verbose][file]
+      [--compressed]: dumps compressed layout information.
+      [file]: the location where the dumped XML should be stored, default is
+      /sdcard/window_dump.xml
+
+events: prints out accessibility events until terminated
+
+adb: error: cannot stat '"/Users/apple/git/pytest\bin\installApk2.jar"': No such file or directory
+Error: /data/local/tmp/installApk2.jar does not exist
+Usage: uiautomator <subcommand> [options]
+
+Available subcommands:
+
+help: displays help message
+
+runtest: executes UI automation tests
+    runtest <class spec> [options]
+    <class spec>: <JARS> < -c <CLASSES> | -e class <CLASSES> >
+      <JARS>: a list of jar files containing test classes and dependencies. If
+        the path is relative, it's assumed to be under /data/local/tmp. Use
+        absolute path if the file is elsewhere. Multiple files can be
+        specified, separated by space.
+      <CLASSES>: a list of test class names to run, separated by comma. To
+        a single method, use TestClass#testMethod format. The -e or -c option
+        may be repeated. This option is not required and if not provided then
+        all the tests in provided jars will be run automatically.
+    options:
+      --nohup: trap SIG_HUP, so test won't terminate even if parent process
+               is terminated, e.g. USB is disconnected.
+      -e debug [true|false]: wait for debugger to connect before starting.
+      -e runner [CLASS]: use specified test runner class instead. If
+        unspecified, framework default runner will be used.
+      -e <NAME> <VALUE>: other name-value pairs to be passed to test classes.
+        May be repeated.
+      -e outputFormat simple | -s: enabled less verbose JUnit style output.
+
+dump: creates an XML dump of current UI hierarchy
+    dump [--verbose][file]
+      [--compressed]: dumps compressed layout information.
+      [file]: the location where the dumped XML should be stored, default is
+      /sdcard/window_dump.xml
+
+events: prints out accessibility events until terminated
+
+adb: error: failed to get feature set: no devices/emulators found
+error: no devices/emulators found
+adb: error: failed to get feature set: no devices/emulators found
+error: no devices/emulators found
+Error: java.io.FileNotFoundException: "/Users/apple/git/pytest"/local.properties (No such file or directory)
+adb: error: failed to get feature set: no devices/emulators found
+error: no devices/emulators found
+Error: java.io.FileNotFoundException: "/Users/apple/git/pytest"/local.properties (No such file or directory)
+adb: error: failed to get feature set: no devices/emulators found
+error: no devices/emulators found
+Error: java.io.FileNotFoundException: "/Users/apple/git/pytest"/local.properties (No such file or directory)
+adb: error: failed to get feature set: no devices/emulators found
+error: no devices/emulators found
+Error: java.io.FileNotFoundException: "/Users/apple/git/pytest"/local.properties (No such file or directory)
+adb: error: failed to get feature set: no devices/emulators found
+error: no devices/emulators found
+Error: java.io.FileNotFoundException: "/Users/apple/git/pytest"/local.properties (No such file or directory)
+adb: error: failed to get feature set: no devices/emulators found
+error: no devices/emulators found
+Error: java.io.FileNotFoundException: "/Users/apple/git/pytest"/local.properties (No such file or directory)
+adb: error: failed to get feature set: no devices/emulators found
+error: no devices/emulators found
+Error: java.io.FileNotFoundException: "/Users/apple/git/pytest"/local.properties (No such file or directory)
+adb: error: failed to get feature set: no devices/emulators found
+error: no devices/emulators found
+Error: java.io.FileNotFoundException: "/Users/apple/git/pytest"/local.properties (No such file or directory)
+adb: error: failed to get feature set: no devices/emulators found
+error: no devices/emulators found
+Error: java.io.FileNotFoundException: "/Users/apple/git/pytest"/local.properties (No such file or directory)
+adb: error: failed to get feature set: no devices/emulators found
+error: no devices/emulators found
+Error: java.io.FileNotFoundException: "/Users/apple/git/pytest"/local.properties (No such file or directory)
+adb: error: failed to get feature set: no devices/emulators found
+error: no devices/emulators found
+Error: java.io.FileNotFoundException: "/Users/apple/git/pytest"/local.properties (No such file or directory)
+Error: java.io.FileNotFoundException: "/Users/apple/autoTest/workspace/UiautomatorRunProject"/local.properties (No such file or directory)
+adb: error: failed to get feature set: no devices/emulators found
+error: no devices/emulators found
+Error: java.io.FileNotFoundException: "/Users/apple/autoTest/workspace/UiautomatorRunProject/"/local.properties (No such file or directory)
+adb: error: failed to get feature set: no devices/emulators found
+error: no devices/emulators found
+Error: java.io.FileNotFoundException: "/Users/apple/autoTest/workspace/UiautomatorRunProject/"/local.properties (No such file or directory)
+adb: error: failed to get feature set: no devices/emulators found
+error: no devices/emulators found
+Error: java.io.FileNotFoundException: "/Users/apple/autoTest/workspace/UiautomatorRunProject/"/local.properties (No such file or directory)
+adb: error: failed to get feature set: no devices/emulators found
+error: no devices/emulators found
+Error: java.io.FileNotFoundException: "/Users/apple/autoTest/workspace/UiautomatorRunProject"/local.properties (No such file or directory)
+adb: error: failed to get feature set: no devices/emulators found
+error: no devices/emulators found
+Updated file /Users/apple/autoTest/workspace/UiautomatorRunProject/build.xml
+adb: error: cannot stat '"/Users/apple/autoTest/workspace/UiautomatorRunProject/bin/installApk.jar"': No such file or directory
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.uitest.testdemo.installApk:
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testEmail
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.installApk
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+can not find vivo:id/vivo_adb_install_app_name !
+can not find vivo:id/vivo_adb_install_app_name !
+can not find vivo:id/vivo_adb_install_app_name !
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testEmail
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.installApk
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=
+Test results for WatcherResultPrinter=.
+Time: 41.038
+
+OK (1 test)
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+Updated file /Users/apple/autoTest/workspace/UiautomatorRunProject/build.xml
+adb: error: cannot stat '"/Users/apple/autoTest/workspace/UiautomatorRunProject/bin/installApk.jar"': No such file or directory
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.uitest.testdemo.installApk:
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testEmail
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.installApk
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+Updated file /Users/apple/autoTest/workspace/UiautomatorRunProject/build.xml
+adb: error: failed to get feature set: no devices/emulators found
+error: no devices/emulators found
+Updated file /Users/apple/autoTest/workspace/UiautomatorRunProject/build.xml
+adb: error: failed to get feature set: no devices/emulators found
+error: no devices/emulators found
+Updated file /Users/apple/autoTest/workspace/UiautomatorRunProject/build.xml
+adb: error: failed to get feature set: no devices/emulators found
+error: no devices/emulators found
+Updated file /Users/apple/autoTest/workspace/UiautomatorRunProject/build.xml
+adb: error: failed to get feature set: no devices/emulators found
+error: no devices/emulators found
+Updated file /Users/apple/autoTest/workspace/UiautomatorRunProject/build.xml
+adb: error: failed to get feature set: no devices/emulators found
+error: no devices/emulators found
+Updated file /Users/apple/autoTest/workspace/UiautomatorRunProject/build.xml
+adb: error: failed to get feature set: no devices/emulators found
+error: no devices/emulators found
+Updated file /Users/apple/autoTest/workspace/UiautomatorRunProject/build.xml
+adb: error: cannot stat '"/Users/apple/autoTest/workspace/UiautomatorRunProject/bin/installApk.jar"': No such file or directory
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.uitest.testdemo.installApk:
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testEmail
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.installApk
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+can not find vivo:id/vivo_adb_install_app_name !
+can not find vivo:id/vivo_adb_install_app_name !
+can not find vivo:id/vivo_adb_install_app_name !
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testEmail
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.installApk
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=
+Test results for WatcherResultPrinter=.
+Time: 40.058
+
+OK (1 test)
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+Updated file /Users/apple/autoTest/workspace/UiautomatorRunProject/build.xml
+adb: error: cannot stat '"/Users/apple/autoTest/workspace/UiautomatorRunProject/bin/installApk.jar"': No such file or directory
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.uitest.testdemo.installApk:
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testEmail
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.installApk
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+can not find vivo:id/vivo_adb_install_app_name !
+can not find vivo:id/vivo_adb_install_app_name !
+can not find vivo:id/vivo_adb_install_app_name !
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testEmail
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.installApk
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=
+Test results for WatcherResultPrinter=.
+Time: 39.972
+
+OK (1 test)
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+Updated file /Users/apple/autoTest/workspace/UiautomatorRunProject/build.xml
+adb: error: cannot stat '"/Users/apple/autoTest/workspace/UiautomatorRunProject/bin/installApk.jar"': No such file or directory
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.uitest.testdemo.installApk:
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testEmail
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.installApk
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+can not find vivo:id/vivo_adb_install_app_name !
+can not find vivo:id/vivo_adb_install_app_name !
+can not find vivo:id/vivo_adb_install_app_name !
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testEmail
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.installApk
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=
+Test results for WatcherResultPrinter=.
+Time: 40.081
+
+OK (1 test)
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+Updated file /Users/apple/autoTest/workspace/UiautomatorRunProject/build.xml
+adb: error: cannot stat '"/Users/apple/autoTest/workspace/UiautomatorRunProject/bin/installApk.jar"': No such file or directory
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.uitest.testdemo.installApk:
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testEmail
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.installApk
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+can not find vivo:id/vivo_adb_install_app_name !
+can not find vivo:id/vivo_adb_install_app_name !
+can not find vivo:id/vivo_adb_install_app_name !
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testEmail
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.installApk
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=
+Test results for WatcherResultPrinter=.
+Time: 40.195
+
+OK (1 test)
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+Updated file /Users/apple/autoTest/workspace/UiautomatorRunProject/build.xml
+adb: error: cannot stat '"/Users/apple/autoTest/workspace/UiautomatorRunProject/bin/installApk.jar"': No such file or directory
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.uitest.testdemo.installApk:
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testEmail
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.installApk
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+can not find vivo:id/vivo_adb_install_app_name !
+can not find vivo:id/vivo_adb_install_app_name !
+can not find vivo:id/vivo_adb_install_app_name !
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testEmail
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.installApk
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=
+Test results for WatcherResultPrinter=.
+Time: 40.086
+
+OK (1 test)
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+Updated file /Users/apple/autoTest/workspace/UiautomatorRunProject/build.xml
+sudo: no tty present and no askpass program specified
+adb: error: cannot stat '"/Users/apple/autoTest/workspace/UiautomatorRunProject/bin/installApk.jar"': No such file or directory
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.uitest.testdemo.installApk:
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testEmail
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.installApk
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+can not find vivo:id/vivo_adb_install_app_name !
+can not find vivo:id/vivo_adb_install_app_name !
+can not find vivo:id/vivo_adb_install_app_name !
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testEmail
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.installApk
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=
+Test results for WatcherResultPrinter=.
+Time: 40.062
+
+OK (1 test)
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+Updated file /Users/apple/autoTest/workspace/UiautomatorRunProject/build.xml
+adb: error: cannot stat '"/Users/apple/autoTest/workspace/UiautomatorRunProject/bin/installApk.jar"': No such file or directory
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.uitest.testdemo.installApk:
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testEmail
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.installApk
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+can not find vivo:id/vivo_adb_install_app_name !
+can not find vivo:id/vivo_adb_install_app_name !
+Updated file /Users/apple/autoTest/workspace/UiautomatorRunProject/build.xml
+What? Buildfile: build.xml is a dir!
+Build failed
+adb: error: cannot stat '"/Users/apple/autoTest/workspace/UiautomatorRunProject/bin/installApk.jar"': No such file or directory
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.uitest.testdemo.installApk:
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testEmail
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.installApk
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+can not find vivo:id/vivo_adb_install_app_name !
+can not find vivo:id/vivo_adb_install_app_name !
+can not find vivo:id/vivo_adb_install_app_name !
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testEmail
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.installApk
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=
+Test results for WatcherResultPrinter=.
+Time: 39.981
+
+OK (1 test)
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+Updated file /Users/apple/autoTest/workspace/UiautomatorRunProject/build.xml
+What? Buildfile: build.xml is a dir!
+Build failed
+adb: error: cannot stat '"/Users/apple/autoTest/workspace/UiautomatorRunProject/bin/installApk.jar"': No such file or directory
+Updated file /Users/apple/autoTest/workspace/UiautomatorRunProject/build.xml
+What? Buildfile: build.xml is a dir!
+Build failed
+[100%] /data/local/tmp/installApk.jar
+/Users/apple/autoTest/workspace/UiautomatorRunProject/bin/installApk.jar: 1 file pushed. 1.3 MB/s (36958 bytes in 0.028s)
+INSTRUMENTATION_RESULT: shortMsg=java.lang.IllegalStateException
+INSTRUMENTATION_RESULT: longMsg=UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@851ecc7already registered!
+INSTRUMENTATION_CODE: 0
+Updated file /Users/apple/autoTest/workspace/UiautomatorRunProject/build.xml
+What? Buildfile: build.xml is a dir!
+Build failed
+[100%] /data/local/tmp/installApk.jar
+/Users/apple/autoTest/workspace/UiautomatorRunProject/bin/installApk.jar: 1 file pushed. 0.9 MB/s (36958 bytes in 0.040s)
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.uitest.testdemo.installApk:
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testEmail
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.installApk
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+can not find vivo:id/vivo_adb_install_app_name !
+can not find vivo:id/vivo_adb_install_app_name !
+can not find vivo:id/vivo_adb_install_app_name !
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testEmail
+INSTRUMENTATION_STATUS: class=com.uitest.testdemo.installApk
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=
+Test results for WatcherResultPrinter=.
+Time: 40.003
+
+OK (1 test)
+
+
+INSTRUMENTATION_STATUS_CODE: -1

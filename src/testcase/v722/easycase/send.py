@@ -13,7 +13,7 @@ class Send(object):
         self.username = username
         self.driver = driver
         
-    def sendActionPeakValue(self):
+    def sendActionPeakValue(self, firstLogin=False):
         '''记录CPU、MEM'''
         width = self.driver.get_window_size()['width']
         try:
@@ -53,7 +53,7 @@ class Send(object):
             el = self.driver.get_element("id=>cn.cj.pe:id/txt_send")
             BaseAdb.adbBroadcast()
             el.click()
-            
+
             print('等待文件更新')
             bl = BaseFile.waitForFileModify(30)
             time.sleep(3)

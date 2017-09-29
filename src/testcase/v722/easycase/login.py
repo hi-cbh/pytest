@@ -12,12 +12,22 @@ class Login(object):
         self.pwd = pwd
         self.driver = driver
         
-    def loginAction(self):
+    def loginAction(self, firstLogin=False):
         '''最基础的登录'''
-
         self.driver.reset()
-        
-        time.sleep(8)
+
+        time.sleep(4)
+
+        if firstLogin == True:
+            self.driver.click(u"name=>允许")
+            time.sleep(4)
+
+        self.driver.swipeRight()
+        self.driver.swipeRight()
+        self.driver.swipeRight()
+        # self.driver.swipeRight()
+        BaseAdb.adbTap(700, 2200)
+        time.sleep(4)
         
         print('=>选择139邮箱')
         self.driver.click(r"xpath=>//android.widget.ImageView[@index='0']")
@@ -38,17 +48,23 @@ class Login(object):
          
         print('=>点击登录')
         loginButton = self.driver.get_element("id=>cn.cj.pe:id/login")
-         
+
         print('=>记录当前时间、点击登录')
         start = time.time()
         loginButton.click()
-         
+
+        if firstLogin == True:
+            self.driver.click(u"name=>允许")
+            time.sleep(1)
+
+
         print('=>等待体验按钮出现，并记录当前时间')
-        self.driver.get_element("id=>cn.cj.pe:id/submit")
+        self.driver.get_element("id=>cn.cj.pe:id/message_list_bottom_email")
+        # self.driver.get_element("id=>cn.cj.pe:id/submit")
         end = time.time()
         
-        print('=>点击体验按钮')
-        self.driver.click("id=>cn.cj.pe:id/submit")
+        # print('=>点击体验按钮')
+        # self.driver.click("id=>cn.cj.pe:id/submit")
          
         valueTime = str(round((end - start), 2))
         print('[登录时延]: %r'  %valueTime)

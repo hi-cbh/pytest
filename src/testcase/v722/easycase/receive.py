@@ -21,7 +21,7 @@ class WebReceive(object):
         try:
             driver = Pyse("chrome")
             # driver.implicitly_wait() # 添加了隐式等待，去除time.sleep显示等待
-            driver.max_window()
+            # driver.max_window()
             driver.open("http://mail.10086.cn/")
             
             time.sleep(3)

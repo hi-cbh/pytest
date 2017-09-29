@@ -28,10 +28,16 @@ class FlowRecord360Action(object):
         self.driver.click(r"id=>com.qihoo360.mobilesafe:id/btn_privacy_confirm")
        
         # 点击左按钮
-        if self.driver.element_wait(r"id=>com.qihoo360.mobilesafe:id/common_btn_left") != None:
+        if self.driver.element_wait(r"id=>com.qihoo360.mobilesafe:id/common_btn_left",5) != None:
             self.driver.click(r"id=>com.qihoo360.mobilesafe:id/common_btn_left")
-       
-#         time.sleep(2)
+
+        # 点击左按钮
+        if self.driver.element_wait(r"id=>com.qihoo360.mobilesafe:id/common_btn_left",5) != None:
+            self.driver.click(r"id=>com.qihoo360.mobilesafe:id/common_btn_left")
+
+
+
+        #         time.sleep(2)
         
         self.closeSuspension()
         
@@ -59,42 +65,51 @@ class FlowRecord360Action(object):
         time.sleep(1)
     
     def executeRecord(self, findtxt, network, isImage,isClear=True):
-        '''记录流量值,添加是否截图参数，记录后清除数据'''
-        BaseAdb.adbStartApp("com.qihoo360.mobilesafe",
-                "com.qihoo360.mobilesafe.ui.index.AppEnterActivity")
-        
-        # 点击话费与流量
-        self.driver.click(u"name=>话费•流量")
-        # 点击软件流量管理
-        self.driver.click(u"name=>软件流量管理")
-        
-        self.clickFlowStype()
-        
-        self.clickNetWork(network)
-        
-        if isImage:
-            BaseImage.screenshot(self.driver, "FlowPic")
-        
-        print("获取流量值：")
-        strflowtotal = self.getFlowMessage(findtxt)
-        
-        time.sleep(2)
-        BaseAdb.adbBack()
+        try:
+            '''记录流量值,添加是否截图参数，记录后清除数据'''
+            BaseAdb.adbStartApp("com.qihoo360.mobilesafe",
+                    "com.qihoo360.mobilesafe.ui.index.AppEnterActivity")
 
-        if isClear:
-            # 点击设置按钮
-            self.driver.click(r"id=>com.qihoo360.mobilesafe:id/common_img_setting")
-            
-            self.clickClearButton()
-        
+            time.sleep(5)
+
+            # 点击话费与流量
+            self.driver.click(u"id=>com.qihoo360.mobilesafe:id/exam_selected_tool_item_2")
+            # 点击软件流量管理
+            self.driver.click(u"name=>软件流量管理")
+
+            self.clickFlowStype()
+
+            self.clickNetWork(network)
+
+            if isImage:
+                BaseImage.screenshot(self.driver, "FlowPic")
+
+            print("获取流量值：")
+            strflowtotal = self.getFlowMessage(findtxt)
+
             time.sleep(2)
             BaseAdb.adbBack()
-            
-        BaseAdb.adbBack()
-        BaseAdb.adbHome()
-        time.sleep(1)
-        return strflowtotal
-    
+
+            if isClear:
+                # 点击设置按钮
+                self.driver.click(r"id=>com.qihoo360.mobilesafe:id/common_img_setting")
+
+                self.clickClearButton()
+
+                time.sleep(2)
+                BaseAdb.adbBack()
+
+            BaseAdb.adbBack()
+            BaseAdb.adbHome()
+            time.sleep(1)
+            return strflowtotal
+        except BaseException as e:
+            print("记录数据出错了")
+            BaseAdb.adbBack()
+            BaseAdb.adbBack()
+            BaseAdb.adbHome()
+            time.sleep(1)
+            return None
     
     def clickFlowStype(self):
         '''点击 监控消耗类型'''

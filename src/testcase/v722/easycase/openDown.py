@@ -75,6 +75,7 @@ class OpenDown(object):
             print('[下载附件时延]: %r'  %valueTime)
             print('=>返回收件箱')
             BaseAdb.adbBack()
+            BaseAdb.adbBack()
             time.sleep(2)
             return valueTime
         except BaseException:

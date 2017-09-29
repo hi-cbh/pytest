@@ -72,7 +72,7 @@ class LoginFlow(unittest.TestCase):
             network = BaseAdb.getNetworkType()
             print('当前网络状态：%s' %network)
             
-            runtimes = 2
+            runtimes = 3
             for x in range(1,runtimes):
                 print("运行首次等次数：%d" %x)
                 try:

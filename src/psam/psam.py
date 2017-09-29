@@ -16,7 +16,7 @@ class Psam(object):
         desired_caps['deviceName'] = 'android'
         desired_caps['appPackage'] = 'cn.cj.pe'
         desired_caps['appActivity'] = 'com.mail139.about.LaunchActivity'
-        desired_caps['newCommandTimeout'] = '360'
+        desired_caps['newCommandTimeout'] = 7200
         desired_caps["unicodeKeyboard"] = "True"
         desired_caps["resetKeyboard"] = "True"
         self.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
@@ -245,6 +245,14 @@ class Psam(object):
         self.driver.swipe(width / 5, height / 5, width / 5, height * 4 / 5,
                 500);
         time.sleep(2);
+
+    def swipeRight(self):
+        '''向右滑动'''
+        width = self.driver.get_window_size()['width']
+        height = self.driver.get_window_size()['height']
+        self.driver.swipe(width - 50, height / 2, 50, height /2 ,
+                          500);
+        time.sleep(1);
 
     def get_window_size(self):
         width = self.driver.get_window_size()['width']

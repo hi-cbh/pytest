@@ -3,18 +3,23 @@
 
 import os
 import time
+import sys
+
+sys.path.append(r"/Users/apple/git/pytest/")
+
 from src.base.baseAdb import BaseAdb
 from src.base.baseTime import BaseTime
 from src.otherApk.gt.csvData import GetCSVData
+
 #
 # PATH = lambda p: os.path.abspath(
 #     os.path.join(os.path.dirname(__file__), p)
 # )
 
-base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))))
+base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
 # base_dir = base_dir.replace('\\', '/')
 PCpath = base_dir + "/logs/"
-print(PCpath)
+print("PC: %s" %PCpath)
 
 
 
@@ -60,7 +65,9 @@ class GTTest(object):
         print(remote)
         time.sleep(2)
 
-        BaseAdb.adbPull(remote ,PCpath+filename+r"/")
+        print("PC: %s" %PCpath)
+        # os.mkdir(PCpath)
+        BaseAdb.adbPull(remote ,PCpath)
         time.sleep(2)
         ls = []
         d = GetCSVData(PCpath+filename+r"/", 'cn.cj.pe')

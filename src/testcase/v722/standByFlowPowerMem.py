@@ -16,7 +16,7 @@ from src.testcase.v722.easycase.login import Login
 from src.testcase.v722.easycase.public import PublicUtil as pu
 from src.base.baseTime import BaseTime
 from src.db.sqlhelper import SQLHelper
-
+from src.testcase.v722.easycase.receive import WebReceive
 # PATH = lambda p:os.path.abspath(
 #     os.path.join(os.path.dirname(__file__),p)
 #     )
@@ -68,6 +68,12 @@ class StandByFlowPowerMem(unittest.TestCase):
         gt = GTTest("cn.cj.pe")
         pa = PowerAction(self.driver)
 
+        debug = False
+
+        if debug:
+            print("debug模式.......")
+        else:
+            print("正式环境测试")
         try:
              
             login=Login(self.driver,username, pwd)
@@ -75,29 +81,43 @@ class StandByFlowPowerMem(unittest.TestCase):
             print('等待5秒，预防没有弹窗出现邮件')
             pu.loadEmail(self.driver)
             
+
             BaseAdb.adbStop(appPackage)
             time.sleep(5)
             BaseAdb.adbStartApp(appPackage, appActivity)
             time.sleep(3)
             BaseAdb.adbHome()
             time.sleep(3)
-             
-            print("静等待5分钟.....")
-            for t in range(1,2):
-                print(u"等待分钟: %d" %t)
-                time.sleep(1*60)
-            
+
+            if debug:
+                print("静等待1分钟.....")
+                for t in range(1,2):
+                    print(u"等待分钟: %d" %t)
+                    time.sleep(1*60)
+            else:
+                print("静等待5分钟.....")
+                for t in range(1,6):
+                    print(u"等待分钟: %d" %t)
+                    time.sleep(1*60)
+
             print("准备测试环境.....")
             print("do something")
             fw.executePreset()
             gt.startGT()
             pa.executePreset()
-            
-            print("静等待28分钟.....")
-            for t in range(1,2):
-                print(u"等待分钟: %d" %t)
-                time.sleep(1*60)
-            
+
+
+            if debug:
+                print("静等待2分钟.....")
+                for t in range(1,2):
+                    print(u"等待分钟: %d" %t)
+                    time.sleep(1*60)
+            else:
+                print("静等待28分钟.....")
+                for t in range(1,29):
+                    print(u"等待分钟: %d" %t)
+                    time.sleep(1*60)
+
             print("开始记录......")
             flow = fw.executeRecord(u"139邮箱", network, False,False)
             time.sleep(5)
@@ -114,7 +134,10 @@ class StandByFlowPowerMem(unittest.TestCase):
 
             print("发送邮件......")
             for i in range(3):
-                BaseAdb.adbShell("adb shell am broadcast -a my.email.broadcast")
+                # BaseAdb.adbShell("adb shell am broadcast -a my.email.broadcast")
+                r = WebReceive('13697485262', 'chinasoft123','13580491603@139.com')
+                r.sendEmail()
+
                 time.sleep(20)
              
             print("等待两分钟")    
@@ -143,7 +166,7 @@ class StandByFlowPowerMem(unittest.TestCase):
             time.sleep(5)
         except BaseException as be:
             print("运行出错，当次数据不入数据库!")
-            print(be)
+            # print(be)
 
 if __name__ == "__main__":
     suite = unittest.TestSuite()

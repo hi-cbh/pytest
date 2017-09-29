@@ -184,7 +184,8 @@ class BaseAdb(object):
     # 拉数据到本地
     def adbPull(self, remote, local):
         print("adb pull %s %s"  %(remote, local))
-        os.popen("adb pull %s %s"  %(remote, local))
+        result=os.popen("adb pull %s %s"  %(remote, local))
+        print(result.readline())
 
     def testsubprocess(self, cmd):
         p = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True,
