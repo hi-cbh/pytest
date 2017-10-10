@@ -24,6 +24,7 @@ from src.testcase.v722.easycase.receive import WebReceive
 
 # ======== Reading user_db.ini setting ===========
 base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+base_dir = base_dir.replace('\\','/')
 file_path = base_dir + "/user_db.ini"
 
 cf = cparser.ConfigParser()
@@ -37,8 +38,8 @@ versionID = cf.get("verconf", "versionid")
 class StandByFlowPowerMem(unittest.TestCase):
     
     def setUp(self):  
-        # AppiumServer2().start_server()
-        # time.sleep(10)
+        AppiumServer2().start_server()
+        time.sleep(10)
         # 发送邮件辅助工具
         BaseAdb.adbShell("adb shell am start -W -n com.test.sendmail/.MainActivity")
         BaseAdb.adbHome()
@@ -54,7 +55,7 @@ class StandByFlowPowerMem(unittest.TestCase):
         EmailOperation(username+"@139.com", pwd).moveForlder(["INBOX","100"]) 
         
         time.sleep(5)
-        # AppiumServer2().stop_server()
+        AppiumServer2().stop_server()
 
     def testCase(self):
         
@@ -157,16 +158,24 @@ class StandByFlowPowerMem(unittest.TestCase):
             print(datas)
             SQLHelper.Insertstandyemail(datas)
 
-            print("清除")
-            time.sleep(5)  
+            print("清除,等等1分钟")
+            time.sleep(60)
             EmailOperation(username+"@139.com", pwd).checkInbox()
             time.sleep(5)
             BaseAdb.adbStop("edu.umich.PowerTutor")
             BaseAdb.adbStop("com.qihoo360.mobilesafe")  
             time.sleep(5)
+
+
+            # BaseAdb.adbStartApp(appPackage, appActivity)
+            # self.driver.swipeDown()
+            # time.sleep(5)
+            # self.driver.swipeDown()
+            # time.sleep(5)
+
         except BaseException as be:
             print("运行出错，当次数据不入数据库!")
-            # print(be)
+            print(be)
 
 if __name__ == "__main__":
     suite = unittest.TestSuite()

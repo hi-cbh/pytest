@@ -199,10 +199,47 @@ class BaseAdb(object):
             # log.critical("Non zero exit code:%s executing: %s" % (p.returncode, cmd))
         return p.stdout
 
+    def adbApkExist(self, pkg):
+        '''第三方包是否安装'''
+        results = os.popen("adb shell pm list package -3")
+        for line in results.readlines():                          #依次读取每行
+            line = line.strip()                             #去掉每行头尾空白
+            if not len(line):       #判断是否是空行或注释行
+                continue
+            if pkg in line:
+                # print('true')
+                return True
+        else:
+            # print('False')
+            return False
 
-# 方便其他类调用
+
+
+    def installApp(self, p):
+        '''安装APK'''
+        os.popen("adb wait-for-device")
+        os.popen("adb install %s" %p)
+        time.sleep(5)
+        os.popen("adb shell uiautomator runtest installApk2.jar --nohup -c com.uitest.testdemo.installApk2#testEmail")
+        print("install %s successes." %p)
+        time.sleep(8)
+
+    def uninstallAPP(self, pkgname):
+        '''删除APK'''
+        os.popen("adb wait-for-device")
+        os.popen("adb uninstall %s" %pkgname)
+        print("remove %s successes." %pkgname)
+        time.sleep(2)
+
+
+
+
+
+
+
+    # 方便其他类调用
 BaseAdb = BaseAdb()    
 
 
 if __name__ == '__main__':
-    BaseAdb.adbStop("cn.cj.pe")
+    BaseAdb.adbApkExist("cn.cj.pe")

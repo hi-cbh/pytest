@@ -19,6 +19,7 @@ from src.testcase.v722.easycase.send import Send
 
 # ======== Reading user_db.ini setting ===========
 base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+base_dir = base_dir.replace('\\','/')
 file_path = base_dir + "/user_db.ini"
 
 cf = cparser.ConfigParser()
@@ -39,7 +40,7 @@ versionID = cf.get("verconf", "versionid")
 class Timedelay(unittest.TestCase):
 
     def setUp(self):
-        # AppiumServer2().start_server()
+        AppiumServer2().start_server()
         time.sleep(10)
 
         EmailOperation(username+"@139.com", pwd).moveForlder(["990","INBOX"])
@@ -54,7 +55,7 @@ class Timedelay(unittest.TestCase):
         print("运行结束")
 
         time.sleep(5)
-        # AppiumServer2().stop_server()
+        AppiumServer2().stop_server()
 
         EmailOperation(username+"@139.com", pwd).moveForlder(["INBOX", "990"])
 
@@ -64,7 +65,7 @@ class Timedelay(unittest.TestCase):
         network = BaseAdb.getNetworkType()
         print('当前网络状态：%s' %network)
 
-        runtimes = 3
+        runtimes = 13
 
         for x in range(1,runtimes):
             # 复位

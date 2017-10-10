@@ -22,6 +22,7 @@ from src.testcase.v722.easycase.public import PublicUtil as pu
 
 # ======== Reading user_db.ini setting ===========
 base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+base_dir = base_dir.replace('\\','/')
 file_path = base_dir + "/user_db.ini"
 print(file_path)
 cf = cparser.ConfigParser()
@@ -44,7 +45,7 @@ DelNum = 2  # 允许剔除的数量
 class OpenEmail(unittest.TestCase):
     #脚本初始化,获取操作实例
     def setUp(self):
-        # AppiumServer2().start_server()
+        AppiumServer2().start_server();
         time.sleep(10)
         EmailOperation(username+"@139.com", pwd).moveForlder(["100","INBOX"])
         BaseAdb.adbIntallUiautmator()        
@@ -56,7 +57,7 @@ class OpenEmail(unittest.TestCase):
         self.driver.quit()
         
         time.sleep(5)
-        # AppiumServer2().stop_server()
+        AppiumServer2().stop_server()
   
     def testCase(self):
         network = BaseAdb.getNetworkType()

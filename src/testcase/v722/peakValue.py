@@ -21,6 +21,7 @@ from src.testcase.v722.easycase.send import Send
 
 # ======== Reading user_db.ini setting ===========
 base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+base_dir = base_dir.replace('\\','/')
 file_path = base_dir + "/user_db.ini"
 
 cf = cparser.ConfigParser()
@@ -35,7 +36,7 @@ versionID = cf.get("verconf", "versionid")
 class PeakValue(unittest.TestCase):
     
     def setUp(self):  
-        # AppiumServer2().start_server()
+        AppiumServer2().start_server()
         time.sleep(10)
         EmailOperation(username+"@139.com", pwd).moveForlder(["100","INBOX"])
         BaseAdb.adbIntallUiautmator()
@@ -48,7 +49,7 @@ class PeakValue(unittest.TestCase):
         EmailOperation(username+"@139.com", pwd).moveForlder(["INBOX","100"])
 
         time.sleep(5)
-        # AppiumServer2().stop_server()
+        AppiumServer2().stop_server()
         
         
     def testCase(self):
@@ -56,7 +57,7 @@ class PeakValue(unittest.TestCase):
         network = BaseAdb.getNetworkType()
         print('当前网络状态：%s' %network)
         
-        runtimes = 3
+        runtimes = 11
         
         for x in range(1,runtimes):
             time.sleep(5)

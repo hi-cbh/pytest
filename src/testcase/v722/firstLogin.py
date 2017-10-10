@@ -11,7 +11,8 @@ from src.testcase.v722.easycase.login import Login
 # sys.path.append(r"/Users/apple/git/pytest/")
 
 # ======== Reading user_db.ini setting ===========
-base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))))
+base_dir = str((os.path.dirname(os.path.dirname(os.path.dirname(__file__)))))
+base_dir = base_dir.replace('\\','/')
 file_path = base_dir + "/user_db.ini"
 
 cf = cparser.ConfigParser()
@@ -29,16 +30,13 @@ versionID = cf.get("verconf", "versionid")
 ##====================
 
 
+
+
+
+
 class InitData(unittest.TestCase):
 
     def setUp(self):
-        '''卸载旧包'''
-        self.uninstallAPP("cn.cj.pe")
-
-        time.sleep(8)
-        # 安装新包
-        self.installApp(r"/Users/apple/Downloads/Pushemail-ANDROID-V7.2.2-20170928_24603__2008001.apk")
-
 
         # AppiumServer2().start_server()
         time.sleep(10)
@@ -72,8 +70,9 @@ class InitData(unittest.TestCase):
                 login=Login(self.driver,username, pwd)
                 login.loginAction(firstLogin=True)
 
-            except BaseException:
+            except BaseException as be:
                 print("运行到：%s 运行出错" %stat)
+                print(be)
 
 
         '''辅助工具初始化'''
@@ -101,26 +100,6 @@ class InitData(unittest.TestCase):
         self.driver.click(u"name=>允许")
         time.sleep(1)
         BaseAdb.adbHome()
-
-
-
-    def installApp(self, p):
-        '''安装APK'''
-        os.popen("adb wait-for-device")
-        os.popen("adb install %s" %p)
-        time.sleep(5)
-        os.popen("adb shell uiautomator runtest installApk2.jar --nohup -c com.uitest.testdemo.installApk2#testEmail")
-        print("install %s successes." %p)
-        time.sleep(8)
-
-    def uninstallAPP(self, pkgname):
-        '''删除APK'''
-        os.popen("adb wait-for-device")
-        os.popen("adb uninstall %s" %pkgname)
-        print("remove %s successes." %pkgname)
-        time.sleep(2)
-
-
 
 if __name__ == "__main__":
     suite = unittest.TestSuite()

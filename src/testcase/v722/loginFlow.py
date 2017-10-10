@@ -21,6 +21,7 @@ from src.testcase.v722.easycase.login import Login
 
 # ======== Reading user_db.ini setting ===========
 base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+base_dir = base_dir.replace('\\','/')
 file_path = base_dir + "/user_db.ini"
 
 cf = cparser.ConfigParser()
@@ -35,8 +36,8 @@ versionID = cf.get("verconf", "versionid")
 class LoginFlow(unittest.TestCase):
     
     def setUp(self):  
-        # AppiumServer2().start_server()
-        # time.sleep(10)
+        AppiumServer2().start_server()
+        time.sleep(10)
         
         EmailOperation(username2+"@139.com", pwd2).clearForlder(["INBOX",u"已删除",u"已发送"])
         time.sleep(10)
@@ -51,7 +52,7 @@ class LoginFlow(unittest.TestCase):
         EmailOperation(username2+"@139.com", pwd2).moveForlder(["INBOX","20"]) 
 
         time.sleep(5)
-        # AppiumServer2().stop_server()
+        AppiumServer2().stop_server()
 
     def testCase(self):
         appPackage = "cn.cj.pe"  # 程序的package

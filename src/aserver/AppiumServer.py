@@ -58,6 +58,8 @@ class AppiumServer:
 
 '''方式1：windows环境启动appium'''
 class AppiumServer2:
+
+
     def __init__(self):
         global openAppium, baseUrl
 #         openAppium = readConfigLocal.getcmdValue("openAppium")
@@ -67,7 +69,7 @@ class AppiumServer2:
         """start the appium server
         :return:
         """
-        t1 = RunServer("start D:\\workspace\\workspace_python3\\appium_python\\bat\\startAppiumServer.bat")
+        t1 = RunServer("start F:\\pytest\\bat\\startAppiumServer.bat")
         p = Process(target=t1.start())
         p.start()
 
@@ -75,7 +77,7 @@ class AppiumServer2:
         """stop the appium server
         :return:
         """
-        t1 = RunServer("start D:\\workspace\\workspace_python3\\appium_python\\bat\\stopAppiumServer.bat")
+        t1 = RunServer("start F:\\pytest\\bat\\stopAppiumServer.bat")
         p = Process(target=t1.start())
         p.start()
 

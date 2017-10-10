@@ -17,8 +17,9 @@ from src.otherApk.gt.csvData import GetCSVData
 # )
 
 base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
-# base_dir = base_dir.replace('\\', '/')
+base_dir = base_dir.replace('\\', '/')
 PCpath = base_dir + "/logs/"
+
 print("PC: %s" %PCpath)
 
 
@@ -48,34 +49,39 @@ class GTTest(object):
         print('开始记录时间')
 
     def endGT(self):
+        try:
+            SDpath = r"/mnt/sdcard/GT/GW/"
+            print('记录CPU结果')
+            BaseAdb.adbGTbaseCommand("cpu", "0")
+            print('记录MEM结果')
+            BaseAdb.adbGTbaseCommand("pri", "0")
 
-        SDpath = r"/mnt/sdcard/GT/GW/"
-        print('记录CPU结果')
-        BaseAdb.adbGTbaseCommand("cpu", "0")
-        print('记录MEM结果')
-        BaseAdb.adbGTbaseCommand("pri", "0")
+            print('获取文件名')
+            filename = BaseTime.currentTime()
+            print(filename)
+            print('保存文件')
+            BaseAdb.adbGTSave(r"/runcode/"+filename, filename)
 
-        print('获取文件名')
-        filename = BaseTime.currentTime()
-        print(filename)
-        print('保存文件')
-        BaseAdb.adbGTSave(r"/runcode/"+filename, filename)
+            remote = SDpath + self.pkgname+r"/runcode/"+filename+r"/"
+            print(remote)
+            time.sleep(2)
 
-        remote = SDpath + self.pkgname+r"/runcode/"+filename+r"/"
-        print(remote)
-        time.sleep(2)
+            print("PC: %s" %PCpath)
+            # os.mkdir(PCpath)
+            # BaseAdb.adbPull(remote ,PCpath) //mac
+            BaseAdb.adbPull(remote ,PCpath+filename+"/") #windows
 
-        print("PC: %s" %PCpath)
-        # os.mkdir(PCpath)
-        BaseAdb.adbPull(remote ,PCpath)
-        time.sleep(2)
-        ls = []
-        d = GetCSVData(PCpath+filename+r"/", 'cn.cj.pe')
-        ls.append(d.getCPUValue())
-        ls.append(d.getMEMValue())
+            time.sleep(2)
+            ls = []
+            d = GetCSVData(PCpath+filename+r"/", 'cn.cj.pe')
+            ls.append(d.getCPUValue())
+            ls.append(d.getMEMValue())
 
-        print(ls)
-        return ls
+            print(ls)
+            return ls
+        except BaseException as error:
+            print("获取结果时出错！返回缺省值")
+            return [{'min': '0.0%', 'max': '0.0%', 'avg': '0.0%'}, {'min': 0.0, 'max': 0.0, 'avg': 0.0}]
 
 
 if __name__ == "__main__":

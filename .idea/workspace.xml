@@ -1,78 +1,176 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c0d3c22-cde7-491b-a9c7-c468eb3cb69d" name="Default" comment="在MAC中运行">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/UiauomatorIntellijIdea/UiauomatorIntellijIdea.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-04_18-29-55/Pcp0_cn.cj.pe_20170904183111.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-04_18-29-55/Pcp1_cn.cj.pe_richpush_20170904183111.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-04_18-29-55/Pcp2_cn.cj.pe_monitorService_20170904183111.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-04_18-29-55/Pr0_cn.cj.pe_20170904183113.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-04_18-29-55/Pr1_cn.cj.pe_richpush_20170904183113.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-04_18-29-55/Pr2_cn.cj.pe_monitorService_20170904183113.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-04_18-29-55/gtdesc_20170904183114.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-19_15-39-45/Pcp0_cn.cj.pe_20170919153912.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-19_15-39-45/Pcp1_cn.cj.pe_monitorService_20170919153912.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-19_15-39-45/Pcp2_cn.cj.pe_richpush_20170919153912.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-19_15-39-45/Pr0_cn.cj.pe_20170919153912.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-19_15-39-45/Pr1_cn.cj.pe_monitorService_20170919153912.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-19_15-39-45/Pr2_cn.cj.pe_richpush_20170919153912.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-19_15-39-45/gtdesc_20170919153914.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/beetstra/jutf7/Base64Util.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/beetstra/jutf7/CharsetProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/beetstra/jutf7/ModifiedUTF7Charset.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/beetstra/jutf7/UTF7Charset.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/beetstra/jutf7/UTF7StyleCharset.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/beetstra/jutf7/UTF7StyleCharsetDecoder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/beetstra/jutf7/UTF7StyleCharsetEncoder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/donot/change/By.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/donot/change/UiAutomatorHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/gt/model/GTAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/gt/util/GTTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/gt/util/GTUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/gt/util/GetCSVData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/gt/util/StartTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/gt/util/StopTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/gt/util/TestDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/mail/mode/power/PowerAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/mail/mode/ws360/FlowRecord360Action.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/mail/pageobject/power/PowerPageObject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/mail/pageobject/ws360/WS360PageObject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/cmp/EditText.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/cmp/Layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/cmp/ListView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/data/UserConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/error/WatcherError$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/error/WatcherError$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/error/WatcherError.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/log/MyLogcatHelper$LogDumper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/log/MyLogcatHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/log/UiautomatorAssistant.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/CopyOfOpenMail.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/Demo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/KillMail.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/MailDown.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/OpenMail.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/OpenMail01.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/Pic.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/PowerFlowCpuMen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/SendEmail.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/installApk.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/installApk2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/testdemo/installApkVivo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/AssertUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/CommonUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/DriverManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/Ele.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/FileManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/FileSizeUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/ImageManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/TestListenerManager$listener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/TestListenerManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/com/uitest/uiautomatorUtil/TimeUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UiautomatorIdea/helper/Utf7ImeHelper.class" afterPath="" />
+    <list default="true" id="5e26ceec-f431-483e-ab3a-ea3cf51ee21e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_14-27-19/Pcp0_cn.cj.pe_20170930142642.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_14-27-19/Pcp1_cn.cj.pe_richpush_20170930142642.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_14-27-19/Pr0_cn.cj.pe_20170930142642.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_14-27-19/Pr1_cn.cj.pe_richpush_20170930142642.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_14-27-19/gtdesc_20170930142643.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_14-30-08/Pcp0_cn.cj.pe_20170930142930.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_14-30-08/Pcp1_cn.cj.pe_richpush_20170930142930.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_14-30-08/Pr0_cn.cj.pe_20170930142931.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_14-30-08/Pr1_cn.cj.pe_richpush_20170930142931.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_14-30-08/gtdesc_20170930142932.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_15-46-35/Pcp0_cn.cj.pe_20171009154601.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_15-46-35/Pcp1_cn.cj.pe_richpush_20171009154601.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_15-46-35/Pr0_cn.cj.pe_20171009154603.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_15-46-35/Pr1_cn.cj.pe_richpush_20171009154603.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_15-46-35/gtdesc_20171009154604.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_15-47-44/Pcp0_cn.cj.pe_20171009154711.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_15-47-44/Pcp1_cn.cj.pe_richpush_20171009154711.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_15-47-44/Pr0_cn.cj.pe_20171009154711.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_15-47-44/Pr1_cn.cj.pe_richpush_20171009154711.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_15-47-44/gtdesc_20171009154713.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_15-53-37/Pcp0_cn.cj.pe_20171009155304.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_15-53-37/Pcp1_cn.cj.pe_richpush_20171009155304.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_15-53-37/Pr0_cn.cj.pe_20171009155304.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_15-53-37/Pr1_cn.cj.pe_richpush_20171009155304.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_15-53-37/gtdesc_20171009155305.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_15-58-08/Pcp0_cn.cj.pe_20171009155735.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_15-58-08/Pcp1_cn.cj.pe_richpush_20171009155735.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_15-58-08/Pr0_cn.cj.pe_20171009155736.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_15-58-08/Pr1_cn.cj.pe_richpush_20171009155736.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_15-58-08/gtdesc_20171009155737.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-00-57/Pcp0_cn.cj.pe_20171009160024.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-00-57/Pcp1_cn.cj.pe_richpush_20171009160024.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-00-57/Pr0_cn.cj.pe_20171009160024.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-00-57/Pr1_cn.cj.pe_richpush_20171009160024.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-00-57/gtdesc_20171009160026.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-03-45/Pcp0_cn.cj.pe_20171009160311.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-03-45/Pcp1_cn.cj.pe_richpush_20171009160311.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-03-45/Pr0_cn.cj.pe_20171009160312.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-03-45/Pr1_cn.cj.pe_richpush_20171009160312.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-03-45/gtdesc_20171009160313.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-06-33/Pcp0_cn.cj.pe_20171009160600.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-06-33/Pcp1_cn.cj.pe_richpush_20171009160600.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-06-33/Pr0_cn.cj.pe_20171009160601.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-06-33/Pr1_cn.cj.pe_richpush_20171009160601.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-06-33/gtdesc_20171009160602.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-09-20/Pcp0_cn.cj.pe_20171009160846.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-09-20/Pcp1_cn.cj.pe_richpush_20171009160846.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-09-20/Pr0_cn.cj.pe_20171009160847.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-09-20/Pr1_cn.cj.pe_richpush_20171009160846.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-09-20/gtdesc_20171009160848.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-12-08/Pcp0_cn.cj.pe_20171009161134.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-12-08/Pcp1_cn.cj.pe_richpush_20171009161134.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-12-08/Pr0_cn.cj.pe_20171009161135.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-12-08/Pr1_cn.cj.pe_richpush_20171009161135.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-12-08/gtdesc_20171009161136.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-14-56/Pcp0_cn.cj.pe_20171009161422.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-14-56/Pcp1_cn.cj.pe_richpush_20171009161422.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-14-56/Pr0_cn.cj.pe_20171009161424.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-14-56/Pr1_cn.cj.pe_richpush_20171009161422.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-14-56/gtdesc_20171009161424.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-17-41/Pcp0_cn.cj.pe_20171009161708.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-17-41/Pcp1_cn.cj.pe_richpush_20171009161708.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-17-41/Pr0_cn.cj.pe_20171009161708.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-17-41/Pr1_cn.cj.pe_richpush_20171009161708.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-17-41/gtdesc_20171009161709.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-20-32/Pcp0_cn.cj.pe_20171009161958.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-20-32/Pcp1_cn.cj.pe_richpush_20171009161958.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-20-32/Pcp2_cn.cj.pe_sync_20171009161958.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-20-32/Pr0_cn.cj.pe_20171009162000.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-20-32/Pr1_cn.cj.pe_richpush_20171009162000.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-20-32/Pr2_cn.cj.pe_sync_20171009162000.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-20-32/gtdesc_20171009162001.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-23-18/Pcp0_cn.cj.pe_20171009162244.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-23-18/Pcp1_cn.cj.pe_richpush_20171009162244.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-23-18/Pr0_cn.cj.pe_20171009162245.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-23-18/Pr1_cn.cj.pe_richpush_20171009162245.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_16-23-18/gtdesc_20171009162246.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_17-42-57/Pcp0_cn.cj.pe_20171009174224.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_17-42-57/Pcp1_cn.cj.pe_richpush_20171009174224.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_17-42-57/Pr0_cn.cj.pe_20171009174224.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_17-42-57/Pr1_cn.cj.pe_richpush_20171009174224.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-09_17-42-57/gtdesc_20171009174226.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_09-26-05/Pcp0_cn.cj.pe_20171010092533.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_09-26-05/Pcp1_cn.cj.pe_richpush_20171010092533.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_09-26-05/Pr0_cn.cj.pe_20171010092533.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_09-26-05/Pr1_cn.cj.pe_richpush_20171010092533.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_09-26-05/gtdesc_20171010092534.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_10-23-25/Pcp0_cn.cj.pe_20171010102252.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_10-23-25/Pcp1_cn.cj.pe_richpush_20171010102252.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_10-23-25/Pr0_cn.cj.pe_20171010102252.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_10-23-25/Pr1_cn.cj.pe_richpush_20171010102252.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_10-23-25/gtdesc_20171010102254.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_13-27-29/Pcp0_cn.cj.pe_20171010132656.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_13-27-29/Pcp1_cn.cj.pe_richpush_20171010132656.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_13-27-29/Pr0_cn.cj.pe_20171010132656.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_13-27-29/Pr1_cn.cj.pe_richpush_20171010132656.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_13-27-29/gtdesc_20171010132658.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_14-28-01/Pcp0_cn.cj.pe_20171010142728.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_14-28-01/Pcp1_cn.cj.pe_richpush_20171010142728.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_14-28-01/Pr0_cn.cj.pe_20171010142728.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_14-28-01/Pr1_cn.cj.pe_richpush_20171010142728.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_14-28-01/gtdesc_20171010142730.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_15-12-29/Pcp0_cn.cj.pe_20171010151155.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_15-12-29/Pcp1_cn.cj.pe_richpush_20171010151155.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_15-12-29/Pr0_cn.cj.pe_20171010151157.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_15-12-29/Pr1_cn.cj.pe_richpush_20171010151155.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-10_15-12-29/gtdesc_20171010151157.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/Pcp0_cn.cj.pe_20171009085220.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/Pcp0_cn.cj.pe_20171009085503.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/Pcp0_cn.cj.pe_20171009143705.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/Pcp0_cn.cj.pe_20171009152421.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/Pcp0_cn.cj.pe_20171009152541.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/Pcp1_cn.cj.pe_richpush_20171009085220.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/Pcp1_cn.cj.pe_richpush_20171009085503.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/Pcp1_cn.cj.pe_richpush_20171009152421.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/Pcp1_cn.cj.pe_richpush_20171009152541.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/Pcp1_cn.cj.pe_sync_20171009143705.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/Pcp2_cn.cj.pe_richpush_20171009143705.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/Pr0_cn.cj.pe_20171009085221.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/Pr0_cn.cj.pe_20171009085503.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/Pr0_cn.cj.pe_20171009143706.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/Pr0_cn.cj.pe_20171009152423.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/Pr0_cn.cj.pe_20171009152542.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/Pr1_cn.cj.pe_richpush_20171009085220.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/Pr1_cn.cj.pe_richpush_20171009085503.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/Pr1_cn.cj.pe_richpush_20171009152422.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/Pr1_cn.cj.pe_richpush_20171009152542.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/Pr1_cn.cj.pe_sync_20171009143706.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/Pr2_cn.cj.pe_richpush_20171009143706.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/gtdesc_20171009085222.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/gtdesc_20171009085505.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/gtdesc_20171009143707.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/gtdesc_20171009152423.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/gtdesc_20171009152543.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytest.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/2017-09-29 16_13_47_result.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/2017-09-29 18_23_11_result.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/2017-09-30 10_25_17_result.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/2017-09-30 10_29_47_result.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/2017-09-30 10_34_24_result.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/2017-09-30 10_47_02_result.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/2017-09-30 12_00_29_result.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/2017-09-30 12_23_30_result.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/2017-09-30 14_16_30_result.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/jxl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runlog.log" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bat/startappium.sh" afterPath="$PROJECT_DIR$/bat/startappium.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bat/stopappium.sh" afterPath="$PROJECT_DIR$/bat/stopappium.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/aserver/AppiumServer.py" afterPath="$PROJECT_DIR$/src/aserver/AppiumServer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/base/baseAdb.py" afterPath="$PROJECT_DIR$/src/base/baseAdb.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/base/baseTime.py" afterPath="$PROJECT_DIR$/src/base/baseTime.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" afterPath="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/runTest_v722.py" afterPath="$PROJECT_DIR$/src/testcase/runTest_v722.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/brushFlow.py" afterPath="$PROJECT_DIR$/src/testcase/v722/brushFlow.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/easytimedelay.py" afterPath="$PROJECT_DIR$/src/testcase/v722/easytimedelay.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/firstLogin.py" afterPath="$PROJECT_DIR$/src/testcase/v722/firstLogin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/loginFlow.py" afterPath="$PROJECT_DIR$/src/testcase/v722/loginFlow.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/openEmail_filter.py" afterPath="$PROJECT_DIR$/src/testcase/v722/openEmail_filter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/peakValue.py" afterPath="$PROJECT_DIR$/src/testcase/v722/peakValue.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/standByFlowPowerMem.py" afterPath="$PROJECT_DIR$/src/testcase/v722/standByFlowPowerMem.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/user_db.ini" afterPath="$PROJECT_DIR$/src/user_db.ini" />
     </list>
-    <ignored path="$PROJECT_DIR$/bin/" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,195 +179,62 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/pytest$Unittests_for_openEmail_filter_MyTestCase.coverage" NAME="Unittests for openEmail_filter.MyTestCase Coverage Results" MODIFIED="1505804706140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
-    <SUITE FILE_PATH="coverage/pytest$csvData.coverage" NAME="csvData Coverage Results" MODIFIED="1506063411416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherApk/gt" />
-    <SUITE FILE_PATH="coverage/pytest$initData.coverage" NAME="initData Coverage Results" MODIFIED="1506592640895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
-    <SUITE FILE_PATH="coverage/pytest$mysql_db.coverage" NAME="mysql_db Coverage Results" MODIFIED="1505887762481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/db" />
-    <SUITE FILE_PATH="coverage/pytest$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1505962880520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcode" />
-    <SUITE FILE_PATH="coverage/pytest$Unittests_in_standByFlowPowerMem_py.coverage" NAME="Unittests in standByFlowPowerMem.py Coverage Results" MODIFIED="1506223934266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
-    <SUITE FILE_PATH="coverage/pytest$Unittests_for_loginFlow_LoginFlow_testCase.coverage" NAME="Unittests for loginFlow.LoginFlow.testCase Coverage Results" MODIFIED="1506252261624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
-    <SUITE FILE_PATH="coverage/pytest$Unittests_in_easytimedelay_py.coverage" NAME="Unittests in easytimedelay.py Coverage Results" MODIFIED="1505888016206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
-    <SUITE FILE_PATH="coverage/pytest$gtutil.coverage" NAME="gtutil Coverage Results" MODIFIED="1506065416424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherApk/gt" />
-    <SUITE FILE_PATH="coverage/pytest$Unittests_for_brushFlow_BrushFlow_testCase.coverage" NAME="Unittests for brushFlow.BrushFlow.testCase Coverage Results" MODIFIED="1506250826649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
-    <SUITE FILE_PATH="coverage/pytest$Unittests_in_firstLogin_py.coverage" NAME="Unittests in firstLogin.py Coverage Results" MODIFIED="1506587199812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722/init" />
-    <SUITE FILE_PATH="coverage/pytest$Unittests_for_firstLogin_FirstLogin_testCase.coverage" NAME="Unittests for firstLogin.FirstLogin.testCase Coverage Results" MODIFIED="1506592707766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722/init" />
-    <SUITE FILE_PATH="coverage/pytest$baseAdb.coverage" NAME="baseAdb Coverage Results" MODIFIED="1505804441193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/base" />
-    <SUITE FILE_PATH="coverage/pytest$Unittests_in_openEmail_filter_py.coverage" NAME="Unittests in openEmail_filter.py Coverage Results" MODIFIED="1505889268943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
-    <SUITE FILE_PATH="coverage/pytest$Unittests_for_easytimedelay_Timedelay_testCase.coverage" NAME="Unittests for easytimedelay.Timedelay.testCase Coverage Results" MODIFIED="1506243487613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
-    <SUITE FILE_PATH="coverage/pytest$Unittests_for_firstLogin_FirstLogin.coverage" NAME="Unittests for firstLogin.FirstLogin Coverage Results" MODIFIED="1506594183744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722/init" />
-    <SUITE FILE_PATH="coverage/pytest$AppiumServer.coverage" NAME="AppiumServer Coverage Results" MODIFIED="1506344228053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/aserver" />
-    <SUITE FILE_PATH="coverage/pytest$Unittests_for_openEmail_filter_OpenEmail.coverage" NAME="Unittests for openEmail_filter.OpenEmail Coverage Results" MODIFIED="1506152261461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
-    <SUITE FILE_PATH="coverage/pytest$Unittests_for_standByFlowPowerMem_StandByFlowPowerMem_testCase.coverage" NAME="Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase Coverage Results" MODIFIED="1506255741635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
-    <SUITE FILE_PATH="coverage/pytest$Unittests_for_peakValue_PeakValue_testCase.coverage" NAME="Unittests for peakValue.PeakValue.testCase Coverage Results" MODIFIED="1506258513613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
-    <SUITE FILE_PATH="coverage/pytest$Unittests_in_loginFlow_py.coverage" NAME="Unittests in loginFlow.py Coverage Results" MODIFIED="1506151378931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
-    <SUITE FILE_PATH="coverage/pytest$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1505784520911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcode" />
-    <SUITE FILE_PATH="coverage/pytest$Unittests_in_peakValue_py.coverage" NAME="Unittests in peakValue.py Coverage Results" MODIFIED="1506071208535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
-    <SUITE FILE_PATH="coverage/pytest$Unittests_for_easytimedelay_Timedelay.coverage" NAME="Unittests for easytimedelay.Timedelay Coverage Results" MODIFIED="1506236256071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
-    <SUITE FILE_PATH="coverage/pytest$Unittests_for_openEmail_filter_MyTestCase_testCase.coverage" NAME="Unittests for openEmail_filter.MyTestCase.testCase Coverage Results" MODIFIED="1505804517712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
-    <SUITE FILE_PATH="coverage/pytest$runTest_v722.coverage" NAME="runTest_v722 Coverage Results" MODIFIED="1506134995956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase" />
-    <SUITE FILE_PATH="coverage/pytest$easytimedelay.coverage" NAME="easytimedelay Coverage Results" MODIFIED="1505963721013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
-    <SUITE FILE_PATH="coverage/pytest$demo.coverage" NAME="demo Coverage Results" MODIFIED="1505795938907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcode" />
-    <SUITE FILE_PATH="coverage/pytest$Unittests_for_standByFlowPowerMem_StandByFlowPowerMem.coverage" NAME="Unittests for standByFlowPowerMem.StandByFlowPowerMem Coverage Results" MODIFIED="1506157852145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
-    <SUITE FILE_PATH="coverage/pytest$receive.coverage" NAME="receive Coverage Results" MODIFIED="1506061402101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722/easycase" />
-    <SUITE FILE_PATH="coverage/pytest$Unittests_for_loginFlow_LoginFlow.coverage" NAME="Unittests for loginFlow.LoginFlow Coverage Results" MODIFIED="1506150127907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
-    <select />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Unnamed">
-      <favorite_root url="file://$PROJECT_DIR$/src" module="appium_python" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
-        <favorite_root url="file://$PROJECT_DIR$/src/base" module="appium_python" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
-          <favorite_root url="file://$PROJECT_DIR$/src/base/baseAdb.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-          <favorite_root url="file://$PROJECT_DIR$/src/base/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-          <favorite_root url="file://$PROJECT_DIR$/src/base/baseFile.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-          <favorite_root url="file://$PROJECT_DIR$/src/base/baseTime.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-          <favorite_root url="file://$PROJECT_DIR$/src/base/baseImage.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-          <favorite_root url="file://$PROJECT_DIR$/src/base/baseOperate.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-          <favorite_root url="file://$PROJECT_DIR$/src/base/baseConversion.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-        </favorite_root>
-        <favorite_root url="file://$PROJECT_DIR$/src/mail" module="appium_python" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
-          <favorite_root url="file://$PROJECT_DIR$/src/mail/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-          <favorite_root url="file://$PROJECT_DIR$/src/mail/mailOperation.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-        </favorite_root>
-        <favorite_root url="file://$PROJECT_DIR$/src/psam" module="appium_python" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
-          <favorite_root url="file://$PROJECT_DIR$/src/psam/psam.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-          <favorite_root url="file://$PROJECT_DIR$/src/psam/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-        </favorite_root>
-        <favorite_root url="file://$PROJECT_DIR$/src/otherApk" module="appium_python" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
-          <favorite_root url="file://$PROJECT_DIR$/src/otherApk/gt" module="appium_python" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
-            <favorite_root url="file://$PROJECT_DIR$/src/otherApk/gt/gtutil.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            <favorite_root url="file://$PROJECT_DIR$/src/otherApk/gt/csvData.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            <favorite_root url="file://$PROJECT_DIR$/src/otherApk/gt/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-          </favorite_root>
-          <favorite_root url="file://$PROJECT_DIR$/src/otherApk/power" module="appium_python" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
-            <favorite_root url="file://$PROJECT_DIR$/src/otherApk/power/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            <favorite_root url="file://$PROJECT_DIR$/src/otherApk/power/powerAction.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-          </favorite_root>
-          <favorite_root url="file://$PROJECT_DIR$/src/otherApk/record360" module="appium_python" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
-            <favorite_root url="file://$PROJECT_DIR$/src/otherApk/record360/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            <favorite_root url="file://$PROJECT_DIR$/src/otherApk/record360/flowRecord.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-          </favorite_root>
-          <favorite_root url="file://$PROJECT_DIR$/src/otherApk/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-        </favorite_root>
-        <favorite_root url="file://$PROJECT_DIR$/src/testcase" module="appium_python" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
-          <favorite_root url="file://$PROJECT_DIR$/src/testcase/v722" module="appium_python" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
-            <favorite_root url="file://$PROJECT_DIR$/src/testcase/v722/case" module="appium_python" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
-              <favorite_root url="file://$PROJECT_DIR$/src/testcase/v722/case/send.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-              <favorite_root url="file://$PROJECT_DIR$/src/testcase/v722/case/login.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-              <favorite_root url="file://$PROJECT_DIR$/src/testcase/v722/case/receive.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-              <favorite_root url="file://$PROJECT_DIR$/src/testcase/v722/case/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-              <favorite_root url="file://$PROJECT_DIR$/src/testcase/v722/case/openDown.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </favorite_root>
-            <favorite_root url="file://$PROJECT_DIR$/src/testcase/v722/easycase" module="appium_python" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
-              <favorite_root url="file://$PROJECT_DIR$/src/testcase/v722/easycase/send.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-              <favorite_root url="file://$PROJECT_DIR$/src/testcase/v722/easycase/login.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-              <favorite_root url="file://$PROJECT_DIR$/src/testcase/v722/easycase/public.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-              <favorite_root url="file://$PROJECT_DIR$/src/testcase/v722/easycase/receive.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-              <favorite_root url="file://$PROJECT_DIR$/src/testcase/v722/easycase/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-              <favorite_root url="file://$PROJECT_DIR$/src/testcase/v722/easycase/openDown.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </favorite_root>
-            <favorite_root url="file://$PROJECT_DIR$/src/testcase/v722/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            <favorite_root url="file://$PROJECT_DIR$/src/testcase/v722/brushFlow.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            <favorite_root url="file://$PROJECT_DIR$/src/testcase/v722/loginFlow.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            <favorite_root url="file://$PROJECT_DIR$/src/testcase/v722/peakValue.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            <favorite_root url="file://$PROJECT_DIR$/src/testcase/v722/timedelay.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            <favorite_root url="file://$PROJECT_DIR$/src/testcase/v722/easytimedelay.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            <favorite_root url="file://$PROJECT_DIR$/src/testcase/v722/openEmail_filter.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            <favorite_root url="file://$PROJECT_DIR$/src/testcase/v722/standByFlowPowerMem.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-          </favorite_root>
-          <favorite_root url="file://$PROJECT_DIR$/src/testcase/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-        </favorite_root>
-        <favorite_root url="file://$PROJECT_DIR$/src/testcode" module="appium_python" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
-          <favorite_root url="file://$PROJECT_DIR$/src/testcode/tmp.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-          <favorite_root url="file://$PROJECT_DIR$/src/testcode/demo.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-          <favorite_root url="file://$PROJECT_DIR$/src/testcode/tmp2.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-          <favorite_root url="file://$PROJECT_DIR$/src/testcode/tmp3.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-          <favorite_root url="file://$PROJECT_DIR$/src/testcode/tmp4.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-          <favorite_root url="file://$PROJECT_DIR$/src/testcode/demo2.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-          <favorite_root url="file://$PROJECT_DIR$/src/testcode/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-        </favorite_root>
-        <favorite_root url="file://$PROJECT_DIR$/src/user_db.ini" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-      </favorite_root>
-    </favorites_list>
+    <SUITE FILE_PATH="coverage/pytest$Unittests_in_openEmail_filter_py.coverage" NAME="Unittests in openEmail_filter.py Coverage Results" MODIFIED="1507509229391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
+    <SUITE FILE_PATH="coverage/pytest$Unittests_for_loginFlow_LoginFlow.coverage" NAME="Unittests for loginFlow.LoginFlow Coverage Results" MODIFIED="1507520802818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
+    <SUITE FILE_PATH="coverage/pytest$Unittests_for_easytimedelay_Timedelay_testCase.coverage" NAME="Unittests for easytimedelay.Timedelay.testCase Coverage Results" MODIFIED="1507592685241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
+    <SUITE FILE_PATH="coverage/pytest$Unittests_for_peakValue_PeakValue_testCase.coverage" NAME="Unittests for peakValue.PeakValue.testCase Coverage Results" MODIFIED="1507535722205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
+    <SUITE FILE_PATH="coverage/pytest$Unittests_in_peakValue_py.coverage" NAME="Unittests in peakValue.py Coverage Results" MODIFIED="1507510204982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
+    <SUITE FILE_PATH="coverage/pytest$runTest_v722.coverage" NAME="runTest_v722 Coverage Results" MODIFIED="1507610996492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase" />
+    <SUITE FILE_PATH="coverage/pytest$Unittests_for_standByFlowPowerMem_StandByFlowPowerMem_testCase.coverage" NAME="Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase Coverage Results" MODIFIED="1507599949661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
+    <SUITE FILE_PATH="coverage/pytest$receive.coverage" NAME="receive Coverage Results" MODIFIED="1507517180033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722/easycase" />
+    <SUITE FILE_PATH="coverage/pytest$Unittests_in_standByFlowPowerMem_py.coverage" NAME="Unittests in standByFlowPowerMem.py Coverage Results" MODIFIED="1507531638390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
+    <SUITE FILE_PATH="coverage/pytest$Unittests_for_loginFlow_LoginFlow_testCase.coverage" NAME="Unittests for loginFlow.LoginFlow.testCase Coverage Results" MODIFIED="1507522021393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
+    <SUITE FILE_PATH="coverage/pytest$gtutil.coverage" NAME="gtutil Coverage Results" MODIFIED="1507620461651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherApk/gt" />
+    <SUITE FILE_PATH="coverage/pytest$Unittests_for_firstLogin_InitData_testCase.coverage" NAME="Unittests for firstLogin.InitData.testCase Coverage Results" MODIFIED="1507518059285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
+    <SUITE FILE_PATH="coverage/pytest$Unittests_for_openEmail_filter_OpenEmail_testCase.coverage" NAME="Unittests for openEmail_filter.OpenEmail.testCase Coverage Results" MODIFIED="1507518536710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
+    <SUITE FILE_PATH="coverage/pytest$Unittests_for_brushFlow_BrushFlow_testCase.coverage" NAME="Unittests for brushFlow.BrushFlow.testCase Coverage Results" MODIFIED="1507519847909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="firstLogin.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v722/firstLogin.py">
+      <file leaf-file-name="runTest_v722.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v722.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="110" column="21" lean-forward="false" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
+            <state relative-caret-position="269">
+              <caret line="62" column="40" lean-forward="true" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
               <folding>
-                <element signature="e#34#61#0" expanded="true" />
+                <element signature="e#35#57#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HTMLTestRunner.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/HTMLTestRunner.py">
+      <file leaf-file-name="user_db.ini" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/user_db.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18040">
-              <caret line="825" column="21" lean-forward="false" selection-start-line="825" selection-start-column="21" selection-end-line="825" selection-end-column="21" />
+            <state relative-caret-position="116">
+              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runTest_v722.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v722.py">
+      <file leaf-file-name="openEmail_filter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testcase/v722/openEmail_filter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="230">
+              <caret line="47" column="39" lean-forward="true" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+              <folding>
+                <element signature="e#34#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v722/easycase/login.py">
+      <file leaf-file-name="peakValue.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testcase/v722/peakValue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1650">
-              <caret line="76" column="36" lean-forward="false" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="send.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v722/easycase/send.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2002">
-              <caret line="94" column="8" lean-forward="false" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="easytimedelay.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v722/easytimedelay.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="122" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="brushFlow.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v722/brushFlow.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="38" column="15" lean-forward="false" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+            <state relative-caret-position="-375">
+              <caret line="52" column="8" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -278,8 +243,48 @@
       <file leaf-file-name="standByFlowPowerMem.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcase/v722/standByFlowPowerMem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3058">
-              <caret line="154" column="19" lean-forward="false" selection-start-line="154" selection-start-column="19" selection-end-line="154" selection-end-column="19" />
+            <state relative-caret-position="30">
+              <caret line="164" column="26" lean-forward="false" selection-start-line="164" selection-start-column="26" selection-end-line="164" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="brushFlow.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testcase/v722/brushFlow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="easytimedelay.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testcase/v722/easytimedelay.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginFlow.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testcase/v722/loginFlow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-425">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="firstLogin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testcase/v722/firstLogin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="99" column="36" lean-forward="true" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -287,31 +292,12 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="addsql" />
       </map>
-    </option>
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
-      </GitPushTagMode>
     </option>
   </component>
   <component name="GradleLocalSettings">
@@ -322,56 +308,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/testcode/demo2.py" />
-        <option value="$PROJECT_DIR$/src/testcode/demo.py" />
-        <option value="/usr/local/lib/python3.6/site-packages/pyse-0.0.7-py3.6.egg/pyse/pyse.py" />
-        <option value="$PROJECT_DIR$/src/base/baseAdb1.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v722/brushFlow1.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v722/easytimedelay1.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v722/loginFlow1.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v722/standByFlowPowerMem1.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v722/peakValue1.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v722/openEmail_filter1.py" />
-        <option value="$PROJECT_DIR$/src/db/mysql_db.py" />
-        <option value="$PROJECT_DIR$/src/testcode/demo_1.py" />
-        <option value="$PROJECT_DIR$/src/testcode/tmp.py" />
-        <option value="$PROJECT_DIR$/src/otherApk/power/powerAction.py" />
-        <option value="$PROJECT_DIR$/src/otherApk/gt/csvData.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v722/openEmail_filter.py" />
-        <option value="$PROJECT_DIR$/src/base/baseImage.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v722/easycase/public.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v722/easycase/receive.py" />
-        <option value="$PROJECT_DIR$/src/testcase/HTMLTestRunner (1).py" />
-        <option value="$PROJECT_DIR$/src/base/baseAdb.py" />
-        <option value="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v722/easycase/openDown.py" />
-        <option value="$PROJECT_DIR$/src/psam/psam.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v722/standByFlowPowerMem.py" />
-        <option value="$PROJECT_DIR$/src/otherApk/record360/flowRecord.py" />
-        <option value="$PROJECT_DIR$/src/user_db.ini" />
         <option value="$PROJECT_DIR$/src/aserver/AppiumServer.py" />
-        <option value="$PROJECT_DIR$/bat/startappium.sh" />
-        <option value="$PROJECT_DIR$/bat/stopappium.sh" />
-        <option value="$PROJECT_DIR$/src/testcase/v722/brushFlow.py" />
+        <option value="$PROJECT_DIR$/src/testcase/v722/firstLogin.py" />
+        <option value="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" />
+        <option value="$PROJECT_DIR$/src/testcase/v722/openEmail_filter.py" />
         <option value="$PROJECT_DIR$/src/testcase/v722/easytimedelay.py" />
+        <option value="$PROJECT_DIR$/src/testcase/v722/brushFlow.py" />
         <option value="$PROJECT_DIR$/src/testcase/v722/loginFlow.py" />
         <option value="$PROJECT_DIR$/src/testcase/v722/peakValue.py" />
-        <option value="$USER_HOME$/autoTest/workspace/UiautomatorRunProject/src/com/uitest/data/UserConfig.java" />
-        <option value="$USER_HOME$/autoTest/workspace/UiautomatorRunProject/local.properties" />
-        <option value="$USER_HOME$/autoTest/workspace/UiautomatorRunProject/src/com/uitest/testdemo/installApk2.java" />
-        <option value="$USER_HOME$/autoTest/workspace/UiautomatorRunProject/src/com/uitest/testdemo/installApk.java" />
-        <option value="$USER_HOME$/autoTest/workspace/UiautomatorRunProject/build.xml" />
-        <option value="$USER_HOME$/autoTest/workspace/UiautomatorRunProject/project.properties" />
-        <option value="$USER_HOME$/autoTest/workspace/UiautomatorRunProject/src/com/donot/change/UiAutomatorHelper.java" />
-        <option value="$USER_HOME$/autoTest/workspace/UiautomatorRunProject/src/com/uitest/testdemo/Demo.java" />
-        <option value="$USER_HOME$/autoTest/workspace/UiautomatorIdea/src/com/uitest/cmp/EditText.java" />
-        <option value="$USER_HOME$/autoTest/workspace/UiautomatorIdea/src/com/uitest/testdemo/Demo.java" />
-        <option value="$PROJECT_DIR$/src/testcase/v722/initData.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v722/easycase/send.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v722/easycase/login.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v722/init/initData.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v722/init/firstLogin.py" />
+        <option value="$PROJECT_DIR$/src/testcase/v722/standByFlowPowerMem.py" />
         <option value="$PROJECT_DIR$/src/testcase/runTest_v722.py" />
+        <option value="$PROJECT_DIR$/src/user_db.ini" />
       </list>
     </option>
   </component>
@@ -382,32 +329,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="709" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Google App Engine (Python)</id>
-          </State>
-          <State>
-            <id>Pyramid</id>
-          </State>
-          <State>
-            <id>Python</id>
-          </State>
-        </expanded-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
+    <option name="x" value="-3" />
+    <option name="y" value="67" />
+    <option name="width" value="1400" />
+    <option name="height" value="816" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -424,8 +349,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -433,42 +359,58 @@
               <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
               <item name="pytest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest" type="462c0819:PsiDirectoryNode" />
+              <item name="bat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="v722" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="v722" type="462c0819:PsiDirectoryNode" />
+              <item name="easycase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testcode" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="/usr/local/Cellar/python3/3.6.2/bin/python3.6" />
-    <property name="jdk.selected.PYTHON_MODULE" value="Python 3.6.2 (/usr/local/Cellar/python3/3.6.2/bin/python3)" />
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$USER_HOME$/autoTest/workspace/UiautomatorIdea/bat" />
-      <recent name="$USER_HOME$/autoTest/workspace/UiautomatorIdea/apk" />
-      <recent name="$USER_HOME$/autoTest/workspace/UiautomatorIdea/libs" />
-      <recent name="$USER_HOME$/autoTest/workspace/UiautomatorIdea/src" />
-      <recent name="$PROJECT_DIR$/bat" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.uitest.testdemo" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/testcase/v722" />
-      <recent name="$PROJECT_DIR$/src/testcase/v722/init" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -482,70 +424,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for firstLogin.py">
-    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.uitest.testdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.uitest.testdemo.Demo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="UiautomatorIdea" />
-      <envs />
-    </configuration>
-    <configuration name="Unittests for firstLogin.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.gtutil">
+    <configuration name="Unittests for easytimedelay.Timedelay.testCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcase/v722/init" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcase/v722" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="appium_python" />
+      <module name="pytest" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;firstLogin.py&quot;" />
+      <option name="_new_target" value="&quot;easytimedelay.Timedelay.testCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for firstLogin.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for peakValue.PeakValue.testCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcase/v722/init" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcase/v722" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="appium_python" />
+      <module name="pytest" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;firstLogin.py&quot;" />
+      <option name="_new_target" value="&quot;peakValue.PeakValue.testCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests in firstLogin.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcase/v722/init" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcase/v722" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="appium_python" />
+      <module name="pytest" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/testcase/v722/firstLogin.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;standByFlowPowerMem.StandByFlowPowerMem.testCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -568,57 +491,6 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="UiauomatorIntellijIdea" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-    </configuration>
-    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="UiauomatorIntellijIdea" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="UiauomatorIntellijIdea" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -639,70 +511,11 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="UiauomatorIntellijIdea" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="UiauomatorIntellijIdea" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="UiauomatorIntellijIdea" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="UiauomatorIntellijIdea" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -738,99 +551,56 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <module name="UiauomatorIntellijIdea" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="UiauomatorIntellijIdea" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="UiauomatorIntellijIdea" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration name="demo2" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="gtutil" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/otherApk/gt" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="appium_python" />
+      <module name="pytest" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/testcode/demo2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="initData" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="runTest_v722" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcase/v722" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="appium_python" />
+      <module name="pytest" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/testcase/v722/init/initData.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/testcase/runTest_v722.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.demo2" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Demo (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.initData" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in firstLogin.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for firstLogin.py" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for peakValue.PeakValue.testCase" />
+      <item index="1" class="java.lang.String" itemvalue="Python.gtutil" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for easytimedelay.Timedelay.testCase" />
+      <item index="4" class="java.lang.String" itemvalue="Python.runTest_v722" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for firstLogin.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for firstLogin.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python.initData" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in firstLogin.py" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Demo (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.gtutil" />
+        <item index="1" class="java.lang.String" itemvalue="Python.runTest_v722" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for easytimedelay.Timedelay.testCase" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for peakValue.PeakValue.testCase" />
       </list>
     </recent_temporary>
   </component>
@@ -839,196 +609,111 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3c0d3c22-cde7-491b-a9c7-c468eb3cb69d" name="Default" comment="" />
-      <created>1505778952347</created>
+      <changelist id="5e26ceec-f431-483e-ab3a-ea3cf51ee21e" name="Default" comment="" />
+      <created>1506755770760</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1505778952347</updated>
-      <workItem from="1505778955885" duration="227000" />
-      <workItem from="1505779277755" duration="2703000" />
-      <workItem from="1505783137114" duration="197000" />
-      <workItem from="1505784396233" duration="18562000" />
-      <workItem from="1505829783799" duration="1339000" />
-      <workItem from="1505866169926" duration="2624000" />
-      <workItem from="1505869399363" duration="26000" />
-      <workItem from="1505878037012" duration="2353000" />
-      <workItem from="1505882168469" duration="3000" />
-      <workItem from="1505886912425" duration="7788000" />
-      <workItem from="1505960800016" duration="4541000" />
-      <workItem from="1505974601245" duration="3272000" />
-      <workItem from="1505984894071" duration="2676000" />
-      <workItem from="1506041531182" duration="3029000" />
-      <workItem from="1506061168914" duration="5275000" />
-      <workItem from="1506070341851" duration="1041000" />
-      <workItem from="1506133042385" duration="18287000" />
-      <workItem from="1506168218866" duration="2300000" />
-      <workItem from="1506217421128" duration="4325000" />
-      <workItem from="1506235508263" duration="11571000" />
-      <workItem from="1506305289433" duration="507000" />
-      <workItem from="1506337149792" duration="4426000" />
-      <workItem from="1506387424685" duration="17737000" />
-      <workItem from="1506434348308" duration="862000" />
-      <workItem from="1506436769030" duration="85000" />
-      <workItem from="1506470466639" duration="295000" />
-      <workItem from="1506567180659" duration="6451000" />
-      <workItem from="1506591534812" duration="2855000" />
-      <workItem from="1506595033104" duration="609000" />
-      <workItem from="1506649902797" duration="1047000" />
+      <updated>1506755770760</updated>
+      <workItem from="1506755772383" duration="8000" />
+      <workItem from="1506755797586" duration="1258000" />
+      <workItem from="1507507242745" duration="29400000" />
     </task>
-    <task id="LOCAL-00001" summary="在MAC中运行">
-      <created>1505833150284</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1505833150284</updated>
-    </task>
-    <task id="LOCAL-00002" summary="再次提交">
-      <created>1505867567583</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1505867567583</updated>
-    </task>
-    <task id="LOCAL-00003" summary="在MAC中运行">
-      <created>1505978537430</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1505978537431</updated>
-    </task>
-    <task id="LOCAL-00004" summary="测试是否能运行">
-      <created>1505985087998</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1505985087999</updated>
-    </task>
-    <task id="LOCAL-00005" summary="修改运行路径">
-      <created>1505986606528</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1505986606528</updated>
-    </task>
-    <task id="LOCAL-00006" summary="添加启动处理APP及辅助工具">
-      <created>1506651086006</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1506651086007</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_firstLogin_FirstLogin - 2017.09.28 at 18h 25m 17s.xml">
-      <configuration name="Unittests for firstLogin.FirstLogin" configurationId="tests" />
+    <history-entry file="Unittests_for_easytimedelay_Timedelay_testCase - 2017.10.10 at 07h 44m 17s.xml">
+      <configuration name="Unittests for easytimedelay.Timedelay.testCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_firstLogin_FirstLogin_testCase - 2017.09.28 at 17h 45m 28s.xml">
-      <configuration name="Unittests for firstLogin.FirstLogin.testCase" configurationId="tests" />
+    <history-entry file="Unittests_for_easytimedelay_Timedelay_testCase - 2017.10.10 at 08h 42m 11s.xml">
+      <configuration name="Unittests for easytimedelay.Timedelay.testCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_firstLogin_FirstLogin_testCase - 2017.09.28 at 17h 51m 17s.xml">
-      <configuration name="Unittests for firstLogin.FirstLogin.testCase" configurationId="tests" />
+    <history-entry file="Unittests_for_peakValue_PeakValue_testCase - 2017.10.09 at 14h 38m 13s.xml">
+      <configuration name="Unittests for peakValue.PeakValue.testCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_firstLogin_FirstLogin_testCase - 2017.09.28 at 17h 58m 11s.xml">
-      <configuration name="Unittests for firstLogin.FirstLogin.testCase" configurationId="tests" />
+    <history-entry file="Unittests_for_peakValue_PeakValue_testCase - 2017.10.09 at 15h 50m 50s.xml">
+      <configuration name="Unittests for peakValue.PeakValue.testCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_firstLogin_FirstLogin_testCase - 2017.09.28 at 18h 00m 23s.xml">
-      <configuration name="Unittests for firstLogin.FirstLogin.testCase" configurationId="tests" />
+    <history-entry file="Unittests_for_peakValue_PeakValue_testCase - 2017.10.09 at 15h 54m 11s.xml">
+      <configuration name="Unittests for peakValue.PeakValue.testCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="installApk_testEmail - 2017.09.26 at 17h 59m 22s.xml">
-      <configuration name="installApk.testEmail" configurationId="JUnit" />
+    <history-entry file="Unittests_for_peakValue_PeakValue_testCase - 2017.10.09 at 16h 23m 52s.xml">
+      <configuration name="Unittests for peakValue.PeakValue.testCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="installApk_testEmail - 2017.09.26 at 18h 00m 29s.xml">
-      <configuration name="installApk.testEmail" configurationId="JUnit" />
+    <history-entry file="Unittests_for_standByFlowPowerMem_StandByFlowPowerMem_testCase - 2017.10.09 at 17h 48m 50s.xml">
+      <configuration name="Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="installApk_testEmail - 2017.09.26 at 18h 02m 20s.xml">
-      <configuration name="installApk.testEmail" configurationId="JUnit" />
+    <history-entry file="Unittests_for_standByFlowPowerMem_StandByFlowPowerMem_testCase - 2017.10.10 at 09h 32m 09s.xml">
+      <configuration name="Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="installApk_testEmail - 2017.09.26 at 18h 03m 49s.xml">
-      <configuration name="installApk.testEmail" configurationId="JUnit" />
+    <history-entry file="Unittests_for_standByFlowPowerMem_StandByFlowPowerMem_testCase - 2017.10.10 at 10h 29m 32s.xml">
+      <configuration name="Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="installApk_testEmail - 2017.09.26 at 18h 04m 10s.xml">
-      <configuration name="installApk.testEmail" configurationId="JUnit" />
+    <history-entry file="Unittests_in_standByFlowPowerMem_py - 2017.10.09 at 15h 25m 22s.xml">
+      <configuration name="Unittests in standByFlowPowerMem.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127013000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="30666000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
+    <frame x="-3" y="67" width="1400" height="816" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26373628" sideWeight="0.5171875" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2961083" sideWeight="0.4828125" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31083202" sideWeight="0.4734375" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39204547" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31527779" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22572815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25862068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39763114" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282572" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26373628" sideWeight="0.5171875" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39763114" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282572" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2961083" sideWeight="0.4828125" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31083202" sideWeight="0.4734375" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39204547" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21925566" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31527779" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25862068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1037,398 +722,210 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="再次提交" />
-    <MESSAGE value="在MAC中运行" />
-    <MESSAGE value="测试是否能运行" />
-    <MESSAGE value="修改运行路径" />
-    <MESSAGE value="添加启动处理APP及辅助工具" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加启动处理APP及辅助工具" />
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="11" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-    <buildFile url="file://$USER_HOME$/autoTest/workspace/UiautomatorRunProject/build.xml">
-      <targetFilters>
-        <filter targetName="-check-env" isVisible="false" />
-        <filter targetName="-pre-clean" isVisible="false" />
-        <filter targetName="clean" isVisible="true" />
-        <filter targetName="-build-setup" isVisible="false" />
-        <filter targetName="-pre-compile" isVisible="false" />
-        <filter targetName="compile" isVisible="false" />
-        <filter targetName="-post-compile" isVisible="false" />
-        <filter targetName="-dex" isVisible="false" />
-        <filter targetName="-post-dex" isVisible="false" />
-        <filter targetName="-jar" isVisible="false" />
-        <filter targetName="-post-jar" isVisible="false" />
-        <filter targetName="build" isVisible="false" />
-        <filter targetName="install" isVisible="true" />
-        <filter targetName="test" isVisible="true" />
-        <filter targetName="help" isVisible="false" />
-      </targetFilters>
-      <expanded value="false" />
-    </buildFile>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/Cellar/python3/3.6.2/Frameworks/Python.framework/Versions/3.6/lib/python3.6/subprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="760" column="0" lean-forward="false" selection-start-line="760" selection-start-column="0" selection-end-line="760" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/easycase/openDown.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="78" column="15" lean-forward="false" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/openEmail_filter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2090">
-          <caret line="112" column="14" lean-forward="false" selection-start-line="112" selection-start-column="14" selection-end-line="112" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/easycase/receive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3256">
-          <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="152" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/psam/psam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/otherApk/record360/flowRecord.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="35" column="80" lean-forward="false" selection-start-line="35" selection-start-column="80" selection-end-line="35" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/EmailTestV1.3/src/testcode/killprocess/TempOpenEmail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-875">
-          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/user_db.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/otherApk/gt/gtutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1562">
-          <caret line="73" column="25" lean-forward="false" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/otherApk/gt/csvData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/EmailTestV1.3/src/testcode/killprocess/OpenEmail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bat/startappium.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bat/stopappium.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/aserver/AppiumServer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1760">
-          <caret line="85" column="12" lean-forward="false" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/loginFlow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="74" column="24" lean-forward="false" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/peakValue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="58" column="20" lean-forward="false" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/UiautomatorRun/src/com/uitest/testdemo/KillMail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/UiautomatorRunProject/src/com/uitest/testdemo/installApkVivo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/UiautomatorRunProject/src/com/uitest/data/UserConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="42" column="48" lean-forward="false" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/UiautomatorRunProject/src/com/uitest/testdemo/installApk2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/UiautomatorRunProject/UiautomatorRunProject.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-103">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/UiautomatorRunProject/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/UiautomatorRunProject/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/android-sdk-macosx/sources/android-20/java/io/FileOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/UiautomatorRunProject/project.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/UiautomatorRunProject/src/com/uitest/testdemo/installApk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/UiautomatorRunProject/src/com/uitest/testdemo/CopyOfOpenMail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/UiautomatorRunProject/src/com/donot/change/UiAutomatorHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="209" column="0" lean-forward="false" selection-start-line="209" selection-start-column="0" selection-end-line="214" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/UiautomatorRunProject/src/com/uitest/testdemo/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/UiautomatorIdea/src/com/beetstra/jutf7/Base64Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/UiautomatorIdea/src/com/mail/pageobject/ws360/WS360PageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/UiautomatorIdea/src/com/beetstra/jutf7/UTF7StyleCharsetEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/UiautomatorIdea/src/com/mail/mode/power/PowerAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/UiautomatorIdea/src/com/uitest/testdemo/OpenMail01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/UiautomatorIdea/src/com/beetstra/jutf7/UTF7StyleCharset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/UiautomatorIdea/src/com/uitest/cmp/EditText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/UiautomatorIdea/src/com/uitest/log/MyLogcatHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/UiautomatorIdea/bat/MonkeyScript.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/UiautomatorIdea/src/com/uitest/testdemo/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/autoTest/workspace/UiautomatorIdea/src/com/uitest/testdemo/installApk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/baseAdb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/timedelay.py" />
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/standByFlowPowerMem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3058">
-          <caret line="154" column="19" lean-forward="false" selection-start-line="154" selection-start-column="19" selection-end-line="154" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/brushFlow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="38" column="15" lean-forward="false" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/easytimedelay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="122" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/easycase/send.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2002">
-          <caret line="94" column="8" lean-forward="false" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/easycase/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="76" column="36" lean-forward="false" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/init/initData.py" />
-    <entry file="file://$PROJECT_DIR$/src/testcase/HTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18040">
-          <caret line="825" column="21" lean-forward="false" selection-start-line="825" selection-start-column="21" selection-end-line="825" selection-end-column="21" />
+        <state relative-caret-position="400">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v722.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        <state relative-caret-position="1075">
+          <caret line="43" column="39" lean-forward="false" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+          <folding>
+            <element signature="e#35#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runlog.log" />
+    <entry file="file://$PROJECT_DIR$/report/2017-09-30 14_16_30_result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mail/mailOperation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="e#46#60#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/psam/psam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="e#16#27#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/urllib/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="1319" column="0" lean-forward="false" selection-start-line="1319" selection-start-column="0" selection-end-line="1319" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aserver/AppiumServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="81" column="17" lean-forward="true" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v722/easycase/receive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/subprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="765" column="10" lean-forward="false" selection-start-line="765" selection-start-column="10" selection-end-line="765" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/baseAdb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="185" column="47" lean-forward="false" selection-start-line="185" selection-start-column="42" selection-end-line="185" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v722/easycase/send.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="67" column="21" lean-forward="false" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcode/demo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/otherApk/gt/gtutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="44" column="25" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/v722/firstLogin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="110" column="21" lean-forward="false" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
+        <state relative-caret-position="250">
+          <caret line="99" column="36" lean-forward="true" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v722/brushFlow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v722/easytimedelay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v722/loginFlow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v722/openEmail_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="47" column="39" lean-forward="true" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
           <folding>
-            <element signature="e#34#61#0" expanded="true" />
+            <element signature="e#34#43#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v722/peakValue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375">
+          <caret line="52" column="8" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bat/startAppiumServer.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v722/standByFlowPowerMem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="164" column="26" lean-forward="false" selection-start-line="164" selection-start-column="26" selection-end-line="164" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v722.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="62" column="40" lean-forward="true" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+          <folding>
+            <element signature="e#35#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user_db.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1461,7 +958,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Python 3.6.2 (/usr/local/Cellar/python3/3.6.2/bin/python3) interpreter library</last-edited>
+          <last-edited>Python 3.6.1 (C:\Users\ceshi\AppData\Local\Programs\Python\Python36\python.exe) interpreter library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1473,7 +970,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Android API 20 Platform</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1485,12 +982,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>UiauomatorIntellijIdea</last-edited>
+          <last-edited>pytest</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1498,7 +994,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>Android API 20 Platform</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1510,7 +1006,6 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>android</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
