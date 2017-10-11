@@ -35,24 +35,28 @@ versionID = cf.get("verconf", "versionid")
 
 class LoginFlow(unittest.TestCase):
     
-    def setUp(self):  
-        AppiumServer2().start_server()
-        time.sleep(10)
-        
-        EmailOperation(username2+"@139.com", pwd2).clearForlder(["INBOX",u"已删除",u"已发送"])
-        time.sleep(10)
-        EmailOperation(username2+"@139.com", pwd2).moveForlder(["20","INBOX"])         
-        
-        BaseAdb.adbIntallUiautmator()
-        self.driver = Psam()
+    def setUp(self):
+        try:
+            time.sleep(10)
+            AppiumServer2().start_server()
+            time.sleep(15)
+            BaseAdb.adbIntallUiautmator()
+            self.driver = Psam()
+        except BaseException as error:
+            print("setUp过程中错误")
+        else:
+            EmailOperation(username2+"@139.com", pwd2).clearForlder(["INBOX",u"已删除",u"已发送"])
+            time.sleep(10)
+            EmailOperation(username2+"@139.com", pwd2).moveForlder(["20","INBOX"])
+            time.sleep(10)
+
     
     #释放实例,释放资源
     def tearDown(self):
         self.driver.quit()
-        EmailOperation(username2+"@139.com", pwd2).moveForlder(["INBOX","20"]) 
-
         time.sleep(5)
         AppiumServer2().stop_server()
+        EmailOperation(username2+"@139.com", pwd2).moveForlder(["INBOX","20"])
 
     def testCase(self):
         appPackage = "cn.cj.pe"  # 程序的package
@@ -73,7 +77,7 @@ class LoginFlow(unittest.TestCase):
             network = BaseAdb.getNetworkType()
             print('当前网络状态：%s' %network)
             
-            runtimes = 3
+            runtimes = 2
             for x in range(1,runtimes):
                 print("运行首次等次数：%d" %x)
                 try:

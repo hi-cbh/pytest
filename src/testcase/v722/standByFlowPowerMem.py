@@ -37,17 +37,23 @@ versionID = cf.get("verconf", "versionid")
 
 class StandByFlowPowerMem(unittest.TestCase):
     
-    def setUp(self):  
-        AppiumServer2().start_server()
-        time.sleep(10)
-        # 发送邮件辅助工具
-        BaseAdb.adbShell("adb shell am start -W -n com.test.sendmail/.MainActivity")
-        BaseAdb.adbHome()
-        time.sleep(2)
-        
-        EmailOperation(username+"@139.com", pwd).moveForlder(["100","INBOX"]) 
-        BaseAdb.adbIntallUiautmator()
-        self.driver = Psam()
+    def setUp(self):
+        try:
+            time.sleep(10)
+            AppiumServer2().start_server()
+            time.sleep(15)
+            BaseAdb.adbIntallUiautmator()
+            self.driver = Psam()
+        except BaseException as error:
+            print("setUp过程中错误")
+        else:
+            # 发送邮件辅助工具
+            BaseAdb.adbShell("adb shell am start -W -n com.test.sendmail/.MainActivity")
+            BaseAdb.adbHome()
+            time.sleep(2)
+
+            EmailOperation(username+"@139.com", pwd).moveForlder(["100","INBOX"])
+            time.sleep(10)
     
     #释放实例,释放资源
     def tearDown(self):

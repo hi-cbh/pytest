@@ -40,14 +40,17 @@ versionID = cf.get("verconf", "versionid")
 class Timedelay(unittest.TestCase):
 
     def setUp(self):
-        AppiumServer2().start_server()
-        time.sleep(10)
-
-        EmailOperation(username+"@139.com", pwd).moveForlder(["990","INBOX"])
-        BaseAdb.adbIntallUiautmator()
-        self.driver = Psam()
-
-
+        try:
+            time.sleep(10)
+            AppiumServer2().start_server()
+            time.sleep(15)
+            BaseAdb.adbIntallUiautmator()
+            self.driver = Psam()
+        except BaseException as error:
+            print("setUp过程中错误")
+        else:
+            EmailOperation(username+"@139.com", pwd).moveForlder(["990","INBOX"])
+            time.sleep(10)
 
     #释放实例,释放资源
     def tearDown(self):
@@ -65,7 +68,7 @@ class Timedelay(unittest.TestCase):
         network = BaseAdb.getNetworkType()
         print('当前网络状态：%s' %network)
 
-        runtimes = 13
+        runtimes = 2
 
         for x in range(1,runtimes):
             # 复位

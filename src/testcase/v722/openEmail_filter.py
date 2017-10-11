@@ -45,19 +45,27 @@ DelNum = 2  # 允许剔除的数量
 class OpenEmail(unittest.TestCase):
     #脚本初始化,获取操作实例
     def setUp(self):
-        AppiumServer2().start_server();
-        time.sleep(10)
-        EmailOperation(username+"@139.com", pwd).moveForlder(["100","INBOX"])
-        BaseAdb.adbIntallUiautmator()        
-        self.driver = Psam()
+
+        try:
+            time.sleep(10)
+            AppiumServer2().start_server()
+            time.sleep(15)
+            BaseAdb.adbIntallUiautmator()
+            self.driver = Psam()
+        except BaseException as error:
+            print("setUp过程中错误")
+        else:
+            EmailOperation(username+"@139.com", pwd).moveForlder(["100","INBOX"])
+            time.sleep(10)
 
     #释放实例,释放资源
     def tearDown(self):
-        EmailOperation(username+"@139.com", pwd).moveForlder(["INBOX","100"])
+
         self.driver.quit()
         
         time.sleep(5)
         AppiumServer2().stop_server()
+        EmailOperation(username+"@139.com", pwd).moveForlder(["INBOX","100"])
   
     def testCase(self):
         network = BaseAdb.getNetworkType()

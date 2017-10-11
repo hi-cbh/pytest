@@ -5,8 +5,8 @@ import os
 import time
 import sys
 
-sys.path.append(r"/Users/apple/git/pytest/")
-
+# sys.path.append(r"/Users/apple/git/pytest/") mac
+sys.path.append(r"F:\pytest")
 from src.base.baseAdb import BaseAdb
 from src.base.baseTime import BaseTime
 from src.otherApk.gt.csvData import GetCSVData
@@ -63,11 +63,13 @@ class GTTest(object):
             BaseAdb.adbGTSave(r"/runcode/"+filename, filename)
 
             remote = SDpath + self.pkgname+r"/runcode/"+filename+r"/"
-            print(remote)
+            print("手机存储路径：%s" %remote)
             time.sleep(2)
 
-            print("PC: %s" %PCpath)
-            # os.mkdir(PCpath)
+            print("拷贝到PC路径: %s" %PCpath)
+
+            print("创建路径")
+            os.mkdir(PCpath+filename+"/") # jenkins运行
             # BaseAdb.adbPull(remote ,PCpath) //mac
             BaseAdb.adbPull(remote ,PCpath+filename+"/") #windows
 

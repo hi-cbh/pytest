@@ -35,20 +35,27 @@ versionID = cf.get("verconf", "versionid")
 
 class BrushFlow(unittest.TestCase):
     
-    def setUp(self):  
-        AppiumServer2().start_server()
-        time.sleep(10)
-        EmailOperation(username+"@139.com", pwd).moveForlder(["100","INBOX"])         
-        BaseAdb.adbIntallUiautmator()
-        self.driver = Psam()
-    
-    #释放实例,释放资源
+    def setUp(self):
+        try:
+            time.sleep(10)
+            AppiumServer2().start_server()
+            time.sleep(15)
+            BaseAdb.adbIntallUiautmator()
+            self.driver = Psam()
+        except BaseException as error:
+            print("setUp 过程中出错")
+        else:
+            EmailOperation(username+"@139.com", pwd).moveForlder(["100","INBOX"])
+            time.sleep(10)
+
+
+            #释放实例,释放资源
     def tearDown(self):
         self.driver.quit()
-   
-        EmailOperation(username+"@139.com", pwd).moveForlder(["INBOX","100"]) 
         time.sleep(5)
         AppiumServer2().stop_server()
+        time.sleep(10)
+        EmailOperation(username+"@139.com", pwd).moveForlder(["INBOX","100"])
 
     def testCase(self):
         
@@ -57,7 +64,7 @@ class BrushFlow(unittest.TestCase):
         height = self.driver.get_window_size()['height']
         print('当前网络状态：%s' %network)
 
-        runtimes = 11
+        runtimes = 2
 
         appPackage = "cn.cj.pe"  # 程序的package
         appActivity = "com.mail139.about.LaunchActivity"  # 程序的Activity
