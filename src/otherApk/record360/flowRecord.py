@@ -42,11 +42,11 @@ class FlowRecord360Action(object):
         self.closeSuspension()
         
         # 点击话费与流量
-        self.driver.click(u"name=>话费•流量")
+        self.driver.click(u"uiautomator=>话费•流量")
         # 点击软件流量管理
-        self.driver.click(u"name=>软件流量管理")
+        self.driver.click(u"uiautomator=>软件流量管理")
         # 点击 2G/3G/4G消耗
-        self.driver.click(r"name=>2G/3G/4G消耗")
+        self.driver.click(r"uiautomator=>2G/3G/4G消耗")
         
         self.clickNetWork(network)
         
@@ -75,7 +75,7 @@ class FlowRecord360Action(object):
             # 点击话费与流量
             self.driver.click(u"id=>com.qihoo360.mobilesafe:id/exam_selected_tool_item_2")
             # 点击软件流量管理
-            self.driver.click(u"name=>软件流量管理")
+            self.driver.click(u"uiautomator=>软件流量管理")
 
             self.clickFlowStype()
 
@@ -128,12 +128,12 @@ class FlowRecord360Action(object):
     
     # 点击清空流量统计数据
     def clickClearButton(self):
-        self.driver.click(u"name=>清空流量统计数据")
-        self.driver.click(u"name=>确定")
+        self.driver.click(u"uiautomator=>清空流量统计数据")
+        self.driver.click(u"uiautomator=>确定")
     
     # 获取流量值
     def getFlowMessage(self, findtxt):
-        ite = self.driver.get_element("name=>%s" %findtxt)
+        ite = self.driver.get_element("uiautomator=>%s" %findtxt)
         
         # 这里存在风险，python scroll封装不完善
         if ite == None:
@@ -166,13 +166,13 @@ class FlowRecord360Action(object):
     
     # 关闭360悬浮球
     def closeSuspension(self):
-        self.driver.click(u"name=>隐私保护")
+        self.driver.click(u"uiautomator=>隐私保护")
         
-        self.driver.click(u"name=>卫士设置")
+        self.driver.click(u"uiautomator=>卫士设置")
         
-        self.driver.click(u"name=>悬浮窗")
+        self.driver.click(u"uiautomator=>悬浮窗")
         
-        self.driver.click(u"name=>开启内存清理悬浮窗")
+        self.driver.click(u"uiautomator=>开启内存清理悬浮窗")
         
         time.sleep(2)
         
@@ -180,8 +180,8 @@ class FlowRecord360Action(object):
         
         BaseAdb.adbBack()
         
-        self.driver.click(u"name=>常用功能")
-    
+        self.driver.click(u"uiautomator=>常用功能")
+
     
     
     def findDigit(self, st):

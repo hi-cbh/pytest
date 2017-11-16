@@ -22,26 +22,26 @@ class Send(object):
             self.driver.click(r"id=>cn.cj.pe:id/actionbar_right_view")
             # 收件人输入内容
             print('=>收件人输入内容')
-            self.driver.type(r"id=>cn.cj.pe:id/to_wrapper",self.username)
+            self.driver.set_value(r"id=>cn.cj.pe:id/to_wrapper",self.username)
             # 点击空白地方
             print('=>点击空白地方')
             self.driver.click(r"id=>cn.cj.pe:id/actionbar_title_sub")
             
             # 输入主题
             print('=>输入主题') # testReceive
-            self.driver.type(r"id=>cn.cj.pe:id/subject",'testReceive')
+            self.driver.set_value(r"id=>cn.cj.pe:id/subject",'testReceive')
 
             # 输入邮件内容
             print('=>输入邮件内容')
-            self.driver.type(r"id=>cn.cj.pe:id/message_content",'123456789012345678901234567890')
+            self.driver.set_value(r"id=>cn.cj.pe:id/message_content",'123456789012345678901234567890')
               
             # 添加附件
             print('=>添加附件')
             self.driver.click(r"id=>cn.cj.pe:id/add_attachment")
-            self.driver.click(u"name=>本地文件夹")
-            self.driver.click(r"name=>0")
-            self.driver.click(r"name=>0.")
-            self.driver.click(r"name=>test2M.rar")
+            self.driver.click(u"uiautomator=>本地文件夹")
+            self.driver.click(r"uiautomator=>0")
+            self.driver.click(r"uiautomator=>0.")
+            self.driver.click(r"uiautomator=>test2M.rar")
             self.driver.click(r"id=>cn.cj.pe:id/check_button")
          
             time.sleep(5)
@@ -58,8 +58,8 @@ class Send(object):
             bl = BaseFile.waitForFileModify(30)
             time.sleep(3)
             print('查找页面是否出现新邮件')
-            bl2 = self.driver.element_wait('name=>testReceive')
-            
+            bl2 = self.driver.element_wait('uiautomator=>testReceive')
+
             if (bl2==None) or (bl == False) :
                 self.driver.swipeDown()
             
@@ -70,7 +70,7 @@ class Send(object):
 #             print(data)
             time.sleep(2)
      
-            if self.driver.element_wait('name=>testReceive') != None:
+            if self.driver.element_wait('uiautomator=>testReceive') != None:
                 h = 400
                 print('=>查找第一封邮件位置')
                 if self.driver.get_element("id=>android:id/list") != None:
@@ -84,13 +84,15 @@ class Send(object):
                 print('=>点击删除')
                 self.driver.click("id=>cn.cj.pe:id/item_view_back_four")    
             
-            time.sleep(2)
-            
-            return data
+
         except BaseException as error:
             print(error)
             print('发送邮件出错了！！！')
-            return 0   
+            return 0
+
+        else:
+            time.sleep(2)
+            return data
 
     def sendAction(self):
         '''正常的发送邮件'''
@@ -100,26 +102,26 @@ class Send(object):
             self.driver.click(r"id=>cn.cj.pe:id/actionbar_right_view")
             # 收件人输入内容
             print('=>收件人输入内容')
-            self.driver.type(r"id=>cn.cj.pe:id/to_wrapper",self.username)
+            self.driver.set_value(r"id=>cn.cj.pe:id/to_wrapper",self.username) # appium 1.6
             # 点击空白地方
             print('=>点击空白地方')
             self.driver.click(r"id=>cn.cj.pe:id/actionbar_title_sub")
             
             # 输入主题
             print('=>输入主题')
-            self.driver.type(r"id=>cn.cj.pe:id/subject",'test')
+            self.driver.set_value(r"id=>cn.cj.pe:id/subject",'test') # appium 1.6
 
             # 输入邮件内容
             print('=>输入邮件内容')
-            self.driver.type(r"id=>cn.cj.pe:id/message_content",'123456789012345678901234567890')
+            self.driver.set_value(r"id=>cn.cj.pe:id/message_content",'123456789012345678901234567890') # appium 1.6
               
             # 添加附件
             print('=>添加附件')
             self.driver.click(r"id=>cn.cj.pe:id/add_attachment")
-            self.driver.click(u"name=>本地文件夹")
-            self.driver.click(r"name=>0")
-            self.driver.click(r"name=>0.")
-            self.driver.click(r"name=>test2M.rar")
+            self.driver.click(u"uiautomator=>本地文件夹") # appium 1.6
+            self.driver.click(r"uiautomator=>0")
+            self.driver.click(r"uiautomator=>0.")
+            self.driver.click(r"uiautomator=>test2M.rar")
             self.driver.click(r"id=>cn.cj.pe:id/check_button")
          
          
@@ -131,7 +133,7 @@ class Send(object):
             el.click()
             
             print('=>等待已完成出现，并记录时间')
-            self.driver.element_wait(u"name=>已完成",120)
+            self.driver.element_wait(u"uiautomator=>已完成",120) # appium 1.6
             end = time.time()
             
             valueTime = str(round((end - start), 2))

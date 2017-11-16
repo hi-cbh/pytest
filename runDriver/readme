@@ -1,0 +1,7 @@
+chromedriver 下载http://chromedriver.storage.googleapis.com/index.html
+
+$mv chromedriver /usr/local/bin
+
+$cd /usr/local/bin
+
+$chmod a+x chromedirver

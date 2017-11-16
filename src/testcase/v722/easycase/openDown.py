@@ -2,10 +2,11 @@
 # encoding:utf-8
 
 import time
+import unittest
 from src.base.baseAdb import BaseAdb
 from src.base.baseFile import BaseFile
 
-class OpenDown(object):
+class OpenDown(unittest.TestCase):
     
     def __init__(self,driver, path, filename):
         self.driver = driver
@@ -29,9 +30,9 @@ class OpenDown(object):
             print('=>记录当前时间，并点击开始')
             start = time.time()
             els[0].click()
-            
+
             print('=>查找控件，确认进入邮件详情页')
-            self.driver.element_wait(r"id=>cn.cj.pe:id/circular_progress_container")
+            self.assertTrue(self.driver.element_wait(r"id=>cn.cj.pe:id/circular_progress_container") != None , "测试邮件不存在!")
             self.driver.element_wait(r"class=>android.widget.GridView")
             self.driver.element_wait(r"class=>android.webkit.WebView")
             
@@ -39,14 +40,15 @@ class OpenDown(object):
             end = time.time()
             valueTime = str(round((end - start), 2))
             print(u'[打开未读邮件时延]: %r'  %valueTime)
-            
-            time.sleep(2)
-            return valueTime
-    
+
         except BaseException as e:
             print(e)
-            print('下载附件出错了！！！')
+            print('打开未读邮件出错！！！')
             return 0
+
+        else:
+            time.sleep(2)
+            return valueTime
         
         
         
@@ -100,8 +102,8 @@ class OpenDown(object):
         time.sleep(2)
         
         print('=>设置未读')
-        if self.driver.get_element(u"name=>未读") != None:
-            self.driver.click(u"name=>未读")
+        if self.driver.get_element(u"uiautomator=>未读") != None:
+            self.driver.click(u"uiautomator=>未读")
         else:
             self.driver.swipe(20, h, width - 20, h, 500) 
             

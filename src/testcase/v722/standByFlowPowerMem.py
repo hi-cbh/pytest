@@ -68,7 +68,7 @@ class StandByFlowPowerMem(unittest.TestCase):
         gt = GTTest("cn.cj.pe")
         pa = PowerAction(self.driver)
 
-        debug = False
+        debug = True
 
         if debug:
             print("debug模式.......")
@@ -164,9 +164,17 @@ class StandByFlowPowerMem(unittest.TestCase):
             BaseAdb.adbStop("edu.umich.PowerTutor")
             BaseAdb.adbStop("com.qihoo360.mobilesafe")  
             time.sleep(5)
+
+
+            # BaseAdb.adbStartApp(appPackage, appActivity)
+            # self.driver.swipeDown()
+            # time.sleep(5)
+            # self.driver.swipeDown()
+            # time.sleep(5)
+
         except BaseException as be:
             print("运行出错，当次数据不入数据库!")
-            # print(be)
+            print(be)
 
 if __name__ == "__main__":
     suite = unittest.TestSuite()

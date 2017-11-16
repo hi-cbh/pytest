@@ -12,8 +12,14 @@ class BaseTime(object):
     def getCurrentTime(self):
         '''用于写入数据库'''    
         return time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) 
-        
+
+
+    def getTimePro(self):
+        '''写入产品ID'''
+        return time.strftime("%m%d", time.localtime())
+
+
 BaseTime = BaseTime()
 
 if __name__ == "__main__":
-    print(BaseTime.getCurrentTime())
+    print(BaseTime.getTimePro())

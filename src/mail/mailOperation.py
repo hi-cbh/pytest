@@ -9,6 +9,7 @@ from imapclient import IMAPClient
 class EmailOperation(object):
     
     def __init__(self, userName, pwd):
+        print("使用imapclient，操作邮件...")
         self.server = IMAPClient('imap.139.com', use_uid=True, ssl=False)
         self.username = userName
         self.password = pwd

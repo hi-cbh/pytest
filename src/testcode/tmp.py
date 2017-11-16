@@ -1,14 +1,18 @@
 # urs/bin/python
 # encoding:utf-8
-import sys
-import time
-import unittest
-from base.baseConversion import BaseConversion as bc
-from psam.psam import Psam
+sum1 = 0
 
-import os
-curPath = os.path.abspath(os.path.dirname(__file__))
-rootPath = os.path.split(curPath)
-sys.path.append(os.path.split(os.path.abspath(os.path.dirname(__file__)))[0])
+x = 1
 
-print(rootPath)
+time = 0
+
+while True:
+    sum1 = sum1 + x
+    x = x * 2
+
+    time = time + 1
+    if time > 20:
+        break
+
+
+print(sum1)

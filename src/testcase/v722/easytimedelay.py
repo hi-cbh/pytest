@@ -39,12 +39,19 @@ versionID = cf.get("verconf", "versionid")
 class Timedelay(unittest.TestCase):
 
     def setUp(self):
-        # AppiumServer2().start_server()
-        time.sleep(10)
+        try:
+            # time.sleep(10)
+            # AppiumServer2().start_server()
+            # time.sleep(10)
 
-        EmailOperation(username+"@139.com", pwd).moveForlder(["990","INBOX"])
-        BaseAdb.adbIntallUiautmator()
-        self.driver = Psam()
+            BaseAdb.adbIntallUiautmator()
+            self.driver = Psam("6.0")
+        except BaseException as error:
+            print("setUp启动出错！")
+
+        else:
+            EmailOperation(username+"@139.com", pwd).moveForlder(["990","INBOX"])
+            time.sleep(10)
 
 
 
@@ -64,7 +71,7 @@ class Timedelay(unittest.TestCase):
         network = BaseAdb.getNetworkType()
         print('当前网络状态：%s' %network)
 
-        runtimes = 3
+        runtimes = 2
 
         for x in range(1,runtimes):
             # 复位
@@ -85,6 +92,8 @@ class Timedelay(unittest.TestCase):
                 stat = u'开始打开邮件、下载附件测试'
                 od = OpenDown(self.driver, path, filename)
                 opentime = od.openAction()
+
+                self.assertTrue(opentime != 0, "打开邮件错误！！！")
                 downtime = od.downAction()
                 od.setFirstEmail()
 
@@ -110,11 +119,13 @@ class Timedelay(unittest.TestCase):
 
                 print(result)
 
-                testResult = {'productName' : '139','versionID':versionID,'networkType': network,'nowTime':BaseTime.getCurrentTime(),'groupId':x}
+                # testResult = {'productName' : '139','versionID':versionID,'networkType': network,'nowTime':BaseTime.getCurrentTime(),'groupId':x}
+                #
+                # datas = dict(testResult , **result)
+                #
+                # SQLHelper.InsertTimedelay(datas)
 
-                datas = dict(testResult , **result)
 
-                SQLHelper.InsertTimedelay(datas)
 
 if __name__ == "__main__":
     suite = unittest.TestSuite()

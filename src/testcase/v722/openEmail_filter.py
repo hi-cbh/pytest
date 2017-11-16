@@ -47,7 +47,7 @@ class OpenEmail(unittest.TestCase):
         # AppiumServer2().start_server()
         time.sleep(10)
         EmailOperation(username+"@139.com", pwd).moveForlder(["100","INBOX"])
-        BaseAdb.adbIntallUiautmator()        
+        BaseAdb.adbIntallUiautmator()
         self.driver = Psam()
 
     #释放实例,释放资源
@@ -100,7 +100,9 @@ class OpenEmail(unittest.TestCase):
             time.sleep(2)
               
             # 在桌面查找 139邮箱
-            el = self.driver.get_element(u"name=>139邮箱")
+            # el = self.driver.get_element(u"name=>139邮箱") # appium 1.4
+            el = self.driver.uiautomator(u'new UiSelector().text("139邮箱")') # appium 1.6
+
             if el == None:
                 print('找不到控件')
                 return 0

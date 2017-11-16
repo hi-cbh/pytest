@@ -18,8 +18,8 @@ class PowerAction(object):
         time.sleep(2)
         
         #重置app后，首次进入，点击按钮
-        self.driver.click("name=>Ok")
-        self.driver.click("name=>Agree")
+        self.driver.click("uiautomator=>Ok")
+        self.driver.click("uiautomator=>Agree")
         
         #点击开始记录按钮
         self.driver.click("id=>edu.umich.PowerTutor:id/servicestartbutton")
@@ -29,9 +29,9 @@ class PowerAction(object):
         self.driver.click("id=>edu.umich.PowerTutor:id/appviewerbutton")
         
         # 点击取消 LCD、wifi、3G监控
-        self.driver.click("name=>LCD")
-        self.driver.click("name=>Wifi")
-        self.driver.click("name=>3G")
+        self.driver.click("uiautomator=>LCD")
+        self.driver.click("uiautomator=>Wifi")
+        self.driver.click("uiautomator=>3G")
         
         time.sleep(2)
         ba.adbBack()

@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Test Report</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+	<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    
+<style type="text/css" media="screen">
+body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
+table       { font-size: 100%; }
+pre         { }
+
+/* -- heading ---------------------------------------------------------------------- */
+h1 {
+	font-size: 16pt;
+	color: gray;
+}
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+
+.heading .attribute {
+    margin-top: 1ex;
+    margin-bottom: 0;
+}
+
+.heading .description {
+    margin-top: 4ex;
+    margin-bottom: 6ex;
+}
+
+/* -- css div popup ------------------------------------------------------------------------ */
+a.popup_link {
+}
+
+a.popup_link:hover {
+    color: red;
+}
+
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #E6E6D6;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 8pt;
+    width: 500px;
+}
+
+}
+/* -- report ------------------------------------------------------------------------ */
+#show_detail_line {
+    margin-top: 3ex;
+    margin-bottom: 1ex;
+}
+#result_table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid #777;
+}
+#header_row {
+    font-weight: bold;
+    color: white;
+    background-color: #777;
+}
+#result_table td {
+    border: 1px solid #777;
+    padding: 2px;
+}
+#total_row  { font-weight: bold; }
+.passClass  { background-color: #6c6; }
+.failClass  { background-color: #c60; }
+.errorClass { background-color: #c00; }
+.passCase   { color: #6c6; }
+.failCase   { color: #c60; font-weight: bold; }
+.errorCase  { color: #c00; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+
+/* -- ending ---------------------------------------------------------------------- */
+#ending {
+}
+
+</style>
+
+</head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+
+<div class='heading'>
+<h1>Test Report</h1>
+<p class='attribute'><strong>Start Time:</strong> 2017-11-16 16:22:54</p>
+<p class='attribute'><strong>Duration:</strong> 0:38:47.598749</p>
+<p class='attribute'><strong>Status:</strong> Pass 6</p>
+
+<p class='description'>Example with: </p>
+</div>
+
+
+
+<p id='show_detail_line'>Show
+<a href='javascript:showCase(0)' class="btn btn-xs btn-primary">Summary</a>
+<a href='javascript:showCase(1)' class="btn btn-xs btn-danger">Failed</a>
+<a href='javascript:showCase(2)' class="btn btn-xs btn-info">All</a>
+</p>
+<table id='result_table'>
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row'>
+    <td>Test Group/Test case</td>
+    <td>Count</td>
+    <td>Pass</td>
+    <td>Fail</td>
+    <td>Error</td>
+    <td>View</td>
+</tr>
+
+<tr class='passClass'>
+    <td>src.testcase.v731.easytimedelay.Timedelay</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
+</tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>testCase</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
+
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1: 使用imapclient，操作邮件...
+移动邮件成功：990 =&gt; INBOX
+CMCC
+当前网络状态：CMCC
+当前运行次数为：'1'
+点击坐标
+=&gt;选择139邮箱
+=&gt;输入用户名
+=&gt;输入密码
+=&gt;点击登录
+=&gt;记录当前时间、点击登录
+=&gt;等待体验按钮出现，并记录当前时间
+[登录时延]: '3.11'
+=&gt;点击我的
+=&gt;点击设置
+==&gt;下载图片设置
+=&gt;返回设置页面
+=&gt;返回收件箱
+休眠10秒
+下拉
+=&gt;点击第一封邮件
+=&gt;记录当前时间，并点击开始
+=&gt;查找控件，确认进入邮件详情页
+=&gt;记录当前时间，控件已查找完成
+[打开未读邮件时延]: '2.27'
+=&gt;清除下载的旧数据
+=&gt;点击全部下载
+=&gt;等待文件出现
+[下载附件时延]: '1.73'
+=&gt;返回收件箱
+=&gt;第一封邮件
+=&gt;右滑
+=&gt;设置未读
+=&gt;点击写邮件按钮
+=&gt;收件人输入内容
+=&gt;点击空白地方
+=&gt;输入主题
+=&gt;输入邮件内容
+=&gt;添加附件
+=&gt;点击发送按钮，开始计时
+=&gt;等待已完成出现，并记录时间
+[发送邮件时延]: '4.18'
+返回收件箱
+=&gt;接收邮件时延
+点击写信页: True
+切换frame: True
+输入收件人: True
+输入主题: True
+点击发送
+=&gt;等待本域邮件出现
+wait.....
+find it
+[接收本域邮件时延]: '2.29'
+=&gt;查找第一封邮件位置
+=&gt;右滑删除
+=&gt;点击删除
+{'logintime': '3.11', 'readtime': '2.27', 'downtime': '1.73', 'sendtime': '4.18', 'receivetime': '2.29'}
+INSERT INTO tb_app_data_timedelay (productName,versionID,networkType,nowTime,groupId,logintime,readtime,downtime,sendtime,receivetime) VALUES ('139','7311116','CMCC','2017-11-16 16:25:48','1','3.11','2.27','1.73','4.18','2.29')
+运行结束
+使用imapclient，操作邮件...
+移动邮件成功：INBOX =&gt; 990
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>src.testcase.v731.peakValue.PeakValue</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c2',1)">Detail</a></td>
+</tr>
+
+<tr id='pt2.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>testCase</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.1')" >
+        pass</a>
+
+    <div id='div_pt2.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.1: 使用imapclient，操作邮件...
+移动邮件成功：100 =&gt; INBOX
+CMCC
+当前网络状态：CMCC
+使用imapclient，操作邮件...
+100封邮件
+当前运行次数为：'1'
+点击坐标
+=&gt;选择139邮箱
+=&gt;输入用户名
+=&gt;输入密码
+=&gt;点击登录
+=&gt;记录当前时间、点击登录
+=&gt;等待体验按钮出现，并记录当前时间
+[登录时延]: '3.35'
+=&gt;点击我的
+=&gt;点击设置
+==&gt;通知设置
+=&gt;返回设置页面
+=&gt;返回收件箱
+=&gt;点击写邮件按钮
+=&gt;收件人输入内容
+=&gt;点击空白地方
+=&gt;输入主题
+=&gt;输入邮件内容
+=&gt;添加附件
+GT开启
+GT添加package
+GT添加CPU监控
+GT添加Mem监控
+返回
+开始记录时间
+=&gt;点击发送按钮，开始计时
+等待文件更新
+文件更新了.....
+查找页面是否出现新邮件
+记录CPU结果
+记录MEM结果
+获取文件名
+2017-11-16_16-28-16
+保存文件
+/mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-11-16_16-28-16/
+PC: /Users/apple/git/pytest/logs/
+adb pull /mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-11-16_16-28-16/ /Users/apple/git/pytest/logs/
+pull: building file list...
+
+[['min', '98684.0', '47172.0', '35272.0'], ['max', '113196.0', '61372.0', '35352.0'], ['avg', '102537.0', '50796.0', '35284.0']]
+[{'min': '0.0%', 'max': '29.66%', 'avg': '14.32%'}, {'min': 96.37, 'max': 110.54, 'avg': 100.13}]
+=&gt;查找第一封邮件位置
+=&gt;右滑删除
+=&gt;点击删除
+使用imapclient，操作邮件...
+clear Forlder: 已删除
+clear Forlder: 已发送
+INSERT INTO tb_app_cpu_mem (productName,versionID,networkType,nowTime,avgcpu,maxcpu,avgmem,maxmem,groupId) VALUES ('139','7311116','CMCC','2017-11-16 16:28:42','14.32','29.66','100.13','110.54','1')
+使用imapclient，操作邮件...
+移动邮件成功：INBOX =&gt; 100
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>src.testcase.v731.openEmail_filter.OpenEmail</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c3',1)">Detail</a></td>
+</tr>
+
+<tr id='pt3.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>testCase</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.1')" >
+        pass</a>
+
+    <div id='div_pt3.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt3.1: 使用imapclient，操作邮件...
+移动邮件成功：100 =&gt; INBOX
+CMCC
+当前网络状态：CMCC
+点击坐标
+=&gt;选择139邮箱
+=&gt;输入用户名
+=&gt;输入密码
+=&gt;点击登录
+=&gt;记录当前时间、点击登录
+=&gt;等待体验按钮出现，并记录当前时间
+[登录时延]: '2.96'
+加载本地100封邮件
+滑动
+点击
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+[加载更多邮件] can not find it！
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+[加载更多邮件] can not find it！
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+[加载更多邮件] can not find it！
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+滑动
+点击
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+[加载更多邮件] can not find it！
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+滑动
+点击
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+[加载更多邮件] can not find it！
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+判断是否结束
+[已没有更多邮件] can not find it！
+滑动
+点击
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+判断是否结束
+[已没有更多邮件] can not find it！
+[加载更多邮件] can not find it！
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+判断是否结束
+[已没有更多邮件] can not find it！
+滑动
+点击
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+判断是否结束
+[已没有更多邮件] can not find it！
+[加载更多邮件] can not find it！
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+判断是否结束
+运行杀进程启动：
+第 1 轮测试结果：
+[5.13, 5.13, 5.52, 5.15, 5.26, 5.21, 5.4, 5.55, 4.4, 3.43]
+INSERT INTO tb_app_start_time (productName,versionID,networkType,nowTime,time0,time1,time2,time3,time4,time5,time6,time7,time8,time9,groupId) VALUES ('139','7311116','CMCC','2017-11-16 16:34:21','5.13','5.13','5.52','5.15','5.26','5.21','5.4','5.55','4.4','3.43','1')
+第 2 轮测试结果：
+[3.45, 3.48, 3.75, 3.43, 3.51, 3.51, 3.54, 3.48, 3.57, 4.37]
+INSERT INTO tb_app_start_time (productName,versionID,networkType,nowTime,time0,time1,time2,time3,time4,time5,time6,time7,time8,time9,groupId) VALUES ('139','7311116','CMCC','2017-11-16 16:35:37','3.45','3.48','3.75','3.43','3.51','3.51','3.54','3.48','3.57','4.37','2')
+第 3 轮测试结果：
+[3.88, 3.55, 3.56, 3.62, 3.71, 3.7, 3.5, 3.55, 3.98, 3.65]
+INSERT INTO tb_app_start_time (productName,versionID,networkType,nowTime,time0,time1,time2,time3,time4,time5,time6,time7,time8,time9,groupId) VALUES ('139','7311116','CMCC','2017-11-16 16:36:55','3.88','3.55','3.56','3.62','3.71','3.7','3.5','3.55','3.98','3.65','3')
+使用imapclient，操作邮件...
+移动邮件成功：INBOX =&gt; 100
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>src.testcase.v731.brushFlow.BrushFlow</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c4',1)">Detail</a></td>
+</tr>
+
+<tr id='pt4.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>testCase</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.1')" >
+        pass</a>
+
+    <div id='div_pt4.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt4.1: 使用imapclient，操作邮件...
+移动邮件成功：100 =&gt; INBOX
+CMCC
+当前网络状态：CMCC
+点击坐标
+=&gt;选择139邮箱
+=&gt;输入用户名
+=&gt;输入密码
+=&gt;点击登录
+=&gt;记录当前时间、点击登录
+=&gt;等待体验按钮出现，并记录当前时间
+[登录时延]: '2.93'
+加载本地100封邮件
+[加载更多邮件] can not find it！
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+滑动
+点击
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+[加载更多邮件] can not find it！
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+滑动
+点击
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+[加载更多邮件] can not find it！
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+滑动
+点击
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+[加载更多邮件] can not find it！
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+滑动
+点击
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+[加载更多邮件] can not find it！
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+判断是否结束
+CMCC
+[com.qihoo360.mobilesafe:id/common_btn_left] can not find it！
+启动139
+下拉
+获取流量值：
+点击列表中的139
+获取总流量
+all: 30.28K
+{'up': 14.18, 'down': 16.1, 'all': 30.28}
+INSERT INTO tb_app_flow_brush (productName,versionID,networkType,nowTime,upflow,downflow,allflow,groupId) VALUES ('139','7311116','CMCC','2017-11-16 16:41:32','14.18','16.1','30.28','1')
+启动139
+下拉
+获取流量值：
+点击列表中的139
+获取总流量
+all: 30.28K
+{'up': 14.18, 'down': 16.1, 'all': 30.28}
+INSERT INTO tb_app_flow_brush (productName,versionID,networkType,nowTime,upflow,downflow,allflow,groupId) VALUES ('139','7311116','CMCC','2017-11-16 16:42:29','14.18','16.1','30.28','2')
+使用imapclient，操作邮件...
+移动邮件成功：INBOX =&gt; 100
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>src.testcase.v731.loginFlow.LoginFlow</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c5',1)">Detail</a></td>
+</tr>
+
+<tr id='pt5.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>testCase</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt5.1')" >
+        pass</a>
+
+    <div id='div_pt5.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt5.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt5.1: 使用imapclient，操作邮件...
+clear Forlder: INBOX
+clear Forlder: 已删除
+clear Forlder: 已发送
+使用imapclient，操作邮件...
+移动邮件成功：20 =&gt; INBOX
+======运行首次登录流量开始======
+CMCC
+[com.qihoo360.mobilesafe:id/common_btn_left] can not find it！
+CMCC
+当前网络状态：CMCC
+运行首次等次数：1
+点击坐标
+=&gt;选择139邮箱
+=&gt;输入用户名
+=&gt;输入密码
+=&gt;点击登录
+=&gt;记录当前时间、点击登录
+=&gt;等待体验按钮出现，并记录当前时间
+[登录时延]: '3.15'
+等待未读邮件出现.....20封
+记录流量值
+获取流量值：
+点击列表中的139
+获取总流量
+all: 346.3K
+{'up': 49.65, 'down': 296.6, 'all': 346.3}
+INSERT INTO tb_app_flow_login (productName,versionID,networkType,nowTime,upflow,downflow,allflow,groupId) VALUES ('139','7311116','CMCC','2017-11-16 16:45:33','49.65','296.6','346.3','1')
+运行首次等次数：2
+点击坐标
+=&gt;选择139邮箱
+=&gt;输入用户名
+=&gt;输入密码
+=&gt;点击登录
+=&gt;记录当前时间、点击登录
+=&gt;等待体验按钮出现，并记录当前时间
+[登录时延]: '3.41'
+等待未读邮件出现.....20封
+记录流量值
+获取流量值：
+点击列表中的139
+获取总流量
+all: 353.9K
+{'up': 53.57, 'down': 300.3, 'all': 353.9}
+INSERT INTO tb_app_flow_login (productName,versionID,networkType,nowTime,upflow,downflow,allflow,groupId) VALUES ('139','7311116','CMCC','2017-11-16 16:46:57','53.57','300.3','353.9','2')
+======运行首次登录流量结束======
+使用imapclient，操作邮件...
+移动邮件成功：INBOX =&gt; 20
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>src.testcase.v731.standByFlowPowerMem.StandByFlowPowerMem</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c6',1)">Detail</a></td>
+</tr>
+
+<tr id='pt6.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>testCase</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt6.1')" >
+        pass</a>
+
+    <div id='div_pt6.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt6.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt6.1: 使用imapclient，操作邮件...
+移动邮件成功：100 =&gt; INBOX
+CMCC
+当前网络状态：CMCC
+debug模式.......
+点击坐标
+=&gt;选择139邮箱
+=&gt;输入用户名
+=&gt;输入密码
+=&gt;点击登录
+=&gt;记录当前时间、点击登录
+=&gt;等待体验按钮出现，并记录当前时间
+[登录时延]: '3.3'
+等待5秒，预防没有弹窗出现邮件
+加载本地100封邮件
+[加载更多邮件] can not find it！
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+滑动
+点击
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+[加载更多邮件] can not find it！
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+滑动
+点击
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+[加载更多邮件] can not find it！
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+滑动
+点击
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+[加载更多邮件] can not find it！
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+滑动
+点击
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+[加载更多邮件] can not find it！
+滑动
+滑动
+滑动
+1.5分钟后，开始判断
+判断是否结束
+静等待1分钟.....
+等待分钟: 1
+准备测试环境.....
+do something
+CMCC
+[com.qihoo360.mobilesafe:id/common_btn_left] can not find it！
+GT开启
+GT添加package
+GT添加CPU监控
+GT添加Mem监控
+返回
+开始记录时间
+静等待2分钟.....
+等待分钟: 1
+开始记录......
+获取流量值：
+点击列表中的139
+获取总流量
+all: 0B
+{'up': 0.0, 'down': 0.0, 'all': 0.0}
+记录CPU结果
+记录MEM结果
+获取文件名
+2017-11-16_16-53-39
+保存文件
+/mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-11-16_16-53-39/
+PC: /Users/apple/git/pytest/logs/
+adb pull /mnt/sdcard/GT/GW/cn.cj.pe/runcode/2017-11-16_16-53-39/ /Users/apple/git/pytest/logs/
+pull: building file list...
+
+[['min', '88124.0', '41124.0', '18448.0'], ['max', '88128.0', '41124.0', '18448.0'], ['avg', '88127.0', '41124.0', '18448.0']]
+[{'min': '0.0%', 'max': '0.4%', 'avg': '0.02%'}, {'min': 86.06, 'max': 86.06, 'avg': 86.06}]
+application viewer
+获取电量值
+0.3% [0:01:42] 139邮箱
+21.0 mJ
+0.021
+{'productName': '139', 'versionID': '7311116', 'networkType': 'CMCC', 'nowTime': '2017-11-16 16:53:58', 'electric': 0.021, 'upflow': 0.0, 'downflow': 0.0, 'allflow': 0.0, 'avgmem': 86.06, 'groupId': '1'}
+INSERT INTO tb_app_standy_no (productName,versionID,networkType,nowTime,electric,upflow,downflow,allflow,avgmem,groupId) VALUES ('139','7311116','CMCC','2017-11-16 16:53:58','0.021','0.0','0.0','0.0','86.06','1')
+发送邮件......
+点击写信页: True
+切换frame: True
+输入收件人: True
+输入主题: True
+点击发送
+点击写信页: True
+切换frame: True
+输入收件人: True
+输入主题: True
+点击发送
+点击写信页: True
+切换frame: True
+输入收件人: True
+输入主题: True
+点击发送
+等待两分钟
+再次记录......
+获取流量值：
+点击列表中的139
+获取总流量
+all: 31.82K
+{'up': 15.34, 'down': 16.48, 'all': 31.82}
+application viewer
+获取电量值
+3.3% [0:08:55] 139邮箱
+847.0 mJ
+0.847
+使用imapclient，操作邮件...
+需要删除邮件数量为：3
+接收邮件数量：3
+{'productName': '139', 'versionID': '7311116', 'networkType': 'CMCC', 'nowTime': '2017-11-16 17:01:17', 'electric': 0.847, 'upflow': 15.34, 'downflow': 16.48, 'allflow': 31.82, 'emailcount': 3, 'groupId': '1'}
+INSERT INTO tb_app_standy_email (productName,versionID,networkType,nowTime,electric,upflow,downflow,allflow,emailcount,groupId) VALUES ('139','7311116','CMCC','2017-11-16 17:01:17','0.847','15.34','16.48','31.82','3','1')
+清除
+使用imapclient，操作邮件...
+需要删除邮件数量为：3
+使用imapclient，操作邮件...
+移动邮件成功：INBOX =&gt; 100
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='total_row'>
+    <td>Total</td>
+    <td>6</td>
+    <td class="text text-success">6</td>
+    <td class="text text-danger">0</td>
+    <td class="text text-warning">0</td>
+    <td>&nbsp;</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+
+</body>
+</html>

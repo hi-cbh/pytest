@@ -101,6 +101,7 @@ class BrushFlow(unittest.TestCase):
             print("运行出错，当次数据不入数据库!")
             print(be)
 
+
 if __name__ == "__main__":
     suite = unittest.TestSuite()
     suite.addTest(BrushFlow('testCase'))

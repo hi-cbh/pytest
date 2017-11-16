@@ -1,5 +1,5 @@
 #!/bin/bash
 
-node /usr/local/lib/node_modules/appium/bin/appium.js --session-override
+appium --session-override
 
 exit 0

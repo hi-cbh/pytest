@@ -9,10 +9,10 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 class Psam(object):
     
-    def __init__(self):
+    def __init__(self, version="6.0"):
         desired_caps = {}
         desired_caps['platformName'] = 'Android'
-        desired_caps['platformVersion'] = '6.0'
+        desired_caps['platformVersion'] = version
         desired_caps['deviceName'] = 'android'
         desired_caps['appPackage'] = 'cn.cj.pe'
         desired_caps['appActivity'] = 'com.mail139.about.LaunchActivity'
@@ -51,8 +51,10 @@ class Psam(object):
                 el = WebDriverWait(self.driver,secs,1).until(EC.presence_of_element_located((By.XPATH, value)))
             elif by == "css":
                 el = WebDriverWait(self.driver,secs,1).until(EC.presence_of_element_located((By.CSS_SELECTOR, value)))
+            elif by == "uiautomator":
+                el = WebDriverWait(self.driver,10,1).until(EC.presence_of_element_located((By.ANDROID_UIAUTOMATOR, u'new UiSelector().text("%s")' %value)))
             else:
-                raise NameError("Please enter the correct targeting elements,'id','name','class','link_text','xpath','css'.")
+                raise NameError("Please enter the correct targeting elements,'id','name','class','link_text','xpath','css', 'uiautomator'.")
             return el
         except BaseException as e:
             print('[%s] can not find it！' %value)
@@ -75,7 +77,6 @@ class Psam(object):
                 element = self.driver.find_element_by_id(value)
             elif by == "name":
                 element = self.driver.find_element_by_name(value)
-#                 element = self.driver.find_element_by_android_uiautomator("text("+value+")")
             elif by == "class":
                 element = self.driver.find_element_by_class_name(value)
             elif by == "link_text":
@@ -84,6 +85,8 @@ class Psam(object):
                 element = self.driver.find_element_by_xpath(value)
             elif by == "css":
                 element = self.driver.find_element_by_css_selector(value)
+            elif by == "uiautomator":
+                element = self.driver.find_element_by_android_uiautomator(u'new UiSelector().text("%s")' %value)
             else:
                 raise NameError("Please enter the correct targeting elements,'id','name','class','link_text','xpath','css'.")
             return element
@@ -115,6 +118,8 @@ class Psam(object):
                 elements = self.driver.find_elements_by_xpath(value)
             elif by == "css":
                 elements = self.driver.find_elements_by_css_selector(value)
+            elif by == "uiautomator":
+                elements = self.driver.find_elements_by_android_uiautomator(u'new UiSelector().text("%s")' %value)
             else:
                 raise NameError("Please enter the correct targeting elements,'id','name','class','link_text','xpath','css'.")
             return elements
@@ -147,6 +152,8 @@ class Psam(object):
                 elements = element.find_elements_by_xpath(value)
             elif by == "css":
                 elements = element.find_elements_by_css_selector(value)
+            elif by == "uiautomator":
+                elements = self.driver.find_element_by_android_uiautomator(u'new UiSelector().text("%s")' %value)
             else:
                 raise NameError("Please enter the correct targeting elements,'id','name','class','link_text','xpath','css'.")
             return elements
@@ -163,6 +170,19 @@ class Psam(object):
         self.element_wait(css)
         el = self.get_element(css)
         el.send_keys(text)
+
+    def set_value(self, css, text):
+        '''
+        Operation input box. appium 1.6
+
+        Usage:
+        driver.type("css=>#el","selenium")
+        '''
+        self.element_wait(css)
+        el = self.get_element(css)
+        el.set_value(text)
+
+
 
     def clear(self, css):
         '''
@@ -283,7 +303,8 @@ class Psam(object):
         self.driver.implicitly_wait(secs)
 
     def uiautomator(self,uia_string):
-        self.driver.find_element_by_android_uiautomator(uia_string)
+        return self.driver.find_element_by_android_uiautomator(uia_string)
+        # self.driver.find_element_by_android_uiautomator('new UiSelector().description("%s")' %uia_string)
 
 #     def scrollTo(self):
 #         self.driver.scroll(origin_el, destination_el)

@@ -17,16 +17,23 @@ class Login(object):
         self.driver.reset()
 
         time.sleep(4)
-
         if firstLogin == True:
-            self.driver.click(u"name=>允许")
+            self.driver.click(u"uiautomator=>允许")
             time.sleep(4)
 
         self.driver.swipeRight()
         self.driver.swipeRight()
         self.driver.swipeRight()
         # self.driver.swipeRight()
-        BaseAdb.adbTap(700, 2200)
+        print("点击坐标")
+        # BaseAdb.adbTap(700, 2200)  # vivo 1603  w * 0.5, h * 0.885
+
+        w = self.driver.get_window_size()['width']
+        h = self.driver.get_window_size()['height']
+
+        BaseAdb.adbTap(w/2, int(h * 0.885))
+        # BaseAdb.adbTap(500, 1700) #其他手机需要调试
+
         time.sleep(4)
         
         print('=>选择139邮箱')
@@ -40,12 +47,14 @@ class Login(object):
             raise "没有进入登录 页面"
                     
         print('=>输入用户名')
-        els[0].send_keys(self.username)
+        # els[0].send_keys(self.username) # appium 1.4
+        els[0].set_value(self.username)
         
          
         print('=>输入密码')
-        els[1].send_keys(self.pwd)
-         
+        # els[1].send_keys(self.pwd) # appium 1.4
+        els[1].set_value(self.pwd)   # appium 1.6
+
         print('=>点击登录')
         loginButton = self.driver.get_element("id=>cn.cj.pe:id/login")
 
@@ -54,7 +63,7 @@ class Login(object):
         loginButton.click()
 
         if firstLogin == True:
-            self.driver.click(u"name=>允许")
+            self.driver.click(u"uiautomator=>允许")
             time.sleep(1)
 
 
@@ -112,7 +121,8 @@ class Login(object):
         
         # 点击设置
         print('=>点击设置')
-        self.driver.click(u"name=>设置")
+        # self.driver.click(u"name=>设置") # appium 1.4
+        self.driver.click(u"uiautomator=>设置") # appium 1.6
         
         
         
@@ -133,22 +143,34 @@ class Login(object):
         
         #设置邮件提示设置
     def setEmailNotice(self):
+        # time.sleep(1) appium 1.4
+        # self.driver.click(u"name=>邮件提示设置")
+        # time.sleep(1)
+        # self.driver.click(u"name=>显示邮件发送页")
+        # time.sleep(1)
+        # self.driver.click(u"name=>显示邮件通知")
+#         time.sleep(1)
         time.sleep(1)
-        self.driver.click(u"name=>邮件提示设置")
-#         time.sleep(1)
-        self.driver.click(u"name=>显示邮件发送页")
-#         time.sleep(1)
-        self.driver.click(u"name=>显示邮件通知")
-#         time.sleep(1)
+        self.driver.click(u"uiautomator=>邮件提示设置")
+        #         time.sleep(1)
+        self.driver.click(u"uiautomator=>显示邮件发送页")
+        #         time.sleep(1)
+        self.driver.click(u"uiautomator=>显示邮件通知")
+        #         time.sleep(1)
         BaseAdb.adbBack()  
         
         
         # 开启收邮件设置：自动下载邮件图片
     def setEmailSetting(self):
+#         time.sleep(1) appium 1.4
+#         self.driver.click(u"name=>收取邮件设置")
+# #         time.sleep(1)
+#         self.driver.click(u"name=>数据网络下自动下载邮件图片")
+# #         time.sleep(1)
         time.sleep(1)
-        self.driver.click(u"name=>收取邮件设置")
+        self.driver.click(u"uiautomator=>收取邮件设置")
 #         time.sleep(1)
-        self.driver.click(u"name=>数据网络下自动下载邮件图片")
+        self.driver.click(u"uiautomator=>数据网络下自动下载邮件图片")
 #         time.sleep(1)
         self.driver.click(r"id=>cn.cj.pe:id/hjl_headicon")
         time.sleep(2)     

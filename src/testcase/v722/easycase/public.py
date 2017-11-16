@@ -14,14 +14,14 @@ class PublicUtil(object):
         # 找到“已没有更多邮件”结束
         while int(round(time.time() * 1000)) < timeout :
             
-            el = driver.element_wait(u"name=>加载更多邮件",secs = 1)
+            el = driver.element_wait(u"uiautomator=>加载更多邮件",secs = 1)
             if el != None:
                 print("滑动")
                 driver.swipeUp()
                 print("点击")
                 # el.click() # 这里经常出错
-                driver.click(u"name=>加载更多邮件",secs = 1)
-                
+                driver.click(u"uiautomator=>加载更多邮件",secs = 1)
+
             print("滑动")    
             driver.swipeUp()
             print("滑动")
@@ -33,7 +33,7 @@ class PublicUtil(object):
             if int(round(time.time() * 1000)) < starttime :
                 continue
             print("判断是否结束")
-            if driver.element_wait(u"name=>已没有更多邮件",secs = 1) != None :
+            if driver.element_wait(u"uiautomator=>已没有更多邮件",secs = 1) != None :
                 break
 
 PublicUtil = PublicUtil()   

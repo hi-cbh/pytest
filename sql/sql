@@ -1,0 +1,78 @@
+set @versionID = '7220924';
+set @networktype = 'CMCC';
+
+select
+DD.groupId as id,
+DD.logintime as 登录,
+DD.receivetime as 接本域邮件,
+DD.readtime as 打开未读,
+DD.downtime as 下载邮件,
+DD.sendtime as 发送邮件,
+FF.allflow as 首加流量,
+EE.allflow as 空刷流量,
+GG.maxmem as 内存峰值,
+GG.maxcpu as CPU峰值,
+II.allflow as 待无流量,
+JJ.allflow as 待有流量,
+II.electric as 待无电量,
+JJ.electric as 待有电量,
+II.avgmem as 待机内存
+from
+(select @ROWNO1 := @ROWNO1 + 1 AS ROWNO,D.* from
+(
+select groupid,logintime,receivetime,readtime,sendtime,downtime from tb_app_data_timedelay AA ,
+(SELECT @ROWNO1 := 0) T3
+where AA.versionID = @versionID
+and AA.networkType = @networktype order by groupid) D
+)DD
+left join
+(
+select @ROWNO3:= @ROWNO3 + 1 AS ROWNO,EE.allflow from
+(
+select allflow,ABS(allflow-avg) abs from tb_app_flow_brush AA
+left join
+(select versionID,avg(allflow) as avg from tb_app_flow_brush
+where versionID = @versionID  and networkType = @networktype) BB on (AA.versionID = BB.versionID)
+where AA.versionID = @versionID  and AA.networkType = @networktype
+order by abs
+limit 10) EE,
+(SELECT @ROWNO3 := 0) T3) EE on DD.ROWNO = EE.ROWNO
+left join
+(
+select @ROWNO4:= @ROWNO4 + 1 AS ROWNO,FF.allflow from
+(
+select allflow,ABS(allflow-avg) abs from tb_app_flow_login AA
+left join
+(select versionID,avg(allflow) as avg from tb_app_flow_login
+where versionID = @versionID  and networkType = @networktype) BB on (AA.versionID = BB.versionID)
+where AA.versionID = @versionID  and AA.networkType = @networktype
+order by abs
+limit 10) FF,
+(SELECT @ROWNO4 := 0) T3) FF on DD.ROWNO = FF.ROWNO
+
+left join
+(
+select @ROWNO5:= @ROWNO5 + 1 AS ROWNO,GG.maxmem, GG.maxcpu from
+(
+select maxmem, maxcpu from tb_app_cpu_mem
+where versionID = @versionID  and networkType = @networktype) GG,
+(SELECT @ROWNO5 := 0) T3) GG on DD.ROWNO = GG.ROWNO
+
+left join
+(
+select @ROWNO7:= @ROWNO7 + 1 AS ROWNO,II.allflow, II.electric, II.avgmem from
+(
+select allflow, electric, avgmem from tb_app_standy_no
+where versionID = @versionID  and networkType = @networktype) II,
+(SELECT @ROWNO7 := 0) T3) II on DD.ROWNO = II.ROWNO
+
+left join
+(
+select @ROWNO10:= @ROWNO10 + 1 AS ROWNO,JJ.allflow, JJ.electric  from
+(
+select allflow, electric from tb_app_standy_email
+where versionID = @versionID  and networkType = @networktype) JJ,
+(SELECT @ROWNO10 := 0) T3) JJ on DD.ROWNO = JJ.ROWNO
+
+
+order by DD.ROWNO

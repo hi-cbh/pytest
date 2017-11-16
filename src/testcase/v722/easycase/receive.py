@@ -50,16 +50,17 @@ class WebReceive(object):
             time.sleep(3)
             print('切换frame: %r' %driver.get_display(r"xpath=>//*[@id='compose_preload' and @class='main-iframe']"))
             driver.switch_to_frame(r"xpath=>//*[@id='compose_preload' and @class='main-iframe']")
-            
-            time.sleep(3)
-            print('输入主题: %r' %driver.get_display(r"xpath=>//input[@id='txtSubject']"))
-            driver.click(r"xpath=>//input[@id='txtSubject']")
-            driver.type(r"xpath=>//input[@id='txtSubject']", "testReceive")
-            
+
             time.sleep(2)
             print('输入收件人: %r' %driver.get_display(r"xpath=>//*[@id='toContainer']/div/div[2]/div[2]/input"))
             driver.type(r"xpath=>//*[@id='toContainer']/div/div[2]/div[2]/input", self.receiver)
-            
+
+            time.sleep(3)
+            print('输入主题: %r' %driver.get_display(r"xpath=>//input[@id='txtSubject']"))
+            # driver.click(r"xpath=>//input[@id='txtSubject']")
+            driver.type(r"xpath=>//input[@id='txtSubject']", "testReceive")
+
+
             print('点击发送')
             driver.click("id=>topSend")
             
@@ -128,7 +129,7 @@ class Receive(object):
         try:
             while (int(round(time.time() * 1000) < timeout)):
                 print('wait.....')
-                if self.driver.get_element("name=>testReceive",1) != None :
+                if self.driver.get_element("uiautomator=>testReceive",1) != None :
                     print('find it')
                     return True;
                 else:
