@@ -65,9 +65,9 @@ class GTTest(object):
         print(remote)
         time.sleep(2)
 
-        print("PC: %s" %PCpath)
+        print("PC: %s" %PCpath + filename+"/")
         # os.mkdir(PCpath)
-        BaseAdb.adbPull(remote ,PCpath)
+        BaseAdb.adbPull(remote ,PCpath+ filename+"/")
         time.sleep(2)
         ls = []
         d = GetCSVData(PCpath+filename+r"/", 'cn.cj.pe')

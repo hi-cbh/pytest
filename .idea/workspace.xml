@@ -2,117 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c0d3c22-cde7-491b-a9c7-c468eb3cb69d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_14-27-19/Pcp0_cn.cj.pe_20170930142642.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_14-27-19/Pcp1_cn.cj.pe_richpush_20170930142642.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_14-27-19/Pr0_cn.cj.pe_20170930142642.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_14-27-19/Pr1_cn.cj.pe_richpush_20170930142642.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_14-27-19/gtdesc_20170930142643.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_14-30-08/Pcp0_cn.cj.pe_20170930142930.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_14-30-08/Pcp1_cn.cj.pe_richpush_20170930142930.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_14-30-08/Pr0_cn.cj.pe_20170930142931.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_14-30-08/Pr1_cn.cj.pe_richpush_20170930142931.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_14-30-08/gtdesc_20170930142932.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_15-26-45/Pcp0_cn.cj.pe_20170930152608.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_15-26-45/Pcp1_cn.cj.pe_richpush_20170930152608.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_15-26-45/Pr0_cn.cj.pe_20170930152608.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_15-26-45/Pr1_cn.cj.pe_richpush_20170930152608.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-09-30_15-26-45/gtdesc_20170930152610.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_11-54-14/Pcp0_cn.cj.pe_20171012115340.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_11-54-14/Pcp1_cn.cj.pe_richpush_20171012115339.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_11-54-14/Pr0_cn.cj.pe_20171012115340.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_11-54-14/Pr1_cn.cj.pe_richpush_20171012115340.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_11-54-14/gtdesc_20171012115341.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_11-56-32/Pcp0_cn.cj.pe_20171012115559.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_11-56-32/Pcp1_cn.cj.pe_richpush_20171012115559.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_11-56-32/Pr0_cn.cj.pe_20171012115559.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_11-56-32/Pr1_cn.cj.pe_richpush_20171012115559.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_11-56-32/gtdesc_20171012115600.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_12-17-32/Pcp0_cn.cj.pe_20171012121658.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_12-17-32/Pcp1_cn.cj.pe_richpush_20171012121658.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_12-17-32/Pr0_cn.cj.pe_20171012121658.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_12-17-32/Pr1_cn.cj.pe_richpush_20171012121658.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_12-17-32/gtdesc_20171012121700.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_12-20-05/Pcp0_cn.cj.pe_20171012121932.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_12-20-05/Pcp1_cn.cj.pe_richpush_20171012121932.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_12-20-05/Pr0_cn.cj.pe_20171012121932.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_12-20-05/Pr1_cn.cj.pe_richpush_20171012121932.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_12-20-05/gtdesc_20171012121933.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_14-35-38/Pcp0_cn.cj.pe_20171012143505.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_14-35-38/Pcp1_cn.cj.pe_richpush_20171012143505.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_14-35-38/Pr0_cn.cj.pe_20171012143505.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_14-35-38/Pr1_cn.cj.pe_richpush_20171012143505.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-10-12_14-35-38/gtdesc_20171012143506.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_11-34-06/Pcp0_cn.cj.pe_20171116113307.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_11-34-06/Pcp1_cn.cj.pe_richpush_20171116113307.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_11-34-06/Pr0_cn.cj.pe_20171116113308.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_11-34-06/Pr1_cn.cj.pe_richpush_20171116113308.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_11-34-06/gtdesc_20171116113309.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_11-37-02/Pcp0_cn.cj.pe_20171116113603.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_11-37-02/Pcp1_cn.cj.pe_richpush_20171116113603.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_11-37-02/Pr0_cn.cj.pe_20171116113604.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_11-37-02/Pr1_cn.cj.pe_richpush_20171116113604.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_11-37-02/gtdesc_20171116113605.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_15-50-05/Pcp0_cn.cj.pe_20171116154907.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_15-50-05/Pcp1_cn.cj.pe_richpush_20171116154907.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_15-50-05/Pr0_cn.cj.pe_20171116154907.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_15-50-05/Pr1_cn.cj.pe_richpush_20171116154907.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_15-50-05/gtdesc_20171116154908.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_16-28-16/Pcp0_cn.cj.pe_20171116162717.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_16-28-16/Pcp1_cn.cj.pe_richpush_20171116162717.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_16-28-16/Pr0_cn.cj.pe_20171116162717.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_16-28-16/Pr1_cn.cj.pe_richpush_20171116162717.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_16-28-16/gtdesc_20171116162719.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_16-53-39/Pcp0_cn.cj.pe_20171116165241.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_16-53-39/Pcp1_cn.cj.pe_richpush_20171116165241.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_16-53-39/Pr0_cn.cj.pe_20171116165241.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_16-53-39/Pr1_cn.cj.pe_richpush_20171116165241.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-11-16_16-53-39/gtdesc_20171116165243.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runDriver/readme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sql/sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sql/testmail.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testcase/appium16/easytimedelay.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testcase/appium16/openEmail_filter.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testcase/runTest_v731.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testcase/v731/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testcase/v731/brushFlow.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testcase/v731/easycase/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testcase/v731/easycase/login.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testcase/v731/easycase/openDown.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testcase/v731/easycase/public.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testcase/v731/easycase/receive.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testcase/v731/easycase/send.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testcase/v731/easytimedelay.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testcase/v731/firstLogin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testcase/v731/loginFlow.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testcase/v731/openEmail_filter.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testcase/v731/peakValue.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2017-09-23 10_49_56_result.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/report/2017-09-23 10_27_24_result.html" afterPath="$PROJECT_DIR$/src/testcase/appium16/__init__.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-30_14-30-08/Pcp0_cn.cj.pe_20170930142930.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-30_14-30-08/Pcp1_cn.cj.pe_richpush_20170930142930.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-30_14-30-08/Pr0_cn.cj.pe_20170930142931.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-30_14-30-08/Pr1_cn.cj.pe_richpush_20170930142931.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-30_14-30-08/gtdesc_20170930142932.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-30_15-26-45/Pcp0_cn.cj.pe_20170930152608.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-30_15-26-45/Pcp1_cn.cj.pe_richpush_20170930152608.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-30_15-26-45/Pr0_cn.cj.pe_20170930152608.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-30_15-26-45/Pr1_cn.cj.pe_richpush_20170930152608.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-30_15-26-45/gtdesc_20170930152610.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_11-54-14/Pcp0_cn.cj.pe_20171012115340.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_11-54-14/Pcp1_cn.cj.pe_richpush_20171012115339.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_11-54-14/Pr0_cn.cj.pe_20171012115340.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_11-54-14/Pr1_cn.cj.pe_richpush_20171012115340.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_11-54-14/gtdesc_20171012115341.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_11-56-32/Pcp0_cn.cj.pe_20171012115559.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_11-56-32/Pcp1_cn.cj.pe_richpush_20171012115559.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_11-56-32/Pr0_cn.cj.pe_20171012115559.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_11-56-32/Pr1_cn.cj.pe_richpush_20171012115559.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_11-56-32/gtdesc_20171012115600.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_12-17-32/Pcp0_cn.cj.pe_20171012121658.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_12-17-32/Pcp1_cn.cj.pe_richpush_20171012121658.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_12-17-32/Pr0_cn.cj.pe_20171012121658.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_12-17-32/Pr1_cn.cj.pe_richpush_20171012121658.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_12-17-32/gtdesc_20171012121700.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_12-20-05/Pcp0_cn.cj.pe_20171012121932.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_12-20-05/Pcp1_cn.cj.pe_richpush_20171012121932.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_12-20-05/Pr0_cn.cj.pe_20171012121932.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_12-20-05/Pr1_cn.cj.pe_richpush_20171012121932.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_12-20-05/gtdesc_20171012121933.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_14-35-38/Pcp0_cn.cj.pe_20171012143505.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_14-35-38/Pcp1_cn.cj.pe_richpush_20171012143505.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_14-35-38/Pr0_cn.cj.pe_20171012143505.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_14-35-38/Pr1_cn.cj.pe_richpush_20171012143505.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_14-35-38/gtdesc_20171012143506.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_11-34-06/Pcp0_cn.cj.pe_20171116113307.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_11-34-06/Pcp1_cn.cj.pe_richpush_20171116113307.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_11-34-06/Pr0_cn.cj.pe_20171116113308.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_11-34-06/Pr1_cn.cj.pe_richpush_20171116113308.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_11-34-06/gtdesc_20171116113309.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_11-37-02/Pcp0_cn.cj.pe_20171116113603.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_11-37-02/Pcp1_cn.cj.pe_richpush_20171116113603.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_11-37-02/Pr0_cn.cj.pe_20171116113604.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_11-37-02/Pr1_cn.cj.pe_richpush_20171116113604.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_11-37-02/gtdesc_20171116113605.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_15-50-05/Pcp0_cn.cj.pe_20171116154907.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_15-50-05/Pcp1_cn.cj.pe_richpush_20171116154907.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_15-50-05/Pr0_cn.cj.pe_20171116154907.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_15-50-05/Pr1_cn.cj.pe_richpush_20171116154907.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_15-50-05/gtdesc_20171116154908.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_16-28-16/Pcp0_cn.cj.pe_20171116162717.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_16-28-16/Pcp1_cn.cj.pe_richpush_20171116162717.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_16-28-16/Pr0_cn.cj.pe_20171116162717.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_16-28-16/Pr1_cn.cj.pe_richpush_20171116162717.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_16-28-16/gtdesc_20171116162719.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_16-53-39/Pcp0_cn.cj.pe_20171116165241.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_16-53-39/Pcp1_cn.cj.pe_richpush_20171116165241.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_16-53-39/Pr0_cn.cj.pe_20171116165241.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_16-53-39/Pr1_cn.cj.pe_richpush_20171116165241.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_16-53-39/gtdesc_20171116165243.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appium_python.iml" afterPath="$PROJECT_DIR$/appium_python.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bat/startappium.sh" afterPath="$PROJECT_DIR$/bat/startappium.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/base/baseAdb.py" afterPath="$PROJECT_DIR$/src/base/baseAdb.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/base/baseTime.py" afterPath="$PROJECT_DIR$/src/base/baseTime.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mail/mailOperation.py" afterPath="$PROJECT_DIR$/src/mail/mailOperation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/otherApk/power/powerAction.py" afterPath="$PROJECT_DIR$/src/otherApk/power/powerAction.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/otherApk/record360/flowRecord.py" afterPath="$PROJECT_DIR$/src/otherApk/record360/flowRecord.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/psam/psam.py" afterPath="$PROJECT_DIR$/src/psam/psam.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/runTest_v722.py" afterPath="$PROJECT_DIR$/src/testcase/runTest_v722.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/brushFlow.py" afterPath="$PROJECT_DIR$/src/testcase/v722/brushFlow.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/easycase/login.py" afterPath="$PROJECT_DIR$/src/testcase/v722/easycase/login.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/easycase/openDown.py" afterPath="$PROJECT_DIR$/src/testcase/v722/easycase/openDown.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/easycase/public.py" afterPath="$PROJECT_DIR$/src/testcase/v722/easycase/public.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/easycase/receive.py" afterPath="$PROJECT_DIR$/src/testcase/v722/easycase/receive.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/easycase/send.py" afterPath="$PROJECT_DIR$/src/testcase/v722/easycase/send.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/easytimedelay.py" afterPath="$PROJECT_DIR$/src/testcase/v722/easytimedelay.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/firstLogin.py" afterPath="$PROJECT_DIR$/src/testcase/v722/firstLogin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/openEmail_filter.py" afterPath="$PROJECT_DIR$/src/testcase/v722/openEmail_filter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/standByFlowPowerMem.py" afterPath="$PROJECT_DIR$/src/testcase/v722/standByFlowPowerMem.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcode/tmp.py" afterPath="$PROJECT_DIR$/src/testcode/tmp.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/user_db.ini" afterPath="$PROJECT_DIR$/src/user_db.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" afterPath="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/runTest_v731.py" afterPath="$PROJECT_DIR$/src/testcase/runTest_v731.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/brushFlow.py" afterPath="$PROJECT_DIR$/src/testcase/v731/brushFlow.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/easytimedelay.py" afterPath="$PROJECT_DIR$/src/testcase/v731/easytimedelay.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/loginFlow.py" afterPath="$PROJECT_DIR$/src/testcase/v731/loginFlow.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/peakValue.py" afterPath="$PROJECT_DIR$/src/testcase/v731/peakValue.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py" afterPath="$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -131,7 +88,7 @@
     <SUITE FILE_PATH="coverage/pytest$Unittests_in_standByFlowPowerMem_py.coverage" NAME="Unittests in standByFlowPowerMem.py Coverage Results" MODIFIED="1510818214406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_for_loginFlow_LoginFlow_testCase.coverage" NAME="Unittests for loginFlow.LoginFlow.testCase Coverage Results" MODIFIED="1507786128772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_in_easytimedelay_py.coverage" NAME="Unittests in easytimedelay.py Coverage Results" MODIFIED="1510799506752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
-    <SUITE FILE_PATH="coverage/pytest$gtutil.coverage" NAME="gtutil Coverage Results" MODIFIED="1506065416424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherApk/gt" />
+    <SUITE FILE_PATH="coverage/pytest$gtutil.coverage" NAME="gtutil Coverage Results" MODIFIED="1510827204095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherApk/gt" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_in_firstLogin_py.coverage" NAME="Unittests in firstLogin.py Coverage Results" MODIFIED="1506587199812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722/init" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_for_brushFlow_BrushFlow_testCase.coverage" NAME="Unittests for brushFlow.BrushFlow.testCase Coverage Results" MODIFIED="1507779574117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_in_brushFlow_py.coverage" NAME="Unittests in brushFlow.py Coverage Results" MODIFIED="1510816627558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
@@ -255,7 +212,7 @@
       <file leaf-file-name="firstLogin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcase/v731/firstLogin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1376">
+            <state relative-caret-position="-1170">
               <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
               <folding>
                 <element signature="e#34#61#0" expanded="true" />
@@ -267,7 +224,7 @@
       <file leaf-file-name="openEmail_filter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcase/v731/openEmail_filter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="436">
               <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
               <folding>
                 <element signature="e#34#43#0" expanded="true" />
@@ -279,8 +236,8 @@
       <file leaf-file-name="loginFlow.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcase/v731/loginFlow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="132" column="7" lean-forward="false" selection-start-line="132" selection-start-column="7" selection-end-line="132" selection-end-column="7" />
+            <state relative-caret-position="385">
+              <caret line="74" column="25" lean-forward="false" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
               <folding>
                 <element signature="e#35#65#0" expanded="true" />
               </folding>
@@ -291,8 +248,28 @@
       <file leaf-file-name="runTest_v731.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v731.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="58" column="40" lean-forward="false" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+            <state relative-caret-position="1364">
+              <caret line="63" column="33" lean-forward="true" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="peakValue.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testcase/v731/peakValue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="47">
+              <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gtutil.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/otherApk/gt/gtutil.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -301,8 +278,8 @@
       <file leaf-file-name="standByFlowPowerMem.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2058">
-              <caret line="78" column="7" lean-forward="false" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
+            <state relative-caret-position="1210">
+              <caret line="70" column="21" lean-forward="false" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -311,8 +288,8 @@
       <file leaf-file-name="brushFlow.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcase/v731/brushFlow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="108" column="7" lean-forward="false" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
+            <state relative-caret-position="227">
+              <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
               <folding>
                 <element signature="e#35#65#0" expanded="true" />
               </folding>
@@ -323,21 +300,11 @@
       <file leaf-file-name="easytimedelay.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcase/v731/easytimedelay.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="172">
+              <caret line="73" column="21" lean-forward="false" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
               <folding>
                 <element signature="e#35#62#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="runlog.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runlog.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -404,7 +371,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" />
         <option value="$PROJECT_DIR$/src/aserver/AppiumServer.py" />
         <option value="$PROJECT_DIR$/bat/stopappium.sh" />
         <option value="$PROJECT_DIR$/src/testcase/v722/loginFlow.py" />
@@ -445,16 +411,17 @@
         <option value="$PROJECT_DIR$/src/testcase/v731/easycase/login.py" />
         <option value="$PROJECT_DIR$/bat/startappium.sh" />
         <option value="$PROJECT_DIR$/runDriver/readme" />
-        <option value="$PROJECT_DIR$/src/testcase/v731/easytimedelay.py" />
         <option value="$PROJECT_DIR$/src/user_db.ini" />
-        <option value="$PROJECT_DIR$/src/testcase/v731/brushFlow.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/firstLogin.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v731/loginFlow.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/openEmail_filter.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v731/peakValue.py" />
         <option value="$PROJECT_DIR$/sql/sql" />
+        <option value="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" />
         <option value="$PROJECT_DIR$/src/testcase/runTest_v731.py" />
+        <option value="$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py" />
+        <option value="$PROJECT_DIR$/src/testcase/v731/brushFlow.py" />
+        <option value="$PROJECT_DIR$/src/testcase/v731/easytimedelay.py" />
+        <option value="$PROJECT_DIR$/src/testcase/v731/loginFlow.py" />
+        <option value="$PROJECT_DIR$/src/testcase/v731/peakValue.py" />
       </list>
     </option>
   </component>
@@ -524,6 +491,16 @@
             <path>
               <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
               <item name="pytest" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest" type="462c0819:PsiDirectoryNode" />
               <item name="runDriver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -535,6 +512,26 @@
               <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
               <item name="pytest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="otherApk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="otherApk" type="462c0819:PsiDirectoryNode" />
+              <item name="gt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="otherApk" type="462c0819:PsiDirectoryNode" />
+              <item name="record360" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
@@ -613,7 +610,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in standByFlowPowerMem.py">
+  <component name="RunManager" selected="Python.gtutil">
     <configuration name="Unittests in brushFlow.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -657,21 +654,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/src/testcase/v731/openEmail_filter.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration name="Unittests in peakValue.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcase/v731" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="appium_python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/testcase/v731/peakValue.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="Unittests in standByFlowPowerMem.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -941,21 +923,39 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="gtutil" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/otherApk/gt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="appium_python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.demo2" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in peakValue.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in brushFlow.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in openEmail_filter.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in loginFlow.py" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in standByFlowPowerMem.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in brushFlow.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in openEmail_filter.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in loginFlow.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in standByFlowPowerMem.py" />
+      <item index="5" class="java.lang.String" itemvalue="Python.gtutil" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in standByFlowPowerMem.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in loginFlow.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in openEmail_filter.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in brushFlow.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in peakValue.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python.gtutil" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in standByFlowPowerMem.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in loginFlow.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in openEmail_filter.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in brushFlow.py" />
       </list>
     </recent_temporary>
   </component>
@@ -1025,7 +1025,7 @@
       <workItem from="1510134189151" duration="623000" />
       <workItem from="1510621981123" duration="1263000" />
       <workItem from="1510655202323" duration="1008000" />
-      <workItem from="1510797421999" duration="10018000" />
+      <workItem from="1510797421999" duration="12297000" />
     </task>
     <task id="LOCAL-00001" summary="在MAC中运行">
       <created>1505833150284</created>
@@ -1076,7 +1076,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506651302640</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="提交731版本代码">
+      <created>1510823339689</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1510823339689</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1112,7 +1119,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205994000" />
+    <option name="totallyTimeSpent" value="208273000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1133,7 +1140,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29983792" sideWeight="0.52022654" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08576052" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33387357" sideWeight="0.47977346" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39708266" sideWeight="0.47977346" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30956239" sideWeight="0.4734375" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39059967" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1180,12 +1187,12 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29983792" sideWeight="0.47977346" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39708266" sideWeight="0.47977346" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30956239" sideWeight="0.4734375" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39059967" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20145631" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21440129" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1205,7 +1212,8 @@
     <MESSAGE value="修改运行路径" />
     <MESSAGE value="添加启动处理APP及辅助工具" />
     <MESSAGE value="去除错误文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="去除错误文件" />
+    <MESSAGE value="提交731版本代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交731版本代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1408,13 +1416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/otherApk/gt/gtutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bat/startAppiumServer.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -1493,16 +1494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/peakValue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="100" column="18" lean-forward="false" selection-start-line="100" selection-start-column="18" selection-end-line="100" selection-end-column="18" />
-          <folding>
-            <element signature="e#35#65#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sql/testmail.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1545,20 +1536,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/easytimedelay.py">
+    <entry file="file://$PROJECT_DIR$/src/testcase/.bash_profile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/otherApk/gt/gtutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/brushFlow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+          <folding>
+            <element signature="e#35#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/easytimedelay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="73" column="21" lean-forward="false" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
           <folding>
             <element signature="e#35#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/brushFlow.py">
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/firstLogin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="108" column="7" lean-forward="false" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
+        <state relative-caret-position="-1170">
+          <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+          <folding>
+            <element signature="e#34#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/loginFlow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="74" column="25" lean-forward="false" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
           <folding>
             <element signature="e#35#65#0" expanded="true" />
           </folding>
@@ -1567,7 +1594,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/v731/openEmail_filter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="436">
           <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
           <folding>
             <element signature="e#34#43#0" expanded="true" />
@@ -1575,46 +1602,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/loginFlow.py">
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/peakValue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="132" column="7" lean-forward="false" selection-start-line="132" selection-start-column="7" selection-end-line="132" selection-end-column="7" />
-          <folding>
-            <element signature="e#35#65#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="47">
+          <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2058">
-          <caret line="78" column="7" lean-forward="false" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
+        <state relative-caret-position="1210">
+          <caret line="70" column="21" lean-forward="false" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/firstLogin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1376">
-          <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-          <folding>
-            <element signature="e#34#61#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v731.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="58" column="40" lean-forward="false" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/.bash_profile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="1364">
+          <caret line="63" column="33" lean-forward="true" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
           <folding />
         </state>
       </provider>

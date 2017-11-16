@@ -1,7 +1,0 @@
-gtdesc:=2017-09-30_14-30-08
-
-opfiles:=
-Pcp0_cn.cj.pe_20170930142930.csv
-Pcp1_cn.cj.pe_richpush_20170930142930.csv
-Pr0_cn.cj.pe_20170930142931.csv
-Pr1_cn.cj.pe_richpush_20170930142931.csv
