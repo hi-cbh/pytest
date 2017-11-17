@@ -2,74 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c0d3c22-cde7-491b-a9c7-c468eb3cb69d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-30_14-30-08/Pcp0_cn.cj.pe_20170930142930.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-30_14-30-08/Pcp1_cn.cj.pe_richpush_20170930142930.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-30_14-30-08/Pr0_cn.cj.pe_20170930142931.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-30_14-30-08/Pr1_cn.cj.pe_richpush_20170930142931.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-30_14-30-08/gtdesc_20170930142932.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-30_15-26-45/Pcp0_cn.cj.pe_20170930152608.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-30_15-26-45/Pcp1_cn.cj.pe_richpush_20170930152608.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-30_15-26-45/Pr0_cn.cj.pe_20170930152608.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-30_15-26-45/Pr1_cn.cj.pe_richpush_20170930152608.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-09-30_15-26-45/gtdesc_20170930152610.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_11-54-14/Pcp0_cn.cj.pe_20171012115340.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_11-54-14/Pcp1_cn.cj.pe_richpush_20171012115339.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_11-54-14/Pr0_cn.cj.pe_20171012115340.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_11-54-14/Pr1_cn.cj.pe_richpush_20171012115340.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_11-54-14/gtdesc_20171012115341.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_11-56-32/Pcp0_cn.cj.pe_20171012115559.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_11-56-32/Pcp1_cn.cj.pe_richpush_20171012115559.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_11-56-32/Pr0_cn.cj.pe_20171012115559.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_11-56-32/Pr1_cn.cj.pe_richpush_20171012115559.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_11-56-32/gtdesc_20171012115600.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_12-17-32/Pcp0_cn.cj.pe_20171012121658.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_12-17-32/Pcp1_cn.cj.pe_richpush_20171012121658.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_12-17-32/Pr0_cn.cj.pe_20171012121658.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_12-17-32/Pr1_cn.cj.pe_richpush_20171012121658.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_12-17-32/gtdesc_20171012121700.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_12-20-05/Pcp0_cn.cj.pe_20171012121932.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_12-20-05/Pcp1_cn.cj.pe_richpush_20171012121932.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_12-20-05/Pr0_cn.cj.pe_20171012121932.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_12-20-05/Pr1_cn.cj.pe_richpush_20171012121932.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_12-20-05/gtdesc_20171012121933.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_14-35-38/Pcp0_cn.cj.pe_20171012143505.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_14-35-38/Pcp1_cn.cj.pe_richpush_20171012143505.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_14-35-38/Pr0_cn.cj.pe_20171012143505.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_14-35-38/Pr1_cn.cj.pe_richpush_20171012143505.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-10-12_14-35-38/gtdesc_20171012143506.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_11-34-06/Pcp0_cn.cj.pe_20171116113307.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_11-34-06/Pcp1_cn.cj.pe_richpush_20171116113307.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_11-34-06/Pr0_cn.cj.pe_20171116113308.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_11-34-06/Pr1_cn.cj.pe_richpush_20171116113308.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_11-34-06/gtdesc_20171116113309.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_11-37-02/Pcp0_cn.cj.pe_20171116113603.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_11-37-02/Pcp1_cn.cj.pe_richpush_20171116113603.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_11-37-02/Pr0_cn.cj.pe_20171116113604.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_11-37-02/Pr1_cn.cj.pe_richpush_20171116113604.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_11-37-02/gtdesc_20171116113605.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_15-50-05/Pcp0_cn.cj.pe_20171116154907.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_15-50-05/Pcp1_cn.cj.pe_richpush_20171116154907.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_15-50-05/Pr0_cn.cj.pe_20171116154907.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_15-50-05/Pr1_cn.cj.pe_richpush_20171116154907.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_15-50-05/gtdesc_20171116154908.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_16-28-16/Pcp0_cn.cj.pe_20171116162717.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_16-28-16/Pcp1_cn.cj.pe_richpush_20171116162717.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_16-28-16/Pr0_cn.cj.pe_20171116162717.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_16-28-16/Pr1_cn.cj.pe_richpush_20171116162717.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_16-28-16/gtdesc_20171116162719.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_16-53-39/Pcp0_cn.cj.pe_20171116165241.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_16-53-39/Pcp1_cn.cj.pe_richpush_20171116165241.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_16-53-39/Pr0_cn.cj.pe_20171116165241.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_16-53-39/Pr1_cn.cj.pe_richpush_20171116165241.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-11-16_16-53-39/gtdesc_20171116165243.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" afterPath="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/runTest_v731.py" afterPath="$PROJECT_DIR$/src/testcase/runTest_v731.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/brushFlow.py" afterPath="$PROJECT_DIR$/src/testcase/v731/brushFlow.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/easytimedelay.py" afterPath="$PROJECT_DIR$/src/testcase/v731/easytimedelay.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/loginFlow.py" afterPath="$PROJECT_DIR$/src/testcase/v731/loginFlow.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/peakValue.py" afterPath="$PROJECT_DIR$/src/testcase/v731/peakValue.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py" afterPath="$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/user_db.ini" afterPath="$PROJECT_DIR$/src/user_db.ini" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -208,115 +142,33 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="firstLogin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v731/firstLogin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1170">
-              <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-              <folding>
-                <element signature="e#34#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="openEmail_filter.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v731/openEmail_filter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
-              <folding>
-                <element signature="e#34#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loginFlow.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v731/loginFlow.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="74" column="25" lean-forward="false" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
-              <folding>
-                <element signature="e#35#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="runTest_v731.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v731.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1364">
-              <caret line="63" column="33" lean-forward="true" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="peakValue.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v731/peakValue.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gtutil.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/otherApk/gt/gtutil.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="standByFlowPowerMem.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1210">
-              <caret line="70" column="21" lean-forward="false" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="brushFlow.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v731/brushFlow.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-              <folding>
-                <element signature="e#35#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file leaf-file-name="easytimedelay.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcase/v731/easytimedelay.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="73" column="21" lean-forward="false" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-              <folding>
-                <element signature="e#35#62#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="167">
+              <caret line="88" column="39" lean-forward="false" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="receive.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/receive.py">
+      <file leaf-file-name="user_db.ini" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/user_db.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="157" column="6" lean-forward="false" selection-start-line="157" selection-start-column="6" selection-end-line="157" selection-end-column="6" />
-              <folding>
-                <element signature="e#35#46#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="72" column="3" lean-forward="true" selection-start-line="72" selection-start-column="3" selection-end-line="72" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -411,7 +263,6 @@
         <option value="$PROJECT_DIR$/src/testcase/v731/easycase/login.py" />
         <option value="$PROJECT_DIR$/bat/startappium.sh" />
         <option value="$PROJECT_DIR$/runDriver/readme" />
-        <option value="$PROJECT_DIR$/src/user_db.ini" />
         <option value="$PROJECT_DIR$/src/testcase/v731/firstLogin.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/openEmail_filter.py" />
         <option value="$PROJECT_DIR$/sql/sql" />
@@ -422,6 +273,7 @@
         <option value="$PROJECT_DIR$/src/testcase/v731/easytimedelay.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/loginFlow.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/peakValue.py" />
+        <option value="$PROJECT_DIR$/src/user_db.ini" />
       </list>
     </option>
   </component>
@@ -480,7 +332,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -564,8 +415,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -1025,7 +877,8 @@
       <workItem from="1510134189151" duration="623000" />
       <workItem from="1510621981123" duration="1263000" />
       <workItem from="1510655202323" duration="1008000" />
-      <workItem from="1510797421999" duration="12297000" />
+      <workItem from="1510797421999" duration="13071000" />
+      <workItem from="1510907886472" duration="780000" />
     </task>
     <task id="LOCAL-00001" summary="在MAC中运行">
       <created>1505833150284</created>
@@ -1083,7 +936,14 @@
       <option name="project" value="LOCAL" />
       <updated>1510823339689</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="正式运行">
+      <created>1510827452076</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1510827452076</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1119,7 +979,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208273000" />
+    <option name="totallyTimeSpent" value="209827000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1145,7 +1005,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39059967" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21440129" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21763754" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1213,7 +1073,8 @@
     <MESSAGE value="添加启动处理APP及辅助工具" />
     <MESSAGE value="去除错误文件" />
     <MESSAGE value="提交731版本代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交731版本代码" />
+    <MESSAGE value="正式运行" />
+    <option name="LAST_COMMIT_MESSAGE" value="正式运行" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1246,382 +1107,33 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/base/baseFile.py">
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/firstLogin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/baseImage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/baseOperate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/baseTime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/peakValue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-239">
-          <caret line="79" column="21" lean-forward="false" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/standByFlowPowerMem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="85" column="25" lean-forward="false" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/loginFlow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="71" column="33" lean-forward="false" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/baseAdb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5302">
-          <caret line="245" column="0" lean-forward="false" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/firstLogin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1430">
-          <caret line="70" column="23" lean-forward="false" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcode/demo_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/brushFlow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/appium16/easytimedelay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/appium16/openEmail_filter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="50" column="16" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v722.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/easycase/public.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcode/demo2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcode/tmp2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcode/tmp4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcode/tmp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/openEmail_filter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="70" column="15" lean-forward="false" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mail/mailOperation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2728">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6864">
-          <caret line="321" column="17" lean-forward="false" selection-start-line="321" selection-start-column="17" selection-end-line="321" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/easycase/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1804">
-          <caret line="83" column="8" lean-forward="false" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/case/send.py" />
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/case/login.py" />
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/easycase/openDown.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bat/startAppiumServer.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aserver/AppiumServer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="90" column="17" lean-forward="true" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bat/startappium.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/easytimedelay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="70" column="7" lean-forward="false" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/psam/psam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="660">
+          <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state relative-caret-position="269">
+          <caret line="72" column="3" lean-forward="true" selection-start-line="72" selection-start-column="3" selection-end-line="72" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runDriver/readme">
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/easytimedelay.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="31" />
+        <state relative-caret-position="167">
+          <caret line="88" column="39" lean-forward="false" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/sqlhelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/mysql_db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-          <folding>
-            <marker date="1505887758000" expanded="true" signature="2452:2466" ph="SELECT * FRO... missing_value" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/user_db.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/testmail.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/all.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runlog.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/receive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="157" column="6" lean-forward="false" selection-start-line="157" selection-start-column="6" selection-end-line="157" selection-end-column="6" />
-          <folding>
-            <element signature="e#35#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/.bash_profile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/otherApk/gt/gtutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/brushFlow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-          <folding>
-            <element signature="e#35#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/easytimedelay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="73" column="21" lean-forward="false" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-          <folding>
-            <element signature="e#35#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/firstLogin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1170">
-          <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-          <folding>
-            <element signature="e#34#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/loginFlow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="74" column="25" lean-forward="false" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
-          <folding>
-            <element signature="e#35#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/openEmail_filter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
-          <folding>
-            <element signature="e#34#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/peakValue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="70" column="21" lean-forward="false" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v731.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1364">
-          <caret line="63" column="33" lean-forward="true" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding />
         </state>
       </provider>
