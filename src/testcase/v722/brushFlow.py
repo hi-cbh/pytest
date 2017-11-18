@@ -56,7 +56,7 @@ class BrushFlow(unittest.TestCase):
         height = self.driver.get_window_size()['height']
         print('当前网络状态：%s' %network)
 
-        runtimes = 3
+        runtimes = 11
 
         appPackage = "cn.cj.pe"  # 程序的package
         appActivity = "com.mail139.about.LaunchActivity"  # 程序的Activity

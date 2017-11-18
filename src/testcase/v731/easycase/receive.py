@@ -123,7 +123,7 @@ class Receive(object):
         return valueTime
     
     
-    def waitforEmail(self, timeouts = 10):
+    def waitforEmail(self, timeouts = 30):
         '''等待邮件出现'''
         timeout = int(round(time.time() * 1000)) + timeouts * 1000
         try:

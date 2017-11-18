@@ -71,7 +71,7 @@ class Timedelay(unittest.TestCase):
         network = BaseAdb.getNetworkType()
         print('当前网络状态：%s' %network)
 
-        runtimes = 2
+        runtimes = 11
 
         for x in range(1,runtimes):
             # 复位
@@ -119,11 +119,11 @@ class Timedelay(unittest.TestCase):
 
                 print(result)
 
-                # testResult = {'productName' : '139','versionID':versionID,'networkType': network,'nowTime':BaseTime.getCurrentTime(),'groupId':x}
-                #
-                # datas = dict(testResult , **result)
-                #
-                # SQLHelper.InsertTimedelay(datas)
+                testResult = {'productName' : '139','versionID':versionID,'networkType': network,'nowTime':BaseTime.getCurrentTime(),'groupId':x}
+
+                datas = dict(testResult , **result)
+
+                SQLHelper.InsertTimedelay(datas)
 
 
 
