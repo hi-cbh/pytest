@@ -4,13 +4,6 @@
     <list default="true" id="3c0d3c22-cde7-491b-a9c7-c468eb3cb69d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/runTest_v722.py" afterPath="$PROJECT_DIR$/src/testcase/runTest_v722.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/brushFlow.py" afterPath="$PROJECT_DIR$/src/testcase/v722/brushFlow.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/easytimedelay.py" afterPath="$PROJECT_DIR$/src/testcase/v722/easytimedelay.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/loginFlow.py" afterPath="$PROJECT_DIR$/src/testcase/v722/loginFlow.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/peakValue.py" afterPath="$PROJECT_DIR$/src/testcase/v722/peakValue.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v722/standByFlowPowerMem.py" afterPath="$PROJECT_DIR$/src/testcase/v722/standByFlowPowerMem.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/easycase/receive.py" afterPath="$PROJECT_DIR$/src/testcase/v731/easycase/receive.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/user_db.ini" afterPath="$PROJECT_DIR$/src/user_db.ini" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,6 +26,7 @@
     <SUITE FILE_PATH="coverage/pytest$Unittests_in_firstLogin_py.coverage" NAME="Unittests in firstLogin.py Coverage Results" MODIFIED="1506587199812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722/init" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_for_brushFlow_BrushFlow_testCase.coverage" NAME="Unittests for brushFlow.BrushFlow.testCase Coverage Results" MODIFIED="1507779574117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_in_brushFlow_py.coverage" NAME="Unittests in brushFlow.py Coverage Results" MODIFIED="1510816627558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
+    <SUITE FILE_PATH="coverage/pytest$Unittests_in_loginFlow_py__1_.coverage" NAME="Unittests in loginFlow.py (1) Coverage Results" MODIFIED="1510989257745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
     <SUITE FILE_PATH="coverage/pytest$openDown.coverage" NAME="openDown Coverage Results" MODIFIED="1507770562043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722/easycase" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_for_firstLogin_FirstLogin_testCase.coverage" NAME="Unittests for firstLogin.FirstLogin.testCase Coverage Results" MODIFIED="1506592707766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722/init" />
     <SUITE FILE_PATH="coverage/pytest$baseAdb.coverage" NAME="baseAdb Coverage Results" MODIFIED="1506656023602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/base" />
@@ -153,8 +147,18 @@
       <file leaf-file-name="runTest_v722.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v722.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="58" column="22" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+            <state relative-caret-position="1430">
+              <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="runTest_v731.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v731.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -163,8 +167,8 @@
       <file leaf-file-name="easytimedelay.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcase/v722/easytimedelay.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="121" column="15" lean-forward="false" selection-start-line="121" selection-start-column="15" selection-end-line="125" selection-end-column="48" />
+            <state relative-caret-position="-95">
+              <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -173,8 +177,8 @@
       <file leaf-file-name="loginFlow.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcase/v722/loginFlow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="74" column="25" lean-forward="false" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+            <state relative-caret-position="880">
+              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -324,13 +328,13 @@
         <option value="$PROJECT_DIR$/src/testcase/v731/loginFlow.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/peakValue.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/easycase/receive.py" />
-        <option value="$PROJECT_DIR$/src/testcase/runTest_v722.py" />
         <option value="$PROJECT_DIR$/src/testcase/v722/easytimedelay.py" />
         <option value="$PROJECT_DIR$/src/user_db.ini" />
         <option value="$PROJECT_DIR$/src/testcase/v722/loginFlow.py" />
         <option value="$PROJECT_DIR$/src/testcase/v722/peakValue.py" />
         <option value="$PROJECT_DIR$/src/testcase/v722/standByFlowPowerMem.py" />
         <option value="$PROJECT_DIR$/src/testcase/v722/brushFlow.py" />
+        <option value="$PROJECT_DIR$/src/testcase/runTest_v722.py" />
       </list>
     </option>
   </component>
@@ -346,10 +350,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="712" />
+    <option name="height" value="709" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -511,20 +515,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.gtutil">
-    <configuration name="Unittests in brushFlow.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests in loginFlow.py (1)">
+    <configuration name="Unittests in loginFlow.py (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcase/v731" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcase/v722" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="appium_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/testcase/v731/brushFlow.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/testcase/v722/loginFlow.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="Unittests in loginFlow.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -844,19 +848,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.demo2" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in brushFlow.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in openEmail_filter.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in loginFlow.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in standByFlowPowerMem.py" />
-      <item index="5" class="java.lang.String" itemvalue="Python.gtutil" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in openEmail_filter.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in loginFlow.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in standByFlowPowerMem.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python.gtutil" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in loginFlow.py (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.gtutil" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in standByFlowPowerMem.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in loginFlow.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in openEmail_filter.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in brushFlow.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in loginFlow.py (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.gtutil" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in standByFlowPowerMem.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in loginFlow.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in openEmail_filter.py" />
       </list>
     </recent_temporary>
   </component>
@@ -928,7 +932,7 @@
       <workItem from="1510655202323" duration="1008000" />
       <workItem from="1510797421999" duration="13071000" />
       <workItem from="1510907886472" duration="2179000" />
-      <workItem from="1510975108657" duration="177000" />
+      <workItem from="1510975108657" duration="2470000" />
     </task>
     <task id="LOCAL-00001" summary="在MAC中运行">
       <created>1505833150284</created>
@@ -1000,18 +1004,25 @@
       <option name="project" value="LOCAL" />
       <updated>1510908821101</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="更新722版本">
+      <created>1510975317374</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1510975317374</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_brushFlow_py - 2017.11.16 at 11h 53m 55s.xml">
-      <configuration name="Unittests in brushFlow.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_brushFlow_py - 2017.11.16 at 15h 22m 42s.xml">
       <configuration name="Unittests in brushFlow.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_loginFlow_py - 2017.11.16 at 15h 43m 23s.xml">
       <configuration name="Unittests in loginFlow.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_loginFlow_py_(1) - 2017.11.18 at 15h 29m 29s.xml">
+      <configuration name="Unittests in loginFlow.py (1)" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_openEmail_filter_py - 2017.11.16 at 15h 30m 55s.xml">
       <configuration name="Unittests in openEmail_filter.py" configurationId="tests" />
@@ -1036,7 +1047,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211403000" />
+    <option name="totallyTimeSpent" value="213696000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1048,7 +1059,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1058,7 +1069,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29983792" sideWeight="0.52022654" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08576052" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30956239" sideWeight="0.4734375" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39708266" sideWeight="0.47977346" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32410422" sideWeight="0.47977346" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39059967" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1132,7 +1143,8 @@
     <MESSAGE value="提交731版本代码" />
     <MESSAGE value="正式运行" />
     <MESSAGE value="更新版本号" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新版本号" />
+    <MESSAGE value="更新722版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新722版本" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1176,6 +1188,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="125" column="39" lean-forward="false" selection-start-line="125" selection-start-column="39" selection-end-line="125" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1183,13 +1196,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2068">
           <caret line="105" column="41" lean-forward="true" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v731.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1211,22 +1217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/easytimedelay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="121" column="15" lean-forward="false" selection-start-line="121" selection-start-column="15" selection-end-line="125" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/loginFlow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="74" column="25" lean-forward="false" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1255,6 +1245,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v731.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v722/easytimedelay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/v722/brushFlow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1012">
@@ -1263,10 +1269,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v722/loginFlow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v722.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="58" column="22" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+        <state relative-caret-position="1430">
+          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding />
         </state>
       </provider>
