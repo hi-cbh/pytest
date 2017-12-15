@@ -56,7 +56,7 @@ if __name__ == "__main__":
 
     suite = unittest.TestSuite()
     # suite.addTest(InitData("testCase"))
-    suite.addTest(Timedelay("testCase"))
+    # suite.addTest(Timedelay("testCase"))
     suite.addTest(PeakValue("testCase"))
     suite.addTest(OpenEmail("testCase"))
     suite.addTest(BrushFlow("testCase"))
