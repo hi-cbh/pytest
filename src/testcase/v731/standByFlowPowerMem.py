@@ -40,25 +40,25 @@ class StandByFlowPowerMem(unittest.TestCase):
         # AppiumServer2().start_server()
         # time.sleep(10)
         # 发送邮件辅助工具
-        BaseAdb.adbShell("adb shell am start -W -n com.test.sendmail/.MainActivity")
-        BaseAdb.adbHome()
+        BaseAdb.adb_shell("adb shell am start -W -n com.test.sendmail/.MainActivity")
+        BaseAdb.adb_home()
         time.sleep(2)
         
-        EmailOperation(username+"@139.com", pwd).moveForlder(["100","INBOX"]) 
-        BaseAdb.adbIntallUiautmator()
+        EmailOperation(username+"@139.com", pwd).mv_forlder(["100", "INBOX"]) 
+        BaseAdb.adb_intall_uiautmator()
         self.driver = Psam()
     
     #释放实例,释放资源
     def tearDown(self):
         self.driver.quit()
-        EmailOperation(username+"@139.com", pwd).moveForlder(["INBOX","100"]) 
+        EmailOperation(username+"@139.com", pwd).mv_forlder(["INBOX", "100"]) 
         
         time.sleep(5)
         # AppiumServer2().stop_server()
 
     def testCase(self):
         
-        network = BaseAdb.getNetworkType()
+        network = BaseAdb.get_network_type()
         print('当前网络状态：%s' %network)
         
         appPackage = "cn.cj.pe"  # 程序的package
@@ -82,11 +82,11 @@ class StandByFlowPowerMem(unittest.TestCase):
             pu.loadEmail(self.driver)
             
 
-            BaseAdb.adbStop(appPackage)
+            BaseAdb.adb_stop(appPackage)
             time.sleep(5)
-            BaseAdb.adbStartApp(appPackage, appActivity)
+            BaseAdb.adb_start_app(appPackage, appActivity)
             time.sleep(3)
-            BaseAdb.adbHome()
+            BaseAdb.adb_home()
             time.sleep(3)
 
             if debug:
@@ -102,9 +102,9 @@ class StandByFlowPowerMem(unittest.TestCase):
 
             print("准备测试环境.....")
             print("do something")
-            fw.executePreset()
+            fw.exec_preset()
             gt.startGT()
-            pa.executePreset()
+            pa.exec_preset()
 
 
             if debug:
@@ -119,17 +119,17 @@ class StandByFlowPowerMem(unittest.TestCase):
                     time.sleep(1*60)
 
             print("开始记录......")
-            flow = fw.executeRecord(u"139邮箱", network, False,False)
+            flow = fw.exec_record(u"139邮箱", network, False, False)
             time.sleep(5)
             mem = gt.endGT()
-            elc = pa.executeRecord("139",False)
+            elc = pa.exec_record("139", False)
 
-            datas = {'productName' : '139','versionID':versionID,'networkType':network,'nowTime':BaseTime.getCurrentTime(), \
+            datas = {'productName' : '139','versionID':versionID,'networkType':network,'nowTime':BaseTime.get_current_time(), \
                  'electric':elc,'upflow':flow["up"], 'downflow':flow["down"], \
                  'allflow':flow["all"],'avgmem':mem[1]["avg"],'groupId':"1"}
 
             print(datas)
-            SQLHelper.Insertstandyno(datas)
+            SQLHelper.insert_standyno(datas)
             time.sleep(5)
 
             print("发送邮件......")
@@ -145,24 +145,24 @@ class StandByFlowPowerMem(unittest.TestCase):
             
                 
             print("再次记录......")
-            flow = fw.executeRecord(u"139邮箱", network, False)
-            elc = pa.executeRecord("139")
-            emailcnt = EmailOperation(username+"@139.com", pwd).checkInboxCnt()
+            flow = fw.exec_record(u"139邮箱", network, False)
+            elc = pa.exec_record("139")
+            emailcnt = EmailOperation(username+"@139.com", pwd).check_inbox_cnt()
             print("接收邮件数量：%d" %emailcnt)
 
-            datas = {'productName' : '139','versionID':versionID,'networkType':network,'nowTime':BaseTime.getCurrentTime(), \
+            datas = {'productName' : '139','versionID':versionID,'networkType':network,'nowTime':BaseTime.get_current_time(), \
                      'electric':elc,'upflow':flow["up"], 'downflow':flow["down"], \
                      'allflow':flow["all"],'emailcount':emailcnt,'groupId':"1"}
 
             print(datas)
-            SQLHelper.Insertstandyemail(datas)
+            SQLHelper.insert_standy_email(datas)
 
             print("清除")
             time.sleep(5)  
-            EmailOperation(username+"@139.com", pwd).checkInbox()
+            EmailOperation(username+"@139.com", pwd).check_inbox()
             time.sleep(5)
-            BaseAdb.adbStop("edu.umich.PowerTutor")
-            BaseAdb.adbStop("com.qihoo360.mobilesafe")  
+            BaseAdb.adb_stop("edu.umich.PowerTutor")
+            BaseAdb.adb_stop("com.qihoo360.mobilesafe")
             time.sleep(5)
 
 

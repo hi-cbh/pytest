@@ -10,7 +10,7 @@ from time import sleep
 class AndroidWebViewTests(unittest.TestCase):
 
     def setUp(self):
-        BaseAdb.adbIntallUiautmator()
+        BaseAdb.adb_intall_uiautmator()
         # 清除缓存
         os.popen("adb shell pm clear io.selendroid.testapp")
         desired_caps = {}

@@ -51,11 +51,11 @@ class Send(object):
             # 点击发送按钮
             print('=>点击发送按钮，开始计时')
             el = self.driver.get_element("id=>cn.cj.pe:id/txt_send")
-            BaseAdb.adbBroadcast()
+            BaseAdb.adb_broadcast()
             el.click()
 
             print('等待文件更新')
-            bl = BaseFile.waitForFileModify(30)
+            bl = BaseFile.wait_for_file_modify(30)
             time.sleep(3)
             print('查找页面是否出现新邮件')
             bl2 = self.driver.element_wait('uiautomator=>testReceive')
@@ -140,7 +140,7 @@ class Send(object):
             print('[发送邮件时延]: %r'  %valueTime)
             
             print('返回收件箱')
-            BaseAdb.adbBack()
+            BaseAdb.adb_back()
             time.sleep(2)
             return valueTime
         except BaseException:

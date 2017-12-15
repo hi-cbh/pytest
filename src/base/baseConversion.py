@@ -1,26 +1,23 @@
 # urs/bin/python
 # encoding:utf-8
-
 import re
-
-
 
 class BaseConversion(object):
     '''单位换算'''
     
-    def findDigit(self, st):
+    def find_digit(self, st):
         '''查找字符串中的数值'''
         return re.findall(r"\d+\.?\d*",st)
 
 
-    def valueFlowToK(self,tx):
+    def value_flow_k(self, tx):
         '''读取360流量字段，将单位统一为K'''
 
         srcl = re.findall(r"\d+\.?\d*[BKM]",tx)
         
         results = []
         for le in srcl:
-            value = self.findDigit(le)[0]
+            value = self.find_digit(le)[0]
             
             if "B" in le:
                 value = round((float(value)/1024), 3)
@@ -38,7 +35,6 @@ class BaseConversion(object):
         
             sample:rount(1.3333,2) => 1.33
         '''
-#         print(num1)
         return round(float(num1), 2)
 
         

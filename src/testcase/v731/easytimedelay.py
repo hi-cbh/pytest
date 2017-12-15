@@ -44,13 +44,13 @@ class Timedelay(unittest.TestCase):
             # AppiumServer2().start_server()
             # time.sleep(10)
 
-            BaseAdb.adbIntallUiautmator()
+            BaseAdb.adb_intall_uiautmator()
             self.driver = Psam("6.0")
         except BaseException as error:
             print("setUp启动出错！")
 
         else:
-            EmailOperation(username+"@139.com", pwd).moveForlder(["990","INBOX"])
+            EmailOperation(username+"@139.com", pwd).mv_forlder(["990", "INBOX"])
             time.sleep(10)
 
 
@@ -63,12 +63,12 @@ class Timedelay(unittest.TestCase):
         time.sleep(5)
         # AppiumServer2().stop_server()
 
-        EmailOperation(username+"@139.com", pwd).moveForlder(["INBOX", "990"])
+        EmailOperation(username+"@139.com", pwd).mv_forlder(["INBOX", "990"])
 
 
     def testCase(self):
 
-        network = BaseAdb.getNetworkType()
+        network = BaseAdb.get_network_type()
         print('当前网络状态：%s' %network)
 
         runtimes = 13
@@ -118,12 +118,12 @@ class Timedelay(unittest.TestCase):
                         result[k] = 0
 
                 print(result)
-
-                testResult = {'productName' : '139','versionID':versionID,'networkType': network,'nowTime':BaseTime.getCurrentTime(),'groupId':x}
-
-                datas = dict(testResult , **result)
-
-                SQLHelper.InsertTimedelay(datas)
+                #
+                # testResult = {'productName' : '139','versionID':versionID,'networkType': network,'nowTime':BaseTime.get_current_time(), 'groupId':x}
+                #
+                # datas = dict(testResult , **result)
+                #
+                # SQLHelper.insert_timedelay(datas)
 
 
 

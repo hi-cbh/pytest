@@ -12,7 +12,7 @@ class AndroidWebViewTests(unittest.TestCase):
     def setUp(self):
         os.popen("adb shell pm clear com.hujiang.normandy")
         
-        BaseAdb.adbIntallUiautmator()
+        BaseAdb.adb_intall_uiautmator()
         
         
         # 清除缓存

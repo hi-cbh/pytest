@@ -46,20 +46,20 @@ class OpenEmail(unittest.TestCase):
     def setUp(self):
         # AppiumServer2().start_server()
         time.sleep(10)
-        EmailOperation(username+"@139.com", pwd).moveForlder(["100","INBOX"])
-        BaseAdb.adbIntallUiautmator()
+        EmailOperation(username+"@139.com", pwd).mv_forlder(["100", "INBOX"])
+        BaseAdb.adb_intall_uiautmator()
         self.driver = Psam()
 
     #释放实例,释放资源
     def tearDown(self):
-        EmailOperation(username+"@139.com", pwd).moveForlder(["INBOX","100"])
+        EmailOperation(username+"@139.com", pwd).mv_forlder(["INBOX", "100"])
         self.driver.quit()
         
         time.sleep(5)
         # AppiumServer2().stop_server()
   
     def testCase(self):
-        network = BaseAdb.getNetworkType()
+        network = BaseAdb.get_network_type()
         print('当前网络状态：%s' %network)
         
         appPackage = "cn.cj.pe"  # 程序的package
@@ -70,9 +70,9 @@ class OpenEmail(unittest.TestCase):
         
         pu.loadEmail(self.driver)
         
-        BaseAdb.adbStop(appPackage)
+        BaseAdb.adb_stop(appPackage)
         time.sleep(5)
-        BaseAdb.adbStartApp(appPackage, appActivity)
+        BaseAdb.adb_start_app(appPackage, appActivity)
         time.sleep(3)
 
         print(u'运行杀进程启动：')
@@ -84,19 +84,19 @@ class OpenEmail(unittest.TestCase):
 
             print('第 %s 轮测试结果：' %(str(i)))
             print(ls)
-            datas = {'productName' : '139','versionID':versionID,'networkType':network,'nowTime':BaseTime.getCurrentTime(), \
+            datas = {'productName' : '139','versionID':versionID,'networkType':network,'nowTime':BaseTime.get_current_time(), \
             'time0':ls[0],'time1':ls[1], 'time2':ls[2], 'time3':ls[3], 'time4':ls[4], 'time5':ls[5], \
             'time6':ls[6], 'time7':ls[7], 'time8':ls[8], 'time9':ls[9], 'groupId':i}
-            SQLHelper.Insertkill(datas)
+            SQLHelper.insert_kill_time(datas)
             if i == GetMax:
                 return
     
     def getTime(self):
         '''获取时间'''
         try:  
-            BaseAdb.adbHome()
+            BaseAdb.adb_home()
             time.sleep(1)
-            BaseAdb.adbStop("cn.cj.pe")
+            BaseAdb.adb_stop("cn.cj.pe")
             time.sleep(2)
               
             # 在桌面查找 139邮箱

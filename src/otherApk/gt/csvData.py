@@ -14,7 +14,7 @@ class GetCSVData(object):
         self.pkg = pkg
     
     # 获取文件名
-    def getFileName(self, tp):
+    def get_file_name(self, tp):
         if not len(self.pkg):
             print("包名不能为空")
             return None
@@ -29,7 +29,7 @@ class GetCSVData(object):
         # 如果文件不存在
         ls = []    
         if os.path.exists(self.path):
-            ls = self.getFileList(self.path)
+            ls = self.get_file_list(self.path)
         else:
             return None
         
@@ -41,7 +41,7 @@ class GetCSVData(object):
             return None
     
     # 搜索目录下的文件        
-    def getFileList_window(self, p):
+    def get_file_list_window(self, p):
         p = str( p )
         if p=="":
             return [ ]
@@ -53,7 +53,7 @@ class GetCSVData(object):
         return b
 
         # 搜索目录下的文件
-    def getFileList(self, p):
+    def get_file_list(self, p):
         p = str( p )
         if p=="":
             return [ ]
@@ -61,10 +61,10 @@ class GetCSVData(object):
         b = [ x   for x in a if os.path.isfile( p + x ) ]
         return b
 
-    def getData(self,ty):
+    def get_data(self, ty):
         '''获取数据'''
         data = []
-        filename = self.getFileName( ty)
+        filename = self.get_file_name(ty)
         if filename == None:
             return None
         with open(self.path+filename,"r",encoding="utf-8") as csvfile:
@@ -74,12 +74,11 @@ class GetCSVData(object):
                     data.append(i)
         return data
 
-    def getCPUValue(self):
+    def get_cpu(self):
         '''获取CPU最大、最小、平均'''
         
-        data = []
         cpu = {}
-        data = self.getData('cpu')
+        data = self.get_data('cpu')
         
         if data != None:
             cpu['min'] = data[0][1]
@@ -90,14 +89,12 @@ class GetCSVData(object):
         
         return cpu
     
-    def getMEMValue(self):
+    def get_mem(self):
         '''返回主线程内存最大、最小、平均值'''
         
-        data = []
         mem = {}
-        data = self.getData('mem')
+        data = self.get_data('mem')
         print(data)
-#         print(data)
         if data != None:
             mem['min'] = bc.round(float(data[0][1])/1024, 1)
             mem['max'] = bc.round(float(data[1][1])/1024, 1)
@@ -113,5 +110,5 @@ if __name__ == "__main__":
     filepath = r"/Users/apple/git/pytest/logs/2017-09-04_18-28-34/"
     d = GetCSVData(filepath, 'cn.cj.pe')
     
-    data = d.getMEMValue()         
+    data = d.get_mem()
     print(data)

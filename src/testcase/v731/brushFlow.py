@@ -37,21 +37,21 @@ class BrushFlow(unittest.TestCase):
     def setUp(self):  
         # AppiumServer2().start_server()
         # time.sleep(10)
-        EmailOperation(username+"@139.com", pwd).moveForlder(["100","INBOX"])         
-        BaseAdb.adbIntallUiautmator()
+        EmailOperation(username+"@139.com", pwd).mv_forlder(["100", "INBOX"])         
+        BaseAdb.adb_intall_uiautmator()
         self.driver = Psam()
     
     #释放实例,释放资源
     def tearDown(self):
         self.driver.quit()
    
-        EmailOperation(username+"@139.com", pwd).moveForlder(["INBOX","100"]) 
+        EmailOperation(username+"@139.com", pwd).mv_forlder(["INBOX", "100"]) 
         time.sleep(5)
         # AppiumServer2().stop_server()
 
     def testCase(self):
         
-        network = BaseAdb.getNetworkType()
+        network = BaseAdb.get_network_type()
         width = self.driver.get_window_size()['width']
         height = self.driver.get_window_size()['height']
         print('当前网络状态：%s' %network)
@@ -72,30 +72,30 @@ class BrushFlow(unittest.TestCase):
 
             pu.loadEmail(self.driver)
             
-            BaseAdb.adbStop(appPackage)
+            BaseAdb.adb_stop(appPackage)
             time.sleep(5)
-            BaseAdb.adbStartApp(appPackage, appActivity)
+            BaseAdb.adb_start_app(appPackage, appActivity)
             time.sleep(3)
-            BaseAdb.adbHome()
+            BaseAdb.adb_home()
             time.sleep(3)
-            fw.executePreset()
+            fw.exec_preset()
             for x in range(1,runtimes):
-                BaseAdb.adbHome()
+                BaseAdb.adb_home()
                 time.sleep(2)
                 print('启动139')
-                BaseAdb.adbStartApp(appPackage, appActivity)
+                BaseAdb.adb_start_app(appPackage, appActivity)
                 time.sleep(10)
                 print('下拉')
                 self.driver.swipe(width/2, 350, width/2, height - 100, 500)
                 time.sleep(10)
-                BaseAdb.adbHome()
+                BaseAdb.adb_home()
                 time.sleep(3)
-                result = fw.executeRecord(u"139邮箱", network, False)
+                result = fw.exec_record(u"139邮箱", network, False)
 
-                datas = {'productName' : '139',"versionID":versionID,'networkType':network,'nowTime':BaseTime.getCurrentTime(), \
+                datas = {'productName' : '139',"versionID":versionID,'networkType':network,'nowTime':BaseTime.get_current_time(), \
                      'upflow':result["up"],'downflow':result["down"], 'allflow':result["all"], 'groupId':x}
                 
-                SQLHelper.Insertflowother(datas)
+                SQLHelper.insert_flow_other(datas)
                 
         except BaseException as be:
             print("运行出错，当次数据不入数据库!")

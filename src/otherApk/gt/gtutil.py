@@ -31,17 +31,17 @@ class GTTest(object):
     def startGT(self):
 
         print('GT开启')
-        BaseAdb.adbStartGT()
+        BaseAdb.adb_start_gt()
         print('GT添加package')
-        BaseAdb.adbGTAddPkg(self.pkgname)
+        BaseAdb.adb_gt_add_pkg(self.pkgname)
         print('GT添加CPU监控')
-        BaseAdb.adbGTbaseCommand("cpu", "1")
+        BaseAdb.adb_gt_base_cmd("cpu", "1")
         print('GT添加Mem监控')
-        BaseAdb.adbGTbaseCommand("pri", "1")
+        BaseAdb.adb_gt_base_cmd("pri", "1")
 
         time.sleep(2)
         print('返回')
-        BaseAdb.adbBack()
+        BaseAdb.adb_back()
 
         time.sleep(2)
 
@@ -51,15 +51,15 @@ class GTTest(object):
 
         SDpath = r"/mnt/sdcard/GT/GW/"
         print('记录CPU结果')
-        BaseAdb.adbGTbaseCommand("cpu", "0")
+        BaseAdb.adb_gt_base_cmd("cpu", "0")
         print('记录MEM结果')
-        BaseAdb.adbGTbaseCommand("pri", "0")
+        BaseAdb.adb_gt_base_cmd("pri", "0")
 
         print('获取文件名')
-        filename = BaseTime.currentTime()
+        filename = BaseTime.current_time()
         print(filename)
         print('保存文件')
-        BaseAdb.adbGTSave(r"/runcode/"+filename, filename)
+        BaseAdb.adb_gt_save(r"/runcode/" + filename, filename)
 
         remote = SDpath + self.pkgname+r"/runcode/"+filename+r"/"
         print(remote)
@@ -67,12 +67,12 @@ class GTTest(object):
 
         print("PC: %s" %PCpath + filename+"/")
         # os.mkdir(PCpath)
-        BaseAdb.adbPull(remote ,PCpath+ filename+"/")
+        BaseAdb.adb_pull(remote, PCpath + filename + "/")
         time.sleep(2)
         ls = []
         d = GetCSVData(PCpath+filename+r"/", 'cn.cj.pe')
-        ls.append(d.getCPUValue())
-        ls.append(d.getMEMValue())
+        ls.append(d.get_cpu())
+        ls.append(d.get_mem())
 
         print(ls)
         return ls

@@ -8,7 +8,7 @@ TestResult = [{'min': '0.0%', 'max': '0.79%', 'avg': '0.32%'}, {'min': 116.85, '
 import os
 
 datas = {'productName' : '139','versionID':"versionID",'networkType':"network",\
-         'nowTime':BaseTime.getCurrentTime(), \
+         'nowTime':BaseTime.get_current_time(), \
          'avgcpu':TestResult[0]["avg"],'maxcpu':TestResult[0]["max"], \
          'avgmem':TestResult[1]["avg"],'maxmem':TestResult[1]["max"], \
          'groupId':"x"}
@@ -43,16 +43,16 @@ import  unittest
 # os.system('start stopAppiumServer.bat')
 class TestDemo(unittest.TestCase):
 
-        BaseAdb.adbIntallUiautmator()
+        BaseAdb.adb_intall_uiautmator()
         driver = Psam()
-        BaseAdb.adbHome()
+        BaseAdb.adb_home()
         time.sleep(1)
-        BaseAdb.adbStop("cn.cj.pe")
+        BaseAdb.adb_stop("cn.cj.pe")
         time.sleep(2)
 
-        BaseAdb.adbStartApp("cn.cj.pe","com.mail139.about.LaunchActivity")
+        BaseAdb.adb_start_app("cn.cj.pe", "com.mail139.about.LaunchActivity")
         # BaseAdb.adbHome()
         time.sleep(1)
-        BaseAdb.adbStop("cn.cj.pe")
+        BaseAdb.adb_stop("cn.cj.pe")
         time.sleep(2)
 

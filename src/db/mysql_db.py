@@ -39,7 +39,6 @@ class DB:
 
     # clear table data
     def clear(self, table_name):
-        # real_sql = "truncate table " + table_name + ";"
         real_sql = "delete from " + table_name + ";"
         with self.connection.cursor() as cursor:
             cursor.execute("SET FOREIGN_KEY_CHECKS=0;")

@@ -37,15 +37,15 @@ class PeakValue(unittest.TestCase):
     def setUp(self):  
         # AppiumServer2().start_server()
         time.sleep(10)
-        EmailOperation(username+"@139.com", pwd).moveForlder(["100","INBOX"])
-        BaseAdb.adbIntallUiautmator()
+        EmailOperation(username+"@139.com", pwd).mv_forlder(["100", "INBOX"])
+        BaseAdb.adb_intall_uiautmator()
         
         self.driver = Psam()
     
     #释放实例,释放资源
     def tearDown(self):
         self.driver.quit()
-        EmailOperation(username+"@139.com", pwd).moveForlder(["INBOX","100"])
+        EmailOperation(username+"@139.com", pwd).mv_forlder(["INBOX", "100"])
 
         time.sleep(5)
         # AppiumServer2().stop_server()
@@ -53,7 +53,7 @@ class PeakValue(unittest.TestCase):
         
     def testCase(self):
         
-        network = BaseAdb.getNetworkType()
+        network = BaseAdb.get_network_type()
         print('当前网络状态：%s' %network)
         
         runtimes = 11
@@ -61,7 +61,7 @@ class PeakValue(unittest.TestCase):
         for x in range(1,runtimes):
             time.sleep(5)
             eo = EmailOperation(username+"@139.com", pwd)
-            eo.checkInbox()
+            eo.check_inbox()
             time.sleep(5)
             print('当前运行次数为：%r' %(str(x)))
 
@@ -76,16 +76,16 @@ class PeakValue(unittest.TestCase):
 
                 time.sleep(5)
                 eo = EmailOperation(username+"@139.com", pwd)
-                eo.clearForlder([u'已删除',u'已发送'])   
+                eo.clear_forlder([u'已删除', u'已发送'])   
                 time.sleep(5)   
                 
                 datas = {'productName' : '139','versionID':versionID,'networkType':network,\
-                         'nowTime':BaseTime.getCurrentTime(), \
+                         'nowTime':BaseTime.get_current_time(), \
                          'avgcpu':TestResult[0]["avg"].replace('%', ''),'maxcpu':TestResult[0]["max"].replace('%', ''), \
                          'avgmem':TestResult[1]["avg"],'maxmem':TestResult[1]["max"], \
                          'groupId':x}
                 
-                SQLHelper.InsertCPUMEM(datas)
+                SQLHelper.insert_cpu_mem(datas)
                 
                 
             except BaseException as be:

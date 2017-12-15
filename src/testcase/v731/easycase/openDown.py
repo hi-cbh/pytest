@@ -57,8 +57,8 @@ class OpenDown(unittest.TestCase):
         try:
             # 清除
             print('=>清除下载的旧数据')
-            if BaseFile.adbFindFile(self.path, self.filename):
-                BaseFile.adbDeleteFile(self.path, self.filename)
+            if BaseFile.adb_find_file(self.path, self.filename):
+                BaseFile.adb_del_file(self.path, self.filename)
                  
             time.sleep(3)
              
@@ -69,20 +69,20 @@ class OpenDown(unittest.TestCase):
              
             # 等待文件出现
             print('=>等待文件出现')
-            BaseFile.waitforfile(self.path, self.filename, 120)
+            BaseFile.wait_for_file(self.path, self.filename, 120)
              
             end = time.time()
              
             valueTime = str(round((end - start), 2))
             print('[下载附件时延]: %r'  %valueTime)
             print('=>返回收件箱')
-            BaseAdb.adbBack()
-            BaseAdb.adbBack()
+            BaseAdb.adb_back()
+            BaseAdb.adb_back()
             time.sleep(2)
             return valueTime
         except BaseException:
             print('下载附件出错了！！！')
-            BaseAdb.adbBack()
+            BaseAdb.adb_back()
             return 0
          
     # 设置收件箱列表的邮件为未读邮件

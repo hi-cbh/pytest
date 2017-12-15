@@ -38,17 +38,17 @@ class LoginFlow(unittest.TestCase):
         # AppiumServer2().start_server()
         # time.sleep(10)
         
-        EmailOperation(username2+"@139.com", pwd2).clearForlder(["INBOX",u"已删除",u"已发送"])
+        EmailOperation(username2+"@139.com", pwd2).clear_forlder(["INBOX", u"已删除", u"已发送"])
         time.sleep(10)
-        EmailOperation(username2+"@139.com", pwd2).moveForlder(["20","INBOX"])         
+        EmailOperation(username2+"@139.com", pwd2).mv_forlder(["20", "INBOX"])         
         
-        BaseAdb.adbIntallUiautmator()
+        BaseAdb.adb_intall_uiautmator()
         self.driver = Psam()
     
     #释放实例,释放资源
     def tearDown(self):
         self.driver.quit()
-        EmailOperation(username2+"@139.com", pwd2).moveForlder(["INBOX","20"]) 
+        EmailOperation(username2+"@139.com", pwd2).mv_forlder(["INBOX", "20"]) 
 
         time.sleep(5)
         # AppiumServer2().stop_server()
@@ -61,15 +61,15 @@ class LoginFlow(unittest.TestCase):
             # 前期准备
             time.sleep(5)
             fw = flow360(self.driver)
-            fw.executePreset()
+            fw.exec_preset()
             
-            BaseAdb.adbStop(appPackage)
+            BaseAdb.adb_stop(appPackage)
             time.sleep(2)
-            BaseAdb.adbClear(appPackage)
+            BaseAdb.adb_clear(appPackage)
             time.sleep(5)
             # 准备完成
             
-            network = BaseAdb.getNetworkType()
+            network = BaseAdb.get_network_type()
             print('当前网络状态：%s' %network)
             
             runtimes = 11
@@ -85,17 +85,17 @@ class LoginFlow(unittest.TestCase):
                     
                     if isTrue:
                         print('记录流量值')
-                        result = fw.executeRecord(u"139邮箱", network, False)
+                        result = fw.exec_record(u"139邮箱", network, False)
                         time.sleep(5)
-                        BaseAdb.adbHome()
+                        BaseAdb.adb_home()
                         time.sleep(2)
-                        BaseAdb.adbStop(appPackage)
+                        BaseAdb.adb_stop(appPackage)
                         time.sleep(2)
-                        BaseAdb.adbClear(appPackage)
+                        BaseAdb.adb_clear(appPackage)
                         time.sleep(5)
-                        datas = {'productName' : '139','versionID':versionID,'networkType':network,'nowTime':BaseTime.getCurrentTime(), \
+                        datas = {'productName' : '139','versionID':versionID,'networkType':network,'nowTime':BaseTime.get_current_time(), \
                                  'upflow':result["up"],'downflow':result["down"], 'allflow':result["all"],'groupId':x}
-                        SQLHelper.Insertflowlogin(datas)
+                        SQLHelper.insert_flow_login(datas)
                         time.sleep(2)
                 except BaseException as be:
                     print("运行首次等次数：%d 出错，当次数据不入数据库!" %x)

@@ -40,7 +40,7 @@ class InitData(unittest.TestCase):
         # AppiumServer2().start_server()
         time.sleep(10)
 
-        BaseAdb.adbIntallUiautmator()
+        BaseAdb.adb_intall_uiautmator()
         self.driver = Psam()
         # 点击允许
         self.driver.click(u"uiautomator=>允许")
@@ -57,7 +57,7 @@ class InitData(unittest.TestCase):
 
     def testCase(self):
 
-        network = BaseAdb.getNetworkType()
+        network = BaseAdb.get_network_type()
         print('当前网络状态：%s' %network)
 
         runtimes = 2
@@ -77,22 +77,22 @@ class InitData(unittest.TestCase):
 
 
         '''辅助工具初始化'''
-        BaseAdb.adbHome()
-        BaseAdb.adbStop("com.cmcc.test")
+        BaseAdb.adb_home()
+        BaseAdb.adb_stop("com.cmcc.test")
         time.sleep(3)
-        BaseAdb.adbStartApp("com.cmcc.test","com.cmcc.test.MainActivity")
+        BaseAdb.adb_start_app("com.cmcc.test", "com.cmcc.test.MainActivity")
 
         if self.driver.get_element("id=>com.cmcc.test:id/textView1",10) == None :
             self.driver.type("id=>com.cmcc.test:id/editText1",u"发送邮件成功")
             self.driver.click(u"uiautomator=>添加")
 
         time.sleep(2)
-        BaseAdb.adbHome()
+        BaseAdb.adb_home()
 
         # GT初始化
-        BaseAdb.adbStop("com.tencent.wstt.gt")
+        BaseAdb.adb_stop("com.tencent.wstt.gt")
         time.sleep(2)
-        BaseAdb.adbStartApp("com.tencent.wstt.gt","com.tencent.wstt.gt.activity.SplashActivity")
+        BaseAdb.adb_start_app("com.tencent.wstt.gt", "com.tencent.wstt.gt.activity.SplashActivity")
         time.sleep(4)
         self.driver.click(u"uiautomator=>允许")
         time.sleep(1)
@@ -100,7 +100,7 @@ class InitData(unittest.TestCase):
         time.sleep(1)
         self.driver.click(u"uiautomator=>允许")
         time.sleep(1)
-        BaseAdb.adbHome()
+        BaseAdb.adb_home()
 
 if __name__ == "__main__":
     suite = unittest.TestSuite()

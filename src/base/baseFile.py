@@ -3,28 +3,17 @@
 
 '''文件操作'''
 
-
-import operator
-# urs/bin/python
-# encoding:utf-8
-import os
+import operator,os,time
 import subprocess
-import time
-
 
 class BaseFile(object):
 
-     
-    def adbFindFile(self, path, file):
+    def adb_find_file(self, path, file):
         '''查找文件时是否存在'''
         try:
             value = os.popen("adb shell ls "+path)
-#             txt = value.readlines()
-#             print('value: %r' %txt)
             for txt in value.readlines():
-#                 print('value: %r' %txt)
                 if (file in txt) and ("No such file or directory"  not in txt) :
-#                     print('文件存在 ：%r' %file)
                     return True
                 
             return False
@@ -34,43 +23,38 @@ class BaseFile(object):
 
             
  
-    def adbDeleteFile(self, path, file):
+    def adb_del_file(self, path, file):
         '''删除文件'''
         try:
             os.popen("adb shell rm "+path)
-
         except BaseException as msg:
             print('msg: %r' %msg)    
         
   
-    def adbTouchFile(self, path, file):
+    def adb_touch_file(self, path, file):
         '''创建文件'''
         try:
             os.popen("adb shell touch "+path + file)
-
         except BaseException as msg:
             print('msg: %r' %msg)      
-        
-          
-    def waitforfile(self, path, file, timeout = 10):
+
+    def wait_for_file(self, path, file, timeout = 10):
         '''等待文件出现'''
         timeout = int(round(time.time() * 1000)) + timeout * 1000
         try:
             while (int(round(time.time() * 1000) < timeout)):
 #                 print('wait.....')
-                if(self.adbFindFile(path, file) == True):
+                if(self.adb_find_file(path, file) == True):
 #                     print('find it')
-                    return True;
+                    return True
                 time.sleep(0.1)
         except BaseException as msg:
             print(msg)
-        
         else:
-#             print('time out')
-            return False 
+            return False
      
 
-    def adbMkdirDir(self, path):
+    def adb_mkdir(self, path):
         '''创建文件夹'''
         try:
             os.popen("adb shell mkdir -p " + path)
@@ -78,17 +62,12 @@ class BaseFile(object):
         except BaseException as msg:
             print('msg: %r' %msg)      
        
-    def adbLsFileSize(self, path):
+    def adb_ls_file_size(self, path):
         '''创建文件夹'''
         try:
             value = os.popen("adb shell ls -l " + path)
-#             txt = value.readlines()
-#             print('value: %r' %txt)
             for txt in value.readlines():
                 if txt not in [None, '\n']:
-#                     print(txt)
-#                     print(txt.split(' ',13))
-#                     print(txt.split(' ',13)[9])
                     return txt.split(' ',13)[9]
                 '''使用正则表达式
                     s = "sdfdsfis123123#4342#"
@@ -101,32 +80,27 @@ class BaseFile(object):
             print('msg: %r' %msg)
             return None
          
-    def waitForFileModify(self, timeoutMillis):
+    def wait_for_file_modify(self, timeoutMillis):
         '''等待文件更新,单位为：秒'''
         try:
-#             path = "/mnt/sdcard/0/0./t.txt"
-#             dirpath = "/mnt/sdcard/0/0./"
             path = "/mnt/sdcard/Android/data/com.cmcc.test/cache/t.txt"
             dirpath = "/mnt/sdcard/Android/data/com.cmcc.test/cache/"
             
-            if self.adbFindFile(path, "t.txt") != True:
+            if self.adb_find_file(path, "t.txt") != True:
                 print('文件存在')
-                self.adbMkdirDir( dirpath)
-                self.adbTouchFile(path, '')
+                self.adb_mkdir(dirpath)
+                self.adb_touch_file(path, '')
                 time.sleep(1)
             
-            if self.adbFindFile(path, "t.txt") != True:
+            if self.adb_find_file(path, "t.txt") != True:
                 print('文件不存在')
                 return False
             
-            
-            orgsize = self.adbLsFileSize(path)
-            
+            orgsize = self.adb_ls_file_size(path)
             timeout = int(round(time.time() * 1000)) + timeoutMillis * 1000
-            
             while (int(round(time.time() * 1000) < timeout)):
 #                 print('wait.....')
-                if(operator.ne(self.adbLsFileSize(path),orgsize)):
+                if(operator.ne(self.adb_ls_file_size(path), orgsize)):
                     print('文件更新了.....')
                     return True;
                 time.sleep(0.1)
@@ -137,7 +111,7 @@ class BaseFile(object):
             print('msg: %r' %msg)
             return False
  
-    def adbTailFile(self):
+    def adb_tail_file(self):
         '''使用 adb shell tail -n 1 查找固定目录下的文件，倒数第一行'''
         path = "/mnt/sdcard/Android/data/com.cmcc.test/cache/t.txt"
         try:
@@ -155,22 +129,21 @@ class BaseFile(object):
             return None
     
 
-    def getTime(self):
+    def get_time(self):
+        '''获取时间值'''
         try:
-            '''获取时间值'''
-            content = self.adbTailFile()
+            content = self.adb_tail_file()
             time = 0
             
             if len(content) < 60 or (not content.find('\#') == -1) :
                 return time
             
             l = content.split('#')[1]
-#             print("times：%s" %l)
-    
-            valueTime = str(round((float(l)/1000.0), 3))
-            print('时间差: %r'  %valueTime)
+
+            value_time = str(round((float(l)/1000.0), 3))
+            print('时间差: %r'  %value_time)
             
-            return valueTime
+            return value_time
         
         except BaseException:
             return time
