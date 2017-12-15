@@ -56,7 +56,7 @@ class PeakValue(unittest.TestCase):
         network = BaseAdb.getNetworkType()
         print('当前网络状态：%s' %network)
         
-        runtimes = 11
+        runtimes = 2
         
         for x in range(1,runtimes):
             time.sleep(5)
