@@ -57,13 +57,13 @@ if __name__ == "__main__":
     suite = unittest.TestSuite()
     # suite.addTest(InitData("testCase"))
     # suite.addTest(Timedelay("testCase"))
-    # suite.addTest(PeakValue("testCase"))
-    suite.addTest(OpenEmail("testCase"))
-    suite.addTest(BrushFlow("testCase"))
-    suite.addTest(LoginFlow("testCase"))
-    suite.addTest(StandByFlowPowerMem("testCase"))
-    suite.addTest(StandByFlowPowerMem("testCase")) # 重复两次
-    suite.addTest(StandByFlowPowerMem("testCase"))
+    suite.addTest(PeakValue("testCase"))
+    # suite.addTest(OpenEmail("testCase"))
+    # suite.addTest(BrushFlow("testCase"))
+    # suite.addTest(LoginFlow("testCase"))
+    # suite.addTest(StandByFlowPowerMem("testCase"))
+    # suite.addTest(StandByFlowPowerMem("testCase")) # 重复两次
+    # suite.addTest(StandByFlowPowerMem("testCase"))
 
     runner = unittest.TextTestRunner()
 

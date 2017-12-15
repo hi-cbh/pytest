@@ -2,16 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c0d3c22-cde7-491b-a9c7-c468eb3cb69d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-42-02/Pcp0_cn.cj.pe_20171215154045.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-42-02/Pcp1_cn.cj.pe_pushservice_20171215154045.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-42-02/Pcp2_cn.cj.pe_richpush_20171215154045.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-42-02/Pcp3_cn.cj.pe_CMCCSsoService_20171215154045.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-42-02/gtdesc_20171215154047.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/161f6d41a806804406dd257b8827487da340864a" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/161f6d41a806804406dd257b8827487da340864a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/Pcp0_cn.cj.pe_20171215154945.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/Pcp1_cn.cj.pe_pushservice_20171215154945.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/Pcp2_cn.cj.pe_richpush_20171215154945.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/Pcp3_cn.cj.pe_CMCCSsoService_20171215154945.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/Pr0_cn.cj.pe_20171215154945.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/Pr1_cn.cj.pe_pushservice_20171215154945.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/Pr2_cn.cj.pe_richpush_20171215154945.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/Pr3_cn.cj.pe_CMCCSsoService_20171215154945.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/gtdesc_20171215154947.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/Pcp0_cn.cj.pe_20171215155814.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/Pcp1_cn.cj.pe_pushservice_20171215155814.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/Pcp2_cn.cj.pe_richpush_20171215155814.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/Pcp3_cn.cj.pe_CMCCSsoService_20171215155814.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/Pr0_cn.cj.pe_20171215155814.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/Pr1_cn.cj.pe_pushservice_20171215155814.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/Pr2_cn.cj.pe_richpush_20171215155814.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/Pr3_cn.cj.pe_CMCCSsoService_20171215155815.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/gtdesc_20171215155816.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/Pcp0_cn.cj.pe_20171215160300.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/Pcp1_cn.cj.pe_pushservice_20171215160300.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/Pcp2_cn.cj.pe_richpush_20171215160300.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/Pcp3_cn.cj.pe_CMCCSsoService_20171215160300.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/Pr0_cn.cj.pe_20171215160300.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/Pr1_cn.cj.pe_pushservice_20171215160300.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/Pr2_cn.cj.pe_richpush_20171215160300.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/Pr3_cn.cj.pe_CMCCSsoService_20171215160300.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/gtdesc_20171215160302.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/base/baseAdb.py" afterPath="$PROJECT_DIR$/src/base/baseAdb.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" afterPath="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/base/baseFile.py" afterPath="$PROJECT_DIR$/src/base/baseFile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/otherApk/record360/flowRecord.py" afterPath="$PROJECT_DIR$/src/otherApk/record360/flowRecord.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/runTest_v731.py" afterPath="$PROJECT_DIR$/src/testcase/runTest_v731.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/peakValue.py" afterPath="$PROJECT_DIR$/src/testcase/v731/peakValue.py" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +59,9 @@
     <SUITE FILE_PATH="coverage/pytest$Unittests_in_loginFlow_py__1_.coverage" NAME="Unittests in loginFlow.py (1) Coverage Results" MODIFIED="1510989257745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
     <SUITE FILE_PATH="coverage/pytest$openDown.coverage" NAME="openDown Coverage Results" MODIFIED="1507770562043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722/easycase" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_for_firstLogin_FirstLogin_testCase.coverage" NAME="Unittests for firstLogin.FirstLogin.testCase Coverage Results" MODIFIED="1506592707766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722/init" />
+    <SUITE FILE_PATH="coverage/appium_python$Unittests_for_standByFlowPowerMem_StandByFlowPowerMem_testCase.coverage" NAME="Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase Coverage Results" MODIFIED="1513323861796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
     <SUITE FILE_PATH="coverage/pytest$baseAdb.coverage" NAME="baseAdb Coverage Results" MODIFIED="1506656023602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/base" />
+    <SUITE FILE_PATH="coverage/appium_python$baseFile.coverage" NAME="baseFile Coverage Results" MODIFIED="1513326513246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/base" />
     <SUITE FILE_PATH="coverage/appium_python$baseAdb.coverage" NAME="baseAdb Coverage Results" MODIFIED="1513323005121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/base" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_in_pytest.coverage" NAME="Unittests in pytest Coverage Results" MODIFIED="1510995500889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_in_openEmail_filter_py.coverage" NAME="Unittests in openEmail_filter.py Coverage Results" MODIFIED="1510817023400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
@@ -64,6 +88,7 @@
     <SUITE FILE_PATH="coverage/pytest$baseTime.coverage" NAME="baseTime Coverage Results" MODIFIED="1506753242399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/base" />
     <SUITE FILE_PATH="coverage/pytest$receive.coverage" NAME="receive Coverage Results" MODIFIED="1510799178067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731/easycase" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_for_loginFlow_LoginFlow.coverage" NAME="Unittests for loginFlow.LoginFlow Coverage Results" MODIFIED="1506150127907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
+    <SUITE FILE_PATH="coverage/appium_python$Unittests_for_peakValue_PeakValue_testCase.coverage" NAME="Unittests for peakValue.PeakValue.testCase Coverage Results" MODIFIED="1513326536883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -168,18 +193,38 @@
       <file leaf-file-name="send.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/send.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1430">
-              <caret line="68" column="25" lean-forward="false" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
+            <state relative-caret-position="126">
+              <caret line="53" column="29" lean-forward="true" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gtutil.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="baseFile.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/baseFile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-451">
+              <caret line="75" column="28" lean-forward="true" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="operator.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/operator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gtutil.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/otherApk/gt/gtutil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="241">
+              <caret line="38" column="26" lean-forward="false" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -188,8 +233,8 @@
       <file leaf-file-name="baseAdb.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/baseAdb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="128" column="71" lean-forward="false" selection-start-line="128" selection-start-column="71" selection-end-line="128" selection-end-column="71" />
+            <state relative-caret-position="352">
+              <caret line="104" column="4" lean-forward="true" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
               <folding>
                 <element signature="e#35#44#0" expanded="true" />
               </folding>
@@ -197,31 +242,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="firstLogin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v731/firstLogin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loginFlow.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v731/loginFlow.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="peakValue.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="peakValue.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/testcase/v731/peakValue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1386">
-              <caret line="74" column="45" lean-forward="false" selection-start-line="74" selection-start-column="45" selection-end-line="74" selection-end-column="45" />
+            <state relative-caret-position="122">
+              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -230,18 +255,18 @@
       <file leaf-file-name="standByFlowPowerMem.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="212">
+              <caret line="70" column="21" lean-forward="false" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="brushFlow.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v731/brushFlow.py">
+      <file leaf-file-name="flowRecord.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/otherApk/record360/flowRecord.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+            <state relative-caret-position="-138">
+              <caret line="30" column="87" lean-forward="false" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
               <folding />
             </state>
           </provider>
@@ -250,8 +275,8 @@
       <file leaf-file-name="runTest_v731.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v731.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="60" column="20" lean-forward="false" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+            <state relative-caret-position="84">
+              <caret line="59" column="20" lean-forward="false" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -329,7 +354,6 @@
         <option value="$PROJECT_DIR$/src/testcase/v731/firstLogin.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/openEmail_filter.py" />
         <option value="$PROJECT_DIR$/sql/sql" />
-        <option value="$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/brushFlow.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/loginFlow.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/easycase/receive.py" />
@@ -341,7 +365,6 @@
         <option value="$PROJECT_DIR$/src/testcase/runTest_v722.py" />
         <option value="$PROJECT_DIR$/sonar-scanner.properties" />
         <option value="$PROJECT_DIR$/src/base/baseConversion.py" />
-        <option value="$PROJECT_DIR$/src/base/baseFile.py" />
         <option value="$PROJECT_DIR$/src/base/baseImage.py" />
         <option value="$PROJECT_DIR$/src/base/baseOperate.py" />
         <option value="$PROJECT_DIR$/src/base/baseTime.py" />
@@ -350,14 +373,16 @@
         <option value="$PROJECT_DIR$/src/mail/mailOperation.py" />
         <option value="$PROJECT_DIR$/src/otherApk/gt/csvData.py" />
         <option value="$PROJECT_DIR$/src/otherApk/power/powerAction.py" />
-        <option value="$PROJECT_DIR$/src/otherApk/record360/flowRecord.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/easycase/login.py" />
         <option value="$PROJECT_DIR$/src/user_db.ini" />
-        <option value="$PROJECT_DIR$/src/testcase/v731/peakValue.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/easytimedelay.py" />
-        <option value="$PROJECT_DIR$/src/testcase/runTest_v731.py" />
         <option value="$PROJECT_DIR$/src/base/baseAdb.py" />
         <option value="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" />
+        <option value="$PROJECT_DIR$/src/otherApk/record360/flowRecord.py" />
+        <option value="$PROJECT_DIR$/src/testcase/v731/peakValue.py" />
+        <option value="$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py" />
+        <option value="$PROJECT_DIR$/src/testcase/runTest_v731.py" />
+        <option value="$PROJECT_DIR$/src/base/baseFile.py" />
       </list>
     </option>
   </component>
@@ -373,7 +398,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="709" />
@@ -452,6 +477,19 @@
               <item name="otherApk" type="462c0819:PsiDirectoryNode" />
               <item name="power" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="appium_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appium_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="v731" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -501,36 +539,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.gtutil">
-    <configuration name="Unittests in loginFlow.py (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for peakValue.PeakValue.testCase">
+    <configuration name="Unittests for peakValue.PeakValue.testCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcase/v722" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcase/v731" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="appium_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/testcase/v722/loginFlow.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;peakValue.PeakValue.testCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests in pytest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcase/v731" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="appium_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;standByFlowPowerMem.StandByFlowPowerMem.testCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -784,6 +822,24 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="baseFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/base" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="appium_python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/base/baseFile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="demo2" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -838,40 +894,22 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcase/v731/easycase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="appium_python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/testcase/v731/easycase/login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Python.easytimedelay" />
       <item index="1" class="java.lang.String" itemvalue="Python.demo2" />
       <item index="2" class="java.lang.String" itemvalue="Python.gtutil" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in loginFlow.py (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in pytest" />
-      <item index="5" class="java.lang.String" itemvalue="Python.login" />
-      <item index="6" class="java.lang.String" itemvalue="Python.baseAdb" />
+      <item index="3" class="java.lang.String" itemvalue="Python.baseAdb" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests for peakValue.PeakValue.testCase" />
+      <item index="6" class="java.lang.String" itemvalue="Python.baseFile" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.gtutil" />
-        <item index="1" class="java.lang.String" itemvalue="Python.baseAdb" />
-        <item index="2" class="java.lang.String" itemvalue="Python.login" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in pytest" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in loginFlow.py (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for peakValue.PeakValue.testCase" />
+        <item index="1" class="java.lang.String" itemvalue="Python.baseFile" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase" />
+        <item index="3" class="java.lang.String" itemvalue="Python.gtutil" />
+        <item index="4" class="java.lang.String" itemvalue="Python.baseAdb" />
       </list>
     </recent_temporary>
   </component>
@@ -953,7 +991,7 @@
       <workItem from="1513158433513" duration="2796000" />
       <workItem from="1513175311231" duration="2318000" />
       <workItem from="1513303743381" duration="4327000" />
-      <workItem from="1513321920499" duration="1680000" />
+      <workItem from="1513321920499" duration="4612000" />
     </task>
     <task id="LOCAL-00001" summary="在MAC中运行">
       <created>1505833150284</created>
@@ -1067,18 +1105,25 @@
       <option name="project" value="LOCAL" />
       <updated>1513307253407</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="GT工具修正">
+      <created>1513323787335</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1513323787335</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_loginFlow_py - 2017.11.16 at 15h 43m 23s.xml">
-      <configuration name="Unittests in loginFlow.py" configurationId="tests" />
+    <history-entry file="Unittests_for_peakValue_PeakValue_testCase - 2017.12.15 at 16h 00m 07s.xml">
+      <configuration name="Unittests for peakValue.PeakValue.testCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_loginFlow_py_(1) - 2017.11.18 at 15h 29m 29s.xml">
-      <configuration name="Unittests in loginFlow.py (1)" configurationId="tests" />
+    <history-entry file="Unittests_for_peakValue_PeakValue_testCase - 2017.12.15 at 16h 04m 53s.xml">
+      <configuration name="Unittests for peakValue.PeakValue.testCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_openEmail_filter_py - 2017.11.16 at 15h 30m 55s.xml">
-      <configuration name="Unittests in openEmail_filter.py" configurationId="tests" />
+    <history-entry file="Unittests_for_standByFlowPowerMem_StandByFlowPowerMem_testCase - 2017.12.15 at 15h 56m 40s.xml">
+      <configuration name="Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_peakValue_py - 2017.11.16 at 11h 10m 22s.xml">
       <configuration name="Unittests in peakValue.py" configurationId="tests" />
@@ -1103,7 +1148,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231277000" />
+    <option name="totallyTimeSpent" value="234209000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1115,7 +1160,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1124,7 +1169,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29983792" sideWeight="0.52022654" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08576052" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.262215" sideWeight="0.47977346" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39250815" sideWeight="0.47977346" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30944625" sideWeight="0.4734375" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39059967" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1136,7 +1181,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39763114" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39739415" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1232,11 +1277,19 @@
     <MESSAGE value="v740" />
     <MESSAGE value="修改记录" />
     <MESSAGE value="暂时不测时延" />
-    <option name="LAST_COMMIT_MESSAGE" value="暂时不测时延" />
+    <MESSAGE value="GT工具修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="GT工具修正" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/base/baseFile.py</url>
+          <line>161</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1265,7 +1318,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/testcase/v722/loginFlow.py" />
     <entry file="file://$PROJECT_DIR$/src/testcase/v722/standByFlowPowerMem.py" />
     <entry file="file://$PROJECT_DIR$/src/testcase/v722/brushFlow.py" />
     <entry file="file://$PROJECT_DIR$/src/base/baseImage.py">
@@ -1289,6 +1341,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2178">
           <caret line="103" column="25" lean-forward="true" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1309,6 +1362,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1628">
           <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1367,20 +1421,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/baseFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3058">
-          <caret line="140" column="37" lean-forward="false" selection-start-line="140" selection-start-column="37" selection-end-line="140" selection-end-column="37" />
-          <folding>
-            <element signature="e#47#70#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/base/baseImage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#35#44#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1410,6 +1457,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1417,6 +1465,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5104">
           <caret line="234" column="16" lean-forward="false" selection-start-line="234" selection-start-column="16" selection-end-line="234" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1432,13 +1481,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/otherApk/record360/flowRecord.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1446,6 +1489,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="77" column="24" lean-forward="true" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1457,14 +1501,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/v731/openEmail_filter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1496,22 +1532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/peakValue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="74" column="45" lean-forward="false" selection-start-line="74" selection-start-column="45" selection-end-line="74" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/send.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1430">
-          <caret line="68" column="25" lean-forward="false" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/v731/easytimedelay.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1980">
@@ -1520,28 +1540,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/otherApk/gt/gtutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="38" column="26" lean-forward="false" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/otherApk/record360/flowRecord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138">
+          <caret line="30" column="87" lean-forward="false" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="70" column="21" lean-forward="false" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v731.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="60" column="20" lean-forward="false" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+        <state relative-caret-position="84">
+          <caret line="59" column="20" lean-forward="false" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/operator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/send.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="53" column="29" lean-forward="true" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/baseAdb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="128" column="71" lean-forward="false" selection-start-line="128" selection-start-column="71" selection-end-line="128" selection-end-column="71" />
+        <state relative-caret-position="352">
+          <caret line="104" column="4" lean-forward="true" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
           <folding>
             <element signature="e#35#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/otherApk/gt/gtutil.py">
+    <entry file="file://$PROJECT_DIR$/src/base/baseFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="-451">
+          <caret line="75" column="28" lean-forward="true" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/peakValue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -66,15 +66,20 @@ class BaseFile(object):
         '''创建文件夹'''
         try:
             value = os.popen("adb shell ls -l " + path)
-            for txt in value.readlines():
-                if txt not in [None, '\n']:
-                    return txt.split(' ',13)[9]
-                '''使用正则表达式
-                    s = "sdfdsfis123123#4342#"
-                    result = re.findall(r".*#(.*)#.*",s)
-                    for x in result:
-                        print(x)
-                    print(result)
+            # print("adb shell ls -l " + path)
+            # print("value %s" %value.readlines())
+            txt = str(value.readlines()[0])
+            # print("print txt %s" %txt)
+            if "t.txt" in txt:
+                rtime = txt.split(' ',9)[6]
+                # print("find: %s" %rtime)
+                return rtime
+            '''使用正则表达式
+                s = "sdfdsfis123123#4342#"
+                result = re.findall(r".*#(.*)#.*",s)
+                for x in result:
+                    print(x)
+                print(result)
                     '''
         except BaseException as msg:
             print('msg: %r' %msg)
@@ -97,12 +102,14 @@ class BaseFile(object):
                 return False
             
             orgsize = self.adb_ls_file_size(path)
+            print("org: %s" %orgsize)
+            time.sleep(1)
             timeout = int(round(time.time() * 1000)) + timeoutMillis * 1000
             while (int(round(time.time() * 1000) < timeout)):
-#                 print('wait.....')
+                print('wait.....')
                 if(operator.ne(self.adb_ls_file_size(path), orgsize)):
                     print('文件更新了.....')
-                    return True;
+                    return True
                 time.sleep(0.1)
             else:
                 print('time out')
@@ -149,4 +156,8 @@ class BaseFile(object):
             return time
     
 BaseFile = BaseFile()
-        
+
+
+if __name__ == "__main__":
+    BaseFile.adb_ls_file_size("/mnt/sdcard/Android/data/com.cmcc.test/cache/")
+    # BaseFile.wait_for_file_modify(30)

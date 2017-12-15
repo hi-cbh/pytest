@@ -28,11 +28,11 @@ class FlowRecord360Action(object):
         self.driver.click(r"id=>com.qihoo360.mobilesafe:id/btn_privacy_confirm")
        
         # 点击左按钮
-        if self.driver.element_wait(r"id=>com.qihoo360.mobilesafe:id/common_btn_left",5) != None:
+        if self.driver.element_wait(r"id=>com.qihoo360.mobilesafe:id/common_btn_left",3) != None:
             self.driver.click(r"id=>com.qihoo360.mobilesafe:id/common_btn_left")
 
         # 点击左按钮
-        if self.driver.element_wait(r"id=>com.qihoo360.mobilesafe:id/common_btn_left",5) != None:
+        if self.driver.element_wait(r"id=>com.qihoo360.mobilesafe:id/common_btn_left",3) != None:
             self.driver.click(r"id=>com.qihoo360.mobilesafe:id/common_btn_left")
 
         self.close_suspension()
