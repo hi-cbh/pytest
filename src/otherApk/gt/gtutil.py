@@ -79,7 +79,7 @@ class GTTest(object):
 
 
 if __name__ == "__main__":
-    # BaseAdb.adbClear("com.tencent.wstt.gt")
+    # BaseAdb.adb_clear("com.tencent.wstt.gt")
     # time.sleep(2)
 
     gt = GTTest("cn.cj.pe")

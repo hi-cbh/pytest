@@ -123,7 +123,8 @@ class BaseAdb(object):
     
     def adb_gt_add_pkg(self, pkg_name):
         '''使gt可以采集该应用的性能信息；pkgName是包名；verName是版本号（可选参数）'''
-        results = os.popen("adb shell am broadcast -a com.tencent.wstt.gt.baseCommand.startTest --es pkg_name %s" % pkg_name)
+        print("adb shell am broadcast -a com.tencent.wstt.gt.baseCommand.startTest --es pkgName %s" %pkg_name)
+        results = os.popen("adb shell am broadcast -a com.tencent.wstt.gt.baseCommand.startTest --es pkgName %s" %pkg_name)
         for line in results.readlines():                          #依次读取每行  
             line = line.strip()                             #去掉每行头尾空白  
             if not len(line):       #判断是否是空行或注释行  
@@ -137,6 +138,7 @@ class BaseAdb(object):
 
     def adb_gt_base_cmd(self, name, value):
         '''记录性能项'''
+        print("adb shell am broadcast -a com.tencent.wstt.gt.baseCommand.sampleData --ei %s %s" %(name,value))
         results = os.popen("adb shell am broadcast -a com.tencent.wstt.gt.baseCommand.sampleData --ei %s %s" %(name,value))
         for line in results.readlines():                          #依次读取每行  
             line = line.strip()                             #去掉每行头尾空白  
@@ -151,6 +153,7 @@ class BaseAdb(object):
 
     def adb_gt_save(self, path, filename):
         '''保存数据'''
+        print("adb shell am broadcast -a com.tencent.wstt.gt.baseCommand.endTest --es saveFolderName %s  --es desc %s" %(path, filename))
         results = os.popen("adb shell am broadcast -a com.tencent.wstt.gt.baseCommand.endTest --es saveFolderName %s  --es desc %s" %(path, filename))
         for line in results.readlines():                          #依次读取每行  
             line = line.strip()                             #去掉每行头尾空白  

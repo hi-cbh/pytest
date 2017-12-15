@@ -1,0 +1,7 @@
+gtdesc:=2017-12-15_15-42-02
+
+opfiles:=
+Pcp0_cn.cj.pe_20171215154045.csv
+Pcp1_cn.cj.pe_pushservice_20171215154045.csv
+Pcp2_cn.cj.pe_richpush_20171215154045.csv
+Pcp3_cn.cj.pe_CMCCSsoService_20171215154045.csv
