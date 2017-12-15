@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c0d3c22-cde7-491b-a9c7-c468eb3cb69d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/Pcp0_cn.cj.pe_20171215154945.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/Pcp1_cn.cj.pe_pushservice_20171215154945.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/Pcp2_cn.cj.pe_richpush_20171215154945.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/Pcp3_cn.cj.pe_CMCCSsoService_20171215154945.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/Pr0_cn.cj.pe_20171215154945.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/Pr1_cn.cj.pe_pushservice_20171215154945.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/Pr2_cn.cj.pe_richpush_20171215154945.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/Pr3_cn.cj.pe_CMCCSsoService_20171215154945.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/gtdesc_20171215154947.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/Pcp0_cn.cj.pe_20171215155814.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/Pcp1_cn.cj.pe_pushservice_20171215155814.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/Pcp2_cn.cj.pe_richpush_20171215155814.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/Pcp3_cn.cj.pe_CMCCSsoService_20171215155814.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/Pr0_cn.cj.pe_20171215155814.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/Pr1_cn.cj.pe_pushservice_20171215155814.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/Pr2_cn.cj.pe_richpush_20171215155814.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/Pr3_cn.cj.pe_CMCCSsoService_20171215155815.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/gtdesc_20171215155816.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/Pcp0_cn.cj.pe_20171215160300.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/Pcp1_cn.cj.pe_pushservice_20171215160300.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/Pcp2_cn.cj.pe_richpush_20171215160300.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/Pcp3_cn.cj.pe_CMCCSsoService_20171215160300.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/Pr0_cn.cj.pe_20171215160300.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/Pr1_cn.cj.pe_pushservice_20171215160300.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/Pr2_cn.cj.pe_richpush_20171215160300.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/Pr3_cn.cj.pe_CMCCSsoService_20171215160300.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/gtdesc_20171215160302.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/base/baseFile.py" afterPath="$PROJECT_DIR$/src/base/baseFile.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/otherApk/record360/flowRecord.py" afterPath="$PROJECT_DIR$/src/otherApk/record360/flowRecord.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/runTest_v731.py" afterPath="$PROJECT_DIR$/src/testcase/runTest_v731.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/peakValue.py" afterPath="$PROJECT_DIR$/src/testcase/v731/peakValue.py" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -180,21 +149,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="easytimedelay.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v731/easytimedelay.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1980">
-              <caret line="101" column="36" lean-forward="false" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="send.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/send.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="53" column="29" lean-forward="true" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+              <caret line="53" column="29" lean-forward="false" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -204,7 +163,7 @@
         <entry file="file://$PROJECT_DIR$/src/base/baseFile.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-451">
-              <caret line="75" column="28" lean-forward="true" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+              <caret line="75" column="28" lean-forward="false" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -223,18 +182,18 @@
       <file leaf-file-name="gtutil.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/otherApk/gt/gtutil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="38" column="26" lean-forward="false" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+            <state relative-caret-position="181">
+              <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="baseAdb.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="baseAdb.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/base/baseAdb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="104" column="4" lean-forward="true" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
+            <state relative-caret-position="330">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding>
                 <element signature="e#35#44#0" expanded="true" />
               </folding>
@@ -242,11 +201,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="peakValue.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="peakValue.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcase/v731/peakValue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+            <state relative-caret-position="212">
+              <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -275,8 +234,18 @@
       <file leaf-file-name="runTest_v731.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v731.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="59" column="20" lean-forward="false" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+            <state relative-caret-position="134">
+              <caret line="64" column="57" lean-forward="true" selection-start-line="64" selection-start-column="57" selection-end-line="64" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_db.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/user_db.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -301,7 +270,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="optimize" />
+        <entry key="$PROJECT_DIR$" value="v740" />
       </map>
     </option>
     <option name="PUSH_TAGS">
@@ -379,10 +348,10 @@
         <option value="$PROJECT_DIR$/src/base/baseAdb.py" />
         <option value="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" />
         <option value="$PROJECT_DIR$/src/otherApk/record360/flowRecord.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v731/peakValue.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py" />
-        <option value="$PROJECT_DIR$/src/testcase/runTest_v731.py" />
         <option value="$PROJECT_DIR$/src/base/baseFile.py" />
+        <option value="$PROJECT_DIR$/src/testcase/v731/peakValue.py" />
+        <option value="$PROJECT_DIR$/src/testcase/runTest_v731.py" />
       </list>
     </option>
   </component>
@@ -991,7 +960,7 @@
       <workItem from="1513158433513" duration="2796000" />
       <workItem from="1513175311231" duration="2318000" />
       <workItem from="1513303743381" duration="4327000" />
-      <workItem from="1513321920499" duration="4612000" />
+      <workItem from="1513321920499" duration="5881000" />
     </task>
     <task id="LOCAL-00001" summary="在MAC中运行">
       <created>1505833150284</created>
@@ -1112,7 +1081,21 @@
       <option name="project" value="LOCAL" />
       <updated>1513323787335</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="测试">
+      <created>1513326721526</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1513326721526</updated>
+    </task>
+    <task id="LOCAL-00019" summary="待机和资源消耗">
+      <created>1513326993752</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1513326993752</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1122,11 +1105,11 @@
     <history-entry file="Unittests_for_peakValue_PeakValue_testCase - 2017.12.15 at 16h 04m 53s.xml">
       <configuration name="Unittests for peakValue.PeakValue.testCase" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_peakValue_PeakValue_testCase - 2017.12.15 at 16h 31m 55s.xml">
+      <configuration name="Unittests for peakValue.PeakValue.testCase" configurationId="tests" />
+    </history-entry>
     <history-entry file="Unittests_for_standByFlowPowerMem_StandByFlowPowerMem_testCase - 2017.12.15 at 15h 56m 40s.xml">
       <configuration name="Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_peakValue_py - 2017.11.16 at 11h 10m 22s.xml">
-      <configuration name="Unittests in peakValue.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_peakValue_py - 2017.11.16 at 11h 12m 43s.xml">
       <configuration name="Unittests in peakValue.py" configurationId="tests" />
@@ -1148,7 +1131,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234209000" />
+    <option name="totallyTimeSpent" value="235478000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1169,8 +1152,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29983792" sideWeight="0.52022654" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08576052" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39250815" sideWeight="0.47977346" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30944625" sideWeight="0.4734375" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39250815" sideWeight="0.47977346" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25895765" sideWeight="0.4734375" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39059967" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1278,7 +1261,9 @@
     <MESSAGE value="修改记录" />
     <MESSAGE value="暂时不测时延" />
     <MESSAGE value="GT工具修正" />
-    <option name="LAST_COMMIT_MESSAGE" value="GT工具修正" />
+    <MESSAGE value="测试" />
+    <MESSAGE value="待机和资源消耗" />
+    <option name="LAST_COMMIT_MESSAGE" value="待机和资源消耗" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1493,13 +1478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/user_db.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/v731/openEmail_filter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1540,14 +1518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/otherApk/gt/gtutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="38" column="26" lean-forward="false" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/otherApk/record360/flowRecord.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-138">
@@ -1564,14 +1534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v731.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="59" column="20" lean-forward="false" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/operator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -1583,34 +1545,58 @@
     <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/send.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="53" column="29" lean-forward="true" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+          <caret line="53" column="29" lean-forward="false" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/baseAdb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="104" column="4" lean-forward="true" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
-          <folding>
-            <element signature="e#35#44#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/baseFile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-451">
-          <caret line="75" column="28" lean-forward="true" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+          <caret line="75" column="28" lean-forward="false" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/v731/peakValue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="212">
+          <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v731.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="64" column="57" lean-forward="true" selection-start-line="64" selection-start-column="57" selection-end-line="64" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user_db.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/otherApk/gt/gtutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/baseAdb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="e#35#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
