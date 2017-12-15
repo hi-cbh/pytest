@@ -1,0 +1,7 @@
+
+4python:S125"Remove this commented out code.(ÆÔœ¦
+4python:S125"Remove this commented out code.(®Ÿç
+9python:S125"Remove this commented out code.(Ëú”ûÿÿÿÿ
+hpython:S100"NRename method "startGT" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(Ğô¿Øùÿÿÿÿ
+fpython:S100"LRename method "endGT" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(Ì§ÔÒúÿÿÿÿ
+qpython:S117"WRename this local variable "SDpath" to match the regular expression ^[_a-z][a-z0-9_]*$.(éíÄòÿÿÿÿÿ

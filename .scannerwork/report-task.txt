@@ -1,0 +1,6 @@
+projectKey=performanceTesting
+serverUrl=http://localhost:9000
+serverVersion=6.7.0.33306
+dashboardUrl=http://localhost:9000/dashboard/index/performanceTesting
+ceTaskId=AWBQZTWlPYXArXxx5gF_
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWBQZTWlPYXArXxx5gF_

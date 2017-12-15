@@ -118,12 +118,12 @@ class Timedelay(unittest.TestCase):
                         result[k] = 0
 
                 print(result)
-                #
-                # testResult = {'productName' : '139','versionID':versionID,'networkType': network,'nowTime':BaseTime.get_current_time(), 'groupId':x}
-                #
-                # datas = dict(testResult , **result)
-                #
-                # SQLHelper.insert_timedelay(datas)
+
+                testResult = {'productName' : '139','versionID':versionID,'networkType': network,'nowTime':BaseTime.get_current_time(), 'groupId':x}
+
+                datas = dict(testResult , **result)
+
+                SQLHelper.insert_timedelay(datas)
 
 
 

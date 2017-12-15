@@ -1,0 +1,10 @@
+
+4python:S125"Remove this commented out code.(ÆÔœ¦
+9python:S125"Remove this commented out code.(£—œ­üÿÿÿÿ
+fpython:S100"LRename method "setUp" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(§˜œŽþÿÿÿÿ
+dpython:S100"ORename method "tearDown" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(•ûÜë
+ipython:S100"ORename method "testCase" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(»²¢Êúÿÿÿÿ
+rpython:S100"XRename method "waitForEmailCount" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(Ë¡‹÷ûÿÿÿÿ
+upython:S117"[Rename this local variable "appPackage" to match the regular expression ^[_a-z][a-z0-9_]*$.(â»«„þÿÿÿÿ
+qpython:S117"WRename this local variable "isTrue" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÆßîÀúÿÿÿÿ
+spython:S117"YRename this local variable "emailCnt" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÓïŒ•øÿÿÿÿ

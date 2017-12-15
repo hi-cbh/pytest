@@ -1,0 +1,6 @@
+
+fpython:S100"LRename method "setUp" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(§ώÿÿÿÿ
+hpython:S100"SRename method "adbInputText" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ΆΙΦϋ
+gpython:S100"MRename method "adbTap" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(µήΆ–ωÿÿÿÿ
+dpython:S100"ORename method "tearDown" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(•ϋάλ
+spython:S117"YRename this local variable "loginBtn" to match the regular expression ^[_a-z][a-z0-9_]*$.(ύ£‚ύÿÿÿÿ

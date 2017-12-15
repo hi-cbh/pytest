@@ -1,0 +1,11 @@
+
+4python:S125"Remove this commented out code.(ÆÔœ¦
+fpython:S100"LRename method "setUp" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(§˜œşÿÿÿÿ
+dpython:S100"ORename method "tearDown" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(•ûÜë
+ipython:S100"ORename method "testCase" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(»²¢Êúÿÿÿÿ
+hpython:S100"NRename method "getTime" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(À¾ùÿÿÿÿ
+lpython:S100"RRename method "getDataList" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ûçÿûøÿÿÿÿ
+upython:S117"[Rename this local variable "appPackage" to match the regular expression ^[_a-z][a-z0-9_]*$.(â»«„şÿÿÿÿ
+ppython:S117"\Rename this local variable "appActivity" to match the regular expression ^[_a-z][a-z0-9_]*$.(’«‰
+npython:S117"YRename this local variable "dataList" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ëæ¶’
+gpython:S117"RRename this parameter "delNum" to match the regular expression ^[_a-z][a-z0-9_]*$.(šÀûå

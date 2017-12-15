@@ -1,0 +1,7 @@
+
+fpython:S100"LRename method "setUp" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(§ώÿÿÿÿ
+dpython:S100"ORename method "tearDown" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(•ϋάλ
+spython:S117"YRename this local variable "loginBtn" to match the regular expression ^[_a-z][a-z0-9_]*$.(ύ£‚ύÿÿÿÿ
+vpython:S117"aRename this local variable "loginUserNameBox" to match the regular expression ^[_a-z][a-z0-9_]*$.(οο
+wpython:S117"]Rename this local variable "loginUserPwd" to match the regular expression ^[_a-z][a-z0-9_]*$.(ρƒωÿÿÿÿ
+ppython:S117"[Rename this local variable "loginBtnOk" to match the regular expression ^[_a-z][a-z0-9_]*$.(ίΩϊΥ
