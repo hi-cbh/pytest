@@ -16,7 +16,7 @@ class Login(object):
         '''最基础的登录'''
         self.driver.reset()
 
-        self.driver.click(u"uiautomator=>开始使用")
+        # self.driver.click(u"uiautomator=>开始使用")
 
         time.sleep(4)
         if firstLogin == True:
@@ -25,7 +25,7 @@ class Login(object):
 
         self.driver.swipeRight()
         self.driver.swipeRight()
-        # self.driver.swipeRight()
+        self.driver.swipeRight()
         # self.driver.swipeRight()
         print("点击坐标")
         # BaseAdb.adbTap(700, 2200)  # vivo 1603  w * 0.5, h * 0.885
@@ -33,7 +33,8 @@ class Login(object):
         w = self.driver.get_window_size()['width']
         h = self.driver.get_window_size()['height']
 
-        BaseAdb.adb_tap(w / 2, int(h * 0.94))
+        # BaseAdb.adb_tap(w / 2, int(h * 0.94))
+        BaseAdb.adb_tap(w / 2, int(h * 0.889))
         # BaseAdb.adbTap(500, 1700) #其他手机需要调试
 
         time.sleep(4)
