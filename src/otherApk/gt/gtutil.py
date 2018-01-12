@@ -5,21 +5,20 @@ import os
 import time
 import sys
 
-sys.path.append(r"/Users/apple/git/pytest/")
+file_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+sys.path.append(file_dir)
+print(file_dir)
+
+base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
+PCpath = base_dir + "/logs/"
+print("PC: %s" %PCpath)
 
 from src.base.baseAdb import BaseAdb
 from src.base.baseTime import BaseTime
 from src.otherApk.gt.csvData import GetCSVData
 
-#
-# PATH = lambda p: os.path.abspath(
-#     os.path.join(os.path.dirname(__file__), p)
-# )
 
-base_dir = str(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
-# base_dir = base_dir.replace('\\', '/')
-PCpath = base_dir + "/logs/"
-print("PC: %s" %PCpath)
+
 
 
 
@@ -70,7 +69,7 @@ class GTTest(object):
         BaseAdb.adb_pull(remote, PCpath + filename + "/")
         time.sleep(2)
         ls = []
-        d = GetCSVData(PCpath+filename+r"/", 'cn.cj.pe')
+        d = GetCSVData(PCpath+filename+r"/", self.pkgname)
         ls.append(d.get_cpu())
         ls.append(d.get_mem())
 
@@ -82,7 +81,8 @@ if __name__ == "__main__":
     # BaseAdb.adb_clear("com.tencent.wstt.gt")
     # time.sleep(2)
 
-    gt = GTTest("cn.cj.pe")
+    # gt = GTTest("cn.cj.pe")
+    gt = GTTest("com.tencent.androidqqmail")
     gt.startGT()
     time.sleep(10)
     gt.endGT()

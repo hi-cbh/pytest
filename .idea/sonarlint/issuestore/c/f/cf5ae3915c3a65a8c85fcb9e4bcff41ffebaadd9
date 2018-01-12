@@ -1,6 +1,5 @@
 
-4python:S125"Remove this commented out code.(ÔÚ’
-9python:S125"Remove this commented out code.(“™Œøüÿÿÿÿ
 cpython:S100"NRename method "swipeUp" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ˆóş
-epython:S100"PRename method "swipeDown" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(—ÁóÑ
 fpython:S100"QRename method "swipeRight" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(“ñ´À
+4python:S125"Remove this commented out code.(ÔÚ’
+epython:S100"PRename method "swipeDown" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(—ÁóÑ

@@ -134,7 +134,7 @@ class StandByFlowPowerMem(unittest.TestCase):
 
             print("发送邮件......")
             for i in range(3):
-                # BaseAdb.adbShell("adb shell am broadcast -a my.email.broadcast")
+                # BaseAdb.adb_shell("adb shell am broadcast -a my.email.broadcast")
                 r = WebReceive('13697485262', 'chinasoft123','13580491603@139.com')
                 r.sendEmail()
 

@@ -1,0 +1,5 @@
+
+@python:S125"Remove this commented out code.(äÁÇâøÿÿÿÿ8íå’ù†,
+mpython:S100"LRename method "setUp" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(§˜œşÿÿÿÿ8ˆşÌø†,
+tpython:S100"SRename method "testCaseKill" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(®÷â¬øÿÿÿÿ8‘ƒÑø†,
+kpython:S100"ORename method "tearDown" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(•ûÜë8ˆşÌø†,

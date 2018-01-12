@@ -107,8 +107,8 @@ class GetCSVData(object):
         
         
 if __name__ == "__main__":
-    filepath = r"/Users/apple/git/pytest/logs/2017-09-04_18-28-34/"
-    d = GetCSVData(filepath, 'cn.cj.pe')
+    filepath = r"/Users/apple/autoTest/workspace/pytest/logs/2018-01-12_11-40-59/"
+    d = GetCSVData(filepath, 'com.tencent.androidqqmail')
     
     data = d.get_mem()
     print(data)

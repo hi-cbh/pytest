@@ -28,7 +28,14 @@ class BaseAdb(object):
     def adb_tap(self, x, y):
         '''通过坐标，点击屏幕'''
         self.adb_shell(self.path + "adb shell input tap %s %s " % (str(x), str(y)))
-    
+        time.sleep(2)
+
+    def adb_tap_per(self,driver,x,y):
+        '''通过坐标的百分百，点击屏幕'''
+        d = driver.get_window_size()
+        self.adb_tap(float(d["width"] * x), float(d["height"] * y))
+
+
     def adb_back(self):
         '''通过命令行，点击返回'''
         self.adb_shell(self.path + 'adb shell input keyevent 4')
@@ -37,7 +44,8 @@ class BaseAdb(object):
     def adb_input_text(self, txt):
         '''通过命令行，输入字段'''
         self.adb_shell(self.path + 'adb shell input text %s' % txt)
-    
+        time.sleep(2)
+
     def adb_home(self):
         '''通过命令行，点击返回'''
         self.adb_shell(self.path + 'adb shell input keyevent 3')
@@ -213,6 +221,22 @@ class BaseAdb(object):
         os.popen("adb uninstall %s" %pkgname)
         print("remove %s successes." %pkgname)
         time.sleep(2)
+
+    def dumpsys_notification(self, contain_text):
+        '''获取通知信息'''
+        results = os.popen("adb shell dumpsys notification | grep tickerText")
+        for line in results.readlines():                          #依次读取每行
+            line = line.strip()                             #去掉每行头尾空白
+            print(line)
+            if not len(line):       #判断是否是空行或注释行
+                continue
+            if contain_text in line:
+                print('true')
+                return True
+        else:
+            print('False')
+            return False
+
 
     # 方便其他类调用
 BaseAdb = BaseAdb()    

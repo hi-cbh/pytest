@@ -160,4 +160,5 @@ BaseFile = BaseFile()
 
 if __name__ == "__main__":
     BaseFile.adb_ls_file_size("/mnt/sdcard/Android/data/com.cmcc.test/cache/")
+    BaseFile.get_time()
     # BaseFile.wait_for_file_modify(30)

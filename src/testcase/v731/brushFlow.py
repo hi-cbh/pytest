@@ -86,11 +86,15 @@ class BrushFlow(unittest.TestCase):
                 BaseAdb.adb_start_app(appPackage, appActivity)
                 time.sleep(10)
                 print('下拉')
+                stime = time.time()
                 self.driver.swipe(width/2, 350, width/2, height - 100, 500)
                 time.sleep(10)
                 BaseAdb.adb_home()
                 time.sleep(3)
                 result = fw.exec_record(u"139邮箱", network, False)
+                etime = time.time()
+                valueTime = str(round((etime - stime), 2))
+                print('[获取流量时间]: %r'  %valueTime)
 
                 datas = {'productName' : '139',"versionID":versionID,'networkType':network,'nowTime':BaseTime.get_current_time(), \
                      'upflow':result["up"],'downflow':result["down"], 'allflow':result["all"], 'groupId':x}
