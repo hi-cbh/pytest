@@ -2,37 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c0d3c22-cde7-491b-a9c7-c468eb3cb69d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-12_15-39-14/Pcp0_com.tencent.androidqqmail_20180112153920.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-12_15-39-14/Pcp1_com.tencent.androidqqmail_Push_20180112153919.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-12_15-39-14/Pr0_com.tencent.androidqqmail_20180112153920.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-12_15-39-14/Pr1_com.tencent.androidqqmail_Push_20180112153920.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-12_15-39-14/gtdesc_20180112153921.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b6faf0aeef8305454003744941cd79151cc2c95" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b6faf0aeef8305454003744941cd79151cc2c95" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/147f1f7834a3a6231220185e0916fa3bfeca4e29" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/147f1f7834a3a6231220185e0916fa3bfeca4e29" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/161f6d41a806804406dd257b8827487da340864a" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/161f6d41a806804406dd257b8827487da340864a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17eaa2803b0af9f849f4a734256158ae53006bb6" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17eaa2803b0af9f849f4a734256158ae53006bb6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e4989ed690315b6befeabc97cc0b493d0e3e53a" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e4989ed690315b6befeabc97cc0b493d0e3e53a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48adb2cb361af559055c816c0556f4867ad558a6" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48adb2cb361af559055c816c0556f4867ad558a6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/63cf43bf7599d5d35efb56457a635a50f7a25bab" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/63cf43bf7599d5d35efb56457a635a50f7a25bab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66f09b5c98e469f2abde4f6eed14c64408b87443" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66f09b5c98e469f2abde4f6eed14c64408b87443" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/7288d062dc61744f462fab0194bd380655758c5d" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/7288d062dc61744f462fab0194bd380655758c5d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78b680ac1e5cabe7dfed0ce78e6a3389654b5851" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78b680ac1e5cabe7dfed0ce78e6a3389654b5851" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d7a0ab1ac060a7df71b648b2b60aaf6f8415eb4" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d7a0ab1ac060a7df71b648b2b60aaf6f8415eb4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/82b8961adbadaf4219a6a080f83280a2027e25ac" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/82b8961adbadaf4219a6a080f83280a2027e25ac" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9d6de8f845323cd5fa34dcae1563c4dbbc04a323" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9d6de8f845323cd5fa34dcae1563c4dbbc04a323" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b46b791075f1397de7bab360ed2d9136c274460e" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b46b791075f1397de7bab360ed2d9136c274460e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bb5c31f95964cde962c58e73f6a276a5b348b739" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bb5c31f95964cde962c58e73f6a276a5b348b739" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c34d8684821e7842ee20891c40c5fb9e7a7579aa" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c34d8684821e7842ee20891c40c5fb9e7a7579aa" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf5ae3915c3a65a8c85fcb9e4bcff41ffebaadd9" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf5ae3915c3a65a8c85fcb9e4bcff41ffebaadd9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/daef4a325a4cfb74909c1830f0bc647c5cb2a76a" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/daef4a325a4cfb74909c1830f0bc647c5cb2a76a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3b9cce2478534af0acebd3fdac6fdfb867142a9" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3b9cce2478534af0acebd3fdac6fdfb867142a9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b67ee5810a16dec7840bac0e8dfc9970131d0d2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0de1219b6ec14826c9950fd5b6a5c5c4f5f10f52" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/142f9520d55aa93e9f4304e672b179d14669b1f9" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1c4d7deb0916441aaff89f9cb96b27e609483591" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30c6bc904d827934dab402093040169dd9a1ddc3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/45dd016dcb5cb39c9b6714e019b7b221e1749c3e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71be9664334396d46673785fc863d622cdcb39d6" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88c3e92178d0b6e250004622c637e955b5013d24" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8a99b289bf58d43fb8222fbda1246509da178ae9" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97bff7573a3b7713b3e61a05e12e5069a390c4d0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a7843041fa548fe4e981e26ab9a13a123d8c7540" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/af06bb44ffe664fad5a375cacbdb49c746b0a34c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef0b383c11c6a68e8c8e37fa7b55f989f25e5590" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_14-14-39/Pcp0_com.corp21cn.mail189_20180117141308.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_14-14-39/Pcp1_com.corp21cn.mail189_maillive_service_20180117141308.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_14-14-39/Pcp2_com.corp21cn.mail189_process1_20180117141308.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_14-14-39/Pcp3_com.corp21cn.mail189_process2_20180117141309.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_14-14-39/Pr0_com.corp21cn.mail189_20180117141309.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_14-14-39/Pr1_com.corp21cn.mail189_maillive_service_20180117141309.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_14-14-39/Pr2_com.corp21cn.mail189_process1_20180117141309.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_14-14-39/Pr3_com.corp21cn.mail189_process2_20180117141309.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_14-14-39/gtdesc_20180117141310.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_16-53-21/Pcp0_com.netease.mail_20180117165335.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_16-53-21/Pcp1_com.netease.mail_mailservice_20180117165335.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_16-53-21/Pr0_com.netease.mail_20180117165336.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_16-53-21/Pr1_com.netease.mail_mailservice_20180117165336.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_16-53-21/gtdesc_20180117165337.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_16-55-56/Pcp0_com.netease.mail_20180117165609.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_16-55-56/Pcp1_com.netease.mail_mailservice_20180117165609.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_16-55-56/Pr0_com.netease.mail_20180117165611.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_16-55-56/Pr1_com.netease.mail_mailservice_20180117165611.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_16-55-56/gtdesc_20180117165612.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_16-57-42/Pcp0_com.netease.mail_20180117165756.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_16-57-42/Pcp1_com.netease.mail_mailservice_20180117165756.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_16-57-42/Pr0_com.netease.mail_20180117165756.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_16-57-42/Pr1_com.netease.mail_mailservice_20180117165756.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_16-57-42/gtdesc_20180117165758.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_17-43-51/Pcp0_com.netease.mail_20180117174404.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_17-43-51/Pcp1_com.netease.mail_mailservice_20180117174404.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_17-43-51/Pr0_com.netease.mail_20180117174406.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_17-43-51/Pr1_com.netease.mail_mailservice_20180117174406.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_17-43-51/gtdesc_20180117174407.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_17-50-04/Pcp0_com.netease.mail_20180117175017.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_17-50-04/Pcp1_com.netease.mail_mailservice_20180117175017.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_17-50-04/Pr0_com.netease.mail_20180117175019.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_17-50-04/Pr1_com.netease.mail_mailservice_20180117175019.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_17-50-04/gtdesc_20180117175020.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_17-52-53/Pcp0_com.netease.mail_20180117175308.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_17-52-53/Pcp1_com.netease.mail_mailservice_20180117175308.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_17-52-53/Pr0_com.netease.mail_20180117175308.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_17-52-53/Pr1_com.netease.mail_mailservice_20180117175308.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_17-52-53/gtdesc_20180117175309.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_17-56-03/Pcp0_com.netease.mail_20180117175617.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_17-56-03/Pcp1_com.netease.mail_mailservice_20180117175617.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_17-56-03/Pr0_com.netease.mail_20180117175617.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_17-56-03/Pr1_com.netease.mail_mailservice_20180117175617.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-17_17-56-03/gtdesc_20180117175619.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-18_10-44-36/Pcp0_com.netease.mail_20180118104451.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-18_10-44-36/Pcp1_com.netease.mail_mailservice_20180118104451.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-18_10-44-36/Pr0_com.netease.mail_20180118104451.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-18_10-44-36/Pr1_com.netease.mail_mailservice_20180118104451.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-18_10-44-36/gtdesc_20180118104452.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mail163/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mail163/bash163/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mail163/bash163/login.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mail163/bash163/opendown.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mail163/bash163/receive.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mail163/bash163/send.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mail163/loginflow.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mail163/peakValue.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mail163/standByFlowPowerMem.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mail163/timedelay.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" afterPath="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/otherMail/fourmail/browflow.py" afterPath="$PROJECT_DIR$/src/otherMail/fourmail/browflow.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/psam/psam.py" afterPath="$PROJECT_DIR$/src/psam/psam.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/peakValue.py" afterPath="$PROJECT_DIR$/src/testcase/v731/peakValue.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/user_db.ini" afterPath="$PROJECT_DIR$/src/user_db.ini" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -954,7 +996,7 @@
       <workItem from="1515718891772" duration="20240000" />
       <workItem from="1516065556478" duration="22401000" />
       <workItem from="1516153988954" duration="13808000" />
-      <workItem from="1516239576848" duration="6001000" />
+      <workItem from="1516239576848" duration="6053000" />
     </task>
     <task id="LOCAL-00001" summary="在MAC中运行">
       <created>1505833150284</created>
@@ -1103,7 +1145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515744592103</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="添加163邮箱性能测试">
+      <created>1516247459629</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1516247459629</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1139,7 +1188,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="412847000" />
+    <option name="totallyTimeSpent" value="412899000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1276,7 +1325,8 @@
     <MESSAGE value="修改为731" />
     <MESSAGE value="调整" />
     <MESSAGE value="添加QQ邮箱性能测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加QQ邮箱性能测试" />
+    <MESSAGE value="添加163邮箱性能测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加163邮箱性能测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1339,6 +1389,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1476,6 +1527,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
           <caret line="63" column="10" lean-forward="false" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>

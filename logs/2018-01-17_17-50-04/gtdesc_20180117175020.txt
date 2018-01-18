@@ -1,0 +1,7 @@
+gtdesc:=2018-01-17_17-50-04
+
+opfiles:=
+Pcp0_com.netease.mail_20180117175017.csv
+Pcp1_com.netease.mail_mailservice_20180117175017.csv
+Pr0_com.netease.mail_20180117175019.csv
+Pr1_com.netease.mail_mailservice_20180117175019.csv
