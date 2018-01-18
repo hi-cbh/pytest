@@ -2,104 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c0d3c22-cde7-491b-a9c7-c468eb3cb69d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/147f1f7834a3a6231220185e0916fa3bfeca4e29" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17eaa2803b0af9f849f4a734256158ae53006bb6" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e91e15ea2a70e111cdf1e925d10b6cfd1bc5452" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/63cf43bf7599d5d35efb56457a635a50f7a25bab" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/c/6c4b87641f8a8733ded7a09fdf344e0a537394aa" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/7288d062dc61744f462fab0194bd380655758c5d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78b680ac1e5cabe7dfed0ce78e6a3389654b5851" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9d6de8f845323cd5fa34dcae1563c4dbbc04a323" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b352aafd511a72d7a78549c61cc02d13629d08e9" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b46b791075f1397de7bab360ed2d9136c274460e" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bb5c31f95964cde962c58e73f6a276a5b348b739" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c34d8684821e7842ee20891c40c5fb9e7a7579aa" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/test-2018-01-11_10-09-28.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/tmp.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pics/tmp2-2018-01-11_09-27-31.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-12_15-39-14/Pcp0_com.tencent.androidqqmail_20180112153920.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-12_15-39-14/Pcp1_com.tencent.androidqqmail_Push_20180112153919.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-12_15-39-14/Pr0_com.tencent.androidqqmail_20180112153920.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-12_15-39-14/Pr1_com.tencent.androidqqmail_Push_20180112153920.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-01-12_15-39-14/gtdesc_20180112153921.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/fourmail/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/fourmail/browflow.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mailqq/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mailqq/loginflow.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mailqq/peakValue.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mailqq/qqbase/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mailqq/qqbase/login.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mailqq/qqbase/opendown.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mailqq/qqbase/receive.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mailqq/qqbase/send.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mailqq/standByFlowPowerMem.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mailqq/timedelay.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mailqq/tmpcase.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testcase/testPre.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testcase/testPre2.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/68dd41e336b38b1ae38424b354f2b0e181fdbd5b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/75002170f0190414e446e730fa4561e4c811c11d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_15-42-02/Pcp0_cn.cj.pe_20171215154045.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_15-42-02/Pcp1_cn.cj.pe_pushservice_20171215154045.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_15-42-02/Pcp2_cn.cj.pe_richpush_20171215154045.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_15-42-02/Pcp3_cn.cj.pe_CMCCSsoService_20171215154045.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_15-42-02/gtdesc_20171215154047.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/Pcp0_cn.cj.pe_20171215154945.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/Pcp1_cn.cj.pe_pushservice_20171215154945.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/Pcp2_cn.cj.pe_richpush_20171215154945.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/Pcp3_cn.cj.pe_CMCCSsoService_20171215154945.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/Pr0_cn.cj.pe_20171215154945.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/Pr1_cn.cj.pe_pushservice_20171215154945.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/Pr2_cn.cj.pe_richpush_20171215154945.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/Pr3_cn.cj.pe_CMCCSsoService_20171215154945.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_15-51-02/gtdesc_20171215154947.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/Pcp0_cn.cj.pe_20171215155814.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/Pcp1_cn.cj.pe_pushservice_20171215155814.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/Pcp2_cn.cj.pe_richpush_20171215155814.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/Pcp3_cn.cj.pe_CMCCSsoService_20171215155814.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/Pr0_cn.cj.pe_20171215155814.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/Pr1_cn.cj.pe_pushservice_20171215155814.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/Pr2_cn.cj.pe_richpush_20171215155814.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/Pr3_cn.cj.pe_CMCCSsoService_20171215155815.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_15-59-32/gtdesc_20171215155816.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/Pcp0_cn.cj.pe_20171215160300.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/Pcp1_cn.cj.pe_pushservice_20171215160300.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/Pcp2_cn.cj.pe_richpush_20171215160300.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/Pcp3_cn.cj.pe_CMCCSsoService_20171215160300.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/Pr0_cn.cj.pe_20171215160300.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/Pr1_cn.cj.pe_pushservice_20171215160300.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/Pr2_cn.cj.pe_richpush_20171215160300.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/Pr3_cn.cj.pe_CMCCSsoService_20171215160300.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2017-12-15_16-04-18/gtdesc_20171215160302.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/testcase/v731/firstLogin.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/testcase/v731/easytimedelay.py" afterPath="$PROJECT_DIR$/src/testcase/v731/timedelay.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-12_15-39-14/Pcp0_com.tencent.androidqqmail_20180112153920.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-12_15-39-14/Pcp1_com.tencent.androidqqmail_Push_20180112153919.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-12_15-39-14/Pr0_com.tencent.androidqqmail_20180112153920.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-12_15-39-14/Pr1_com.tencent.androidqqmail_Push_20180112153920.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2018-01-12_15-39-14/gtdesc_20180112153921.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b6faf0aeef8305454003744941cd79151cc2c95" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b6faf0aeef8305454003744941cd79151cc2c95" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/147f1f7834a3a6231220185e0916fa3bfeca4e29" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/147f1f7834a3a6231220185e0916fa3bfeca4e29" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/161f6d41a806804406dd257b8827487da340864a" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/161f6d41a806804406dd257b8827487da340864a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17eaa2803b0af9f849f4a734256158ae53006bb6" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17eaa2803b0af9f849f4a734256158ae53006bb6" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e4989ed690315b6befeabc97cc0b493d0e3e53a" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e4989ed690315b6befeabc97cc0b493d0e3e53a" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48adb2cb361af559055c816c0556f4867ad558a6" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48adb2cb361af559055c816c0556f4867ad558a6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/63cf43bf7599d5d35efb56457a635a50f7a25bab" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/63cf43bf7599d5d35efb56457a635a50f7a25bab" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66f09b5c98e469f2abde4f6eed14c64408b87443" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66f09b5c98e469f2abde4f6eed14c64408b87443" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/7288d062dc61744f462fab0194bd380655758c5d" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/7288d062dc61744f462fab0194bd380655758c5d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78b680ac1e5cabe7dfed0ce78e6a3389654b5851" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78b680ac1e5cabe7dfed0ce78e6a3389654b5851" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d7a0ab1ac060a7df71b648b2b60aaf6f8415eb4" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d7a0ab1ac060a7df71b648b2b60aaf6f8415eb4" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/82b8961adbadaf4219a6a080f83280a2027e25ac" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/82b8961adbadaf4219a6a080f83280a2027e25ac" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bbc979455a68d837cb97dc31f899d2825ef9b466" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bbc979455a68d837cb97dc31f899d2825ef9b466" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9d6de8f845323cd5fa34dcae1563c4dbbc04a323" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9d6de8f845323cd5fa34dcae1563c4dbbc04a323" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b46b791075f1397de7bab360ed2d9136c274460e" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b46b791075f1397de7bab360ed2d9136c274460e" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bb5c31f95964cde962c58e73f6a276a5b348b739" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bb5c31f95964cde962c58e73f6a276a5b348b739" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c34d8684821e7842ee20891c40c5fb9e7a7579aa" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c34d8684821e7842ee20891c40c5fb9e7a7579aa" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf5ae3915c3a65a8c85fcb9e4bcff41ffebaadd9" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf5ae3915c3a65a8c85fcb9e4bcff41ffebaadd9" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/daef4a325a4cfb74909c1830f0bc647c5cb2a76a" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/daef4a325a4cfb74909c1830f0bc647c5cb2a76a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4242e381e3303ea221ad68c6a51b564cd63375c" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4242e381e3303ea221ad68c6a51b564cd63375c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f019fbfc0051431ce6a6004f463b66ee9d8009c9" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f019fbfc0051431ce6a6004f463b66ee9d8009c9" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3b9cce2478534af0acebd3fdac6fdfb867142a9" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3b9cce2478534af0acebd3fdac6fdfb867142a9" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/base/baseAdb.py" afterPath="$PROJECT_DIR$/src/base/baseAdb.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/base/baseFile.py" afterPath="$PROJECT_DIR$/src/base/baseFile.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/base/baseImage.py" afterPath="$PROJECT_DIR$/src/base/baseImage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/otherApk/gt/csvData.py" afterPath="$PROJECT_DIR$/src/otherApk/gt/csvData.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" afterPath="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/otherMail/fourmail/browflow.py" afterPath="$PROJECT_DIR$/src/otherMail/fourmail/browflow.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/psam/psam.py" afterPath="$PROJECT_DIR$/src/psam/psam.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/runTest_v731.py" afterPath="$PROJECT_DIR$/src/testcase/runTest_v731.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/brushFlow.py" afterPath="$PROJECT_DIR$/src/testcase/v731/brushFlow.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/easycase/login.py" afterPath="$PROJECT_DIR$/src/testcase/v731/easycase/login.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py" afterPath="$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcode/demo2.py" afterPath="$PROJECT_DIR$/src/testcode/demo2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/peakValue.py" afterPath="$PROJECT_DIR$/src/testcase/v731/peakValue.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/user_db.ini" afterPath="$PROJECT_DIR$/src/user_db.ini" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -115,9 +47,9 @@
     <SUITE FILE_PATH="coverage/pytest$initData.coverage" NAME="initData Coverage Results" MODIFIED="1506592640895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
     <SUITE FILE_PATH="coverage/appium_python$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1515638718515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcode" />
     <SUITE FILE_PATH="coverage/appium_python$mailOperation2.coverage" NAME="mailOperation2 Coverage Results" MODIFIED="1515662763265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/mail" />
-    <SUITE FILE_PATH="coverage/appium_python$receive.coverage" NAME="receive Coverage Results" MODIFIED="1515655703838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/mailqq/qqbase" />
-    <SUITE FILE_PATH="coverage/appium_python$Unittests_for_browflow_BrushFlow.coverage" NAME="Unittests for browflow.BrushFlow Coverage Results" MODIFIED="1515666990179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/fourmail" />
-    <SUITE FILE_PATH="coverage/appium_python$Unittests_for_peakValue_PeakValue.coverage" NAME="Unittests for peakValue.PeakValue Coverage Results" MODIFIED="1515728854618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/mailqq" />
+    <SUITE FILE_PATH="coverage/appium_python$receive.coverage" NAME="receive Coverage Results" MODIFIED="1516073175869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/mail163/bash163" />
+    <SUITE FILE_PATH="coverage/appium_python$Unittests_for_browflow_BrushFlow.coverage" NAME="Unittests for browflow.BrushFlow Coverage Results" MODIFIED="1516246878329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/fourmail" />
+    <SUITE FILE_PATH="coverage/appium_python$Unittests_for_peakValue_PeakValue.coverage" NAME="Unittests for peakValue.PeakValue Coverage Results" MODIFIED="1516179021927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
     <SUITE FILE_PATH="coverage/pytest$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1509524224687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcode" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_in_standByFlowPowerMem_py.coverage" NAME="Unittests in standByFlowPowerMem.py Coverage Results" MODIFIED="1510818214406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_for_brushFlow_BrushFlow_testCase.coverage" NAME="Unittests for brushFlow.BrushFlow.testCase Coverage Results" MODIFIED="1507779574117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
@@ -129,11 +61,14 @@
     <SUITE FILE_PATH="coverage/appium_python$baseAdb.coverage" NAME="baseAdb Coverage Results" MODIFIED="1513323005121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/base" />
     <SUITE FILE_PATH="coverage/appium_python$easytimedelay.coverage" NAME="easytimedelay Coverage Results" MODIFIED="1513395872155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
     <SUITE FILE_PATH="coverage/appium_python$Unittests_in_brushFlow_py.coverage" NAME="Unittests in brushFlow.py Coverage Results" MODIFIED="1514353870553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
+    <SUITE FILE_PATH="coverage/appium_python$Unittests_in_browflow_py.coverage" NAME="Unittests in browflow.py Coverage Results" MODIFIED="1516246722815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/fourmail" />
     <SUITE FILE_PATH="coverage/appium_python$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1514280758294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_for_firstLogin_FirstLogin.coverage" NAME="Unittests for firstLogin.FirstLogin Coverage Results" MODIFIED="1506594183744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722/init" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_for_standByFlowPowerMem_StandByFlowPowerMem_testCase.coverage" NAME="Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase Coverage Results" MODIFIED="1507789734047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
     <SUITE FILE_PATH="coverage/appium_python$tmpimap.coverage" NAME="tmpimap Coverage Results" MODIFIED="1515660162945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/mail" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_for_firstLogin_InitData_testCase.coverage" NAME="Unittests for firstLogin.InitData.testCase Coverage Results" MODIFIED="1507778734645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
+    <SUITE FILE_PATH="coverage/appium_python$Unittests_in_peakValue_py.coverage" NAME="Unittests in peakValue.py Coverage Results" MODIFIED="1516178531046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/mail163" />
+    <SUITE FILE_PATH="coverage/appium_python$Unittests_in_loginflow_py.coverage" NAME="Unittests in loginflow.py Coverage Results" MODIFIED="1516246137818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/mail163" />
     <SUITE FILE_PATH="coverage/pytest$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1505784520911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcode" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_for_easytimedelay_Timedelay.coverage" NAME="Unittests for easytimedelay.Timedelay Coverage Results" MODIFIED="1507771576868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_in_peakValue_py.coverage" NAME="Unittests in peakValue.py Coverage Results" MODIFIED="1510803288709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
@@ -143,10 +78,10 @@
     <SUITE FILE_PATH="coverage/pytest$Unittests_for_openEmail_filter_OpenEmail_testCase.coverage" NAME="Unittests for openEmail_filter.OpenEmail.testCase Coverage Results" MODIFIED="1508555051734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
     <SUITE FILE_PATH="coverage/appium_python$Unittests_for_brushFlow_BrushFlow_testCase.coverage" NAME="Unittests for brushFlow.BrushFlow.testCase Coverage Results" MODIFIED="1514359367528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
     <SUITE FILE_PATH="coverage/pytest$baseTime.coverage" NAME="baseTime Coverage Results" MODIFIED="1506753242399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/base" />
-    <SUITE FILE_PATH="coverage/appium_python$psam.coverage" NAME="psam Coverage Results" MODIFIED="1515652643294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/psam" />
+    <SUITE FILE_PATH="coverage/appium_python$psam.coverage" NAME="psam Coverage Results" MODIFIED="1516181369051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/psam" />
     <SUITE FILE_PATH="coverage/pytest$receive.coverage" NAME="receive Coverage Results" MODIFIED="1510799178067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731/easycase" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_for_loginFlow_LoginFlow.coverage" NAME="Unittests for loginFlow.LoginFlow Coverage Results" MODIFIED="1506150127907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
-    <SUITE FILE_PATH="coverage/appium_python$Unittests_for_peakValue_PeakValue_testCase.coverage" NAME="Unittests for peakValue.PeakValue.testCase Coverage Results" MODIFIED="1515729302810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/mailqq" />
+    <SUITE FILE_PATH="coverage/appium_python$Unittests_for_peakValue_PeakValue_testCase.coverage" NAME="Unittests for peakValue.PeakValue.testCase Coverage Results" MODIFIED="1516243371319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/mail163" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_for_openEmail_filter_MyTestCase.coverage" NAME="Unittests for openEmail_filter.MyTestCase Coverage Results" MODIFIED="1505804706140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
     <SUITE FILE_PATH="coverage/appium_python$Unittests_for_standByFlowPowerMem_StandByFlowPowerMem.coverage" NAME="Unittests for standByFlowPowerMem.StandByFlowPowerMem Coverage Results" MODIFIED="1515740430153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/mailqq" />
     <SUITE FILE_PATH="coverage/pytest$mysql_db.coverage" NAME="mysql_db Coverage Results" MODIFIED="1505887762481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/db" />
@@ -159,9 +94,9 @@
     <SUITE FILE_PATH="coverage/pytest$Unittests_in_pytest.coverage" NAME="Unittests in pytest Coverage Results" MODIFIED="1510995500889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_in_openEmail_filter_py.coverage" NAME="Unittests in openEmail_filter.py Coverage Results" MODIFIED="1510817023400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_for_easytimedelay_Timedelay_testCase.coverage" NAME="Unittests for easytimedelay.Timedelay.testCase Coverage Results" MODIFIED="1507771179748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
-    <SUITE FILE_PATH="coverage/appium_python$Unittests_for_loginflow_BrushFlow_testCase.coverage" NAME="Unittests for loginflow.BrushFlow.testCase Coverage Results" MODIFIED="1515721994845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/mailqq" />
     <SUITE FILE_PATH="coverage/appium_python$Unittests_in_standByFlowPowerMem_py.coverage" NAME="Unittests in standByFlowPowerMem.py Coverage Results" MODIFIED="1515742376468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/mailqq" />
-    <SUITE FILE_PATH="coverage/appium_python$gtutil.coverage" NAME="gtutil Coverage Results" MODIFIED="1515728797010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherApk/gt" />
+    <SUITE FILE_PATH="coverage/appium_python$Unittests_for_loginflow_BrushFlow_testCase.coverage" NAME="Unittests for loginflow.BrushFlow.testCase Coverage Results" MODIFIED="1516245414800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/mail163" />
+    <SUITE FILE_PATH="coverage/appium_python$gtutil.coverage" NAME="gtutil Coverage Results" MODIFIED="1516169639785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherApk/gt" />
     <SUITE FILE_PATH="coverage/pytest$AppiumServer.coverage" NAME="AppiumServer Coverage Results" MODIFIED="1506344228053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/aserver" />
     <SUITE FILE_PATH="coverage/appium_python$timedelay.coverage" NAME="timedelay Coverage Results" MODIFIED="1515654351614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/mailqq" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_for_openEmail_filter_OpenEmail.coverage" NAME="Unittests for openEmail_filter.OpenEmail Coverage Results" MODIFIED="1507599880809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
@@ -176,7 +111,7 @@
     <SUITE FILE_PATH="coverage/pytest$Unittests_for_openEmail_filter_MyTestCase_testCase.coverage" NAME="Unittests for openEmail_filter.MyTestCase.testCase Coverage Results" MODIFIED="1505804517712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
     <SUITE FILE_PATH="coverage/pytest$easytimedelay.coverage" NAME="easytimedelay Coverage Results" MODIFIED="1513305589574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
     <SUITE FILE_PATH="coverage/appium_python$testPre.coverage" NAME="testPre Coverage Results" MODIFIED="1513503576534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase" />
-    <SUITE FILE_PATH="coverage/appium_python$Unittests_for_timedelay_Timedelay_testCase.coverage" NAME="Unittests for timedelay.Timedelay.testCase Coverage Results" MODIFIED="1515576517213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/mailqq" />
+    <SUITE FILE_PATH="coverage/appium_python$Unittests_for_timedelay_Timedelay_testCase.coverage" NAME="Unittests for timedelay.Timedelay.testCase Coverage Results" MODIFIED="1516244157335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/mail163" />
     <SUITE FILE_PATH="coverage/appium_python$login.coverage" NAME="login Coverage Results" MODIFIED="1515580352910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/mailqq/qqbase" />
   </component>
   <component name="DatabaseView">
@@ -268,116 +203,7 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="send.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/send.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="standByFlowPowerMem.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/otherMail/mailqq/standByFlowPowerMem.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="767">
-              <caret line="161" column="40" lean-forward="false" selection-start-line="161" selection-start-column="40" selection-end-line="161" selection-end-column="40" />
-              <folding>
-                <element signature="e#35#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="request.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="1322" column="13" lean-forward="false" selection-start-line="1322" selection-start-column="13" selection-end-line="1322" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="peakValue.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/otherMail/mailqq/peakValue.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="73" column="40" lean-forward="false" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
-              <folding>
-                <element signature="e#35#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/otherMail/mailqq/qqbase/login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-              <folding>
-                <element signature="e#1#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="standByFlowPowerMem.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="137" column="28" lean-forward="false" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="receive.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/receive.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="send.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/otherMail/mailqq/qqbase/send.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="92" selection-end-column="88" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gtutil.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/otherApk/gt/gtutil.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="81" column="19" lean-forward="false" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="csvData.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/otherApk/gt/csvData.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1988">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -427,27 +253,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/testcase/v731/firstLogin.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v731/openEmail_filter.py" />
-        <option value="$PROJECT_DIR$/sql/sql" />
-        <option value="$PROJECT_DIR$/src/testcase/v731/loginFlow.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v731/easycase/receive.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v722/easytimedelay.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v722/loginFlow.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v722/peakValue.py" />
         <option value="$PROJECT_DIR$/src/testcase/v722/standByFlowPowerMem.py" />
         <option value="$PROJECT_DIR$/src/testcase/v722/brushFlow.py" />
         <option value="$PROJECT_DIR$/src/testcase/runTest_v722.py" />
         <option value="$PROJECT_DIR$/sonar-scanner.properties" />
         <option value="$PROJECT_DIR$/src/base/baseConversion.py" />
         <option value="$PROJECT_DIR$/src/base/baseOperate.py" />
-        <option value="$PROJECT_DIR$/src/base/baseTime.py" />
         <option value="$PROJECT_DIR$/src/db/mysql_db.py" />
         <option value="$PROJECT_DIR$/src/db/sqlhelper.py" />
         <option value="$PROJECT_DIR$/src/mail/mailOperation.py" />
         <option value="$PROJECT_DIR$/src/otherApk/power/powerAction.py" />
         <option value="$PROJECT_DIR$/src/otherApk/record360/flowRecord.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v731/peakValue.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/easytimedelay.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/easycase/login.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py" />
@@ -459,25 +275,35 @@
         <option value="$PROJECT_DIR$/src/testcase/v731/brushFlow.py" />
         <option value="$PROJECT_DIR$/src/base/baseFile.py" />
         <option value="$PROJECT_DIR$/src/base/baseAdb.py" />
-        <option value="$PROJECT_DIR$/src/user_db.ini" />
         <option value="$PROJECT_DIR$/src/testcode/demo2.py" />
         <option value="$PROJECT_DIR$/src/base/baseImage.py" />
         <option value="$PROJECT_DIR$/src/otherMail/mailqq/qqbase/opendown.py" />
-        <option value="$PROJECT_DIR$/src/psam/psam.py" />
         <option value="$PROJECT_DIR$/src/otherMail/mailqq/qqbase/receive.py" />
         <option value="$PROJECT_DIR$/src/otherMail/mailqq/timedelay.py" />
-        <option value="/usr/local/lib/python3.6/site-packages/pyse-0.0.7-py3.6.egg/pyse/pyse.py" />
         <option value="$PROJECT_DIR$/src/mail/tmpimap.py" />
         <option value="$PROJECT_DIR$/src/mail/mailOperation2.py" />
         <option value="$PROJECT_DIR$/src/otherMail/mailqq/tmpcase.py" />
-        <option value="$PROJECT_DIR$/src/otherMail/fourmail/browflow.py" />
         <option value="$PROJECT_DIR$/src/otherMail/mailqq/qqbase/login.py" />
         <option value="$PROJECT_DIR$/src/otherMail/mailqq/loginflow.py" />
         <option value="$PROJECT_DIR$/src/otherApk/gt/csvData.py" />
-        <option value="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" />
         <option value="$PROJECT_DIR$/src/otherMail/mailqq/qqbase/send.py" />
         <option value="$PROJECT_DIR$/src/otherMail/mailqq/peakValue.py" />
         <option value="$PROJECT_DIR$/src/otherMail/mailqq/standByFlowPowerMem.py" />
+        <option value="/usr/local/lib/python3.6/site-packages/pyse-0.0.7-py3.6.egg/pyse/pyse.py" />
+        <option value="$PROJECT_DIR$/src/otherMail/mail163/bash163/login.py" />
+        <option value="$PROJECT_DIR$/src/testcase/v731/peakValue.py" />
+        <option value="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" />
+        <option value="$PROJECT_DIR$/src/user_db.ini" />
+        <option value="$PROJECT_DIR$/src/psam/psam.py" />
+        <option value="$PROJECT_DIR$/src/base/baseTime.py" />
+        <option value="$PROJECT_DIR$/src/otherMail/mail163/peakValue.py" />
+        <option value="$PROJECT_DIR$/src/otherMail/mail163/bash163/send.py" />
+        <option value="$PROJECT_DIR$/src/otherMail/mail163/bash163/opendown.py" />
+        <option value="$PROJECT_DIR$/src/otherMail/mail163/timedelay.py" />
+        <option value="$PROJECT_DIR$/src/otherMail/mail163/bash163/receive.py" />
+        <option value="$PROJECT_DIR$/src/otherMail/mail163/loginflow.py" />
+        <option value="$PROJECT_DIR$/src/otherMail/fourmail/browflow.py" />
+        <option value="$PROJECT_DIR$/src/otherMail/mail163/standByFlowPowerMem.py" />
       </list>
     </option>
   </component>
@@ -493,10 +319,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="98" />
     <option name="y" value="23" />
-    <option name="width" value="1056" />
-    <option name="height" value="707" />
+    <option name="width" value="1280" />
+    <option name="height" value="713" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -536,7 +363,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -616,29 +444,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="appium_python" type="b2602c69:ProjectViewProjectNode" />
               <item name="pytest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytest" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytest" type="462c0819:PsiDirectoryNode" />
-              <item name="runDriver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytest" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="appium_python" type="b2602c69:ProjectViewProjectNode" />
@@ -663,25 +474,26 @@
               <item name="pytest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="otherMail" type="462c0819:PsiDirectoryNode" />
+              <item name="mail163" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appium_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="otherMail" type="462c0819:PsiDirectoryNode" />
               <item name="mailqq" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="appium_python" type="b2602c69:ProjectViewProjectNode" />
               <item name="pytest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-              <item name="v731" type="462c0819:PsiDirectoryNode" />
+              <item name="psam" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -700,20 +512,20 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/otherMail/mailqq" />
-      <recent name="$PROJECT_DIR$/src/mail" />
-      <recent name="$PROJECT_DIR$/src/otherMail/mailqq/qqbase" />
-      <recent name="$PROJECT_DIR$/src/testcase" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.uitest.testdemo" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/testcase" />
       <recent name="$PROJECT_DIR$/src/testcase/v722" />
       <recent name="$PROJECT_DIR$/src/testcase/v722/init" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.uitest.testdemo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/otherMail/mail163" />
+      <recent name="$PROJECT_DIR$/src/otherMail/mail163/bash163" />
+      <recent name="$PROJECT_DIR$/src/otherMail/mailqq" />
+      <recent name="$PROJECT_DIR$/src/mail" />
+      <recent name="$PROJECT_DIR$/src/otherMail/mailqq/qqbase" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -728,80 +540,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase">
-    <configuration name="Unittests for peakValue.PeakValue" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for browflow.BrushFlow">
+    <configuration name="Unittests for browflow.BrushFlow" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/otherMail/mailqq" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/otherMail/fourmail" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="appium_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;peakValue.PeakValue&quot;" />
+      <option name="_new_target" value="&quot;browflow.BrushFlow&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for peakValue.PeakValue.testCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in browflow.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/otherMail/mailqq" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/otherMail/fourmail" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="appium_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;peakValue.PeakValue.testCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests for standByFlowPowerMem.StandByFlowPowerMem" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/otherMail/mailqq" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="appium_python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;standByFlowPowerMem.StandByFlowPowerMem&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/otherMail/mailqq" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="appium_python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;standByFlowPowerMem.StandByFlowPowerMem.testCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests in standByFlowPowerMem.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/otherMail/mailqq" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="appium_python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/otherMail/mailqq/standByFlowPowerMem.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/otherMail/fourmail/browflow.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -1038,24 +805,6 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="demo2" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="appium_python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/testcode/demo2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="easytimedelay" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1092,23 +841,16 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="8">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.timedelay" />
       <item index="1" class="java.lang.String" itemvalue="Python.easytimedelay" />
-      <item index="2" class="java.lang.String" itemvalue="Python.demo2" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for peakValue.PeakValue.testCase" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for peakValue.PeakValue" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase" />
-      <item index="6" class="java.lang.String" itemvalue="Python tests.Unittests for standByFlowPowerMem.StandByFlowPowerMem" />
-      <item index="7" class="java.lang.String" itemvalue="Python tests.Unittests in standByFlowPowerMem.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for browflow.BrushFlow" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in browflow.py" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in standByFlowPowerMem.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for standByFlowPowerMem.StandByFlowPowerMem" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for peakValue.PeakValue.testCase" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for peakValue.PeakValue" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for browflow.BrushFlow" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in browflow.py" />
       </list>
     </recent_temporary>
   </component>
@@ -1209,7 +951,10 @@
       <workItem from="1515546776415" duration="15474000" />
       <workItem from="1515577950062" duration="2987000" />
       <workItem from="1515631486726" duration="25674000" />
-      <workItem from="1515718891772" duration="14464000" />
+      <workItem from="1515718891772" duration="20240000" />
+      <workItem from="1516065556478" duration="22401000" />
+      <workItem from="1516153988954" duration="13808000" />
+      <workItem from="1516239576848" duration="6001000" />
     </task>
     <task id="LOCAL-00001" summary="在MAC中运行">
       <created>1505833150284</created>
@@ -1351,43 +1096,50 @@
       <option name="project" value="LOCAL" />
       <updated>1513396568403</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="添加QQ邮箱性能测试">
+      <created>1515744592103</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1515744592103</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_peakValue_PeakValue - 2018.01.12 at 11h 49m 58s.xml">
-      <configuration name="Unittests for peakValue.PeakValue" configurationId="tests" />
+    <history-entry file="Unittests_for_browflow_BrushFlow - 2018.01.18 at 11h 27m 51s.xml">
+      <configuration name="Unittests for browflow.BrushFlow" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_peakValue_PeakValue_testCase - 2018.01.12 at 10h 59m 09s.xml">
-      <configuration name="Unittests for peakValue.PeakValue.testCase" configurationId="tests" />
+    <history-entry file="Unittests_for_browflow_BrushFlow - 2018.01.18 at 11h 36m 18s.xml">
+      <configuration name="Unittests for browflow.BrushFlow" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_peakValue_PeakValue_testCase - 2018.01.12 at 12h 03m 24s.xml">
-      <configuration name="Unittests for peakValue.PeakValue.testCase" configurationId="tests" />
+    <history-entry file="Unittests_for_browflow_BrushFlow - 2018.01.18 at 11h 44m 27s.xml">
+      <configuration name="Unittests for browflow.BrushFlow" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_standByFlowPowerMem_StandByFlowPowerMem - 2018.01.12 at 15h 10m 26s.xml">
-      <configuration name="Unittests for standByFlowPowerMem.StandByFlowPowerMem" configurationId="tests" />
+    <history-entry file="Unittests_for_loginflow_BrushFlow_testCase - 2018.01.18 at 11h 13m 03s.xml">
+      <configuration name="Unittests for loginflow.BrushFlow.testCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_standByFlowPowerMem_StandByFlowPowerMem_testCase - 2018.01.12 at 14h 59m 46s.xml">
-      <configuration name="Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase" configurationId="tests" />
+    <history-entry file="Unittests_for_loginflow_BrushFlow_testCase - 2018.01.18 at 11h 14m 10s.xml">
+      <configuration name="Unittests for loginflow.BrushFlow.testCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_standByFlowPowerMem_StandByFlowPowerMem_testCase - 2018.01.12 at 15h 46m 26s.xml">
-      <configuration name="Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase" configurationId="tests" />
+    <history-entry file="Unittests_for_loginflow_BrushFlow_testCase - 2018.01.18 at 11h 16m 51s.xml">
+      <configuration name="Unittests for loginflow.BrushFlow.testCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_standByFlowPowerMem_StandByFlowPowerMem_testCase - 2018.01.12 at 15h 48m 50s.xml">
-      <configuration name="Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase" configurationId="tests" />
+    <history-entry file="Unittests_for_loginflow_BrushFlow_testCase - 2018.01.18 at 11h 20m 50s.xml">
+      <configuration name="Unittests for loginflow.BrushFlow.testCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_standByFlowPowerMem_StandByFlowPowerMem_testCase - 2018.01.12 at 15h 52m 25s.xml">
-      <configuration name="Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase" configurationId="tests" />
+    <history-entry file="Unittests_in_browflow_py - 2018.01.18 at 11h 38m 26s.xml">
+      <configuration name="Unittests in browflow.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_standByFlowPowerMem_py - 2018.01.12 at 15h 32m 33s.xml">
-      <configuration name="Unittests in standByFlowPowerMem.py" configurationId="tests" />
+    <history-entry file="Unittests_in_browflow_py - 2018.01.18 at 11h 41m 07s.xml">
+      <configuration name="Unittests in browflow.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_standByFlowPowerMem_py - 2018.01.12 at 15h 43m 22s.xml">
-      <configuration name="Unittests in standByFlowPowerMem.py" configurationId="tests" />
+    <history-entry file="Unittests_in_loginflow_py - 2018.01.18 at 11h 32m 59s.xml">
+      <configuration name="Unittests in loginflow.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="364861000" />
+    <option name="totallyTimeSpent" value="412847000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1399,7 +1151,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1280" height="713" extended-state="6" />
+    <frame x="98" y="23" width="1280" height="713" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1409,11 +1161,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29983792" sideWeight="0.52022654" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08576052" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30944625" sideWeight="0.4734375" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37378642" sideWeight="0.47977346" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37055016" sideWeight="0.47977346" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39059967" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1933657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.197411" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47882736" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1421,7 +1173,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39644012" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46601942" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1458,12 +1210,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30944625" sideWeight="0.4734375" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37378642" sideWeight="0.47977346" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3480055" sideWeight="0.47977346" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39059967" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1933657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22572815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47882736" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1523,7 +1275,8 @@
     <MESSAGE value="晚上跑时延" />
     <MESSAGE value="修改为731" />
     <MESSAGE value="调整" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整" />
+    <MESSAGE value="添加QQ邮箱性能测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加QQ邮箱性能测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1544,7 +1297,7 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1573,120 +1326,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/base/baseConversion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="76" column="29" lean-forward="false" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/baseFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="40" column="45" lean-forward="true" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/selenium/webdriver/common/service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/otherMail/mailqq/ghostdriver.log" />
-    <entry file="file://$PROJECT_DIR$/src/testcase/tmp.py" />
-    <entry file="file:///usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/configparser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16632">
-          <caret line="764" column="8" lean-forward="false" selection-start-line="764" selection-start-column="8" selection-end-line="764" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/testPre2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="73" column="46" lean-forward="false" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="807" column="4" lean-forward="false" selection-start-line="807" selection-start-column="4" selection-end-line="807" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pics/test-2018-01-11_10-09-28.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pics/tmp2-2018-01-11_09-27-31.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcode/demo2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="23" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/baseImage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="e#35#44#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/openDown.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="102" column="8" lean-forward="true" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="88" column="8" lean-forward="false" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/otherMail/mailqq/qqbase/opendown.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="88" />
-          <folding>
-            <element signature="e#1#12#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/pyse-0.0.7-py3.6.egg/pyse/pyse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/v731/timedelay.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1700,7 +1339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1718,21 +1356,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/otherMail/mailqq/qqbase/receive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2794">
-          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-          <folding>
-            <element signature="e#35#46#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/v731/loginFlow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1012">
           <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="107" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1740,7 +1367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-96">
           <caret line="46" column="3" lean-forward="false" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1748,53 +1374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/user_db.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/peakValue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="74" column="41" lean-forward="false" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/psam/psam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="262" column="8" lean-forward="false" selection-start-line="262" selection-start-column="8" selection-end-line="262" selection-end-column="8" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/otherMail/mailqq/loginflow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="99" column="32" lean-forward="false" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/otherMail/fourmail/browflow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="23" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1802,25 +1381,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="99" selection-end-column="95" />
-          <folding>
-            <element signature="e#35#62#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/2018-01-12_11-01-42/Pr0_com.tencent.androidqqmail_20180112110148.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/2018-01-12_11-01-42/Pr0_com.tencent.androidqqmail_20180112110148.csv" />
     <entry file="file:///usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/genericpath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1848,51 +1416,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/otherApk/gt/gtutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="81" column="19" lean-forward="false" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/2018-01-12_11-49-41/Pcp0_com.tencent.androidqqmail_20180112114947.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/2018-01-12_11-49-41/Pcp3_com.tencent.androidqqmail_Tools_20180112114945.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/2018-01-12_11-49-41/Pcp4_com.tencent.androidqqmail_patch_20180112114945.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/2018-01-12_11-49-41/Pcp1_com.tencent.androidqqmail_Push_20180112114945.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/2018-01-12_11-49-41/Pcp0_com.tencent.androidqqmail_20180112114947.csv" />
+    <entry file="file://$PROJECT_DIR$/logs/2018-01-12_11-49-41/Pcp3_com.tencent.androidqqmail_Tools_20180112114945.csv" />
+    <entry file="file://$PROJECT_DIR$/logs/2018-01-12_11-49-41/Pcp4_com.tencent.androidqqmail_patch_20180112114945.csv" />
+    <entry file="file://$PROJECT_DIR$/logs/2018-01-12_11-49-41/Pcp1_com.tencent.androidqqmail_Push_20180112114945.csv" />
     <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/receive.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1900,35 +1431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
           <caret line="137" column="28" lean-forward="false" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/send.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/otherMail/mailqq/peakValue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="73" column="40" lean-forward="false" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
-          <folding>
-            <element signature="e#35#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/otherMail/mailqq/qqbase/send.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="92" selection-end-column="88" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1936,7 +1438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="1322" column="13" lean-forward="false" selection-start-line="1322" selection-start-column="13" selection-end-line="1322" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1945,18 +1446,206 @@
         <state relative-caret-position="112">
           <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding>
-            <element signature="e#1#13#0" expanded="true" />
+            <element signature="e#1#13#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/otherMail/mailqq/qqbase/opendown.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="76" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/site-packages/pyse-0.0.7-py3.6.egg/pyse/pyse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="287" column="8" lean-forward="false" selection-start-line="287" selection-start-column="8" selection-end-line="287" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/otherMail/mailqq/qqbase/receive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/send.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="63" column="10" lean-forward="false" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/2018-01-17_10-34-17/Pcp3_cn.cj.pe_20180117103249.csv" />
+    <entry file="file://$PROJECT_DIR$/logs/2018-01-17_10-34-17/Pcp1_cn.cj.pe_richpush_20180117103249.csv" />
+    <entry file="file://$PROJECT_DIR$/logs/2018-01-17_10-34-17/Pcp2_cn.cj.pe_sync_20180117103249.csv" />
+    <entry file="file://$PROJECT_DIR$/logs/2018-01-17_10-34-17/Pcp0_cn.cj.pe_pushservice_20180117103249.csv" />
+    <entry file="file://$PROJECT_DIR$/src/otherMail/mail163/bash163/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/peakValue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/otherMail/mailqq/peakValue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1408">
+          <caret line="73" column="47" lean-forward="false" selection-start-line="73" selection-start-column="47" selection-end-line="73" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/otherMail/mailqq/qqbase/send.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3652">
+          <caret line="168" column="0" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/subprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="765" column="0" lean-forward="false" selection-start-line="765" selection-start-column="0" selection-end-line="765" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/otherApk/gt/gtutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/baseTime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/otherMail/mail163/bash163/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/otherMail/mail163/bash163/opendown.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="67" column="29" lean-forward="false" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/psam/psam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="475" column="0" lean-forward="false" selection-start-line="475" selection-start-column="0" selection-end-line="476" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/otherMail/mail163/bash163/send.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3564">
+          <caret line="164" column="84" lean-forward="false" selection-start-line="164" selection-start-column="40" selection-end-line="164" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/otherMail/mailqq/loginflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="99" column="32" lean-forward="false" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/otherMail/mail163/timedelay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="107" column="41" lean-forward="true" selection-start-line="107" selection-start-column="41" selection-end-line="107" selection-end-column="41" />
+          <folding>
+            <element signature="e#35#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/otherMail/mail163/bash163/receive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-235">
+          <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user_db.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/otherMail/mailqq/standByFlowPowerMem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="161" column="40" lean-forward="false" selection-start-line="161" selection-start-column="40" selection-end-line="161" selection-end-column="40" />
+        <state relative-caret-position="22">
+          <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/otherMail/mail163/peakValue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1471">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="98" selection-end-column="21" />
           <folding>
             <element signature="e#35#65#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/otherMail/mail163/loginflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="119" column="27" lean-forward="false" selection-start-line="119" selection-start-column="27" selection-end-line="119" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/otherMail/fourmail/browflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="37" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/otherMail/mail163/standByFlowPowerMem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>

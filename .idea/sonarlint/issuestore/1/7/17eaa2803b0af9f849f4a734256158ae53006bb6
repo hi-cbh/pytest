@@ -1,5 +1,5 @@
 
-ipython:S100"ORename method "testCase" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(»²ΆΚϊÿÿÿÿ
 fpython:S100"LRename method "setUp" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(§ώÿÿÿÿ
-dpython:S100"ORename method "tearDown" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(•ϋάλ
+ipython:S100"ORename method "testCase" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(»²ΆΚϊÿÿÿÿ
 |python:S117"[Rename this local variable "testResult" to match the regular expression ^[_a-z][a-z0-9_]*$.(“…—½ωÿÿÿÿ8θπΘ…,
+dpython:S100"ORename method "tearDown" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(•ϋάλ

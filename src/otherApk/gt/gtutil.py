@@ -82,7 +82,9 @@ if __name__ == "__main__":
     # time.sleep(2)
 
     # gt = GTTest("cn.cj.pe")
-    gt = GTTest("com.tencent.androidqqmail")
+    # gt = GTTest("com.tencent.androidqqmail")
+    # gt = GTTest("com.netease.mail")
+    gt = GTTest("com.corp21cn.mail189")
     gt.startGT()
-    time.sleep(10)
+    time.sleep(30)
     gt.endGT()

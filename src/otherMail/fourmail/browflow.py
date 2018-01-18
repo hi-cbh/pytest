@@ -34,7 +34,10 @@ class BrushFlow(unittest.TestCase):
         qq_apk="com.tencent.androidqqmail"
         qq_ativity="com.tencent.qqmail.launcher.desktop.LauncherActivity"
 
-        self.brush_flow_test("QQ邮箱", "QQ",qq_apk,qq_ativity)
+        net_apk="com.netease.mail"
+        net_ativity="com.netease.mobimail.activity.LaunchActivity"
+        # self.brush_flow_test("QQ邮箱", "QQ",qq_apk,qq_ativity)
+        self.brush_flow_test("网易邮箱大师", "网易邮箱大师",net_apk,net_ativity)
 
     def brush_flow_test(self,mail,contents, app_pkg, app_activity):
         '''空刷测试'''
@@ -44,7 +47,7 @@ class BrushFlow(unittest.TestCase):
         height = self.driver.get_window_size()['height']
         print('当前网络状态：%s' %network)
 
-        runtimes = 1
+        runtimes = 3
 
         fw = flow360(self.driver)
 
@@ -82,7 +85,11 @@ class BrushFlow(unittest.TestCase):
             print("空刷错误！！")
 
 
-
+if __name__ == "__main__":
+    suite = unittest.TestSuite()
+    suite.addTest(BrushFlow('testCase'))
+    runner = unittest.TextTestRunner(verbosity=2)
+    runner.run(suite)
 
 
 

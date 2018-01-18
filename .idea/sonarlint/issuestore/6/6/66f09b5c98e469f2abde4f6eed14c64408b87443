@@ -1,8 +1,8 @@
 
-tpython:S117"ZRename this local variable "valueTime" to match the regular expression ^[_a-z][a-z0-9_]*$.(ã¶ÀÙøÿÿÿÿ
-hpython:S100"SRename method "waitforEmail" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(Üãƒ“
-dpython:S100"PRename method "sendEmail" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(±ÌÜ
-9python:S125"Remove this commented out code.(Íá¢Ðþÿÿÿÿ
-upython:S117"[Rename this local variable "isReceived" to match the regular expression ^[_a-z][a-z0-9_]*$.(Å®üÓøÿÿÿÿ
 4python:S125"Remove this commented out code.(Á£å‡
+tpython:S117"ZRename this local variable "valueTime" to match the regular expression ^[_a-z][a-z0-9_]*$.(ã¶ÀÙøÿÿÿÿ
+9python:S125"Remove this commented out code.(Íá¢Ðþÿÿÿÿ
+hpython:S100"SRename method "waitforEmail" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(Üãƒ“
 ipython:S100"TRename method "receiveAction" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(Ðüþ€
+dpython:S100"PRename method "sendEmail" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(±ÌÜ
+upython:S117"[Rename this local variable "isReceived" to match the regular expression ^[_a-z][a-z0-9_]*$.(Å®üÓøÿÿÿÿ

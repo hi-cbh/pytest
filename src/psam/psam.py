@@ -313,182 +313,174 @@ class Psam(object):
         return self.driver.page_source
 
     def login_action(self):
-        # driver.reset()
-        time.sleep(6)
+
+        try:
+            print("重置")
+            driver.reset()
+
+            time.sleep(4)
+            print("输入账号")
+            driver.type("id=>com.netease.mail:id/editor_email","13427665104@163.com")
+
+            print("输入密码")
+            driver.type("id=>com.netease.mail:id/editor_password","yscs12345")
+
+            print("点击登录")
+            driver.click("id=>com.netease.mail:id/register_button_next")
+            start_time = time.time()
+
+            print("等待控件出现")
+            driver.element_wait("id=>com.netease.mail:id/button_next", 60)
+
+            end_time = time.time()
+
+            print("点击 下一步")
+            driver.click("id=>com.netease.mail:id/button_next")
 
 
-        driver.swipeRight()
-        driver.swipeRight()
-        driver.swipeRight()
+            value_time = str(round(end_time - start_time, 2))
+            print("登录时延：%s" %value_time)
 
-        driver.click("class=>android.widget.Button")
+            print("进入邮箱")
+            driver.click("id=>com.netease.mail:id/enter_mail")
 
-        time.sleep(2)
+            print("点击跳过")
+            driver.click(u"uiautomator=>跳过")
+            time.sleep(2)
 
-        driver.get_elements("class=>android.widget.ImageView")[0].click()
-
-        time.sleep(5)
-
-        # driver.click("name=>帐号密码登录")
-        BaseAdb.adb_tap(500,510)
-        BaseAdb.adb_input_text("2915673336")
-
-        BaseAdb.adb_tap(500,700)
-        BaseAdb.adb_input_text("ctctest2014")
-
-        BaseAdb.adb_tap(500,890)
-        start_time = time.time()
-
-        print("等待完成出现")
-        driver.element_wait("xpath=>//android.widget.Button[contains(@text,'完成')]", 60)
-        # driver.element_wait(u"uiautomator=>完成", 60)
-        value_time = str(round(time.time() - start_time, 2))
-        print("登录时延：%s" %value_time)
-
-        driver.click("class=>android.widget.Button")
-        # driver.click(u"uiautomator=>完成")
-
-        time.sleep(2)
-
-
-
+        except BaseException:
+            print("登录错误")
+            return 0
 
     def send(self):
-        print("点击收件箱")
-        driver.click("xpath=>//android.widget.TextView[contains(@text,'收件箱')]")
+        try:
+            print("点击新建")
+            driver.click("id=>com.netease.mail:id/iv_mail_list_plus")
 
-        print("点击新建")
-        driver.click("xpath=>//android.widget.ImageButton[@content-desc='写邮件']")
+            print("点击写邮件")
+            driver.click("id=>com.netease.mail:id/tv_write_mail")
 
-        print("2915673336@qq.com")
-        BaseAdb.adb_input_text("2915673336@qq.com")
-        BaseAdb.adb_tap(600,600)
+            print("输入账号")
+            driver.type("id=>com.netease.mail:id/mailcompose_address_input","13427665104@163.com")
 
-        BaseAdb.adb_tap(300,600)
-        BaseAdb.adb_input_text("TestMail")
+            print("输入主题")
+            driver.type("id=>com.netease.mail:id/mailcompose_subject_textedit","pwd")
 
+            print("正文")
+            driver.type("id=>com.netease.mail:id/mailcompose_content","123456789012345678901234567890")
 
-        BaseAdb.adb_tap(300, 900)
-        BaseAdb.adb_input_text("123456789012345678901234567890")
+            print("点击附件")
+            driver.click("id=>com.netease.mail:id/add_attachment_icon")
 
+            print("点击 本地文件")
+            driver.click("id=>com.netease.mail:id/vertical_file")
 
-        print("点击添加附件")
-        driver.click("xpath=>//android.widget.Button[@content-desc='附件操作']")
+            print("查找文件")
+            driver.click(r"uiautomator=>0.")
 
-        print("选择文件在")
-        driver.click("xpath=>//android.widget.ImageButton[@content-desc='从文件浏览器选择文件']")
+            print("点击test2M.rar")
+            driver.click(r"uiautomator=>test2M.rar")
 
+            print("点击完成")
+            driver.click("id=>com.netease.mail:id/complete")
 
-        print("获取路径")
-        txt = driver.get_attribute("id=>com.tencent.androidqqmail:id/k","text")
-        print("获取路径txt: %s" %txt)
+            print("点击发送")
+            driver.click("id=>com.netease.mail:id/tv_done")
 
-        # 目录路径不对
-        if not txt.__contains__("/0/0./"):
-            driver.click("id=>com.tencent.androidqqmail:id/ru")
-            driver.click("id=>com.tencent.androidqqmail:id/ru")
-            driver.click(r"xpath=>//android.widget.TextView[contains(@text,'0.')]")
+            start_time = time.time()
 
-        print("选择文件")
-        driver.click("xpath=>//android.widget.TextView[contains(@text,'test2M.rar')]")
-        driver.click("xpath=>//android.widget.Button[contains(@text,'添加到邮件')]")
+            time_out = int(round(time.time() * 1000)) + 1*60 * 1000
 
-        time.sleep(5)
-        print("点击发送")
-        driver.click("xpath=>//android.widget.Button[contains(@text,'发送')]")
-        start_time = time.time()
+            # 获取邮件发送成功，退出；否则返回超时
+            while int(round(time.time() * 1000)) < time_out :
 
+                if BaseAdb.dumpsys_notification("邮件发送成功"):
+                    break
 
-        time.sleep(3)
-        time_out = int(round(time.time() * 1000)) + 1*60 * 1000
+                time.sleep(0.1)
 
-        # 获取邮件发送成功，退出；否则返回超时
-        while int(round(time.time() * 1000)) < time_out :
+            end_time = time.time()
 
-            if BaseAdb.dumpsys_notification("邮件发送成功"):
-                break
+            value_time = str(round(end_time - start_time, 2))
+            print("发送邮件时延：%s" %value_time)
 
-            time.sleep(0.1)
+            time.sleep(5)
 
-        end_time = time.time()
-
-        value_time = str(round(end_time - start_time, 2))
-
-        print("邮件发送时延：%s" %value_time)
-
-        time.sleep(5)
-
+        except BaseException:
+            print("发送出错")
 
     def down_file(self):
-        print("点击收件箱")
-        driver.click("xpath=>//android.widget.TextView[contains(@text,'收件箱')]")
 
-        print("点击第一封邮件")
-        ele_list = driver.get_elements("class=>android.widget.RelativeLayout")
-        # 点击第第一封邮件
-        ele_list[3].click()
-        start_time = time.time()
-
-
-        driver.element_wait("class=>android.webkit.WebView")
-        end_time = time.time()
-
-        value_time = str(round(end_time - start_time, 2))
-        print("打开未读邮件时延：%s" %value_time)
-
-        file_path = "/mnt/sdcard/Download/QQMail/test2M.*"
-        file_name = "test2M"
-        print("查找文件")
-        if BaseFile.adb_find_file(file_path, file_name):
-            print("清除文件")
-            BaseFile.adb_del_file(file_path, file_name)
-
-        print("点击更多")
-        BaseAdb.adb_tap_per(driver, 940/1080, 1590/1920)
-
-        print("保存文件")
-        driver.click("xpath=>//android.widget.TextView[contains(@text,'保存文件')]")
-
-        print("在download目录")
-        if not driver.get_attribute("id=>com.tencent.androidqqmail:id/ru","text").__contains__("Download"):
-            driver.click("id=>com.tencent.androidqqmail:id/ru")
-
-        print("点击保存")
-        driver.click("xpath=>//android.widget.Button[contains(@text,'保存')]")
-        start_time = time.time()
-
-        print("等待邮件出现")
-        BaseFile.wait_for_file(file_path,file_name)
-
-        end_time = time.time()
-
-        value_time = str(round(end_time - start_time, 2))
-        print("下载附件时延：%s" %value_time)
+        try:
+            print("点击第一封邮件")
+            emaillist = driver.get_elements("id=>com.netease.mail:id/mail_list_item_content")
+            emaillist[0].click()
+            start_time = time.time()
+            print("打开邮件")
+            driver.element_wait("id=>com.netease.mail:id/mail_list_item_content")
+            driver.element_wait("id=>com.netease.mail:id/conversation_item_attachment_divider")
+            driver.element_wait("id=>com.netease.mail:id/attachment_info")
+            end_time = time.time()
 
 
-        print("查找文件")
-        if BaseFile.adb_find_file(file_path, file_name):
-            print("清除文件")
-            BaseFile.adb_del_file(file_path, file_name)
+            value_time = str(round(end_time - start_time, 2))
+            print("打开邮件时延： %s" %value_time)
+
+            print("点击更多")
+            driver.click("id=>com.netease.mail:id/attachment_more")
+
+
+            print("点击保存")
+            driver.click("id=>com.netease.mail:id/file_operate_save")
+
+            print("清除")
+            path="/mnt/sdcard/Download/test2M*"
+            file="test2M"
+            if BaseFile.adb_find_file(path,file):
+                BaseFile.adb_del_file(path,file)
+
+            time.sleep(5)
+
+            print("点击确定")
+            driver.click("id=>com.netease.mail:id/tv_done")
+            start_time = time.time()
+
+            print("等待邮件出现")
+            BaseFile.wait_for_file(path,file)
+
+            end_time = time.time()
+            value_time = str(round(end_time - start_time, 2))
+            print("下载附件时延：%s" %value_time)
+
+            print("查找文件")
+            if BaseFile.adb_find_file(path, file):
+                print("清除文件")
+                BaseFile.adb_del_file(path, file)
+
+
+        except BaseException:
+            print("打开或下载附件")
 
 
         time.sleep(5)
-        BaseAdb.adb_back()
 
 if __name__ == '__main__':
 
-    driver = Psam(version="5.1",apk="com.tencent.androidqqmail",ativity="com.tencent.qqmail.launcher.desktop.LauncherActivity")
+    driver = Psam(version="5.1",apk="com.netease.mail",ativity="com.netease.mobimail.activity.LaunchActivity")
 
     driver.login_action()
 
-    # driver.send()
-    print("点击收件箱")
-    driver.click("xpath=>//android.widget.TextView[contains(@text,'收件箱')]")
+    # 删除邮件
+    driver.swipe(driver.get_window_size()["width"] - 20, 450, 20, 450, 500)
 
-    txt = driver.get_element("xpath=>//android.view.View[contains(@content-desc,'TestMailQQ')]")
-    txt.click()
+    if driver.get_element("uiautomator=>删除") != None:
+        driver.click("uiautomator=>删除")
 
-    time.sleep(4)
+
+
+        # driver.send()
+
+    # driver.down_file()
 
 
 

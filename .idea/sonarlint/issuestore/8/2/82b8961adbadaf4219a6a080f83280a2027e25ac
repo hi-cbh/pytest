@@ -1,9 +1,9 @@
 
-upython:S117"[Rename this local variable "appPackage" to match the regular expression ^[_a-z][a-z0-9_]*$.(â»«„þÿÿÿÿ
-ipython:S100"ORename method "testCase" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(»²¢Êúÿÿÿÿ
-dpython:S100"ORename method "tearDown" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(•ûÜë
 9python:S125"Remove this commented out code.(›¯Ëìûÿÿÿÿ
+ipython:S100"ORename method "testCase" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(»²¢Êúÿÿÿÿ
+ppython:S117"\Rename this local variable "appActivity" to match the regular expression ^[_a-z][a-z0-9_]*$.(’«‰
 4python:S125"Remove this commented out code.(¸ï¶Õ
 fpython:S100"LRename method "setUp" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(§˜œŽþÿÿÿÿ
-ppython:S117"\Rename this local variable "appActivity" to match the regular expression ^[_a-z][a-z0-9_]*$.(’«‰
+dpython:S100"ORename method "tearDown" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(•ûÜë
 opython:S3776"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(»²¢Êúÿÿÿÿ
+upython:S117"[Rename this local variable "appPackage" to match the regular expression ^[_a-z][a-z0-9_]*$.(â»«„þÿÿÿÿ

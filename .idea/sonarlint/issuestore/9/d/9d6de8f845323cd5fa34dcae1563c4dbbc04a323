@@ -1,6 +1,6 @@
 
-spython:S100"WRename method "testCaseOtherApk" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(Ω® –8υ›Ν†,
-npython:S100"RRename method "testCasePre" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ΰƒ–8λτϋ†,
-npython:S100"RRename method "testCaseRun" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ώσΝ8ι‰“†,
-mpython:S100"LRename method "setUp" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(§ώÿÿÿÿ8πφª†,
 kpython:S100"ORename method "tearDown" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(•ϋάλ8πφª†,
+mpython:S100"LRename method "setUp" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(§ώÿÿÿÿ8πφª†,
+spython:S100"WRename method "testCaseOtherApk" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(Ω® –8υ›Ν†,
+npython:S100"RRename method "testCaseRun" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ώσΝ8ι‰“†,
+npython:S100"RRename method "testCasePre" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ΰƒ–8λτϋ†,

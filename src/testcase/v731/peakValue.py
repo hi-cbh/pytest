@@ -40,7 +40,7 @@ class PeakValue(unittest.TestCase):
         EmailOperation(username+"@139.com", pwd).mv_forlder(["100", "INBOX"])
         BaseAdb.adb_intall_uiautmator()
         
-        self.driver = Psam()
+        self.driver = Psam(version="5.1.1")
     
     #释放实例,释放资源
     def tearDown(self):
@@ -56,7 +56,7 @@ class PeakValue(unittest.TestCase):
         network = BaseAdb.get_network_type()
         print('当前网络状态：%s' %network)
         
-        runtimes = 11
+        runtimes = 2
         
         for x in range(1,runtimes):
             time.sleep(5)
