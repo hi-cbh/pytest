@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c0d3c22-cde7-491b-a9c7-c468eb3cb69d" name="Default" comment="">
+    <list default="true" id="3c0d3c22-cde7-491b-a9c7-c468eb3cb69d" name="Default" comment="时延">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/runTest_v731.py" afterPath="$PROJECT_DIR$/src/testcase/runTest_v731.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/easycase/login.py" afterPath="$PROJECT_DIR$/src/testcase/v731/easycase/login.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/easycase/openDown.py" afterPath="$PROJECT_DIR$/src/testcase/v731/easycase/openDown.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/timedelay.py" afterPath="$PROJECT_DIR$/src/testcase/v731/timedelay.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/user_db.ini" afterPath="$PROJECT_DIR$/src/user_db.ini" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -188,11 +191,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="timedelay.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="timedelay.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcase/v731/timedelay.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+            <state relative-caret-position="159">
+              <caret line="92" column="35" lean-forward="false" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="openDown.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/openDown.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-417">
+              <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -248,11 +261,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="standByFlowPowerMem.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py">
+      <file leaf-file-name="user_db.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/user_db.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="79" column="24" lean-forward="false" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
+            <state relative-caret-position="269">
+              <caret line="45" column="17" lean-forward="false" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -261,18 +274,8 @@
       <file leaf-file-name="login.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HTMLTestRunner.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/HTMLTestRunner.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-818">
+              <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -328,7 +331,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/base/baseOperate.py" />
         <option value="$PROJECT_DIR$/src/db/mysql_db.py" />
         <option value="$PROJECT_DIR$/src/db/sqlhelper.py" />
         <option value="$PROJECT_DIR$/src/mail/mailOperation.py" />
@@ -336,7 +338,6 @@
         <option value="$PROJECT_DIR$/src/otherApk/record360/flowRecord.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/easytimedelay.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v731/timedelay.py" />
         <option value="$PROJECT_DIR$/src/testcase/testPre.py" />
         <option value="$PROJECT_DIR$/src/testcase/testPre2.py" />
         <option value="$PROJECT_DIR$/src/testcase/tmp.py" />
@@ -373,12 +374,14 @@
         <option value="$PROJECT_DIR$/src/otherMail/mail189/timedelay.py" />
         <option value="$PROJECT_DIR$/src/otherMail/mail189/bash189/send.py" />
         <option value="$PROJECT_DIR$/src/otherMail/fourmail/browflow.py" />
-        <option value="$PROJECT_DIR$/src/user_db.ini" />
         <option value="$PROJECT_DIR$/src/otherMail/mail163/standByFlowPowerMem.py" />
         <option value="$PROJECT_DIR$/src/psam/psam.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v731/easycase/login.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/peakValue.py" />
         <option value="$PROJECT_DIR$/src/testcase/runTest_v731.py" />
+        <option value="$PROJECT_DIR$/src/user_db.ini" />
+        <option value="$PROJECT_DIR$/src/testcase/v731/easycase/openDown.py" />
+        <option value="$PROJECT_DIR$/src/testcase/v731/easycase/login.py" />
+        <option value="$PROJECT_DIR$/src/testcase/v731/timedelay.py" />
       </list>
     </option>
   </component>
@@ -1130,7 +1133,7 @@
       <workItem from="1516239576848" duration="11473000" />
       <workItem from="1516328252298" duration="1322000" />
       <workItem from="1517294636124" duration="10388000" />
-      <workItem from="1517541510800" duration="4677000" />
+      <workItem from="1517541510800" duration="5649000" />
     </task>
     <task id="LOCAL-00001" summary="在MAC中运行">
       <created>1505833150284</created>
@@ -1342,7 +1345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517556719852</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="时延">
+      <created>1517558811556</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1517558811556</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1378,7 +1388,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="434706000" />
+    <option name="totallyTimeSpent" value="435678000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1400,11 +1410,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29983792" sideWeight="0.52022654" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08576052" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31229773" sideWeight="0.47977346" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3090615" sideWeight="0.4734375" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3090615" sideWeight="0.4734375" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39059967" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.197411" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.197411" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47882736" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1495,7 +1505,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="在MAC中运行" />
     <MESSAGE value="测试是否能运行" />
     <MESSAGE value="修改运行路径" />
     <MESSAGE value="添加启动处理APP及辅助工具" />
@@ -1520,7 +1529,8 @@
     <MESSAGE value="去除139登录前操作" />
     <MESSAGE value="测试其他" />
     <MESSAGE value="测试其他1" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试其他1" />
+    <MESSAGE value="时延" />
+    <option name="LAST_COMMIT_MESSAGE" value="时延" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1570,7 +1580,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/logs/2018-01-12_11-49-41/Pcp0_com.tencent.androidqqmail_20180112114947.csv" />
     <entry file="file://$PROJECT_DIR$/logs/2018-01-12_11-49-41/Pcp3_com.tencent.androidqqmail_Tools_20180112114945.csv" />
     <entry file="file://$PROJECT_DIR$/logs/2018-01-12_11-49-41/Pcp4_com.tencent.androidqqmail_patch_20180112114945.csv" />
     <entry file="file://$PROJECT_DIR$/logs/2018-01-12_11-49-41/Pcp1_com.tencent.androidqqmail_Push_20180112114945.csv" />
@@ -1801,14 +1810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/user_db.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/otherMail/mail163/standByFlowPowerMem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
@@ -1839,14 +1840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="449">
           <caret line="79" column="24" lean-forward="false" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1901,10 +1894,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/user_db.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="45" column="17" lean-forward="false" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-818">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/v731/timedelay.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        <state relative-caret-position="159">
+          <caret line="92" column="35" lean-forward="false" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/openDown.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-417">
+          <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
           <folding />
         </state>
       </provider>

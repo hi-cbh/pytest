@@ -82,7 +82,7 @@ class Timedelay(unittest.TestCase):
             try:
                 stat = u'开始登录时延测试'
                 login=Login(self.driver,username, pwd)
-                logintime = login.loginActionTime()
+                logintime = login.loginAction()
 
 
                 stat = u'开始打开邮件、下载附件测试'

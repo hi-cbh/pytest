@@ -76,7 +76,9 @@ class OpenDown(unittest.TestCase):
             valueTime = str(round((end - start), 2))
             print('[下载附件时延]: %r'  %valueTime)
             print('=>返回收件箱')
+            time.sleep(2)
             BaseAdb.adb_back()
+            time.sleep(2)
             BaseAdb.adb_back()
             time.sleep(2)
             return valueTime
