@@ -58,7 +58,7 @@ class StandByFlowPowerMem(unittest.TestCase):
         gt = GTTest(net_apk)
         pa = PowerAction(self.driver)
 
-        debug = True
+        debug = False
 
         if debug:
             print("debug模式.......")

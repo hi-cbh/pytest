@@ -2,22 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c0d3c22-cde7-491b-a9c7-c468eb3cb69d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b67ee5810a16dec7840bac0e8dfc9970131d0d2" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b67ee5810a16dec7840bac0e8dfc9970131d0d2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0de1219b6ec14826c9950fd5b6a5c5c4f5f10f52" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0de1219b6ec14826c9950fd5b6a5c5c4f5f10f52" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/147f1f7834a3a6231220185e0916fa3bfeca4e29" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/147f1f7834a3a6231220185e0916fa3bfeca4e29" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/161f6d41a806804406dd257b8827487da340864a" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/161f6d41a806804406dd257b8827487da340864a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/45dd016dcb5cb39c9b6714e019b7b221e1749c3e" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/45dd016dcb5cb39c9b6714e019b7b221e1749c3e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48adb2cb361af559055c816c0556f4867ad558a6" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48adb2cb361af559055c816c0556f4867ad558a6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71be9664334396d46673785fc863d622cdcb39d6" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71be9664334396d46673785fc863d622cdcb39d6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97bff7573a3b7713b3e61a05e12e5069a390c4d0" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97bff7573a3b7713b3e61a05e12e5069a390c4d0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c34d8684821e7842ee20891c40c5fb9e7a7579aa" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c34d8684821e7842ee20891c40c5fb9e7a7579aa" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf5ae3915c3a65a8c85fcb9e4bcff41ffebaadd9" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf5ae3915c3a65a8c85fcb9e4bcff41ffebaadd9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e4d215eb992180108eb011df16436c526a0294f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/12069f4a68caa22b0f17550b5871e00ed7b14a7f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/12efd213efe291c765fc51c70a557004733ad9e2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/135cf620dfbe7dfb7037f08e36e9eee66b2e4431" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/174ce9f76d29eada64e6caee3b26ee68a73eecae" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/186e9a2d49ccd25b1a753500af59d7fd33b3bd75" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/250d2eb8f063a8b323a1634d3d47f8ee0f7c02d9" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/251bb1325b0e1e9c912edd3a2d7bcb64946aefbd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/27225d0f3f657ae31644323699e2577ba0903134" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/27f6271ef242bcd64ae539a4ab2cb3f500a190f4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2ca4f99cd4706a60d89ab9f9a7b2674ab2fbaa21" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/d/2dad418792fbebb0ed92022f88d9714a6edd08ca" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/3019040cec75f1c8c5e2b508b7a548dfa84a873e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/376afed7ca6af34b76f94e46fcdf11301d6d8848" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/43e165db9a82697da2366470c5d725c91a357493" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/4880c11a8973e37085ba41c3fe09ed80d8811387" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48f11023157aceb0aa7694dcbdf9d97692515e4c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c954ef12c2ba7b2245d41e89ecda967648db37b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/65f64b30e2a6ab1c449c33312fda6187358084cd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66a406bdd115018a49f1961bb1718bb286100938" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/c/6cb8a7d87b0e9a74416cd633a1b2fcfd218ae56f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d6a219e10918f3c8d3e02b4e02d2f9cdc901d90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71224b27c1b51c53492bae4bc7aae9520e76e366" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/790581389c5fe2a32d9c2354626edfffb045d854" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86b1768a18be3aeb636f6820e04f124481199a10" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/1/91e4022a379b71a7d07cfb93ef56cc1aa52768bd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/94b8d42c9e09874a98efd075dc2a80e573842c2b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96d2f5b536973650070962aca342b33c183cd132" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9ad1400a752818920e4fb69d7115467996d3657b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fb12730e2afac0d24290c9941787eb37776b5eb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a01197821a5028fac865f23e1be86b974515ee99" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a11b05c128329bddb58aa5412c4de2b9153d7288" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a26a9de5b61ef8c9f12b3bdbe5b442482c935388" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/6/a604cb54b5f7fb0c3cc945e4b9310f27f6817c48" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a90eeb1745324fa1aadbaa269d94b00d3a4753db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/ab07a217961aaa3700aec5cf9cb232c605f1935d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b52569086d56da2004ce8906c72b244d3c8d1b4e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6472a14c5a8ee2212ad043cae60bfdba882fd09" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b72fa030f8acfce97ff16f85f9e87b8e6b9066d7" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b92c8b0125b09bcaf10f4a3d54490aec0c4ca019" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/baff10eab1a9d1cf7c7989490d28437b5c92e1ed" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bb26a47c5927b1ae4098b21809d11fd2201bdf0d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/beef21d77b76796a0b8614b81cf24f80780e63b6" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c012b8c1be8465a7d5e52140fac0560f231043a6" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0a70126f3cc8998eb4e6e2f918e47af7dac457c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c38d3b5b10778028c0dfeadbe6b8d5c981a5e047" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cc07cb24087d11ddd0438f106b2601a5ea863b93" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d742a832214abcd5067d79f87d403b743d541293" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/ddae7707ccad8744f8a3a89368011e6c022165b7" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e513c2212dd5e8db958a0887664897670ec852a8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e6653b10fb0a771fc413d9bab786ebb519170f55" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7bdccc2d52d13d50cd4f334482cc7a8c79cea45" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e8d69158c30e28089aea86b10048a0cf1424411f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/eb2f31d4e140ea2366a3a3ba5f36794789e84045" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/edb4cf8ce4cb7baea879f3856e8e09014a7a2f0a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/eecdf62dc0d45ab7ae0651147d22d3b38a175cc0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fad84df0f407d5767a7bf54007b0fd5f65983ed0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff2d3d13866d3c71a9a26f04e4dd130d834ef003" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mail189/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mail189/bash189/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mail189/bash189/login.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mail189/bash189/opendown.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mail189/bash189/receive.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mail189/bash189/send.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMail/mail189/timedelay.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/otherMail/fourmail/browflow.py" afterPath="$PROJECT_DIR$/src/otherMail/fourmail/browflow.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/psam/psam.py" afterPath="$PROJECT_DIR$/src/psam/psam.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/runTest_v731.py" afterPath="$PROJECT_DIR$/src/testcase/runTest_v731.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/user_db.ini" afterPath="$PROJECT_DIR$/src/user_db.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/otherMail/mail163/standByFlowPowerMem.py" afterPath="$PROJECT_DIR$/src/otherMail/mail163/standByFlowPowerMem.py" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -224,16 +275,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="receive.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/otherMail/mail189/bash189/receive.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1210">
-              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="timedelay.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/otherMail/mail189/timedelay.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -266,11 +307,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runTest_v731.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="runTest_v731.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v731.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state relative-caret-position="261">
+              <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="standByFlowPowerMem.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="36" column="6" lean-forward="false" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -279,19 +330,21 @@
       <file leaf-file-name="user_db.ini" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/user_db.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+            <state relative-caret-position="22">
+              <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="standByFlowPowerMem.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="standByFlowPowerMem.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/otherMail/mail163/standByFlowPowerMem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3457">
-              <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-              <folding />
+            <state relative-caret-position="403">
+              <caret line="60" column="21" lean-forward="false" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+              <folding>
+                <element signature="e#35#65#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -387,7 +440,6 @@
         <option value="$PROJECT_DIR$/src/otherMail/mail163/timedelay.py" />
         <option value="$PROJECT_DIR$/src/otherMail/mail163/bash163/receive.py" />
         <option value="$PROJECT_DIR$/src/otherMail/mail163/loginflow.py" />
-        <option value="$PROJECT_DIR$/src/otherMail/mail163/standByFlowPowerMem.py" />
         <option value="$PROJECT_DIR$/src/psam/psam.py" />
         <option value="$PROJECT_DIR$/src/otherMail/mail189/bash189/opendown.py" />
         <option value="$PROJECT_DIR$/src/otherMail/mail189/bash189/receive.py" />
@@ -397,6 +449,7 @@
         <option value="$PROJECT_DIR$/src/otherMail/fourmail/browflow.py" />
         <option value="$PROJECT_DIR$/src/user_db.ini" />
         <option value="$PROJECT_DIR$/src/testcase/runTest_v731.py" />
+        <option value="$PROJECT_DIR$/src/otherMail/mail163/standByFlowPowerMem.py" />
       </list>
     </option>
   </component>
@@ -1136,7 +1189,7 @@
       <workItem from="1516239576848" duration="11473000" />
       <workItem from="1516328252298" duration="1322000" />
       <workItem from="1517294636124" duration="10388000" />
-      <workItem from="1517541510800" duration="171000" />
+      <workItem from="1517541510800" duration="613000" />
     </task>
     <task id="LOCAL-00001" summary="在MAC中运行">
       <created>1505833150284</created>
@@ -1299,7 +1352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516247505593</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="添加189，修改性能测试项">
+      <created>1517541713785</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1517541713785</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1335,7 +1395,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="430200000" />
+    <option name="totallyTimeSpent" value="430642000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1473,7 +1533,8 @@
     <MESSAGE value="调整" />
     <MESSAGE value="添加QQ邮箱性能测试" />
     <MESSAGE value="添加163邮箱性能测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加163邮箱性能测试" />
+    <MESSAGE value="添加189，修改性能测试项" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加189，修改性能测试项" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1569,13 +1630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="137" column="28" lean-forward="false" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1823,27 +1877,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v731.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="36" column="6" lean-forward="false" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/user_db.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        <state relative-caret-position="22">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/otherMail/mail163/standByFlowPowerMem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3457">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v731.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="403">
+          <caret line="60" column="21" lean-forward="false" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+          <folding>
+            <element signature="e#35#65#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
