@@ -36,8 +36,13 @@ class BrushFlow(unittest.TestCase):
 
         net_apk="com.netease.mail"
         net_ativity="com.netease.mobimail.activity.LaunchActivity"
+
+        corp_apk="com.corp21cn.mail189"
+        corp_ativity="com.corp21cn.mailapp.activity.ClientIntroducePage"
+
         # self.brush_flow_test("QQ邮箱", "QQ",qq_apk,qq_ativity)
-        self.brush_flow_test("网易邮箱大师", "网易邮箱大师",net_apk,net_ativity)
+        # self.brush_flow_test("网易邮箱大师", "网易邮箱大师",net_apk,net_ativity)
+        self.brush_flow_test("189邮箱", "189邮箱",corp_apk,corp_ativity)
 
     def brush_flow_test(self,mail,contents, app_pkg, app_activity):
         '''空刷测试'''

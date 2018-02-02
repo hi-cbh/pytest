@@ -1,6 +1,6 @@
 
-4python:S125"Remove this commented out code.(χ³Ζτ
-dpython:S100"ORename method "tearDown" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(•ϋάλ
 fpython:S100"LRename method "setUp" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(§ώÿÿÿÿ
+4python:S125"Remove this commented out code.(χ³Ζτ
 4python:S125"Remove this commented out code.(άΫΫΜ
+dpython:S100"ORename method "tearDown" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(•ϋάλ
 ipython:S100"ORename method "testCase" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(»²ΆΚϊÿÿÿÿ

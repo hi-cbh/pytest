@@ -1,5 +1,5 @@
 
-ppython:S100"ORename method "testCase" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(»²¢Êúÿÿÿÿ8ÎåÂ¦Ž,
-mpython:S100"LRename method "setUp" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(§˜œŽþÿÿÿÿ8½æ»¦Ž,
-;python:S125"Remove this commented out code.(þÿ¡Ö8Ñ³ï¿Ž,
 kpython:S100"ORename method "tearDown" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(•ûÜë8½æ»¦Ž,
+;python:S125"Remove this commented out code.(þÿ¡Ö8Ñ³ï¿Ž,
+mpython:S100"LRename method "setUp" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(§˜œŽþÿÿÿÿ8½æ»¦Ž,
+ppython:S100"ORename method "testCase" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(»²¢Êúÿÿÿÿ8ÎåÂ¦Ž,

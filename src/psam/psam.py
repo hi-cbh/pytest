@@ -317,36 +317,42 @@ class Psam(object):
         try:
             print("重置")
             driver.reset()
+            time.sleep(5)
+            print("点击直接登录")
+            driver.click("id=>com.corp21cn.mail189:id/login_189account_txt")
 
-            time.sleep(4)
-            print("输入账号")
-            driver.type("id=>com.netease.mail:id/editor_email","13427665104@163.com")
+            time.sleep(2)
+            d = driver.get_window_size()
+
+            print("点击坐标")
+            BaseAdb.adb_tap(d["width"]*760/1080 , d["height"]* 1660 / 1920)
+            time.sleep(2)
+
+            print("输入用户名")
+            BaseAdb.adb_tap(d["width"]/2, d["height"]*400/1920)
+            BaseAdb.adb_input_text("13427665104")
+            time.sleep(2)
 
             print("输入密码")
-            driver.type("id=>com.netease.mail:id/editor_password","yscs12345")
+            BaseAdb.adb_tap(d["width"]/2, d["height"]*520/1920)
+            BaseAdb.adb_input_text("yscs987654")
+            time.sleep(2)
 
-            print("点击登录")
-            driver.click("id=>com.netease.mail:id/register_button_next")
             start_time = time.time()
+            print("点击登录")
+            BaseAdb.adb_tap(d["width"]/2,d["height"]*820/1920)
 
-            print("等待控件出现")
-            driver.element_wait("id=>com.netease.mail:id/button_next", 60)
+            print("等待弹窗")
+            driver.element_wait("id=>com.corp21cn.mail189:id/prompt_tips_socialmail", 20)
 
             end_time = time.time()
 
-            print("点击 下一步")
-            driver.click("id=>com.netease.mail:id/button_next")
-
-
             value_time = str(round(end_time - start_time, 2))
-            print("登录时延：%s" %value_time)
+            print("登录时延： %s" %value_time)
 
-            print("进入邮箱")
-            driver.click("id=>com.netease.mail:id/enter_mail")
+            driver.click("id=>com.corp21cn.mail189:id/prompt_tips_socialmail")
 
-            print("点击跳过")
-            driver.click(u"uiautomator=>跳过")
-            time.sleep(2)
+            time.sleep(4)
 
         except BaseException:
             print("登录错误")
@@ -355,57 +361,43 @@ class Psam(object):
     def send(self):
         try:
             print("点击新建")
-            driver.click("id=>com.netease.mail:id/iv_mail_list_plus")
-
-            print("点击写邮件")
-            driver.click("id=>com.netease.mail:id/tv_write_mail")
-
-            print("输入账号")
-            driver.type("id=>com.netease.mail:id/mailcompose_address_input","13427665104@163.com")
-
-            print("输入主题")
-            driver.type("id=>com.netease.mail:id/mailcompose_subject_textedit","pwd")
-
-            print("正文")
-            driver.type("id=>com.netease.mail:id/mailcompose_content","123456789012345678901234567890")
-
-            print("点击附件")
-            driver.click("id=>com.netease.mail:id/add_attachment_icon")
-
-            print("点击 本地文件")
-            driver.click("id=>com.netease.mail:id/vertical_file")
-
-            print("查找文件")
-            driver.click(r"uiautomator=>0.")
-
-            print("点击test2M.rar")
-            driver.click(r"uiautomator=>test2M.rar")
-
-            print("点击完成")
-            driver.click("id=>com.netease.mail:id/complete")
-
-            print("点击发送")
-            driver.click("id=>com.netease.mail:id/tv_done")
-
-            start_time = time.time()
-
-            time_out = int(round(time.time() * 1000)) + 1*60 * 1000
-
-            # 获取邮件发送成功，退出；否则返回超时
-            while int(round(time.time() * 1000)) < time_out :
-
-                if BaseAdb.dumpsys_notification("邮件发送成功"):
-                    break
-
-                time.sleep(0.1)
-
-            end_time = time.time()
-
-            value_time = str(round(end_time - start_time, 2))
-            print("发送邮件时延：%s" %value_time)
-
+            driver.get_elements("id=>com.corp21cn.mail189:id/action_btn_view",10)[1].click()
             time.sleep(5)
 
+            print("点击普通邮件")
+            driver.click("id=>com.corp21cn.mail189:id/compose_email_action")
+
+            print("输入收件人")
+            driver.type("id=>com.corp21cn.mail189:id/to","13427665104@189.cn")
+
+            print("主题")
+            driver.type("id=>com.corp21cn.mail189:id/subject","subject")
+
+            print("正文")
+            driver.type("id=>com.corp21cn.mail189:id/message_content","123456789012345678901234567890")
+
+            print("附件")
+            driver.click("id=>com.corp21cn.mail189:id/attachment_add_icon_iv")
+
+            print("点击文件")
+            driver.click("id=>com.corp21cn.mail189:id/add_attachment_file")
+
+            print("点击本地附件")
+            driver.click("id=>com.corp21cn.mail189:id/add_attachment_local")
+
+            print("找附件")
+            driver.click("uiautomator=>0.")
+            driver.click("uiautomator=>test2M.rar")
+            driver.click(r"uiautomator=>确定")
+
+            print("点击发送")
+            driver.click(u"uiautomator=>发送")
+
+            print("等待已发送")
+            driver.element_wait(u"uiautomator=>已发送",20)
+
+            print("点击关闭")
+            driver.click("id=>com.corp21cn.mail189:id/attachment_share_close")
         except BaseException:
             print("发送出错")
 
@@ -413,50 +405,56 @@ class Psam(object):
 
         try:
             print("点击第一封邮件")
-            emaillist = driver.get_elements("id=>com.netease.mail:id/mail_list_item_content")
-            emaillist[0].click()
+            readlist = driver.get_elements("id=>com.corp21cn.mail189:id/mailListItem",10)
+            readlist[0].click()
             start_time = time.time()
-            print("打开邮件")
-            driver.element_wait("id=>com.netease.mail:id/mail_list_item_content")
-            driver.element_wait("id=>com.netease.mail:id/conversation_item_attachment_divider")
-            driver.element_wait("id=>com.netease.mail:id/attachment_info")
+
+            print("等待附件图标")
+            driver.element_wait("id=>com.corp21cn.mail189:id/att_icon")
+            driver.element_wait("class=>android.widget.ScrollView")
+
+
             end_time = time.time()
 
+            value_time = str(round(end_time - start_time, 2))
+
+            print("打开时延：%s" %value_time)
+
+
+
+            path="/mnt/sdcard/com.corp21cn.mail189/attachement/test2M*.rar"
+            file_name = "test2M"
+
+            print("清除文件")
+            if BaseFile.adb_find_file(path,file_name):
+                BaseFile.adb_del_file(path, file_name)
+
+            start_time = time.time()
+            print("点击附件，更多")
+            driver.click("id=>com.corp21cn.mail189:id/attachment_operation")
+
+            print("点击保存至本地")
+            driver.click("uiautomator=>保存至本地")
+
+            print("点击确定")
+            driver.click("uiautomator=>确定")
+
+            BaseFile.wait_for_file(path, file_name,60)
+
+            end_time = time.time()
 
             value_time = str(round(end_time - start_time, 2))
-            print("打开邮件时延： %s" %value_time)
 
-            print("点击更多")
-            driver.click("id=>com.netease.mail:id/attachment_more")
-
-
-            print("点击保存")
-            driver.click("id=>com.netease.mail:id/file_operate_save")
-
-            print("清除")
-            path="/mnt/sdcard/Download/test2M*"
-            file="test2M"
-            if BaseFile.adb_find_file(path,file):
-                BaseFile.adb_del_file(path,file)
+            print("下载时延：%s" %value_time)
 
             time.sleep(5)
 
-            print("点击确定")
-            driver.click("id=>com.netease.mail:id/tv_done")
-            start_time = time.time()
+            print("清除文件")
+            if BaseFile.adb_find_file(path,file_name):
+                BaseFile.adb_del_file(path, file_name)
 
-            print("等待邮件出现")
-            BaseFile.wait_for_file(path,file)
 
-            end_time = time.time()
-            value_time = str(round(end_time - start_time, 2))
-            print("下载附件时延：%s" %value_time)
-
-            print("查找文件")
-            if BaseFile.adb_find_file(path, file):
-                print("清除文件")
-                BaseFile.adb_del_file(path, file)
-
+            BaseAdb.adb_back()
 
         except BaseException:
             print("打开或下载附件")
@@ -466,21 +464,13 @@ class Psam(object):
 
 if __name__ == '__main__':
 
-    driver = Psam(version="5.1",apk="com.netease.mail",ativity="com.netease.mobimail.activity.LaunchActivity")
+    driver = Psam(version="5.1",apk="com.corp21cn.mail189",ativity="com.corp21cn.mailapp.activity.ClientIntroducePage")
 
     driver.login_action()
 
-    # 删除邮件
-    driver.swipe(driver.get_window_size()["width"] - 20, 450, 20, 450, 500)
+    # driver.send()
 
-    if driver.get_element("uiautomator=>删除") != None:
-        driver.click("uiautomator=>删除")
-
-
-
-        # driver.send()
-
-    # driver.down_file()
+    driver.down_file()
 
 
 
