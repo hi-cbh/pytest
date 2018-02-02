@@ -40,7 +40,7 @@ class PeakValue(unittest.TestCase):
         EmailOperation(username+"@139.com", pwd).mv_forlder(["100", "INBOX"])
         BaseAdb.adb_intall_uiautmator()
         
-        self.driver = Psam(version="5.1.1")
+        self.driver = Psam()
     
     #释放实例,释放资源
     def tearDown(self):
