@@ -5,9 +5,9 @@ from appium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
-from base.baseAdb import BaseAdb
-from base.baseFile import BaseFile
-from base.baseImage import BaseImage
+from src.base.baseAdb import BaseAdb
+from src.base.baseFile import BaseFile
+from src.base.baseImage import BaseImage
 
 class Psam(object):
     
