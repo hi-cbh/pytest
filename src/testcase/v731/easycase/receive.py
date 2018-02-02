@@ -58,7 +58,7 @@ class WebReceive(object):
             time.sleep(3)
             print('输入主题: %r' %driver.get_display(r"xpath=>//input[@id='txtSubject']"))
             # driver.click(r"xpath=>//input[@id='txtSubject']")
-            driver.type(r"xpath=>//input[@id='txtSubject']", "testReceive")
+            driver.type(r"xpath=>//input[@id='txtSubject']", "testreceive")
 
 
             print('点击发送')
@@ -129,7 +129,7 @@ class Receive(object):
         try:
             while (int(round(time.time() * 1000) < timeout)):
                 print('wait.....')
-                if self.driver.get_element("uiautomator=>testReceive",1) != None :
+                if self.driver.get_element("uiautomator=>testreceive",1) != None :
                     print('find it')
                     return True;
                 else:

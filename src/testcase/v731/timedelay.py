@@ -67,7 +67,7 @@ class Timedelay(unittest.TestCase):
         network = BaseAdb.get_network_type()
         print('当前网络状态：%s' %network)
 
-        runtimes = 11
+        runtimes = 12
 
         for x in range(1,runtimes):
             # 复位

@@ -16,7 +16,7 @@ class Login(object):
         '''最基础的登录'''
         self.driver.reset()
 
-        self.driver.click(u"uiautomator=>开始使用")
+        # self.driver.click(u"uiautomator=>开始使用")
 
         time.sleep(4)
         if firstLogin == True:
