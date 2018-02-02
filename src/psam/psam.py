@@ -266,7 +266,7 @@ class Psam(object):
         height = self.driver.get_window_size()['height']        
         self.driver.swipe(width / 5, height / 5, width / 5, height * 4 / 5,
                 500)
-        time.sleep(2)
+        time.sleep(1)
 
     def swipeRight(self):
         '''向右滑动'''

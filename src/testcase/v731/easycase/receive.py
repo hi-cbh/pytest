@@ -93,7 +93,10 @@ class Receive(object):
         r = WebReceive(self.username,self.pwd,self.receiver)
         print('=>接收邮件时延')
         start = r.sendEmail()
-        
+
+        print("下拉")
+        self.driver.swipeDown()
+
         print('=>等待本域邮件出现')
         isReceived = self.waitforEmail()
         end = time.time()
@@ -127,11 +130,12 @@ class Receive(object):
         '''等待邮件出现'''
         timeout = int(round(time.time() * 1000)) + timeouts * 1000
         try:
+
             while (int(round(time.time() * 1000) < timeout)):
                 print('wait.....')
                 if self.driver.get_element("uiautomator=>testreceive",1) != None :
                     print('find it')
-                    return True;
+                    return True
                 else:
                     self.driver.swipeDown()
                 
