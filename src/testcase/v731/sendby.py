@@ -67,7 +67,7 @@ class SendTmp(unittest.TestCase):
         network = BaseAdb.get_network_type()
         print('当前网络状态：%s' %network)
 
-        runtimes = 6
+        runtimes = 8
 
         try:
             stat = u'开始登录时延测试'

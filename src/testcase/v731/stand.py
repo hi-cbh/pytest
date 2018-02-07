@@ -36,23 +36,14 @@ versionID = cf.get("verconf", "versionid")
 
 class StandBy(unittest.TestCase):
     
-    def setUp(self):  
-        # AppiumServer2().start_server()
-        # time.sleep(10)
-        # 发送邮件辅助工具
-        # BaseAdb.adb_shell("adb shell am start -W -n com.test.sendmail/.MainActivity")
-        # BaseAdb.adb_home()
-        # time.sleep(2)
-        
-        # EmailOperation(username+"@139.com", pwd).mv_forlder(["100", "INBOX"])
+    def setUp(self):
         BaseAdb.adb_intall_uiautmator()
         self.driver = Psam()
     
     #释放实例,释放资源
     def tearDown(self):
         self.driver.quit()
-        # EmailOperation(username+"@139.com", pwd).mv_forlder(["INBOX", "100"])
-        
+
         time.sleep(5)
         # AppiumServer2().stop_server()
 
