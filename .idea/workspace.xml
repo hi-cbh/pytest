@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3c0d3c22-cde7-491b-a9c7-c468eb3cb69d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/easycase/login.py" afterPath="$PROJECT_DIR$/src/testcase/v731/easycase/login.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/stand.py" afterPath="$PROJECT_DIR$/src/testcase/v731/stand.py" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -182,11 +182,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="stand.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="stand.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/testcase/v731/stand.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="310">
+              <caret line="61" column="21" lean-forward="false" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
               <folding>
                 <element signature="e#35#65#0" expanded="true" />
               </folding>
@@ -278,11 +278,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-112">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="-2924">
+              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -386,9 +386,9 @@
         <option value="$PROJECT_DIR$/src/testcase/v731/sendtmp.py" />
         <option value="$PROJECT_DIR$/src/testcase/runTest_tmp.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/sendby.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v731/stand.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/easycase/receive.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/easycase/login.py" />
+        <option value="$PROJECT_DIR$/src/testcase/v731/stand.py" />
       </list>
     </option>
   </component>
@@ -1152,7 +1152,7 @@
       <workItem from="1517880327271" duration="1240000" />
       <workItem from="1517907044951" duration="5388000" />
       <workItem from="1517915473812" duration="324000" />
-      <workItem from="1517968414639" duration="12186000" />
+      <workItem from="1517968414639" duration="13008000" />
     </task>
     <task id="LOCAL-00001" summary="在MAC中运行">
       <created>1505833150284</created>
@@ -1406,7 +1406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517992874372</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="添加临时测试3">
+      <created>1517992994247</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1517992994247</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1442,7 +1449,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="482744000" />
+    <option name="totallyTimeSpent" value="483566000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1559,7 +1566,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="正式运行" />
     <MESSAGE value="更新版本号" />
     <MESSAGE value="更新722版本" />
     <MESSAGE value="测试部分" />
@@ -1584,7 +1590,8 @@
     <MESSAGE value="待机" />
     <MESSAGE value="添加临时测试" />
     <MESSAGE value="添加临时测试2" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加临时测试2" />
+    <MESSAGE value="添加临时测试3" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加临时测试3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1958,16 +1965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/stand.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#35#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/receive.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
@@ -1996,9 +1993,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="-2924">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/stand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="61" column="21" lean-forward="false" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+          <folding>
+            <element signature="e#35#65#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

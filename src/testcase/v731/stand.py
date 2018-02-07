@@ -59,7 +59,7 @@ class StandBy(unittest.TestCase):
         gt = GTTest("cn.cj.pe")
         pa = PowerAction(self.driver)
 
-        debug = True
+        debug = False
 
         if debug:
             print("debug模式.......")
