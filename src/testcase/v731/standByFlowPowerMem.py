@@ -40,9 +40,9 @@ class StandByFlowPowerMem(unittest.TestCase):
         # AppiumServer2().start_server()
         # time.sleep(10)
         # 发送邮件辅助工具
-        BaseAdb.adb_shell("adb shell am start -W -n com.test.sendmail/.MainActivity")
-        BaseAdb.adb_home()
-        time.sleep(2)
+        # BaseAdb.adb_shell("adb shell am start -W -n com.test.sendmail/.MainActivity")
+        # BaseAdb.adb_home()
+        # time.sleep(2)
         
         EmailOperation(username+"@139.com", pwd).mv_forlder(["100", "INBOX"]) 
         BaseAdb.adb_intall_uiautmator()
@@ -85,7 +85,7 @@ class StandByFlowPowerMem(unittest.TestCase):
             BaseAdb.adb_stop(appPackage)
             time.sleep(5)
             BaseAdb.adb_start_app(appPackage, appActivity)
-            time.sleep(3)
+            time.sleep(8)
             BaseAdb.adb_home()
             time.sleep(3)
 
@@ -130,7 +130,7 @@ class StandByFlowPowerMem(unittest.TestCase):
 
             print(datas)
             SQLHelper.insert_standyno(datas)
-            time.sleep(5)
+            time.sleep(15)
 
             print("发送邮件......")
             for i in range(3):

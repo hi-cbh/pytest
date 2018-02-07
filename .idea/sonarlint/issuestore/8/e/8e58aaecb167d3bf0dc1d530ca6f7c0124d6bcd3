@@ -1,0 +1,7 @@
+
+Epython:S1481"(Remove the unused local variable "stat".(®Á ±8Ã‹Ô–,
+dpython:S100"ORename method "tearDown" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(•ûÜë
+ipython:S100"ORename method "testCase" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(»²¢Êúÿÿÿÿ
+fpython:S100"LRename method "setUp" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(§˜œşÿÿÿÿ
+Jpython:S1481"-Remove the unused local variable "logintime".(¼Â¼Ğ8Â®Ó–,
+Jpython:S1481"(Remove the unused local variable "stat".(¶„í«ıÿÿÿÿ8Ã‹Ô–,

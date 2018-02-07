@@ -54,7 +54,15 @@ class BaseAdb(object):
     def adb_entry(self):
         '''通过命令行，发送接邮件的广播'''
         self.adb_shell(self.path + 'adb shell am broadcast -a mybroadcast')
-    
+
+
+
+    def adb_entry2(self,s):
+        '''通过命令行，发送接邮件的广播'''
+        self.adb_shell(self.path + 'adb shell am broadcast -a TEST_MESSAGE_ACTION --es Title "%s"' %s)
+
+
+
     def adb_start_app(self, pag, activity):
         '''通过命令行，启动应用'''
         self.adb_shell(self.path + 'adb shell am start -n %s/%s' % (pag, activity))

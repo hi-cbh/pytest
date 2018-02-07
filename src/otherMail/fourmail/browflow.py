@@ -13,8 +13,8 @@ class BrushFlow(unittest.TestCase):
 
     def setUp(self):
         try:
-            # BaseAdb.adb_intall_uiautmator()
-            self.driver = Psam(version="5.1",apk=appPackage360,ativity=appActivity360)
+            BaseAdb.adb_intall_uiautmator()
+            self.driver = Psam(version="6.0",apk=appPackage360,ativity=appActivity360)
         except BaseException :
             print("setUp启动出错！")
 
@@ -40,9 +40,13 @@ class BrushFlow(unittest.TestCase):
         corp_apk="com.corp21cn.mail189"
         corp_ativity="com.corp21cn.mailapp.activity.ClientIntroducePage"
 
+        appPackage = "cn.cj.pe"  # 程序的package
+        appActivity = "com.mail139.about.LaunchActivity"  # 程序的Activity
+
         # self.brush_flow_test("QQ邮箱", "QQ",qq_apk,qq_ativity)
         # self.brush_flow_test("网易邮箱大师", "网易邮箱大师",net_apk,net_ativity)
-        self.brush_flow_test("189邮箱", "189邮箱",corp_apk,corp_ativity)
+        # self.brush_flow_test("189邮箱", "189邮箱",corp_apk,corp_ativity)
+        self.brush_flow_test("139邮箱", "139邮箱",appPackage,appActivity)
 
     def brush_flow_test(self,mail,contents, app_pkg, app_activity):
         '''空刷测试'''
@@ -52,7 +56,7 @@ class BrushFlow(unittest.TestCase):
         height = self.driver.get_window_size()['height']
         print('当前网络状态：%s' %network)
 
-        runtimes = 3
+        runtimes = 12
 
         fw = flow360(self.driver)
 

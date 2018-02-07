@@ -1,9 +1,9 @@
 
-4python:S125"Remove this commented out code.(ΖΤ¦
 fpython:S100"LRename method "setUp" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(§ώÿÿÿÿ
-ipython:S100"ORename method "testCase" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(»²ΆΚϊÿÿÿÿ
 dpython:S100"ORename method "tearDown" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(•ϋάλ
+ipython:S100"ORename method "testCase" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(»²ΆΚϊÿÿÿÿ
+4python:S125"Remove this commented out code.(ΖΤ¦
+upython:S117"[Rename this local variable "appPackage" to match the regular expression ^[_a-z][a-z0-9_]*$.(β»«„ώÿÿÿÿ
+9python:S125"Remove this commented out code.(£—­όÿÿÿÿ
 ppython:S117"\Rename this local variable "appActivity" to match the regular expression ^[_a-z][a-z0-9_]*$.(’«‰
 vpython:S117"ZRename this local variable "valueTime" to match the regular expression ^[_a-z][a-z0-9_]*$.(°°›8ί‹ή‘‰,
-9python:S125"Remove this commented out code.(£—­όÿÿÿÿ
-upython:S117"[Rename this local variable "appPackage" to match the regular expression ^[_a-z][a-z0-9_]*$.(β»«„ώÿÿÿÿ

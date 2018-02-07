@@ -1,15 +1,15 @@
 
-kpython:S100"VRename method "setEmailSetting" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(’–­
-@python:S125"Remove this commented out code.(ˆ¹ê‘şÿÿÿÿ8Ê·‘í…,
-kpython:S117"VRename this parameter "firstLogin" to match the regular expression ^[_a-z][a-z0-9_]*$.(½›Àú
-tpython:S117"ZRename this local variable "valueTime" to match the regular expression ^[_a-z][a-z0-9_]*$.(ã¶ÀÙøÿÿÿÿ
-upython:S100"[Rename method "loginActionPeakValue" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(·Áé½şÿÿÿÿ
-gpython:S100"RRename method "loginAction" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(½›Àú
-ppython:S100"[Rename method "loginActionLoginFlow" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ñÖÓÖ
-jpython:S100"URename method "setEmailNotice" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(³ÜÌ
-jpython:S100"URename method "setEmailOption" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(äë²»
-@python:S125"Remove this commented out code.(…ïüÿÿÿÿ8¨Ó‘í…,
-ipython:S117"TRename this parameter "isNotice" to match the regular expression ^[_a-z][a-z0-9_]*$.(äë²»
+@python:S125"Remove this commented out code.(…ïüÿÿÿÿ8·¿¦Õ–,
 kpython:S100"VRename method "loginActionTime" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(…ù“æ
+gpython:S100"RRename method "loginAction" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(½›Àú
+kpython:S100"VRename method "setEmailSetting" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(’–­
+jpython:S100"URename method "setEmailOption" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(äë²»
+ipython:S117"TRename this parameter "isNotice" to match the regular expression ^[_a-z][a-z0-9_]*$.(äë²»
 qpython:S117"\Rename this local variable "loginButton" to match the regular expression ^[_a-z][a-z0-9_]*$.(¢ÃÂ
+ppython:S100"[Rename method "loginActionLoginFlow" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ñÖÓÖ
+@python:S125"Remove this commented out code.(ˆ¹ê‘şÿÿÿÿ8·¿¦Õ–,
+tpython:S117"ZRename this local variable "valueTime" to match the regular expression ^[_a-z][a-z0-9_]*$.(ã¶ÀÙøÿÿÿÿ
 jpython:S117"URename this parameter "isSetting" to match the regular expression ^[_a-z][a-z0-9_]*$.(äë²»
+upython:S100"[Rename method "loginActionPeakValue" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(·Áé½şÿÿÿÿ
+jpython:S100"URename method "setEmailNotice" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(³ÜÌ
+kpython:S117"VRename this parameter "firstLogin" to match the regular expression ^[_a-z][a-z0-9_]*$.(½›Àú

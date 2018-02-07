@@ -11,8 +11,6 @@ from src.base.baseAdb import BaseAdb
 from src.psam.psam import Psam
 
 
-#
-
 #======== Reading user_db.ini setting ===========
 base_dir = str(os.path.dirname(os.path.dirname(__file__)))
 file_path = base_dir + "/user_db.ini"

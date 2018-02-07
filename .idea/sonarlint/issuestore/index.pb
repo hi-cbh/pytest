@@ -282,3 +282,9 @@ U
 %src/otherMail/mail189/bash189/send.py,7/1/71224b27c1b51c53492bae4bc7aae9520e76e366
 R
 "src/otherMail/mail189/timedelay.py,2/c/2ca4f99cd4706a60d89ab9f9a7b2674ab2fbaa21
+Q
+!src/otherMail/mail189/__init__.py,5/4/540697b76a0658f923b024ac266ca6a99de0fdca
+J
+src/testcase/v731/stand.py,9/2/9286d4e14984fca81d5eaff9c4bf4792967511f1
+L
+src/testcase/v731/sendtmp.py,8/e/8e58aaecb167d3bf0dc1d530ca6f7c0124d6bcd3

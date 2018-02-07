@@ -2,7 +2,7 @@
 # encoding:utf-8
 
 import time
-# from base.baseAdb import BaseAdb
+from base.baseAdb import BaseAdb
 # from base.baseFile import BaseFile
 from pyse import Pyse
 
@@ -16,7 +16,7 @@ class WebReceive(object):
         self.pwd = pwd
         self.receiver = receiver
     
-    def sendEmail(self):
+    def sendEmail(self, subject="cctv"):
         start = time.time()
         try:
             driver = Pyse("chrome")
@@ -58,7 +58,7 @@ class WebReceive(object):
             time.sleep(3)
             print('输入主题: %r' %driver.get_display(r"xpath=>//input[@id='txtSubject']"))
             # driver.click(r"xpath=>//input[@id='txtSubject']")
-            driver.type(r"xpath=>//input[@id='txtSubject']", "testreceive")
+            driver.type(r"xpath=>//input[@id='txtSubject']", subject)
 
 
             print('点击发送')
@@ -87,18 +87,18 @@ class Receive(object):
         self.pwd = pwd
         self.receiver = receiver
     
-    def receiveAction(self):
+    def receiveAction(self, subject="cctv"):
         w = self.driver.get_window_size()['width']
         '''接收邮件时延'''
         r = WebReceive(self.username,self.pwd,self.receiver)
         print('=>接收邮件时延')
-        start = r.sendEmail()
-
-        print("下拉")
-        self.driver.swipeDown()
+        start = r.sendEmail(subject=subject)
+        BaseAdb.adb_entry2(subject)
+        # print("下拉")
+        # self.driver.swipeDown()
 
         print('=>等待本域邮件出现')
-        isReceived = self.waitforEmail()
+        isReceived = self.waitforEmail(subject,200)
         end = time.time()
         
         
@@ -126,18 +126,19 @@ class Receive(object):
         return valueTime
     
     
-    def waitforEmail(self, timeouts = 30):
+    def waitforEmail(self, subject="cctv",timeouts = 30):
         '''等待邮件出现'''
         timeout = int(round(time.time() * 1000)) + timeouts * 1000
         try:
 
             while (int(round(time.time() * 1000) < timeout)):
                 print('wait.....')
-                if self.driver.get_element("uiautomator=>testreceive",1) != None :
+                if self.driver.get_element("uiautomator=>"+subject,1) != None :
                     print('find it')
                     return True
                 else:
-                    self.driver.swipeDown()
+                    # self.driver.swipeDown()
+                    pass
                 
                 time.sleep(0.1)
         except BaseException as msg:

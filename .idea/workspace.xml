@@ -2,10 +2,337 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c0d3c22-cde7-491b-a9c7-c468eb3cb69d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/540697b76a0658f923b024ac266ca6a99de0fdca" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e58aaecb167d3bf0dc1d530ca6f7c0124d6bcd3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/9286d4e14984fca81d5eaff9c4bf4792967511f1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_11-41-16/Pcp0_cn.cj.pe_20180203113937.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_11-41-16/Pcp1_cn.cj.pe_pushservice_20180203113937.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_11-41-16/Pcp2_cn.cj.pe_richpush_20180203113937.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_11-41-16/Pcp3_cn.cj.pe_CMCCSsoService_20180203113937.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_11-41-16/Pr0_cn.cj.pe_20180203113938.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_11-41-16/Pr1_cn.cj.pe_pushservice_20180203113938.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_11-41-16/Pr2_cn.cj.pe_richpush_20180203113938.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_11-41-16/Pr3_cn.cj.pe_CMCCSsoService_20180203113938.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_11-41-16/gtdesc_20180203113939.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_11-58-29/Pcp0_cn.cj.pe_20180203115651.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_11-58-29/Pcp1_cn.cj.pe_pushservice_20180203115650.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_11-58-29/Pcp2_cn.cj.pe_richpush_20180203115650.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_11-58-29/Pcp3_cn.cj.pe_CMCCSsoService_20180203115650.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_11-58-29/Pr0_cn.cj.pe_20180203115652.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_11-58-29/Pr1_cn.cj.pe_pushservice_20180203115652.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_11-58-29/Pr2_cn.cj.pe_richpush_20180203115652.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_11-58-29/Pr3_cn.cj.pe_CMCCSsoService_20180203115652.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_11-58-29/gtdesc_20180203115652.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_12-16-28/Pcp0_cn.cj.pe_20180203121446.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_12-16-28/Pcp1_cn.cj.pe_pushservice_20180203121446.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_12-16-28/Pcp2_cn.cj.pe_richpush_20180203121446.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_12-16-28/Pcp3_cn.cj.pe_CMCCSsoService_20180203121446.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_12-16-28/Pr0_cn.cj.pe_20180203121446.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_12-16-28/Pr1_cn.cj.pe_pushservice_20180203121446.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_12-16-28/Pr2_cn.cj.pe_richpush_20180203121446.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_12-16-28/Pr3_cn.cj.pe_CMCCSsoService_20180203121446.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_12-16-28/gtdesc_20180203121448.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-01-38/Pcp0_cn.cj.pe_20180203135956.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-01-38/Pcp1_cn.cj.pe_pushservice_20180203135956.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-01-38/Pcp2_cn.cj.pe_richpush_20180203135956.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-01-38/Pcp3_cn.cj.pe_CMCCSsoService_20180203135956.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-01-38/Pr0_cn.cj.pe_20180203135956.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-01-38/Pr1_cn.cj.pe_pushservice_20180203135956.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-01-38/Pr2_cn.cj.pe_richpush_20180203135956.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-01-38/Pr3_cn.cj.pe_CMCCSsoService_20180203135956.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-01-38/gtdesc_20180203135958.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-04-19/Pcp0_cn.cj.pe_20180203140237.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-04-19/Pcp1_cn.cj.pe_pushservice_20180203140237.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-04-19/Pcp2_cn.cj.pe_richpush_20180203140237.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-04-19/Pcp3_cn.cj.pe_CMCCSsoService_20180203140237.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-04-19/Pr0_cn.cj.pe_20180203140237.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-04-19/Pr1_cn.cj.pe_pushservice_20180203140237.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-04-19/Pr2_cn.cj.pe_richpush_20180203140237.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-04-19/Pr3_cn.cj.pe_CMCCSsoService_20180203140237.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-04-19/gtdesc_20180203140239.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-06-54/Pcp0_cn.cj.pe_20180203140513.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-06-54/Pcp1_cn.cj.pe_pushservice_20180203140512.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-06-54/Pcp2_cn.cj.pe_richpush_20180203140512.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-06-54/Pcp3_cn.cj.pe_CMCCSsoService_20180203140512.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-06-54/Pr0_cn.cj.pe_20180203140513.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-06-54/Pr1_cn.cj.pe_pushservice_20180203140513.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-06-54/Pr2_cn.cj.pe_richpush_20180203140513.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-06-54/Pr3_cn.cj.pe_CMCCSsoService_20180203140514.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-06-54/gtdesc_20180203140514.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-09-27/Pcp0_cn.cj.pe_20180203140745.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-09-27/Pcp1_cn.cj.pe_pushservice_20180203140745.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-09-27/Pcp2_cn.cj.pe_richpush_20180203140745.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-09-27/Pcp3_cn.cj.pe_CMCCSsoService_20180203140746.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-09-27/Pr0_cn.cj.pe_20180203140746.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-09-27/Pr1_cn.cj.pe_pushservice_20180203140746.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-09-27/Pr2_cn.cj.pe_richpush_20180203140746.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-09-27/Pr3_cn.cj.pe_CMCCSsoService_20180203140746.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-09-27/gtdesc_20180203140747.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-12-00/Pcp0_cn.cj.pe_20180203141018.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-12-00/Pcp1_cn.cj.pe_pushservice_20180203141018.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-12-00/Pcp2_cn.cj.pe_richpush_20180203141018.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-12-00/Pcp3_cn.cj.pe_CMCCSsoService_20180203141018.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-12-00/Pr0_cn.cj.pe_20180203141018.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-12-00/Pr1_cn.cj.pe_pushservice_20180203141018.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-12-00/Pr2_cn.cj.pe_richpush_20180203141018.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-12-00/Pr3_cn.cj.pe_CMCCSsoService_20180203141018.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-12-00/gtdesc_20180203141019.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-14-34/Pcp0_cn.cj.pe_20180203141252.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-14-34/Pcp1_cn.cj.pe_pushservice_20180203141252.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-14-34/Pcp2_cn.cj.pe_richpush_20180203141252.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-14-34/Pcp3_cn.cj.pe_CMCCSsoService_20180203141252.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-14-34/Pr0_cn.cj.pe_20180203141252.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-14-34/Pr1_cn.cj.pe_pushservice_20180203141252.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-14-34/Pr2_cn.cj.pe_richpush_20180203141252.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-14-34/Pr3_cn.cj.pe_CMCCSsoService_20180203141252.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-14-34/gtdesc_20180203141253.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-17-08/Pcp0_cn.cj.pe_20180203141526.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-17-08/Pcp1_cn.cj.pe_pushservice_20180203141526.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-17-08/Pcp2_cn.cj.pe_richpush_20180203141526.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-17-08/Pcp3_cn.cj.pe_CMCCSsoService_20180203141526.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-17-08/Pr0_cn.cj.pe_20180203141526.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-17-08/Pr1_cn.cj.pe_pushservice_20180203141526.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-17-08/Pr2_cn.cj.pe_richpush_20180203141526.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-17-08/Pr3_cn.cj.pe_CMCCSsoService_20180203141527.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-17-08/gtdesc_20180203141528.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-19-41/Pcp0_cn.cj.pe_20180203141759.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-19-41/Pcp1_cn.cj.pe_pushservice_20180203141759.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-19-41/Pcp2_cn.cj.pe_richpush_20180203141759.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-19-41/Pcp3_cn.cj.pe_CMCCSsoService_20180203141759.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-19-41/Pr0_cn.cj.pe_20180203141759.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-19-41/Pr1_cn.cj.pe_pushservice_20180203141759.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-19-41/Pr2_cn.cj.pe_richpush_20180203141759.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-19-41/Pr3_cn.cj.pe_CMCCSsoService_20180203141759.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-19-41/gtdesc_20180203141801.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-22-16/Pcp0_cn.cj.pe_20180203142035.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-22-16/Pcp1_cn.cj.pe_pushservice_20180203142035.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-22-16/Pcp2_cn.cj.pe_richpush_20180203142035.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-22-16/Pcp3_cn.cj.pe_CMCCSsoService_20180203142035.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-22-16/Pr0_cn.cj.pe_20180203142035.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-22-16/Pr1_cn.cj.pe_pushservice_20180203142035.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-22-16/Pr2_cn.cj.pe_richpush_20180203142035.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-22-16/Pr3_cn.cj.pe_CMCCSsoService_20180203142035.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-22-16/gtdesc_20180203142036.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-24-50/Pcp0_cn.cj.pe_20180203142308.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-24-50/Pcp1_cn.cj.pe_pushservice_20180203142308.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-24-50/Pcp2_cn.cj.pe_richpush_20180203142308.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-24-50/Pcp3_cn.cj.pe_CMCCSsoService_20180203142308.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-24-50/Pr0_cn.cj.pe_20180203142308.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-24-50/Pr1_cn.cj.pe_pushservice_20180203142308.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-24-50/Pr2_cn.cj.pe_richpush_20180203142308.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-24-50/Pr3_cn.cj.pe_CMCCSsoService_20180203142308.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-24-50/gtdesc_20180203142309.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-27-24/Pcp0_cn.cj.pe_20180203142542.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-27-24/Pcp1_cn.cj.pe_pushservice_20180203142542.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-27-24/Pcp2_cn.cj.pe_richpush_20180203142542.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-27-24/Pcp3_cn.cj.pe_CMCCSsoService_20180203142542.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-27-24/Pr0_cn.cj.pe_20180203142542.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-27-24/Pr1_cn.cj.pe_pushservice_20180203142543.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-27-24/Pr2_cn.cj.pe_richpush_20180203142543.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-27-24/Pr3_cn.cj.pe_CMCCSsoService_20180203142543.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_14-27-24/gtdesc_20180203142544.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-20-05/Pcp0_cn.cj.pe_20180203151823.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-20-05/Pcp1_cn.cj.pe_pushservice_20180203151823.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-20-05/Pcp2_cn.cj.pe_richpush_20180203151823.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-20-05/Pr0_cn.cj.pe_20180203151823.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-20-05/Pr1_cn.cj.pe_pushservice_20180203151823.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-20-05/Pr2_cn.cj.pe_richpush_20180203151823.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-20-05/gtdesc_20180203151825.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-22-28/Pcp0_cn.cj.pe_20180203152046.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-22-28/Pcp1_cn.cj.pe_pushservice_20180203152046.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-22-28/Pcp2_cn.cj.pe_richpush_20180203152046.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-22-28/Pr0_cn.cj.pe_20180203152047.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-22-28/Pr1_cn.cj.pe_pushservice_20180203152047.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-22-28/Pr2_cn.cj.pe_richpush_20180203152046.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-22-28/gtdesc_20180203152048.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-24-53/Pcp0_cn.cj.pe_20180203152312.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-24-53/Pcp1_cn.cj.pe_pushservice_20180203152312.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-24-53/Pcp2_cn.cj.pe_richpush_20180203152312.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-24-53/Pr0_cn.cj.pe_20180203152312.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-24-53/Pr1_cn.cj.pe_pushservice_20180203152312.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-24-53/Pr2_cn.cj.pe_richpush_20180203152312.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-24-53/gtdesc_20180203152313.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-27-24/Pcp0_cn.cj.pe_20180203152541.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-27-24/Pcp1_cn.cj.pe_pushservice_20180203152541.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-27-24/Pcp2_cn.cj.pe_richpush_20180203152541.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-27-24/Pr0_cn.cj.pe_20180203152542.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-27-24/Pr1_cn.cj.pe_pushservice_20180203152543.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-27-24/Pr2_cn.cj.pe_richpush_20180203152543.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-27-24/gtdesc_20180203152543.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-29-53/Pcp0_cn.cj.pe_20180203152810.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-29-53/Pcp1_cn.cj.pe_pushservice_20180203152811.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-29-53/Pcp2_cn.cj.pe_richpush_20180203152811.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-29-53/Pr0_cn.cj.pe_20180203152812.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-29-53/Pr1_cn.cj.pe_pushservice_20180203152812.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-29-53/Pr2_cn.cj.pe_richpush_20180203152811.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-29-53/gtdesc_20180203152813.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-32-22/Pcp0_cn.cj.pe_20180203153040.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-32-22/Pcp1_cn.cj.pe_pushservice_20180203153040.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-32-22/Pcp2_cn.cj.pe_richpush_20180203153040.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-32-22/Pr0_cn.cj.pe_20180203153041.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-32-22/Pr1_cn.cj.pe_pushservice_20180203153041.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-32-22/Pr2_cn.cj.pe_richpush_20180203153041.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-32-22/gtdesc_20180203153042.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-34-47/Pcp0_cn.cj.pe_20180203153305.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-34-47/Pcp1_cn.cj.pe_pushservice_20180203153305.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-34-47/Pcp2_cn.cj.pe_richpush_20180203153304.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-34-47/Pr0_cn.cj.pe_20180203153306.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-34-47/Pr1_cn.cj.pe_pushservice_20180203153306.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-34-47/Pr2_cn.cj.pe_richpush_20180203153306.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-34-47/gtdesc_20180203153307.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-37-11/Pcp0_cn.cj.pe_20180203153529.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-37-11/Pcp1_cn.cj.pe_pushservice_20180203153529.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-37-11/Pcp2_cn.cj.pe_richpush_20180203153529.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-37-11/Pr0_cn.cj.pe_20180203153529.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-37-11/Pr1_cn.cj.pe_pushservice_20180203153529.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-37-11/Pr2_cn.cj.pe_richpush_20180203153529.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-37-11/gtdesc_20180203153531.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-39-47/Pcp0_cn.cj.pe_20180203153805.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-39-47/Pcp1_cn.cj.pe_pushservice_20180203153805.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-39-47/Pcp2_cn.cj.pe_richpush_20180203153805.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-39-47/Pr0_cn.cj.pe_20180203153805.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-39-47/Pr1_cn.cj.pe_pushservice_20180203153805.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-39-47/Pr2_cn.cj.pe_richpush_20180203153805.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-39-47/gtdesc_20180203153806.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-42-10/Pcp0_cn.cj.pe_20180203154027.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-42-10/Pcp1_cn.cj.pe_pushservice_20180203154027.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-42-10/Pcp2_cn.cj.pe_richpush_20180203154028.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-42-10/Pr0_cn.cj.pe_20180203154029.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-42-10/Pr1_cn.cj.pe_pushservice_20180203154029.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-42-10/Pr2_cn.cj.pe_richpush_20180203154029.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-42-10/gtdesc_20180203154030.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-44-34/Pcp0_cn.cj.pe_20180203154252.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-44-34/Pcp1_cn.cj.pe_pushservice_20180203154252.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-44-34/Pcp2_cn.cj.pe_richpush_20180203154252.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-44-34/Pr0_cn.cj.pe_20180203154253.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-44-34/Pr1_cn.cj.pe_pushservice_20180203154253.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-44-34/Pr2_cn.cj.pe_richpush_20180203154253.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_15-44-34/gtdesc_20180203154254.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_19-03-56/Pcp0_cn.cj.pe_20180203190215.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_19-03-56/Pcp1_cn.cj.pe_pushservice_20180203190215.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_19-03-56/Pcp2_cn.cj.pe_richpush_20180203190214.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_19-03-56/Pr0_cn.cj.pe_20180203190215.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_19-03-56/Pr1_cn.cj.pe_pushservice_20180203190215.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_19-03-56/Pr2_cn.cj.pe_richpush_20180203190216.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_19-03-56/gtdesc_20180203190216.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_19-51-54/Pcp0_cn.cj.pe_20180203195012.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_19-51-54/Pcp1_cn.cj.pe_pushservice_20180203195012.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_19-51-54/Pcp2_cn.cj.pe_richpush_20180203195012.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_19-51-54/Pcp3_cn.cj.pe_sync_20180203195012.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_19-51-54/Pr0_cn.cj.pe_20180203195014.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_19-51-54/Pr1_cn.cj.pe_pushservice_20180203195014.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_19-51-54/Pr2_cn.cj.pe_richpush_20180203195012.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_19-51-54/Pr3_cn.cj.pe_sync_20180203195012.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_19-51-54/gtdesc_20180203195014.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_20-43-32/Pcp0_cn.cj.pe_20180203204150.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_20-43-32/Pcp1_cn.cj.pe_pushservice_20180203204150.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_20-43-32/Pcp2_cn.cj.pe_richpush_20180203204150.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_20-43-32/Pr0_cn.cj.pe_20180203204150.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_20-43-32/Pr1_cn.cj.pe_pushservice_20180203204150.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_20-43-32/Pr2_cn.cj.pe_richpush_20180203204150.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_20-43-32/gtdesc_20180203204152.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_21-33-08/Pcp0_cn.cj.pe_20180203213126.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_21-33-08/Pcp1_cn.cj.pe_pushservice_20180203213126.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_21-33-08/Pcp2_cn.cj.pe_richpush_20180203213126.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_21-33-08/Pr0_cn.cj.pe_20180203213126.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_21-33-08/Pr1_cn.cj.pe_pushservice_20180203213126.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_21-33-08/Pr2_cn.cj.pe_richpush_20180203213126.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_21-33-08/gtdesc_20180203213128.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_22-32-13/Pcp0_cn.cj.pe_20180203223031.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_22-32-13/Pcp1_cn.cj.pe_pushservice_20180203223031.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_22-32-13/Pcp2_cn.cj.pe_richpush_20180203223031.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_22-32-13/Pcp3_cn.cj.pe_CMCCSsoService_20180203223030.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_22-32-13/Pr0_cn.cj.pe_20180203223032.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_22-32-13/Pr1_cn.cj.pe_pushservice_20180203223032.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_22-32-13/Pr2_cn.cj.pe_richpush_20180203223032.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_22-32-13/Pr3_cn.cj.pe_CMCCSsoService_20180203223032.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_22-32-13/gtdesc_20180203223033.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_23-21-51/Pcp0_cn.cj.pe_20180203232009.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_23-21-51/Pcp1_cn.cj.pe_pushservice_20180203232009.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_23-21-51/Pcp2_cn.cj.pe_richpush_20180203232009.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_23-21-51/Pcp3_cn.cj.pe_CMCCSsoService_20180203232009.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_23-21-51/Pr0_cn.cj.pe_20180203232009.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_23-21-51/Pr1_cn.cj.pe_pushservice_20180203232009.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_23-21-51/Pr2_cn.cj.pe_richpush_20180203232009.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_23-21-51/Pr3_cn.cj.pe_CMCCSsoService_20180203232009.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-03_23-21-51/gtdesc_20180203232011.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_10-28-47/Pcp0_cn.cj.pe_20180205102708.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_10-28-47/Pcp1_cn.cj.pe_pushservice_20180205102708.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_10-28-47/Pcp2_cn.cj.pe_richpush_20180205102708.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_10-28-47/Pr0_cn.cj.pe_20180205102709.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_10-28-47/Pr1_cn.cj.pe_pushservice_20180205102709.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_10-28-47/Pr2_cn.cj.pe_richpush_20180205102709.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_10-28-47/gtdesc_20180205102710.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_11-36-23/Pcp0_cn.cj.pe_20180205113444.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_11-36-23/Pcp1_cn.cj.pe_pushservice_20180205113444.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_11-36-23/Pcp2_cn.cj.pe_richpush_20180205113444.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_11-36-23/Pr0_cn.cj.pe_20180205113444.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_11-36-23/Pr1_cn.cj.pe_pushservice_20180205113444.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_11-36-23/Pr2_cn.cj.pe_richpush_20180205113444.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_11-36-23/gtdesc_20180205113445.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_12-46-11/Pcp0_cn.cj.pe_20180205124431.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_12-46-11/Pcp1_cn.cj.pe_pushservice_20180205124431.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_12-46-11/Pcp2_cn.cj.pe_richpush_20180205124432.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_12-46-11/Pr0_cn.cj.pe_20180205124432.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_12-46-11/Pr1_cn.cj.pe_pushservice_20180205124432.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_12-46-11/Pr2_cn.cj.pe_richpush_20180205124432.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_12-46-11/gtdesc_20180205124433.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_13-30-21/Pcp0_cn.cj.pe_20180205132842.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_13-30-21/Pcp1_cn.cj.pe_pushservice_20180205132842.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_13-30-21/Pcp2_cn.cj.pe_richpush_20180205132842.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_13-30-21/Pr0_cn.cj.pe_20180205132842.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_13-30-21/Pr1_cn.cj.pe_pushservice_20180205132842.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_13-30-21/Pr2_cn.cj.pe_richpush_20180205132842.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-05_13-30-21/gtdesc_20180205132844.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-07_11-56-16/Pcp0_cn.cj.pe_20180207115437.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-07_11-56-16/Pcp1_cn.cj.pe_pushservice_20180207115437.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-07_11-56-16/Pcp2_cn.cj.pe_richpush_20180207115437.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-07_11-56-16/Pr0_cn.cj.pe_20180207115437.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-07_11-56-16/Pr1_cn.cj.pe_pushservice_20180207115437.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-07_11-56-16/Pr2_cn.cj.pe_richpush_20180207115438.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-07_11-56-16/gtdesc_20180207115439.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-07_14-42-37/Pcp0_cn.cj.pe_20180207144057.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-07_14-42-37/Pcp1_cn.cj.pe_pushservice_20180207144057.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-07_14-42-37/Pcp2_cn.cj.pe_richpush_20180207144057.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-07_14-42-37/Pcp3_cn.cj.pe_CMCCSsoService_20180207144057.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-07_14-42-37/Pr0_cn.cj.pe_20180207144058.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-07_14-42-37/Pr1_cn.cj.pe_pushservice_20180207144058.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-07_14-42-37/Pr2_cn.cj.pe_richpush_20180207144057.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-07_14-42-37/Pr3_cn.cj.pe_CMCCSsoService_20180207144057.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/2018-02-07_14-42-37/gtdesc_20180207144059.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testcase/runTest_tmp.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testcase/v731/sendby.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testcase/v731/stand.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b6faf0aeef8305454003744941cd79151cc2c95" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b6faf0aeef8305454003744941cd79151cc2c95" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/147f1f7834a3a6231220185e0916fa3bfeca4e29" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/147f1f7834a3a6231220185e0916fa3bfeca4e29" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17eaa2803b0af9f849f4a734256158ae53006bb6" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17eaa2803b0af9f849f4a734256158ae53006bb6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2ca4f99cd4706a60d89ab9f9a7b2674ab2fbaa21" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2ca4f99cd4706a60d89ab9f9a7b2674ab2fbaa21" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e4989ed690315b6befeabc97cc0b493d0e3e53a" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e4989ed690315b6befeabc97cc0b493d0e3e53a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48adb2cb361af559055c816c0556f4867ad558a6" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48adb2cb361af559055c816c0556f4867ad558a6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c954ef12c2ba7b2245d41e89ecda967648db37b" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c954ef12c2ba7b2245d41e89ecda967648db37b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66f09b5c98e469f2abde4f6eed14c64408b87443" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66f09b5c98e469f2abde4f6eed14c64408b87443" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78e7a29340436d9ec5e88a0059729c59bfbefe18" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78e7a29340436d9ec5e88a0059729c59bfbefe18" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d7a0ab1ac060a7df71b648b2b60aaf6f8415eb4" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d7a0ab1ac060a7df71b648b2b60aaf6f8415eb4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/82b8961adbadaf4219a6a080f83280a2027e25ac" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/82b8961adbadaf4219a6a080f83280a2027e25ac" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9d6de8f845323cd5fa34dcae1563c4dbbc04a323" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9d6de8f845323cd5fa34dcae1563c4dbbc04a323" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b72fa030f8acfce97ff16f85f9e87b8e6b9066d7" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b72fa030f8acfce97ff16f85f9e87b8e6b9066d7" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bb5c31f95964cde962c58e73f6a276a5b348b739" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bb5c31f95964cde962c58e73f6a276a5b348b739" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bbc979455a68d837cb97dc31f899d2825ef9b466" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bbc979455a68d837cb97dc31f899d2825ef9b466" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cc07cb24087d11ddd0438f106b2601a5ea863b93" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cc07cb24087d11ddd0438f106b2601a5ea863b93" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce6d45cede01a6350dae80f7b1f37d8c2b95c8f8" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce6d45cede01a6350dae80f7b1f37d8c2b95c8f8" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf5ae3915c3a65a8c85fcb9e4bcff41ffebaadd9" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf5ae3915c3a65a8c85fcb9e4bcff41ffebaadd9" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/daef4a325a4cfb74909c1830f0bc647c5cb2a76a" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/daef4a325a4cfb74909c1830f0bc647c5cb2a76a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4242e381e3303ea221ad68c6a51b564cd63375c" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4242e381e3303ea221ad68c6a51b564cd63375c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3b9cce2478534af0acebd3fdac6fdfb867142a9" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3b9cce2478534af0acebd3fdac6fdfb867142a9" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/psam/psam.py" afterPath="$PROJECT_DIR$/src/psam/psam.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/base/baseAdb.py" afterPath="$PROJECT_DIR$/src/base/baseAdb.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/otherMail/fourmail/browflow.py" afterPath="$PROJECT_DIR$/src/otherMail/fourmail/browflow.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/runTest_v731.py" afterPath="$PROJECT_DIR$/src/testcase/runTest_v731.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/testPre2.py" afterPath="$PROJECT_DIR$/src/testcase/testPre2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/easycase/receive.py" afterPath="$PROJECT_DIR$/src/testcase/v731/easycase/receive.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py" afterPath="$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/user_db.ini" afterPath="$PROJECT_DIR$/src/user_db.ini" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,20 +355,22 @@
     <SUITE FILE_PATH="coverage/pytest$Unittests_for_brushFlow_BrushFlow_testCase.coverage" NAME="Unittests for brushFlow.BrushFlow.testCase Coverage Results" MODIFIED="1507779574117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_in_brushFlow_py.coverage" NAME="Unittests in brushFlow.py Coverage Results" MODIFIED="1510816627558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_in_loginFlow_py__1_.coverage" NAME="Unittests in loginFlow.py (1) Coverage Results" MODIFIED="1510989257745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
+    <SUITE FILE_PATH="coverage/appium_python$Unittests_in_stand_py.coverage" NAME="Unittests in stand.py Coverage Results" MODIFIED="1517985149261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
     <SUITE FILE_PATH="coverage/pytest$openDown.coverage" NAME="openDown Coverage Results" MODIFIED="1507770562043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722/easycase" />
-    <SUITE FILE_PATH="coverage/appium_python$Unittests_for_standByFlowPowerMem_StandByFlowPowerMem_testCase.coverage" NAME="Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase Coverage Results" MODIFIED="1515743331971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/mailqq" />
+    <SUITE FILE_PATH="coverage/appium_python$Unittests_for_standByFlowPowerMem_StandByFlowPowerMem_testCase.coverage" NAME="Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase Coverage Results" MODIFIED="1517697481787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
     <SUITE FILE_PATH="coverage/pytest$baseAdb.coverage" NAME="baseAdb Coverage Results" MODIFIED="1506656023602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/base" />
     <SUITE FILE_PATH="coverage/appium_python$baseAdb.coverage" NAME="baseAdb Coverage Results" MODIFIED="1513323005121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/base" />
-    <SUITE FILE_PATH="coverage/appium_python$Unittests_in_brushFlow_py.coverage" NAME="Unittests in brushFlow.py Coverage Results" MODIFIED="1514353870553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
-    <SUITE FILE_PATH="coverage/appium_python$easytimedelay.coverage" NAME="easytimedelay Coverage Results" MODIFIED="1517560098097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
-    <SUITE FILE_PATH="coverage/appium_python$Unittests_in_browflow_py.coverage" NAME="Unittests in browflow.py Coverage Results" MODIFIED="1517306407862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/fourmail" />
+    <SUITE FILE_PATH="coverage/appium_python$easytimedelay.coverage" NAME="easytimedelay Coverage Results" MODIFIED="1517635924730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
+    <SUITE FILE_PATH="coverage/appium_python$Unittests_in_brushFlow_py.coverage" NAME="Unittests in brushFlow.py Coverage Results" MODIFIED="1517639297647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
+    <SUITE FILE_PATH="coverage/appium_python$Unittests_in_browflow_py.coverage" NAME="Unittests in browflow.py Coverage Results" MODIFIED="1517971962904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/fourmail" />
     <SUITE FILE_PATH="coverage/appium_python$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1514280758294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_for_firstLogin_FirstLogin.coverage" NAME="Unittests for firstLogin.FirstLogin Coverage Results" MODIFIED="1506594183744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722/init" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_for_standByFlowPowerMem_StandByFlowPowerMem_testCase.coverage" NAME="Unittests for standByFlowPowerMem.StandByFlowPowerMem.testCase Coverage Results" MODIFIED="1507789734047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
     <SUITE FILE_PATH="coverage/appium_python$tmpimap.coverage" NAME="tmpimap Coverage Results" MODIFIED="1515660162945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/mail" />
+    <SUITE FILE_PATH="coverage/appium_python$Unittests_in_sendtmp_py.coverage" NAME="Unittests in sendby.py Coverage Results" MODIFIED="1517986378293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_for_firstLogin_InitData_testCase.coverage" NAME="Unittests for firstLogin.InitData.testCase Coverage Results" MODIFIED="1507778734645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
-    <SUITE FILE_PATH="coverage/appium_python$Unittests_in_peakValue_py.coverage" NAME="Unittests in peakValue.py Coverage Results" MODIFIED="1516178531046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/mail163" />
     <SUITE FILE_PATH="coverage/appium_python$Unittests_in_loginflow_py.coverage" NAME="Unittests in loginflow.py Coverage Results" MODIFIED="1516246137818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/mail163" />
+    <SUITE FILE_PATH="coverage/appium_python$Unittests_in_peakValue_py.coverage" NAME="Unittests in peakValue.py Coverage Results" MODIFIED="1517637541472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
     <SUITE FILE_PATH="coverage/pytest$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1505784520911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcode" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_for_easytimedelay_Timedelay.coverage" NAME="Unittests for easytimedelay.Timedelay Coverage Results" MODIFIED="1507771576868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_in_peakValue_py.coverage" NAME="Unittests in peakValue.py Coverage Results" MODIFIED="1510803288709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
@@ -62,14 +391,16 @@
     <SUITE FILE_PATH="coverage/pytest$Unittests_in_easytimedelay_py.coverage" NAME="Unittests in easytimedelay.py Coverage Results" MODIFIED="1510799506752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
     <SUITE FILE_PATH="coverage/pytest$gtutil.coverage" NAME="gtutil Coverage Results" MODIFIED="1510827204095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherApk/gt" />
     <SUITE FILE_PATH="coverage/appium_python$Unittests_in_timedelay_py.coverage" NAME="Unittests in timedelay.py Coverage Results" MODIFIED="1517305669183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/mail189" />
+    <SUITE FILE_PATH="coverage/appium_python$Unittests_in_loginFlow_py.coverage" NAME="Unittests in loginFlow.py Coverage Results" MODIFIED="1517640417220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_in_firstLogin_py.coverage" NAME="Unittests in firstLogin.py Coverage Results" MODIFIED="1506587199812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722/init" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_for_firstLogin_FirstLogin_testCase.coverage" NAME="Unittests for firstLogin.FirstLogin.testCase Coverage Results" MODIFIED="1506592707766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722/init" />
     <SUITE FILE_PATH="coverage/appium_python$baseFile.coverage" NAME="baseFile Coverage Results" MODIFIED="1515490977189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/base" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_in_pytest.coverage" NAME="Unittests in pytest Coverage Results" MODIFIED="1510995500889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/appium_python$runTest_v731.coverage" NAME="runTest_v731 Coverage Results" MODIFIED="1517803622513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_in_openEmail_filter_py.coverage" NAME="Unittests in openEmail_filter.py Coverage Results" MODIFIED="1510817023400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
     <SUITE FILE_PATH="coverage/pytest$Unittests_for_easytimedelay_Timedelay_testCase.coverage" NAME="Unittests for easytimedelay.Timedelay.testCase Coverage Results" MODIFIED="1507771179748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v722" />
-    <SUITE FILE_PATH="coverage/appium_python$Unittests_in_standByFlowPowerMem_py.coverage" NAME="Unittests in standByFlowPowerMem.py Coverage Results" MODIFIED="1515742376468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/mailqq" />
     <SUITE FILE_PATH="coverage/appium_python$Unittests_for_loginflow_BrushFlow_testCase.coverage" NAME="Unittests for loginflow.BrushFlow.testCase Coverage Results" MODIFIED="1516245414800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/mail163" />
+    <SUITE FILE_PATH="coverage/appium_python$Unittests_in_standByFlowPowerMem_py.coverage" NAME="Unittests in standByFlowPowerMem.py Coverage Results" MODIFIED="1517795372336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
     <SUITE FILE_PATH="coverage/appium_python$gtutil.coverage" NAME="gtutil Coverage Results" MODIFIED="1516169639785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherApk/gt" />
     <SUITE FILE_PATH="coverage/pytest$AppiumServer.coverage" NAME="AppiumServer Coverage Results" MODIFIED="1506344228053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/aserver" />
     <SUITE FILE_PATH="coverage/appium_python$timedelay.coverage" NAME="timedelay Coverage Results" MODIFIED="1515654351614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/mailqq" />
@@ -86,6 +417,8 @@
     <SUITE FILE_PATH="coverage/pytest$easytimedelay.coverage" NAME="easytimedelay Coverage Results" MODIFIED="1513305589574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
     <SUITE FILE_PATH="coverage/appium_python$testPre.coverage" NAME="testPre Coverage Results" MODIFIED="1513503576534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase" />
     <SUITE FILE_PATH="coverage/appium_python$Unittests_for_timedelay_Timedelay_testCase.coverage" NAME="Unittests for timedelay.Timedelay.testCase Coverage Results" MODIFIED="1516244157335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/mail163" />
+    <SUITE FILE_PATH="coverage/appium_python$Unittests_in_openEmail_filter_py.coverage" NAME="Unittests in openEmail_filter.py Coverage Results" MODIFIED="1517641336897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/testcase/v731" />
+    <SUITE FILE_PATH="coverage/appium_python$mailOperation.coverage" NAME="mailOperation Coverage Results" MODIFIED="1517697540998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/mail" />
     <SUITE FILE_PATH="coverage/appium_python$login.coverage" NAME="login Coverage Results" MODIFIED="1515580352910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/otherMail/mailqq/qqbase" />
   </component>
   <component name="DatabaseView">
@@ -178,65 +511,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="psam.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/psam/psam.py">
+      <file leaf-file-name="stand.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testcase/v731/stand.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="262" column="8" lean-forward="false" selection-start-line="262" selection-start-column="8" selection-end-line="262" selection-end-column="8" />
-              <folding>
-                <element signature="e#16#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="runTest_v731.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v731.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="36" column="50" lean-forward="true" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-              <folding>
-                <element signature="e#35#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="timedelay.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v731/timedelay.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="101" column="42" lean-forward="false" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
+            <state relative-caret-position="466">
+              <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="receive.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/receive.py">
+      <file leaf-file-name="mailOperation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mail/mailOperation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="106" column="8" lean-forward="true" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+            <state relative-caret-position="-193">
+              <caret line="177" column="8" lean-forward="false" selection-start-line="177" selection-start-column="8" selection-end-line="177" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="openDown.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/openDown.py">
+      <file leaf-file-name="sendby.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testcase/v731/sendby.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-417">
-              <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+            <state relative-caret-position="24">
+              <caret line="85" column="35" lean-forward="true" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="peakValue.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v731/peakValue.py">
+      <file leaf-file-name="runTest_tmp.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testcase/runTest_tmp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="42" column="27" lean-forward="false" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+            <state relative-caret-position="220">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="browflow.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/otherMail/fourmail/browflow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1874">
+              <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -245,19 +564,21 @@
       <file leaf-file-name="brushFlow.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcase/v731/brushFlow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1000">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="196">
+              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="61" selection-end-column="71" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="openEmail_filter.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/v731/openEmail_filter.py">
+      <file leaf-file-name="receive.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/receive.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1886">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="205">
+              <caret line="100" column="51" lean-forward="false" selection-start-line="100" selection-start-column="51" selection-end-line="100" selection-end-column="51" />
+              <folding>
+                <element signature="e#35#46#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -265,8 +586,18 @@
       <file leaf-file-name="user_db.ini" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/user_db.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="45" column="17" lean-forward="false" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+            <state relative-caret-position="416">
+              <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="baseAdb.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/base/baseAdb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1151">
+              <caret line="61" column="92" lean-forward="false" selection-start-line="61" selection-start-column="92" selection-end-line="61" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -275,8 +606,8 @@
       <file leaf-file-name="login.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="194">
+              <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -332,18 +663,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/db/sqlhelper.py" />
-        <option value="$PROJECT_DIR$/src/mail/mailOperation.py" />
-        <option value="$PROJECT_DIR$/src/otherApk/power/powerAction.py" />
-        <option value="$PROJECT_DIR$/src/otherApk/record360/flowRecord.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/easytimedelay.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py" />
         <option value="$PROJECT_DIR$/src/testcase/testPre.py" />
-        <option value="$PROJECT_DIR$/src/testcase/testPre2.py" />
         <option value="$PROJECT_DIR$/src/testcase/tmp.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/brushFlow.py" />
         <option value="$PROJECT_DIR$/src/base/baseFile.py" />
-        <option value="$PROJECT_DIR$/src/base/baseAdb.py" />
         <option value="$PROJECT_DIR$/src/testcode/demo2.py" />
         <option value="$PROJECT_DIR$/src/base/baseImage.py" />
         <option value="$PROJECT_DIR$/src/otherMail/mailqq/qqbase/opendown.py" />
@@ -358,7 +682,6 @@
         <option value="$PROJECT_DIR$/src/otherMail/mailqq/qqbase/send.py" />
         <option value="$PROJECT_DIR$/src/otherMail/mailqq/peakValue.py" />
         <option value="$PROJECT_DIR$/src/otherMail/mailqq/standByFlowPowerMem.py" />
-        <option value="/usr/local/lib/python3.6/site-packages/pyse-0.0.7-py3.6.egg/pyse/pyse.py" />
         <option value="$PROJECT_DIR$/src/otherMail/mail163/bash163/login.py" />
         <option value="$PROJECT_DIR$/src/otherApk/gt/gtutil.py" />
         <option value="$PROJECT_DIR$/src/base/baseTime.py" />
@@ -373,16 +696,24 @@
         <option value="$PROJECT_DIR$/src/otherMail/mail189/bash189/login.py" />
         <option value="$PROJECT_DIR$/src/otherMail/mail189/timedelay.py" />
         <option value="$PROJECT_DIR$/src/otherMail/mail189/bash189/send.py" />
-        <option value="$PROJECT_DIR$/src/otherMail/fourmail/browflow.py" />
         <option value="$PROJECT_DIR$/src/otherMail/mail163/standByFlowPowerMem.py" />
         <option value="$PROJECT_DIR$/src/testcase/v731/peakValue.py" />
-        <option value="$PROJECT_DIR$/src/user_db.ini" />
         <option value="$PROJECT_DIR$/src/testcase/v731/easycase/openDown.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v731/easycase/login.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v731/timedelay.py" />
-        <option value="$PROJECT_DIR$/src/testcase/v731/easycase/receive.py" />
         <option value="$PROJECT_DIR$/src/psam/psam.py" />
+        <option value="/usr/local/lib/python3.6/site-packages/pyse-0.0.7-py3.6.egg/pyse/pyse.py" />
+        <option value="$PROJECT_DIR$/src/testcase/v731/timedelay.py" />
+        <option value="$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py" />
         <option value="$PROJECT_DIR$/src/testcase/runTest_v731.py" />
+        <option value="$PROJECT_DIR$/src/testcase/testPre2.py" />
+        <option value="$PROJECT_DIR$/src/base/baseAdb.py" />
+        <option value="$PROJECT_DIR$/src/testcase/v731/easycase/receive.py" />
+        <option value="$PROJECT_DIR$/src/otherMail/fourmail/browflow.py" />
+        <option value="$PROJECT_DIR$/src/testcase/v731/easycase/login.py" />
+        <option value="$PROJECT_DIR$/src/testcase/v731/stand.py" />
+        <option value="$PROJECT_DIR$/src/user_db.ini" />
+        <option value="$PROJECT_DIR$/src/testcase/v731/sendtmp.py" />
+        <option value="$PROJECT_DIR$/src/testcase/v731/sendby.py" />
+        <option value="$PROJECT_DIR$/src/testcase/runTest_tmp.py" />
       </list>
     </option>
   </component>
@@ -399,7 +730,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="31" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="713" />
   </component>
@@ -441,8 +772,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -613,7 +943,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -633,11 +964,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/testcase" />
+      <recent name="$PROJECT_DIR$/src/testcase/v731" />
       <recent name="$PROJECT_DIR$/src/otherMail/mail189" />
       <recent name="$PROJECT_DIR$/src/otherMail/mail189/bash189" />
       <recent name="$PROJECT_DIR$/src/otherMail/mail163" />
-      <recent name="$PROJECT_DIR$/src/otherMail/mail163/bash163" />
-      <recent name="$PROJECT_DIR$/src/otherMail/mailqq" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.uitest.testdemo" />
@@ -660,22 +991,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.easytimedelay">
-    <configuration name="Unittests for browflow.BrushFlow" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/otherMail/fourmail" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="appium_python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;browflow.BrushFlow&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="Unittests in browflow.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -691,19 +1007,49 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/src/otherMail/fourmail/browflow.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="Unittests in timedelay.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in sendby.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/otherMail/mail189" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcase/v731" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="appium_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/otherMail/mail189/timedelay.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/testcase/v731/sendby.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Unittests in standByFlowPowerMem.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcase/v731" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="appium_python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Unittests in stand.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcase/v731" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="appium_python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/testcase/v731/stand.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -958,38 +1304,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="psam" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="runTest_v731" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/psam" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="appium_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/psam/psam.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="receive" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/otherMail/mail189/bash189" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="appium_python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/otherMail/mail189/bash189/receive.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/testcase/runTest_v731.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1015,19 +1343,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Python.timedelay" />
       <item index="1" class="java.lang.String" itemvalue="Python.easytimedelay" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for browflow.BrushFlow" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in browflow.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python.psam" />
-      <item index="5" class="java.lang.String" itemvalue="Python.receive" />
-      <item index="6" class="java.lang.String" itemvalue="Python tests.Unittests in timedelay.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python.runTest_v731" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in standByFlowPowerMem.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in sendby.py" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in browflow.py" />
+      <item index="6" class="java.lang.String" itemvalue="Python tests.Unittests in stand.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in browflow.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in timedelay.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python.receive" />
-        <item index="3" class="java.lang.String" itemvalue="Python.psam" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for browflow.BrushFlow" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in sendby.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in stand.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in browflow.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python.runTest_v731" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in standByFlowPowerMem.py" />
       </list>
     </recent_temporary>
   </component>
@@ -1134,7 +1462,14 @@
       <workItem from="1516239576848" duration="11473000" />
       <workItem from="1516328252298" duration="1322000" />
       <workItem from="1517294636124" duration="10388000" />
-      <workItem from="1517541510800" duration="9115000" />
+      <workItem from="1517541510800" duration="10475000" />
+      <workItem from="1517627225037" duration="9688000" />
+      <workItem from="1517651814561" duration="6945000" />
+      <workItem from="1517794478781" duration="6469000" />
+      <workItem from="1517880327271" duration="1240000" />
+      <workItem from="1517907044951" duration="5388000" />
+      <workItem from="1517915473812" duration="324000" />
+      <workItem from="1517968414639" duration="9295000" />
     </task>
     <task id="LOCAL-00001" summary="在MAC中运行">
       <created>1505833150284</created>
@@ -1367,43 +1702,50 @@
       <option name="project" value="LOCAL" />
       <updated>1517560446276</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="待机">
+      <created>1517566912798</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1517566912798</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_loginflow_BrushFlow_testCase - 2018.01.18 at 11h 14m 10s.xml">
-      <configuration name="Unittests for loginflow.BrushFlow.testCase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_loginflow_BrushFlow_testCase - 2018.01.18 at 11h 16m 51s.xml">
-      <configuration name="Unittests for loginflow.BrushFlow.testCase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_loginflow_BrushFlow_testCase - 2018.01.18 at 11h 20m 50s.xml">
-      <configuration name="Unittests for loginflow.BrushFlow.testCase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_browflow_py - 2018.01.18 at 11h 38m 26s.xml">
+    <history-entry file="Unittests_in_browflow_py - 2018.02.07 at 11h 04m 33s.xml">
       <configuration name="Unittests in browflow.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_browflow_py - 2018.01.18 at 11h 41m 07s.xml">
-      <configuration name="Unittests in browflow.py" configurationId="tests" />
+    <history-entry file="Unittests_in_sendby_py - 2018.02.07 at 14h 48m 13s.xml">
+      <configuration name="Unittests in sendby.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_browflow_py - 2018.01.30 at 17h 53m 44s.xml">
-      <configuration name="Unittests in browflow.py" configurationId="tests" />
+    <history-entry file="Unittests_in_sendby_py - 2018.02.07 at 14h 57m 07s.xml">
+      <configuration name="Unittests in sendby.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_browflow_py - 2018.01.30 at 18h 03m 19s.xml">
-      <configuration name="Unittests in browflow.py" configurationId="tests" />
+    <history-entry file="Unittests_in_sendtmp_py - 2018.02.07 at 10h 03m 06s.xml">
+      <configuration name="Unittests in sendtmp.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_loginflow_py - 2018.01.18 at 11h 32m 59s.xml">
-      <configuration name="Unittests in loginflow.py" configurationId="tests" />
+    <history-entry file="Unittests_in_sendtmp_py - 2018.02.07 at 10h 18m 50s.xml">
+      <configuration name="Unittests in sendtmp.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_timedelay_py - 2018.01.30 at 17h 46m 15s.xml">
-      <configuration name="Unittests in timedelay.py" configurationId="tests" />
+    <history-entry file="Unittests_in_sendtmp_py - 2018.02.07 at 10h 19m 52s.xml">
+      <configuration name="Unittests in sendtmp.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_timedelay_py - 2018.01.30 at 17h 49m 52s.xml">
-      <configuration name="Unittests in timedelay.py" configurationId="tests" />
+    <history-entry file="Unittests_in_sendtmp_py - 2018.02.07 at 10h 28m 16s.xml">
+      <configuration name="Unittests in sendtmp.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_sendtmp_py - 2018.02.07 at 12h 12m 16s.xml">
+      <configuration name="Unittests in sendtmp.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_stand_py - 2018.02.07 at 11h 59m 57s.xml">
+      <configuration name="Unittests in stand.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_stand_py - 2018.02.07 at 14h 43m 31s.xml">
+      <configuration name="Unittests in stand.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="439144000" />
+    <option name="totallyTimeSpent" value="479853000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1415,7 +1757,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="31" width="1280" height="713" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="713" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1424,12 +1766,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29983792" sideWeight="0.52022654" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08576052" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.106796116" sideWeight="0.47977346" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34789643" sideWeight="0.47977346" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3090615" sideWeight="0.4734375" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39059967" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.197411" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2038835" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47882736" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1520,7 +1862,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加启动处理APP及辅助工具" />
     <MESSAGE value="去除错误文件" />
     <MESSAGE value="提交731版本代码" />
     <MESSAGE value="正式运行" />
@@ -1545,7 +1886,8 @@
     <MESSAGE value="时延" />
     <MESSAGE value="修改错误" />
     <MESSAGE value="742" />
-    <option name="LAST_COMMIT_MESSAGE" value="742" />
+    <MESSAGE value="待机" />
+    <option name="LAST_COMMIT_MESSAGE" value="待机" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1566,7 +1908,7 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1595,46 +1937,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/logs/2018-01-12_11-49-41/Pcp3_com.tencent.androidqqmail_Tools_20180112114945.csv" />
-    <entry file="file://$PROJECT_DIR$/logs/2018-01-12_11-49-41/Pcp4_com.tencent.androidqqmail_patch_20180112114945.csv" />
-    <entry file="file://$PROJECT_DIR$/logs/2018-01-12_11-49-41/Pcp1_com.tencent.androidqqmail_Push_20180112114945.csv" />
-    <entry file="file:///usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="1322" column="13" lean-forward="false" selection-start-line="1322" selection-start-column="13" selection-end-line="1322" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/otherMail/mailqq/qqbase/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/otherMail/mailqq/qqbase/opendown.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="76" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/site-packages/pyse-0.0.7-py3.6.egg/pyse/pyse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="287" column="8" lean-forward="false" selection-start-line="287" selection-start-column="8" selection-end-line="287" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/otherMail/mailqq/qqbase/receive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/2018-01-17_10-34-17/Pcp3_cn.cj.pe_20180117103249.csv" />
-    <entry file="file://$PROJECT_DIR$/logs/2018-01-17_10-34-17/Pcp1_cn.cj.pe_richpush_20180117103249.csv" />
     <entry file="file://$PROJECT_DIR$/logs/2018-01-17_10-34-17/Pcp2_cn.cj.pe_sync_20180117103249.csv" />
     <entry file="file://$PROJECT_DIR$/logs/2018-01-17_10-34-17/Pcp0_cn.cj.pe_pushservice_20180117103249.csv" />
     <entry file="file://$PROJECT_DIR$/src/otherMail/mail163/bash163/login.py">
@@ -1735,18 +2037,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/otherMail/mail163/loginflow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="119" column="27" lean-forward="false" selection-start-line="119" selection-start-column="27" selection-end-line="119" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/otherMail/mail189/bash189/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1762,7 +2056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1034">
           <caret line="49" column="17" lean-forward="false" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1770,7 +2063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1210">
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1778,9 +2070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
           <caret line="52" column="25" lean-forward="false" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
-          <folding>
-            <element signature="e#1#37#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1788,7 +2077,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="24" column="75" lean-forward="false" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1796,16 +2084,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="62" />
-          <folding>
-            <element signature="e#35#62#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/otherMail/fourmail/browflow.py">
+    <entry file="file://$PROJECT_DIR$/src/testcase/HTMLTestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/send.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/openDown.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1031">
+          <caret line="289" column="8" lean-forward="false" selection-start-line="289" selection-start-column="8" selection-end-line="289" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/site-packages/pyse-0.0.7-py3.6.egg/pyse/pyse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="138" column="26" lean-forward="false" selection-start-line="138" selection-start-column="26" selection-end-line="138" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/peakValue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="42" column="27" lean-forward="false" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/loginFlow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2618">
+          <caret line="130" column="26" lean-forward="false" selection-start-line="130" selection-start-column="26" selection-end-line="130" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/openEmail_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/otherMail/mail163/standByFlowPowerMem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/site-packages/imapclient/imap4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v731.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/otherMail/mail163/loginflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/psam/psam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1814,21 +2183,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/otherMail/mail163/standByFlowPowerMem.py">
+    <entry file="file://$PROJECT_DIR$/src/testcase/testPre2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="60" column="21" lean-forward="false" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
-          <folding>
-            <element signature="e#35#65#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/HTMLTestRunner.py">
+    <entry file="file://$PROJECT_DIR$/src/testcase/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1836,111 +2201,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/timedelay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="101" column="41" lean-forward="false" selection-start-line="101" selection-start-column="41" selection-end-line="101" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/v731/standByFlowPowerMem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="79" column="24" lean-forward="false" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
+        <state relative-caret-position="682">
+          <caret line="46" column="78" lean-forward="false" selection-start-line="46" selection-start-column="78" selection-end-line="46" selection-end-column="78" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/send.py">
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/receive.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state relative-caret-position="205">
+          <caret line="100" column="51" lean-forward="false" selection-start-line="100" selection-start-column="51" selection-end-line="100" selection-end-column="51" />
+          <folding>
+            <element signature="e#35#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/brushFlow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="61" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/loginFlow.py">
+    <entry file="file://$PROJECT_DIR$/src/otherMail/fourmail/browflow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1019">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-1874">
+          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/openEmail_filter.py">
+    <entry file="file://$PROJECT_DIR$/src/mail/mailOperation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1886">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/peakValue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="42" column="27" lean-forward="false" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/openDown.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-417">
-          <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+        <state relative-caret-position="-193">
+          <caret line="177" column="8" lean-forward="false" selection-start-line="177" selection-start-column="8" selection-end-line="177" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/user_db.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="45" column="17" lean-forward="false" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        <state relative-caret-position="416">
+          <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/stand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="194">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/psam/psam.py">
+    <entry file="file://$PROJECT_DIR$/src/testcase/v731/sendby.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="262" column="8" lean-forward="false" selection-start-line="262" selection-start-column="8" selection-end-line="262" selection-end-column="8" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/easycase/receive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="106" column="8" lean-forward="true" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+        <state relative-caret-position="24">
+          <caret line="85" column="35" lean-forward="true" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/timedelay.py">
+    <entry file="file://$PROJECT_DIR$/src/testcase/runTest_tmp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="101" column="42" lean-forward="false" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
+        <state relative-caret-position="220">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/v731/brushFlow.py">
+    <entry file="file://$PROJECT_DIR$/src/base/baseAdb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1000">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1151">
+          <caret line="61" column="92" lean-forward="false" selection-start-line="61" selection-start-column="92" selection-end-line="61" selection-end-column="92" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/runTest_v731.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="36" column="50" lean-forward="true" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-          <folding>
-            <element signature="e#35#44#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

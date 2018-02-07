@@ -1,0 +1,11 @@
+gtdesc:=2018-02-03_11-58-29
+
+opfiles:=
+Pcp0_cn.cj.pe_20180203115651.csv
+Pcp1_cn.cj.pe_pushservice_20180203115650.csv
+Pcp2_cn.cj.pe_richpush_20180203115650.csv
+Pcp3_cn.cj.pe_CMCCSsoService_20180203115650.csv
+Pr0_cn.cj.pe_20180203115652.csv
+Pr1_cn.cj.pe_pushservice_20180203115652.csv
+Pr2_cn.cj.pe_richpush_20180203115652.csv
+Pr3_cn.cj.pe_CMCCSsoService_20180203115652.csv
