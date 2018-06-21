@@ -50,18 +50,30 @@ class Send(object):
          
             # 点击发送按钮
             print('=>点击发送按钮，开始计时')
-            el = self.driver.get_element("id=>cn.cj.pe:id/txt_send")
-            BaseAdb.adb_broadcast()
-            el.click()
+            self.driver.click("id=>cn.cj.pe:id/txt_send")
 
-            print('等待文件更新')
-            bl = BaseFile.wait_for_file_modify(30)
+            print('等待发送邮件成功')
+            bl = False
+
+            time_out = int(round(time.time() * 1000)) + 1*60 * 1000
+
+            # 获取邮件发送成功，退出；否则返回超时
+            while int(round(time.time() * 1000)) < time_out :
+
+                if BaseAdb.dumpsys_notification("发送邮件成功"):
+                    bl = True
+                    break
+
+                time.sleep(0.1)
+
+
+
             time.sleep(3)
             print('查找页面是否出现新邮件')
-            bl2 = self.driver.element_wait('uiautomator=>testReceive')
+            bl2 = self.driver.element_wait('uiautomator=>testReceive',20)
 
             if (bl2==None) or (bl == False) :
-                self.driver.swipeDown()
+                self.driver.swipe_down()
             
             time.sleep(8)
             

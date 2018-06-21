@@ -175,7 +175,7 @@ class EmailOperation(object):
             self.logout()
             return is_true
     
-    def check_inbox_cnt(self):
+    def check_inbox_cnt(self, revice = 100):
         '''获取邮件数量'''
         try:
             is_true = 0
@@ -187,14 +187,14 @@ class EmailOperation(object):
             if len(uids) == 0:
                 return 0
             # 判断
-            if len(uids) == 100:
-                print("100封邮件")
+            if len(uids) == revice:
+                print("%s 封邮件" %revice)
                 return 0
-            elif len(uids) < 100:
-                print('邮件数量少于100封')
+            elif len(uids) < revice:
+                print('邮件数量少于%s 封' %revice)
                 return 0
             else:
-                cnt = len(uids) - 100
+                cnt = len(uids) - revice
                 print('需要删除邮件数量为：%d' %cnt)
                 is_true =  cnt
         except BaseException as error:
@@ -204,7 +204,7 @@ class EmailOperation(object):
             self.logout() 
             return  is_true
     
-    def check_inbox(self):
+    def check_inbox(self, cnt = 100):
         '''确保收件箱有100封邮件'''
         try:
             is_true = True
@@ -217,16 +217,16 @@ class EmailOperation(object):
             if all == 0:
                 return False
             # 判断
-            if all == 100:
-                print("100封邮件")
+            if all == cnt:
+                print("%s封邮件" %cnt)
                 return is_true
-            elif all < 100:
-                print('邮件数量少于100封')
+            elif all < cnt:
+                print('邮件数量少于%s封' %cnt)
                 return False
             else:
-                print('需要删除邮件数量为：%d' %(all - 100))
+                print('需要删除邮件数量为：%d' %(all - cnt))
 #                 print(Uids[100:])
-                self._del(uids[100:])
+                self._del(uids[cnt:])
                 return is_true
         except BaseException as error:
             print(error)
@@ -237,7 +237,7 @@ class EmailOperation(object):
             return is_true
 
 if __name__ == '__main__':
-    eo = EmailOperation("13580491603@139.com","chinasoft123")
+    eo = EmailOperation("13580491603@139.com","hy12345678")
 #     eo.moveForlder(['INBOX','100' ]) 
 #     eo.moveForlder(['100', 'INBOX']) 
 #     eo.clearForlder(['已发送','已删除'])

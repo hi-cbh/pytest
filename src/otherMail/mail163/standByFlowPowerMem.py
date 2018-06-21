@@ -40,8 +40,8 @@ net_ativity="com.netease.mobimail.activity.LaunchActivity"
 class StandByFlowPowerMem(unittest.TestCase):
     
     def setUp(self):
-        # BaseAdb.adb_intall_uiautmator()
-        self.driver = Psam(version="5.1",apk=net_apk,ativity=net_ativity)
+        BaseAdb.adb_intall_uiautmator()
+        self.driver = Psam(version="6.0",apk=net_apk,ativity=net_ativity)
     
     #释放实例,释放资源
     def tearDown(self):
@@ -66,15 +66,15 @@ class StandByFlowPowerMem(unittest.TestCase):
             print("正式环境测试")
         try:
              
-            login=Login(self.driver,username2, pwd2)
+            login=Login(self.driver,username, pwd)
             login.login_action()
             time.sleep(2)
             time_out = int(round(time.time() * 1000)) + 2 * 60 * 1000
             while int(round(time.time() * 1000)) < time_out:
-                self.driver.swipeUp()
-                self.driver.swipeUp()
-                self.driver.swipeUp()
-                self.driver.swipeUp()
+                self.driver.swipe_up()
+                self.driver.swipe_up()
+                self.driver.swipe_up()
+                self.driver.swipe_up()
                 btn = self.driver.get_element(u"uiautomator=>加载更多",1)
                 if btn != None:
                     btn.click()
@@ -85,7 +85,7 @@ class StandByFlowPowerMem(unittest.TestCase):
             BaseAdb.adb_stop(net_apk)
             time.sleep(5)
             BaseAdb.adb_start_app(net_apk, net_ativity)
-            time.sleep(3)
+            time.sleep(15)
 
 
             BaseAdb.adb_home()
@@ -126,7 +126,7 @@ class StandByFlowPowerMem(unittest.TestCase):
             mem = gt.endGT()
             elc = pa.exec_record("网易邮箱大师", False)
 
-            datas = {'productName' : 'net','versionID':versionID,'networkType':network,'nowTime':BaseTime.get_current_time(), \
+            datas = {'productName' : '163','versionID':versionID,'networkType':network,'nowTime':BaseTime.get_current_time(), \
                  'electric':elc,'upflow':flow["up"], 'downflow':flow["down"], \
                  'allflow':flow["all"],'avgmem':mem[1]["avg"],'groupId':"1"}
 
@@ -135,9 +135,9 @@ class StandByFlowPowerMem(unittest.TestCase):
             time.sleep(5)
 
             print("发送邮件......")
-            for i in range(1):
+            for i in range(3):
                 # BaseAdb.adb_shell("adb shell am broadcast -a my.email.broadcast")
-                r = WebReceive('13697485262', 'chinasoft123',username2+'@163.com')
+                r = WebReceive('13697485262', 'chinasoft123',username+'@163.com')
                 r.sendEmail()
 
                 time.sleep(20)
@@ -152,12 +152,12 @@ class StandByFlowPowerMem(unittest.TestCase):
             emailcnt = 1
             print("接收邮件数量：%d" %emailcnt)
 
-            datas = {'productName' : 'net','versionID':versionID,'networkType':network,'nowTime':BaseTime.get_current_time(), \
+            datas = {'productName' : '163','versionID':versionID,'networkType':network,'nowTime':BaseTime.get_current_time(), \
                      'electric':elc,'upflow':flow["up"], 'downflow':flow["down"], \
                      'allflow':flow["all"],'emailcount':emailcnt,'groupId':"1"}
 
             print(datas)
-            # SQLHelper.insert_standy_email(datas)
+            SQLHelper.insert_standy_email(datas)
 
             print("清除")
             time.sleep(5)

@@ -29,20 +29,14 @@ file_path = base_dir + "/user_db.ini"
 cf = cparser.ConfigParser()
 cf.read(file_path)
 
-username = cf.get("userconf", "user1")
-pwd = cf.get("userconf", "pwd1")
+username = cf.get("userconf", "user4")
+pwd = cf.get("userconf", "pwd4")
 versionID = cf.get("verconf", "versionid")
 ##====================
 
 class StandByFlowPowerMem(unittest.TestCase):
     
-    def setUp(self):  
-        # AppiumServer2().start_server()
-        # time.sleep(10)
-        # 发送邮件辅助工具
-        # BaseAdb.adb_shell("adb shell am start -W -n com.test.sendmail/.MainActivity")
-        # BaseAdb.adb_home()
-        # time.sleep(2)
+    def setUp(self):
         
         EmailOperation(username+"@139.com", pwd).mv_forlder(["100", "INBOX"]) 
         BaseAdb.adb_intall_uiautmator()
@@ -58,7 +52,8 @@ class StandByFlowPowerMem(unittest.TestCase):
 
     def testCase(self):
         
-        network = BaseAdb.get_network_type()
+        # network = BaseAdb.get_network_type()
+        network = "4G" # 测试新包4G 打开wifi
         print('当前网络状态：%s' %network)
         
         appPackage = "cn.cj.pe"  # 程序的package
@@ -135,7 +130,7 @@ class StandByFlowPowerMem(unittest.TestCase):
             print("发送邮件......")
             for i in range(3):
                 # BaseAdb.adb_shell("adb shell am broadcast -a my.email.broadcast")
-                r = WebReceive('13697485262', 'chinasoft123','13580491603@139.com')
+                r = WebReceive('13697485262', 'chinasoft123',username+'@139.com')
                 r.sendEmail()
 
                 time.sleep(20)

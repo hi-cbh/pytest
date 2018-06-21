@@ -19,6 +19,8 @@ if __name__ == "__main__":
 
     suite = unittest.TestSuite()
     suite.addTest(StandBy("testCase"))
+    suite.addTest(StandBy("testCase"))
+    suite.addTest(StandBy("testCase"))
     runner = unittest.TextTestRunner()
     now = time.strftime("%Y-%m-%d %H_%M_%S")
     filename = r'/Users/apple/git/pytest/report/' + now + '_result.html'

@@ -1,6 +1,9 @@
 import time
 from src.base.baseFile import BaseFile
 from src.base.baseAdb import BaseAdb
+from src.base.baseImage import BaseImage
+
+
 class OpenDown(object):
 
     def __init__(self, driver):
@@ -14,9 +17,16 @@ class OpenDown(object):
             emaillist[0].click()
             start_time = time.time()
             print("打开邮件")
-            self.driver.element_wait("id=>com.netease.mail:id/mail_list_item_content")
-            self.driver.element_wait("id=>com.netease.mail:id/conversation_item_attachment_divider")
-            self.driver.element_wait("id=>com.netease.mail:id/attachment_info")
+            # self.driver.element_wait("id=>com.netease.mail:id/mail_list_item_content")
+            # self.driver.element_wait("id=>com.netease.mail:id/conversation_item_attachment_divider")
+            # self.driver.element_wait("id=>com.netease.mail:id/attachment_info")
+            timeout = int(round(time.time() * 1000)) + 1 * 10 * 1000
+            while int(round(time.time() * 1000)) < timeout:
+                if BaseImage.is_true_pixel_163(self.driver):
+                    break
+                time.sleep(0.1)
+
+
             end_time = time.time()
 
             value_time = str(round(end_time - start_time, 2))

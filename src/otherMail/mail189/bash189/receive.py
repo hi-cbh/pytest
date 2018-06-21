@@ -2,7 +2,7 @@
 # encoding:utf-8
 
 import time
-# from base.baseAdb import BaseAdb
+from src.base.baseAdb import BaseAdb
 # from base.baseFile import BaseFile
 from pyse import Pyse
 
@@ -83,7 +83,8 @@ class Receive(object):
         r = WebReceive(self.username,self.pwd,self.receiver)
         print('=>接收邮件时延')
         start = r.sendEmail()
-        
+        self.driver.swipe_down()
+
         print('=>等待本域邮件出现')
         isReceived = self.waitforEmail()
         end = time.time()
@@ -94,12 +95,10 @@ class Receive(object):
         
         # 如果出现未读邮件，进行删除第一封邮件
         if isReceived:
-
-            # 删除邮件
             self.driver.swipe(self.driver.get_window_size()["width"] - 20, 450, 20, 450, 500)
-
-            if self.driver.get_element("uiautomator=>删除") != None:
-                self.driver.click("uiautomator=>删除")
+            time.sleep(2)
+            BaseAdb.adb_tap(1300/1440 * self.driver.get_window_size()["width"], 500/2560 * self.driver.get_window_size()["height"])
+            time.sleep(2)
 
         time.sleep(5)
         return valueTime
@@ -112,16 +111,16 @@ class Receive(object):
             while (int(round(time.time() * 1000) < timeout)):
                 print('wait.....')
                 # if self.driver.get_element("xpath=>//android.view.View[contains(@content-desc,'TestMailQQ')]",1) != None :
-                if self.driver.get_element(r"id=>com.netease.mail:id/mail_list_item_state",1) != None :
+                if self.driver.get_element(r"uiautomator=>TestMail189",1) != None :
                     print('find it')
                     return True
                 else:
-                    self.driver.swipeDown()
+                    self.driver.swipe_down()
                 
                 time.sleep(0.1)
         except BaseException as msg:
             print(msg)
-            self.driver.swipeDown()
+            self.driver.swipe_down()
         
         else:
 #             print('time out')

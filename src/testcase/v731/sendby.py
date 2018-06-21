@@ -24,10 +24,10 @@ file_path = base_dir + "/user_db.ini"
 cf = cparser.ConfigParser()
 cf.read(file_path)
 
-username = cf.get("userconf", "user1")
-pwd = cf.get("userconf", "pwd1")
-username2 = cf.get("userconf", "user2")
-pwd2 = cf.get("userconf", "pwd2")
+username = cf.get("userconf", "juser")
+pwd = cf.get("userconf", "jpwd")
+username2 = cf.get("userconf", "user1")
+pwd2 = cf.get("userconf", "pwd1")
 filename = cf.get("userconf", "filename")
 path = r'/mnt/sdcard/139PushEmail/download/%s@139.com/*%s.rar'  %(username, filename)
 
@@ -67,7 +67,7 @@ class SendTmp(unittest.TestCase):
         network = BaseAdb.get_network_type()
         print('当前网络状态：%s' %network)
 
-        runtimes = 8
+        runtimes = 31
 
         try:
             stat = u'开始登录时延测试'
@@ -78,9 +78,10 @@ class SendTmp(unittest.TestCase):
                 print('当前运行次数为：%r' %(str(x)))
 
                 stat = u'接收本域邮件测试'
+                subject = "cctv"+str(x) # 邮件标题
                 re = Receive(self.driver,username2, pwd2, username+"@139.com")
-                receivetime = re.receiveAction("cctv"+str(x))
-                print("接收时延：%s" %receivetime)
+                receivetime = re.receiveAction(subject)
+                print("data: %s 邮件标题：%s, 接收时延：%s" %(BaseTime.current_time(),subject,receivetime))
                 print("休息20秒")
                 time.sleep(20)
         except BaseException as be:

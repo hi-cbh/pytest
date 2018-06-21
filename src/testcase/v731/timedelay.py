@@ -24,8 +24,8 @@ file_path = base_dir + "/user_db.ini"
 cf = cparser.ConfigParser()
 cf.read(file_path)
 
-username = cf.get("userconf", "user1")
-pwd = cf.get("userconf", "pwd1")
+username = cf.get("userconf", "user4")
+pwd = cf.get("userconf", "pwd4")
 username2 = cf.get("userconf", "user2")
 pwd2 = cf.get("userconf", "pwd2")
 filename = cf.get("userconf", "filename")
@@ -65,6 +65,7 @@ class Timedelay(unittest.TestCase):
     def testCase(self):
 
         network = BaseAdb.get_network_type()
+
         print('当前网络状态：%s' %network)
 
         runtimes = 12

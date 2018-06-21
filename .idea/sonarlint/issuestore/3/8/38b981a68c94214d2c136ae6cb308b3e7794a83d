@@ -1,0 +1,8 @@
+
+fpython:S100"LRename method "setUp" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(§˜œŽþÿÿÿÿ
+ppython:S117"\Rename this local variable "appActivity" to match the regular expression ^[_a-z][a-z0-9_]*$.(’«‰
+ipython:S100"ORename method "testCase" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(»²¢Êúÿÿÿÿ
+4python:S125"Remove this commented out code.(¸ï¶Õ
+9python:S125"Remove this commented out code.(›¯Ëìûÿÿÿÿ
+dpython:S100"ORename method "tearDown" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(•ûÜë
+upython:S117"[Rename this local variable "appPackage" to match the regular expression ^[_a-z][a-z0-9_]*$.(â»«„þÿÿÿÿ

@@ -18,24 +18,24 @@ class Login(object):
 
         # self.driver.click(u"uiautomator=>开始使用")
 
-        # time.sleep(4)
-        # if firstLogin == True:
-        #     self.driver.click(u"uiautomator=>允许")
-        #     time.sleep(4)
-        #
+        time.sleep(4)
+        if firstLogin == True:
+            self.driver.click(u"uiautomator=>允许")
+            time.sleep(4)
+
+        self.driver.swipe_right()
+        self.driver.swipe_right()
         # self.driver.swipeRight()
         # self.driver.swipeRight()
-        # # self.driver.swipeRight()
-        # # self.driver.swipeRight()
-        # print("点击坐标")
-        # # BaseAdb.adbTap(700, 2200)  # vivo 1603  w * 0.5, h * 0.885
-        #
-        # w = self.driver.get_window_size()['width']
-        # h = self.driver.get_window_size()['height']
-        #
-        # BaseAdb.adb_tap(w / 2, int(h * 0.94))
-        # # BaseAdb.adb_tap(w / 2, int(h * 0.889))
-        # # BaseAdb.adbTap(500, 1700) #其他手机需要调试
+        print("点击坐标")
+        # BaseAdb.adbTap(700, 2200)  # vivo 1603  w * 0.5, h * 0.885
+
+        w = self.driver.get_window_size()['width']
+        h = self.driver.get_window_size()['height']
+
+        BaseAdb.adb_tap(w / 2, int(h * 0.94))
+        # BaseAdb.adb_tap(w / 2, int(h * 0.889))
+        # BaseAdb.adbTap(500, 1700) #其他手机需要调试
 
         time.sleep(4)
         
@@ -71,9 +71,10 @@ class Login(object):
 
 
         print('=>等待体验按钮出现，并记录当前时间')
-        self.driver.get_element("id=>cn.cj.pe:id/message_list_bottom_email")
+        self.driver.get_element("id=>cn.cj.pe:id/close")
+        # self.driver.get_element("id=>cn.cj.pe:id/message_list_bottom_email")
         end = time.time()
-         
+        self.driver.click("id=>cn.cj.pe:id/close")
         valueTime = str(round((end - start), 2))
         print('[登录时延]: %r'  %valueTime)
         return valueTime
@@ -86,7 +87,7 @@ class Login(object):
         
         # 下拉
         time.sleep(4)
-        self.driver.swipeDown()
+        self.driver.swipe_down()
         time.sleep(4)
         
         # 邮件设置

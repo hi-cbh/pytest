@@ -25,10 +25,11 @@ class BaseAdb(object):
         '''调用以及导入的jar包，运行uiautmator辅助工具'''
         self.adb_shell(self.path + "adb shell uiautomator runtest installApkVivo.jar --nohup -c com.uitest.testdemo.installApkVivo")
 
-    def adb_tap(self, x, y):
+    def adb_tap(self, x, y, isrun  = True):
         '''通过坐标，点击屏幕'''
         self.adb_shell(self.path + "adb shell input tap %s %s " % (str(x), str(y)))
-        time.sleep(2)
+        if isrun:
+            time.sleep(2)
 
     def adb_tap_per(self,driver,x,y):
         '''通过坐标的百分百，点击屏幕'''
@@ -43,7 +44,7 @@ class BaseAdb(object):
     
     def adb_input_text(self, txt):
         '''通过命令行，输入字段'''
-        self.adb_shell(self.path + 'adb shell input text %s' % txt)
+        self.adb_shell(self.path + 'adb shell input text %s' %txt)
         time.sleep(2)
 
     def adb_home(self):
@@ -61,6 +62,9 @@ class BaseAdb(object):
         '''通过命令行，发送接邮件的广播'''
         self.adb_shell(self.path + 'adb shell am broadcast -a TEST_MESSAGE_ACTION --es Title "%s"' %s)
 
+    def adb_entry3(self,s):
+        '''通过命令行，发送接邮件的广播'''
+        self.adb_shell(self.path + 'adb shell am broadcast -a TEST_MESSAGE_ACTION_FINISH --es Title "%s"' %s)
 
 
     def adb_start_app(self, pag, activity):

@@ -27,8 +27,8 @@ print(file_path)
 cf = cparser.ConfigParser()
 cf.read(file_path)
 
-username = cf.get("userconf", "user1")
-pwd = cf.get("userconf", "pwd1")
+username = cf.get("userconf", "user4")
+pwd = cf.get("userconf", "pwd4")
 
 versionID = cf.get("verconf", "versionid")
 

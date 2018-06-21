@@ -1,6 +1,6 @@
 
 tpython:S117"ZRename this local variable "valueTime" to match the regular expression ^[_a-z][a-z0-9_]*$.(ã¶ÀÙøÿÿÿÿ
-tpython:S117"ZRename this local variable "valueTime" to match the regular expression ^[_a-z][a-z0-9_]*$.(ã¶ÀÙøÿÿÿÿ
-kpython:S100"QRename method "openAction" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(¤·ƒ¶ýÿÿÿÿ
 kpython:S100"QRename method "downAction" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ž»žžúÿÿÿÿ
 ipython:S100"TRename method "setFirstEmail" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(„Úï‰
+tpython:S117"ZRename this local variable "valueTime" to match the regular expression ^[_a-z][a-z0-9_]*$.(ã¶ÀÙøÿÿÿÿ
+kpython:S100"QRename method "openAction" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(¤·ƒ¶ýÿÿÿÿ

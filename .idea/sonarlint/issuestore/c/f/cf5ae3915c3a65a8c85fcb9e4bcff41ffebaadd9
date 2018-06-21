@@ -1,5 +1,2 @@
 
-cpython:S100"NRename method "swipeUp" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ÅàÛ˛
 4python:S125"Remove this commented out code.(‘ê⁄í
-fpython:S100"QRename method "swipeRight" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ìÒ¥¿
-epython:S100"PRename method "swipeDown" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ó¡Û—

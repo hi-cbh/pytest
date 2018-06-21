@@ -12,7 +12,7 @@ from src.otherMail.mail189.bash189.login import Login
 from src.otherMail.mail189.bash189.opendown import OpenDown
 from src.otherMail.mail189.bash189.send import Send
 from src.otherMail.mail189.bash189.receive import Receive
-
+from src.otherApk.gt.gtutil import GTTest
 # sys.path.append(r"/Users/apple/git/pytest/")
 
 # ======== Reading user_db.ini setting ===========
@@ -22,8 +22,8 @@ file_path = base_dir + "/user_db.ini"
 cf = cparser.ConfigParser()
 cf.read(file_path)
 
-username = cf.get("corp21cn", "user1")
-pwd = cf.get("corp21cn", "pwd1")
+username = cf.get("corp21cn", "user3")
+pwd = cf.get("corp21cn", "pwd3")
 username2 = cf.get("corp21cn", "user2")
 pwd2 = cf.get("corp21cn", "pwd2")
 
@@ -38,8 +38,8 @@ class Timedelay(unittest.TestCase):
 
     def setUp(self):
         try:
-            # BaseAdb.adb_intall_uiautmator()
-            self.driver = Psam(version="5.1",apk=qq_apk,ativity=qq_ativity)
+            BaseAdb.adb_intall_uiautmator()
+            self.driver = Psam(version="6.0",apk=qq_apk,ativity=qq_ativity)
         except BaseException :
             print("setUp启动出错！")
 
@@ -75,29 +75,49 @@ class Timedelay(unittest.TestCase):
                 login=Login(self.driver,username, pwd)
                 logintime = login.login_action()
 
+
+                time.sleep(10)
+                gt = GTTest("com.corp21cn.mail189")
+                gt.startGT()
+
                 stat = u'发送邮件测试'
                 send = Send(self.driver,username+'@189.cn')
                 sendtime = send.send_action()
 
                 self.assertTrue(sendtime != 0, "邮件发送出错！！！")
 
-                stat = u'开始打开邮件、下载附件测试'
-                od = OpenDown(self.driver)
-                opentime = od.open_mail()
 
-                self.assertTrue(opentime != 0, "打开邮件出错！！！")
-                downtime = od.down_file()
+                stat = u'开始打开邮件、下载附件测试'
+                opentime = OpenDown(self.driver).open_mail()
+
+                # time.sleep(2)
+                # BaseAdb.adb_back()
+                # time.sleep(2)
+                #
+                # # 删除邮件
+                # self.driver.swipe(self.driver.get_window_size()["width"] - 20, 450, 20, 450, 500)
+                # time.sleep(2)
+                # BaseAdb.adb_tap(1000/1440 * self.driver.get_window_size()["width"], 500/2560 * self.driver.get_window_size()["height"])
+                # time.sleep(2)
+
+
+                # self.assertTrue(opentime != 0, "打开邮件出错！！！")
+                downtime = OpenDown(self.driver).down_file()
 
                 # 删除邮件
                 self.driver.swipe(self.driver.get_window_size()["width"] - 20, 450, 20, 450, 500)
+                time.sleep(2)
+                BaseAdb.adb_tap(1300/1440 * self.driver.get_window_size()["width"], 500/2560 * self.driver.get_window_size()["height"])
+                time.sleep(2)
 
-                if self.driver.get_element("uiautomator=>删除") != None:
-                    self.driver.click("uiautomator=>删除")
+                stat = u'接收本域邮件测试'
+                re = Receive(self.driver,username2, pwd2, username+"@189.cn")
+                receivetime = re.receiveAction()
 
-                # stat = u'接收本域邮件测试'
-                # re = Receive(self.driver,username2, pwd2, username+"@189.cn")
-                # receivetime = re.receiveAction()
+                data = gt.endGT()
+                print(data)
 
+                time.sleep(5)
             except BaseException as be:
                 print("运行到：%s 运行出错，当次数据不入数据库!" %stat)
                 print(be)
@@ -112,11 +132,11 @@ class Timedelay(unittest.TestCase):
 
                 print(result)
 
-                # testResult = {'productName' : '139','versionID':versionID,'networkType': network,'nowTime':BaseTime.get_current_time(), 'groupId':x}
-                #
-                # datas = dict(testResult , **result)
-                #
-                # SQLHelper.insert_timedelay(datas)
+                testResult = {'productName' : '189','versionID':versionID,'networkType': network,'nowTime':BaseTime.get_current_time(), 'groupId':x}
+
+                datas = dict(testResult , **result)
+
+                SQLHelper.insert_timedelay(datas)
 
 
 

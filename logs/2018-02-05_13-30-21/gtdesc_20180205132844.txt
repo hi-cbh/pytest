@@ -1,9 +1,0 @@
-gtdesc:=2018-02-05_13-30-21
-
-opfiles:=
-Pcp0_cn.cj.pe_20180205132842.csv
-Pcp1_cn.cj.pe_pushservice_20180205132842.csv
-Pcp2_cn.cj.pe_richpush_20180205132842.csv
-Pr0_cn.cj.pe_20180205132842.csv
-Pr1_cn.cj.pe_pushservice_20180205132842.csv
-Pr2_cn.cj.pe_richpush_20180205132842.csv

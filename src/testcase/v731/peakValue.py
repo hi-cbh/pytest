@@ -26,8 +26,8 @@ file_path = base_dir + "/user_db.ini"
 cf = cparser.ConfigParser()
 cf.read(file_path)
 
-username = cf.get("userconf", "user1")
-pwd = cf.get("userconf", "pwd1")
+username = cf.get("userconf", "user4")
+pwd = cf.get("userconf", "pwd4")
 
 versionID = cf.get("verconf", "versionid")
 ##====================
@@ -69,7 +69,17 @@ class PeakValue(unittest.TestCase):
                 stat = u'开始登录' 
                 login=Login(self.driver,username, pwd)
                 login.loginActionPeakValue()
-                   
+
+                appPackage = "cn.cj.pe"  # 程序的package
+                appActivity = "com.mail139.about.LaunchActivity"  # 程序的Activity
+
+
+                # BaseAdb.adb_stop(appPackage)
+                # time.sleep(5)
+                # BaseAdb.adb_start_app(appPackage, appActivity)
+                # time.sleep(8)
+
+
                 stat = u'发送邮件' 
                 send = Send(self.driver,username+'@139.com')
                 TestResult = send.sendActionPeakValue()

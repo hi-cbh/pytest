@@ -38,26 +38,16 @@ class Timedelay(unittest.TestCase):
 
     def setUp(self):
         try:
-            # BaseAdb.adb_intall_uiautmator()
-            self.driver = Psam(version="5.1",apk=qq_apk,ativity=qq_ativity)
+            BaseAdb.adb_intall_uiautmator()
+            self.driver = Psam(version="6.0",apk=qq_apk,ativity=qq_ativity)
         except BaseException :
             print("setUp启动出错！")
-        #
-        # else:
-        #     EmailOperation(username+"@139.com", pwd).mv_forlder(["990", "INBOX"])
-        #     time.sleep(10)
 
 
 
     #释放实例,释放资源
     def tearDown(self):
         self.driver.quit()
-        # print("运行结束")
-        #
-        # time.sleep(5)
-        # # AppiumServer2().stop_server()
-        #
-        # EmailOperation(username+"@139.com", pwd).mv_forlder(["INBOX", "990"])
 
 
     def testCase(self):
@@ -65,7 +55,7 @@ class Timedelay(unittest.TestCase):
         network = BaseAdb.get_network_type()
         print('当前网络状态：%s' %network)
 
-        runtimes = 2
+        runtimes = 12
 
         for x in range(1,runtimes):
             # 复位
@@ -121,11 +111,11 @@ class Timedelay(unittest.TestCase):
 
                 print(result)
 
-                # testResult = {'productName' : '139','versionID':versionID,'networkType': network,'nowTime':BaseTime.get_current_time(), 'groupId':x}
-                #
-                # datas = dict(testResult , **result)
-                #
-                # SQLHelper.insert_timedelay(datas)
+                testResult = {'productName' : '163','versionID':versionID,'networkType': network,'nowTime':BaseTime.get_current_time(), 'groupId':x}
+
+                datas = dict(testResult , **result)
+
+                SQLHelper.insert_timedelay(datas)
 
 
 

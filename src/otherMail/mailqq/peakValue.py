@@ -11,7 +11,9 @@ from src.base.baseTime import BaseTime
 from src.psam.psam import Psam
 from src.otherMail.mailqq.qqbase.login import Login
 from src.otherMail.mailqq.qqbase.send import Send
-
+from src.otherMail.mailqq.qqbase.opendown import OpenDown
+from src.otherMail.mailqq.qqbase.receive import Receive
+from src.otherApk.gt.gtutil import GTTest
 
 #
 # PATH = lambda p:os.path.abspath(
@@ -43,8 +45,8 @@ class PeakValue(unittest.TestCase):
 
     def setUp(self):
         try:
-            # BaseAdb.adb_intall_uiautmator()
-            self.driver = Psam(version="5.1",apk=qq_apk,ativity=qq_ativity)
+            BaseAdb.adb_intall_uiautmator()
+            self.driver = Psam(version="6.0",apk=qq_apk,ativity=qq_ativity)
         except BaseException :
             print("setUp启动出错！")
 
@@ -58,7 +60,7 @@ class PeakValue(unittest.TestCase):
         network = BaseAdb.get_network_type()
         print('当前网络状态：%s' %network)
         
-        runtimes = 5
+        runtimes = 10
         
         for x in range(1,runtimes):
             time.sleep(5)
@@ -68,21 +70,50 @@ class PeakValue(unittest.TestCase):
                 stat = u'开始登录' 
                 login=Login(self.driver,username, pwd)
                 login.login_action()
-                   
-                stat = u'发送邮件' 
+
+                gt = GTTest(qq_apk)
+                gt.startGT()
+                time.sleep(10)
+
+                stat = u'发送邮件测试'
                 send = Send(self.driver,username+'@qq.com')
-                test_result = send.send_action_peakValue()
+                sendtime = send.send_action()
+
+                self.assertTrue(sendtime != 0, "邮件发送出错！！！")
+
+                stat = u'开始打开邮件、下载附件测试'
+                od = OpenDown(self.driver)
+                opentime = od.open_mail()
+
+                self.assertTrue(opentime != 0, "打开邮件出错！！！")
+                downtime = od.down_file()
+
+                #删除邮件
+                self.driver.swipe(self.driver.get_window_size()["width"] - 20, 670, 20, 670, 500)
+
+                if self.driver.get_element("xpath=>//android.widget.TextView[contains(@text,'删除')]") != None:
+                    self.driver.click("xpath=>//android.widget.TextView[contains(@text,'删除')]")
+                # self.driver.click("xpath=>//android.widget.TextView[contains(@text,'收件箱')]")
+                # 成功率很低，主要是打不开网页，https协议
+                stat = u'接收本域邮件测试'
+                re = Receive(self.driver,username2, pwd2, username+"@qq.com")
+                receivetime = re.receiveAction()
 
                 time.sleep(5)
 
+                TestResult = []
+                TestResult = gt.endGT()
+                print(TestResult)
+
+
                 datas = {'productName' : 'qq','versionID':versionID,'networkType':network,\
                          'nowTime':BaseTime.get_current_time(), \
-                         'avgcpu':test_result[0]["avg"].replace('%', ''),'maxcpu':test_result[0]["max"].replace('%', ''), \
-                         'avgmem':test_result[1]["avg"],'maxmem':test_result[1]["max"], \
+                         'avgcpu':TestResult[0]["avg"].replace('%', ''),'maxcpu':TestResult[0]["max"].replace('%', ''), \
+                         'avgmem':TestResult[1]["avg"],'maxmem':TestResult[1]["max"], \
                          'groupId':x}
 
                 print(datas)
-                # SQLHelper.insert_cpu_mem(datas)
+                SQLHelper.insert_cpu_mem(datas)
                 
                 
             except BaseException as be:

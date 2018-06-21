@@ -36,34 +36,23 @@ class Timedelay(unittest.TestCase):
 
     def setUp(self):
         try:
-            # BaseAdb.adb_intall_uiautmator()
-            self.driver = Psam(version="5.1",apk="com.tencent.androidqqmail",ativity="com.tencent.qqmail.launcher.desktop.LauncherActivity")
+            BaseAdb.adb_intall_uiautmator()
+            self.driver = Psam(version="6.0",apk="com.tencent.androidqqmail",ativity="com.tencent.qqmail.launcher.desktop.LauncherActivity")
         except BaseException :
             print("setUp启动出错！")
-        #
-        # else:
-        #     EmailOperation(username+"@139.com", pwd).mv_forlder(["990", "INBOX"])
-        #     time.sleep(10)
 
 
 
     #释放实例,释放资源
     def tearDown(self):
         self.driver.quit()
-        # print("运行结束")
-        #
-        # time.sleep(5)
-        # # AppiumServer2().stop_server()
-        #
-        # EmailOperation(username+"@139.com", pwd).mv_forlder(["INBOX", "990"])
-
 
     def testCase(self):
 
         network = BaseAdb.get_network_type()
         print('当前网络状态：%s' %network)
 
-        runtimes = 2
+        runtimes = 12
 
         for x in range(1,runtimes):
             # 复位
@@ -93,8 +82,8 @@ class Timedelay(unittest.TestCase):
                 self.assertTrue(opentime != 0, "打开邮件出错！！！")
                 downtime = od.down_file()
 
-                # 删除邮件
-                self.driver.swipe(self.driver.get_window_size()["width"] - 20, 650, 20, 650, 500)
+                #删除邮件
+                self.driver.swipe(self.driver.get_window_size()["width"] - 20, 670, 20, 670, 500)
 
                 if self.driver.get_element("xpath=>//android.widget.TextView[contains(@text,'删除')]") != None:
                     self.driver.click("xpath=>//android.widget.TextView[contains(@text,'删除')]")
@@ -118,11 +107,11 @@ class Timedelay(unittest.TestCase):
 
                 print(result)
 
-                # testResult = {'productName' : '139','versionID':versionID,'networkType': network,'nowTime':BaseTime.get_current_time(), 'groupId':x}
-                #
-                # datas = dict(testResult , **result)
-                #
-                # SQLHelper.insert_timedelay(datas)
+                testResult = {'productName' : 'qq','versionID':versionID,'networkType': network,'nowTime':BaseTime.get_current_time(), 'groupId':x}
+
+                datas = dict(testResult , **result)
+
+                SQLHelper.insert_timedelay(datas)
 
 
 

@@ -26,8 +26,8 @@ file_path = base_dir + "/user_db.ini"
 cf = cparser.ConfigParser()
 cf.read(file_path)
 
-username2 = cf.get("userconf", "user2")
-pwd2 = cf.get("userconf", "pwd2")
+username2 = cf.get("userconf", "user4")
+pwd2 = cf.get("userconf", "pwd4")
 
 versionID = cf.get("verconf", "versionid")
 ##====================

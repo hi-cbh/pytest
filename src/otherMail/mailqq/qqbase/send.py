@@ -14,49 +14,58 @@ class Send(object):
     def send_action(self):
         '''发送邮件基础方法'''
         try:
-            print("点击收件箱")
+            print("=>点击收件箱")
             self.driver.click("xpath=>//android.widget.TextView[contains(@text,'收件箱')]")
 
-            print("点击新建")
+            print("=>点击新建")
             self.driver.click("xpath=>//android.widget.ImageButton[@content-desc='写邮件']")
 
             time.sleep(2)
 
-            print("输入发送者：%s" %self.username)
+            print("=>输入发送者：%s" %self.username)
             BaseAdb.adb_input_text(self.username)
 
-            print("输入主题")
-            BaseAdb.adb_tap(300,600)
+            print("=>输入主题")
+            BaseAdb.adb_tap(680,740)
             BaseAdb.adb_input_text("QQMailSelf")
 
-            print("输入正文")
-            BaseAdb.adb_tap(300, 900)
+            print("=>输入正文")
+            BaseAdb.adb_tap(300, 980)
             BaseAdb.adb_input_text("123456789012345678901234567890")
 
-
-            print("点击添加附件")
+            print("=>点击添加附件")
             self.driver.click("xpath=>//android.widget.Button[@content-desc='附件操作']")
 
-            print("选择文件在")
+            print("=>选择文件在")
             self.driver.click("xpath=>//android.widget.ImageButton[@content-desc='从文件浏览器选择文件']")
 
-
-            print("获取路径")
+            print("=>获取路径")
             txt = self.driver.get_attribute("id=>com.tencent.androidqqmail:id/k","text")
-            print("获取路径txt: %s" %txt)
+            print("获取路径, txt: %s" %txt)
 
+            print("目录路径不对")
+            time.sleep(2)
             # 目录路径不对
-            if not txt.__contains__("/0/0./"):
-                self.driver.click("id=>com.tencent.androidqqmail:id/ru")
-                self.driver.click("id=>com.tencent.androidqqmail:id/ru")
+            if not txt.__contains__("/0/0/0./"):
+                time.sleep(2)
+                print("=>返回 Download")
+                self.driver.click("id=>com.tencent.androidqqmail:id/rq")
+                print("=>返回 0")
+                self.driver.click("id=>com.tencent.androidqqmail:id/rq")
+                time.sleep(2)
+                print("点击 0")
+                self.driver.click(u"uiautomator=>0")
+                print("点击 0.")
                 self.driver.click(r"xpath=>//android.widget.TextView[contains(@text,'0.')]")
 
-            print("选择文件")
+            time.sleep(2)
+
+            print("=>选择文件")
             self.driver.click("xpath=>//android.widget.TextView[contains(@text,'test2M.rar')]")
             self.driver.click("xpath=>//android.widget.Button[contains(@text,'添加到邮件')]")
 
             time.sleep(5)
-            print("点击发送")
+            print("=>点击发送")
             self.driver.click("xpath=>//android.widget.Button[contains(@text,'发送')]")
             start_time = time.time()
 
@@ -89,53 +98,61 @@ class Send(object):
     def send_action_peakValue(self):
         '''发送邮件获取内存、CPU峰值'''
         try:
-            print("点击收件箱")
+            print("=>点击收件箱")
             self.driver.click("xpath=>//android.widget.TextView[contains(@text,'收件箱')]")
 
-            print("点击新建")
+            print("=>点击新建")
             self.driver.click("xpath=>//android.widget.ImageButton[@content-desc='写邮件']")
 
             time.sleep(2)
 
-            print("输入发送者：%s" %self.username)
+            print("=>输入发送者：%s" %self.username)
             BaseAdb.adb_input_text(self.username)
 
-            print("输入主题")
-            BaseAdb.adb_tap(300,600)
+            print("=>输入主题")
+            BaseAdb.adb_tap(680,740)
             BaseAdb.adb_input_text("QQMailSelf")
 
-            print("输入正文")
-            BaseAdb.adb_tap(300, 900)
+            print("=>输入正文")
+            BaseAdb.adb_tap(300, 980)
             BaseAdb.adb_input_text("123456789012345678901234567890")
 
 
-            print("点击添加附件")
+            print("=>点击添加附件")
             self.driver.click("xpath=>//android.widget.Button[@content-desc='附件操作']")
 
-            print("选择文件在")
+            print("=>选择文件在")
             self.driver.click("xpath=>//android.widget.ImageButton[@content-desc='从文件浏览器选择文件']")
 
 
-            print("获取路径")
+            print("=>获取路径")
             txt = self.driver.get_attribute("id=>com.tencent.androidqqmail:id/k","text")
             print("获取路径txt: %s" %txt)
 
             # 目录路径不对
-            if not txt.__contains__("/0/0./"):
-                self.driver.click("id=>com.tencent.androidqqmail:id/ru")
-                self.driver.click("id=>com.tencent.androidqqmail:id/ru")
+            if not txt.__contains__("/0/0/0./"):
+                time.sleep(2)
+                print("=>返回 Download")
+                self.driver.click("id=>com.tencent.androidqqmail:id/rq")
+                print("=>返回 0")
+                self.driver.click("id=>com.tencent.androidqqmail:id/rq")
+                time.sleep(2)
+                print("点击 0")
+                self.driver.click(u"uiautomator=>0")
+                print("点击 0.")
                 self.driver.click(r"xpath=>//android.widget.TextView[contains(@text,'0.')]")
 
-            print("选择文件")
+            print("=>选择文件")
             self.driver.click("xpath=>//android.widget.TextView[contains(@text,'test2M.rar')]")
             self.driver.click("xpath=>//android.widget.Button[contains(@text,'添加到邮件')]")
 
             time.sleep(5)
             time.sleep(5)
+            print("=>启动 GT")
             gt = GTTest("com.tencent.androidqqmail")
             gt.startGT()
 
-            print("点击发送")
+            print("=>点击发送")
             self.driver.click("xpath=>//android.widget.Button[contains(@text,'发送')]")
             start_time = time.time()
 
@@ -158,7 +175,7 @@ class Send(object):
 
             is_stat =  self.waitfor_email()
 
-
+            print("=>记录 GT")
             data = []
             data = gt.endGT()
             # print(data)
@@ -188,7 +205,7 @@ class Send(object):
                 stat = True
                 break
             else:
-                self.driver.swipeDown()
+                self.driver.swipe_down()
 
             time.sleep(0.1)
 

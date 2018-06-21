@@ -1,7 +1,2 @@
 
-fpython:S100"LRename method "setUp" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(§˜œşÿÿÿÿ
-dpython:S100"ORename method "tearDown" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(•ûÜë
-spython:S117"YRename this local variable "loginBtn" to match the regular expression ^[_a-z][a-z0-9_]*$.(ı£‚ıÿÿÿÿ
-vpython:S117"aRename this local variable "loginUserNameBox" to match the regular expression ^[_a-z][a-z0-9_]*$.(ïŸï
-wpython:S117"]Rename this local variable "loginUserPwd" to match the regular expression ^[_a-z][a-z0-9_]*$.(ñˆƒùÿÿÿÿ
-ppython:S117"[Rename this local variable "loginBtnOk" to match the regular expression ^[_a-z][a-z0-9_]*$.(ßÙúÕ
+;python:S125"Remove this commented out code.(ÆÔœ¦8©ÕØœ,

@@ -48,50 +48,54 @@ class PowerAction(object):
         time.sleep(2)
         
     def exec_record(self, find_text, is_clear = True):
-        '''记录数据'''
-        ba.adb_home()
-        time.sleep(2)
-        
-        ba.adb_start_app("edu.umich.PowerTutor", "edu.umich.PowerTutor.ui.UMLogger")
-        time.sleep(2)
-        
-        # 点击application viewer
-        print("application viewer")
-        self.driver.click("id=>edu.umich.PowerTutor:id/appviewerbutton")  
-        time.sleep(5)
-        # 滑动屏幕找到目标
-        
-        
-        # 获取电量值
-        print("获取电量值")
-        t = r"xpath=>//android.widget.TextView[contains(@text,'%s')]" % find_text
-        power_txt = self.driver.get_attribute(t, "text")
-        print(power_txt)
-        
-        
-        # 返回上一层
-        ba.adb_back()
-        
-        # 清除数据
-        if is_clear:
-            #点击开始记录按钮
-            self.driver.click("id=>edu.umich.PowerTutor:id/servicestartbutton")
-        
-        ba.adb_home()
-        
-        # 获取数值      
-        l = bc.find_digit(power_txt)
-        powervalue = l[-1]
-        
-        # 单位统一
-        if "mJ" in power_txt:
-            powervalue = round((float(powervalue)/1000), 3)
-        else:
-            powervalue = float(powervalue)
-    
-        print(powervalue)
-        return powervalue
-        
+        try:
+            '''记录数据'''
+            ba.adb_home()
+            time.sleep(2)
+
+            ba.adb_start_app("edu.umich.PowerTutor", "edu.umich.PowerTutor.ui.UMLogger")
+            time.sleep(2)
+
+            # 点击application viewer
+            print("application viewer")
+            self.driver.click("id=>edu.umich.PowerTutor:id/appviewerbutton")
+            time.sleep(5)
+            # 滑动屏幕找到目标
+
+
+            # 获取电量值
+            print("获取电量值")
+            t = r"xpath=>//android.widget.TextView[contains(@text,'%s')]" % find_text
+            power_txt = self.driver.get_attribute(t, "text")
+            print(power_txt)
+
+
+            # 返回上一层
+            ba.adb_back()
+
+            # 清除数据
+            if is_clear:
+                #点击开始记录按钮
+                self.driver.click("id=>edu.umich.PowerTutor:id/servicestartbutton")
+
+            ba.adb_home()
+
+            # 获取数值
+            l = bc.find_digit(power_txt)
+            powervalue = l[-1]
+
+            # 单位统一
+            if "mJ" in power_txt:
+                powervalue = round((float(powervalue)/1000), 3)
+            else:
+                powervalue = float(powervalue)
+
+            print(powervalue)
+            return powervalue
+        except BaseException :
+            print("获取电量出错-返回0")
+            return 0
+
         
         
         

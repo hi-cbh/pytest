@@ -40,8 +40,8 @@ qq_ativity="com.tencent.qqmail.launcher.desktop.LauncherActivity"
 class StandByFlowPowerMem(unittest.TestCase):
     
     def setUp(self):
-        # BaseAdb.adb_intall_uiautmator()
-        self.driver = Psam(version="5.1",apk=qq_apk,ativity=qq_ativity)
+        BaseAdb.adb_intall_uiautmator()
+        self.driver = Psam(version="6.0",apk=qq_apk,ativity=qq_ativity)
     
     #释放实例,释放资源
     def tearDown(self):
@@ -58,7 +58,7 @@ class StandByFlowPowerMem(unittest.TestCase):
         gt = GTTest(qq_apk)
         pa = PowerAction(self.driver)
 
-        debug = True
+        debug = False
 
         if debug:
             print("debug模式.......")
@@ -75,15 +75,15 @@ class StandByFlowPowerMem(unittest.TestCase):
             print("加载更多")
             time_out = int(round(time.time() * 1000)) + 2 * 60 * 1000
             while int(round(time.time() * 1000)) < time_out:
-                self.driver.swipeUp()
-                self.driver.swipeUp()
-                self.driver.swipeUp()
-                self.driver.swipeUp()
+                self.driver.swipe_up()
+                self.driver.swipe_up()
+                self.driver.swipe_up()
+                self.driver.swipe_up()
                 btn = self.driver.get_element(u"uiautomator=>加载更多",1)
                 if btn != None:
                     btn.click()
 
-                time.sleep(2)
+                time.sleep(1)
 
 
             BaseAdb.adb_stop(qq_apk)
@@ -133,7 +133,7 @@ class StandByFlowPowerMem(unittest.TestCase):
             mem = gt.endGT()
             elc = pa.exec_record("QQ", False)
 
-            datas = {'productName' : 'QQ','versionID':versionID,'networkType':network,'nowTime':BaseTime.get_current_time(), \
+            datas = {'productName' : 'qq','versionID':versionID,'networkType':network,'nowTime':BaseTime.get_current_time(), \
                  'electric':elc,'upflow':flow["up"], 'downflow':flow["down"], \
                  'allflow':flow["all"],'avgmem':mem[1]["avg"],'groupId':"1"}
 
@@ -142,7 +142,7 @@ class StandByFlowPowerMem(unittest.TestCase):
             time.sleep(5)
 
             print("发送邮件......")
-            for i in range(1):
+            for i in range(3):
                 # BaseAdb.adb_shell("adb shell am broadcast -a my.email.broadcast")
                 r = WebReceive('13697485262', 'chinasoft123',username2+'@qq.com')
                 r.sendEmail()
@@ -156,15 +156,15 @@ class StandByFlowPowerMem(unittest.TestCase):
             print("再次记录......")
             flow = fw.exec_record(u"QQ邮箱", network, False)
             elc = pa.exec_record("QQ")
-            emailcnt = 1
+            emailcnt = 3
             print("接收邮件数量：%d" %emailcnt)
 
-            datas = {'productName' : 'QQ','versionID':versionID,'networkType':network,'nowTime':BaseTime.get_current_time(), \
+            datas = {'productName' : 'qq','versionID':versionID,'networkType':network,'nowTime':BaseTime.get_current_time(), \
                      'electric':elc,'upflow':flow["up"], 'downflow':flow["down"], \
                      'allflow':flow["all"],'emailcount':emailcnt,'groupId':"1"}
 
             print(datas)
-            # SQLHelper.insert_standy_email(datas)
+            SQLHelper.insert_standy_email(datas)
 
             print("清除")
             time.sleep(5)

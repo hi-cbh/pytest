@@ -5,6 +5,7 @@ from src.base.baseAdb import BaseAdb
 from src.base.baseTime import BaseTime
 from src.otherMail.mailqq.qqbase.login import Login
 from src.otherApk.record360.flowRecord import FlowRecord360Action as flow360
+from src.db.sqlhelper import SQLHelper
 
 # appPackage360 = "com.qihoo360.mobilesafe"
 # appActivity360 = "com.qihoo360.mobilesafe.ui.index.AppEnterActivity"
@@ -31,8 +32,8 @@ class BrushFlow(unittest.TestCase):
 
     def setUp(self):
         try:
-            # BaseAdb.adb_intall_uiautmator()
-            self.driver = Psam(version="5.1",apk=qq_apk,ativity=qq_ativity)
+            BaseAdb.adb_intall_uiautmator()
+            self.driver = Psam(version="6.0",apk=qq_apk,ativity=qq_ativity)
         except BaseException :
             print("setUp启动出错！")
 
@@ -61,11 +62,11 @@ class BrushFlow(unittest.TestCase):
             network = BaseAdb.get_network_type()
             print('当前网络状态：%s' %network)
 
-            runtimes = 5
+            runtimes = 11
             for x in range(1,runtimes):
                 print("运行首次等次数：%d" %x)
                 try:
-                    login=Login(self.driver,username2, pwd2)
+                    login=Login(self.driver,username, pwd)
                     login.login_action()
 
                     print("点击收件箱")
@@ -88,7 +89,7 @@ class BrushFlow(unittest.TestCase):
                         datas = {'productName' : 'QQ','versionID':versionID,'networkType':network,'nowTime':BaseTime.get_current_time(), \
                                  'upflow':result["up"],'downflow':result["down"], 'allflow':result["all"],'groupId':x}
                         print(datas)
-                        # SQLHelper.insert_flow_login(datas)
+                        SQLHelper.insert_flow_login(datas)
                         time.sleep(2)
                 except BaseException:
                     print("运行首次等次数：%d 出错，当次数据不入数据库!" %x)
@@ -112,3 +113,10 @@ class BrushFlow(unittest.TestCase):
         else:
             # 超时了
             return False
+
+
+if __name__ == "__main__":
+    suite = unittest.TestSuite()
+    suite.addTest(BrushFlow('testCase'))
+    runner = unittest.TextTestRunner(verbosity=2)
+    runner.run(suite)

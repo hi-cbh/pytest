@@ -1,9 +1,10 @@
 
+ppython:S117"[Rename this local variable "isReceived" to match the regular expression ^[_a-z][a-z0-9_]*$.(í×‘Å
 npython:S100"TRename method "receiveAction" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(ÜÙíüÿÿÿÿ
 4python:S125"Remove this commented out code.(Á£å‡
-@python:S125"Remove this commented out code.(´Î¾Êüÿÿÿÿ8À€Ô–,
-hpython:S100"SRename method "waitforEmail" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(„ğÜä
 tpython:S117"ZRename this local variable "valueTime" to match the regular expression ^[_a-z][a-z0-9_]*$.(ã¶ÀÙøÿÿÿÿ
-@python:S125"Remove this commented out code.(Ñ¾úúÿÿÿÿ8ÿ«©Õ–,
 jpython:S100"PRename method "sendEmail" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(û‘§Ÿøÿÿÿÿ
-ppython:S117"[Rename this local variable "isReceived" to match the regular expression ^[_a-z][a-z0-9_]*$.(·å‹Æ
+hpython:S100"SRename method "waitforEmail" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(„ğÜä
+@python:S125"Remove this commented out code.(¦·Ó†üÿÿÿÿ8Å²ñ—,
+@python:S125"Remove this commented out code.(Ñ¾úúÿÿÿÿ8ÿ«©Õ–,
+9python:S2772"Remove this unneeded "pass".(ã‘Û¾8Ş±ñ—,

@@ -5,7 +5,7 @@ from src.base.baseAdb import BaseAdb
 from src.base.baseTime import BaseTime
 from src.otherMail.mail163.bash163.login import Login
 from src.otherApk.record360.flowRecord import FlowRecord360Action as flow360
-
+from src.db.sqlhelper import SQLHelper
 qq_apk="com.netease.mail"
 qq_ativity="com.netease.mobimail.activity.LaunchActivity"
 
@@ -29,8 +29,8 @@ class LoginFlow(unittest.TestCase):
 
     def setUp(self):
         try:
-            # BaseAdb.adb_intall_uiautmator()
-            self.driver = Psam(version="5.1",apk=qq_apk,ativity=qq_ativity)
+            BaseAdb.adb_intall_uiautmator()
+            self.driver = Psam(version="6.0",apk=qq_apk,ativity=qq_ativity)
         except BaseException :
             print("setUp启动出错！")
 
@@ -59,11 +59,11 @@ class LoginFlow(unittest.TestCase):
             network = BaseAdb.get_network_type()
             print('当前网络状态：%s' %network)
 
-            runtimes = 3
+            runtimes = 12
             for x in range(1,runtimes):
                 print("运行首次等次数：%d" %x)
                 try:
-                    login=Login(self.driver,username2, pwd2)
+                    login=Login(self.driver,username, pwd)
                     login.login_action()
 
 
@@ -81,10 +81,10 @@ class LoginFlow(unittest.TestCase):
                         time.sleep(2)
                         BaseAdb.adb_clear(qq_apk)
                         time.sleep(5)
-                        datas = {'productName' : 'net','versionID':versionID,'networkType':network,'nowTime':BaseTime.get_current_time(), \
+                        datas = {'productName' : '163','versionID':versionID,'networkType':network,'nowTime':BaseTime.get_current_time(), \
                                  'upflow':result["up"],'downflow':result["down"], 'allflow':result["all"],'groupId':x}
                         print(datas)
-                        # SQLHelper.insert_flow_login(datas)
+                        SQLHelper.insert_flow_login(datas)
                         time.sleep(2)
                 except BaseException:
                     print("运行首次等次数：%d 出错，当次数据不入数据库!" %x)

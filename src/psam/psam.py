@@ -251,24 +251,24 @@ class Psam(object):
         self.driver.reset()
  
 
-    def swipeUp(self):
+    def swipe_up(self):
         '''向上滑动'''
         width = self.driver.get_window_size()['width']
         height = self.driver.get_window_size()['height']        
-        self.driver.swipe(width / 5, height * 4 / 5, width / 5, height / 5,
+        self.driver.swipe(width / 2, height * 4 / 5, width / 2, height / 5,
                 500)
         time.sleep(1)
 
  
-    def swipeDown(self):
+    def swipe_down(self):
         '''向下滑动'''
         width = self.driver.get_window_size()['width']
         height = self.driver.get_window_size()['height']        
-        self.driver.swipe(width / 5, height / 5, width / 5, height * 4 / 5,
+        self.driver.swipe(width / 2, height / 5, width / 2, height * 4 / 5,
                 500)
         time.sleep(1)
 
-    def swipeRight(self):
+    def swipe_right(self):
         '''向右滑动'''
         width = self.driver.get_window_size()['width']
         height = self.driver.get_window_size()['height']

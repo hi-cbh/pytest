@@ -11,6 +11,9 @@ from src.base.baseTime import BaseTime
 from src.psam.psam import Psam
 from src.otherMail.mail163.bash163.login import Login
 from src.otherMail.mail163.bash163.send import Send
+from src.otherMail.mail163.bash163.opendown import OpenDown
+from src.otherMail.mail163.bash163.receive import Receive
+from src.otherApk.gt.gtutil import GTTest
 
 
 #
@@ -43,8 +46,8 @@ class PeakValue(unittest.TestCase):
 
     def setUp(self):
         try:
-            # BaseAdb.adb_intall_uiautmator()
-            self.driver = Psam(version="5.1",apk=qq_apk,ativity=qq_ativity)
+            BaseAdb.adb_intall_uiautmator()
+            self.driver = Psam(version="6.0",apk=qq_apk,ativity=qq_ativity)
         except BaseException :
             print("setUp启动出错！")
 
@@ -58,7 +61,7 @@ class PeakValue(unittest.TestCase):
         network = BaseAdb.get_network_type()
         print('当前网络状态：%s' %network)
         
-        runtimes = 2
+        runtimes = 10
         
         for x in range(1,runtimes):
             time.sleep(5)
@@ -68,23 +71,54 @@ class PeakValue(unittest.TestCase):
 
                 login=Login(self.driver,username, pwd)
                 login.login_action()
-                   
-                stat = u'发送邮件' 
+
+                time.sleep(2)
+
+                gt = GTTest(qq_apk)
+                gt.startGT()
+                time.sleep(10)
+
+
+                stat = u'发送邮件测试'
                 send = Send(self.driver,username+'@163.com')
-                test_result = send.send_action_peakValue()
+                sendtime = send.send_action()
+
+                self.assertTrue(sendtime != 0, "邮件发送出错！！！")
+
+                stat = u'开始打开邮件、下载附件测试'
+                od = OpenDown(self.driver)
+                opentime = od.open_mail()
+
+                self.assertTrue(opentime != 0, "打开邮件出错！！！")
+                od.down_file()
+
+                # 删除邮件
+                self.driver.swipe(self.driver.get_window_size()["width"] - 20, 450, 20, 450, 500)
+
+                if self.driver.get_element("uiautomator=>删除") != None:
+                    self.driver.click("uiautomator=>删除")
+
+                stat = u'接收本域邮件测试'
+                re = Receive(self.driver,username2, pwd2, username+"@163.com")
+                re.receiveAction()
+
+
+                TestResult = []
+                TestResult = gt.endGT()
+                print(TestResult)
 
                 time.sleep(5)
 
-                datas = {'productName' : 'qq','versionID':versionID,'networkType':network,
+                datas = {'productName' : '163','versionID':versionID,'networkType':network,
                          'nowTime':BaseTime.get_current_time(),
-                         'avgcpu':test_result[0]["avg"].replace('%', ''),'maxcpu':test_result[0]["max"].replace('%', ''),
-                         'avgmem':test_result[1]["avg"],'maxmem':test_result[1]["max"],
+                         'avgcpu':TestResult[0]["avg"].replace('%', ''),'maxcpu':TestResult[0]["max"].replace('%', ''),
+                         'avgmem':TestResult[1]["avg"],'maxmem':TestResult[1]["max"],
                          'groupId':x}
 
                 print(datas)
-                # SQLHelper.insert_cpu_mem(datas)
+                SQLHelper.insert_cpu_mem(datas)
                 
-                
+                time.sleep(5)
             except BaseException as be:
                 print("运行到：%s 运行出错，当次数据不入数据库!" %stat)
                 print(be)

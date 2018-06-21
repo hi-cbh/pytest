@@ -1,10 +1,15 @@
 
-ppython:S100"ORename method "testCase" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(»²¢Êúÿÿÿÿ8Ü´î¥,
 kpython:S100"ORename method "tearDown" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(•ûÜë8˜ÿ¢¥,
-;python:S125"Remove this commented out code.(á€¤8ç½î³”,
+ppython:S100"ORename method "testCase" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(»²¢Êúÿÿÿÿ8Ü´î¥,
+Ppython:S1481".Remove the unused local variable "appPackage".(â»«„şÿÿÿÿ8ÄäÍ¾˜,
+@python:S125"Remove this commented out code.(¨¨³¶ûÿÿÿÿ8ÜÜ¿˜,
+|python:S117"[Rename this local variable "appPackage" to match the regular expression ^[_a-z][a-z0-9_]*$.(â»«„şÿÿÿÿ8Ì†¶ñ–,
+Kpython:S1481"/Remove the unused local variable "appActivity".(’«‰8ÄäÍ¾˜,
+wpython:S117"\Rename this local variable "appActivity" to match the regular expression ^[_a-z][a-z0-9_]*$.(’«‰8Ì†¶ñ–,
 vpython:S117"ZRename this local variable "valueTime" to match the regular expression ^[_a-z][a-z0-9_]*$.(°°›8£´È¥,
-Gpython:S1481"*Remove the unused local variable "qq_apk".( ×·Å8òæ³º,
+Lpython:S1481"/Remove the unused local variable "net_ativity".(ìØßÒ8´§Üó™,
 mpython:S100"LRename method "setUp" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(§˜œşÿÿÿÿ8˜ÿ¢¥,
-Mpython:S1481"+Remove the unused local variable "net_apk".(Ş¸¸·ùÿÿÿÿ8‹ğğ³”,
-Lpython:S1481"/Remove the unused local variable "net_ativity".(ìØßÒ8»¯ñ³”,
-Ppython:S1481".Remove the unused local variable "qq_ativity".(²È¯—úÿÿÿÿ8òæ³º,
+Mpython:S1481"+Remove the unused local variable "net_apk".(Ş¸¸·ùÿÿÿÿ8´§Üó™,
+Ppython:S1481".Remove the unused local variable "qq_ativity".(²È¯—úÿÿÿÿ8Ä‹ÈË˜,
+;python:S125"Remove this commented out code.(á€¤8´§Üó™,
+Gpython:S1481"*Remove the unused local variable "qq_apk".( ×·Å8Ä‹ÈË˜,

@@ -19,7 +19,7 @@ class OpenDown(unittest.TestCase):
         time.sleep(6)
         # 下拉
         print('下拉')
-        self.driver.swipeDown()
+        self.driver.swipe_down()
         time.sleep(3)
         try:
             # 点击第一封

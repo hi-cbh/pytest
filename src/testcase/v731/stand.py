@@ -91,6 +91,9 @@ class StandBy(unittest.TestCase):
                     print(u"等待分钟: %d" %t)
                     time.sleep(1*60)
 
+            # for i in range(3):
+            #     pass
+
             print("准备测试环境.....")
             print("do something")
             fw.exec_preset()
@@ -105,9 +108,11 @@ class StandBy(unittest.TestCase):
                     time.sleep(1*60)
             else:
                 print("静等待28分钟.....")
-                for t in range(1,31):
+                for t in range(1,30):
                     print(u"等待分钟: %d" %t)
                     time.sleep(1*60)
+
+
 
             print("开始记录......")
             flow = fw.exec_record(u"139邮箱", network, False, False)

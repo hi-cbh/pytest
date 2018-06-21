@@ -18,8 +18,9 @@ class WebReceive(object):
     
     def sendEmail(self):
         start = time.time()
+        driver = Pyse("chrome")
         try:
-            driver = Pyse("chrome")
+
             # driver.implicitly_wait() # 添加了隐式等待，去除time.sleep显示等待
             # driver.max_window()
             print("打开请求登录页面")
@@ -117,7 +118,7 @@ class Receive(object):
                     print('find it')
                     return True
                 else:
-                    self.driver.swipeDown()
+                    self.driver.swipe_down()
                 
                 time.sleep(0.1)
         except BaseException as msg:
